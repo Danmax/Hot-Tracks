@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_407566_hot_tra_0.CompetitorsUtil</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>This will output the pairs of competitors based on the provided sys_ids.&#13;
+&#13;
+var competitorUtil = new CompetitorUtil();&#13;
+var competitorsString = 'sys_id1,sys_id2,sys_id3,sys_id4';&#13;
+var pairs = competitorUtil.getCompetitorPairs(competitorsString);&#13;
+&#13;
+gs.info('Competitor Pairs: ' + JSON.stringify(pairs));</description>
+        <name>CompetitorsUtil</name>
+        <script><![CDATA[function CompetitorsUtil(competitorsString) {
+        var pairs = [];
+
+        if (!gs.nil(competitorsString)) {
+            // Split the competitors string into an array of sys_ids
+            var competitorsArray = competitorsString.split(',');
+            
+            // Iterate over the array to form pairs
+            for (var i = 0; i < competitorsArray.length; i++) {
+                for (var j = i + 1; j < competitorsArray.length; j++) {
+                    pairs.push([competitorsArray[i], competitorsArray[j]]);
+                }
+            }
+        }
+
+        return JSON.stringify(pairs);
+    }]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-28 20:49:42</sys_created_on>
+        <sys_id>35850e88476202106a3eedf1d16d43da</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>CompetitorsUtil</sys_name>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name>sys_script_include_35850e88476202106a3eedf1d16d43da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-28 21:59:10</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</application>
+        <file_path/>
+        <instance_id>41d1b26fdb62b59438f117291396196f</instance_id>
+        <instance_name>dev221640</instance_name>
+        <name>sys_script_include_35850e88476202106a3eedf1d16d43da</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_407566_hot_tra_0.CompetitorsUtil&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description&gt;This will output the pairs of competitors based on the provided sys_ids.&amp;#13;
+&amp;#13;
+var competitorUtil = new CompetitorUtil();&amp;#13;
+var competitorsString = 'sys_id1,sys_id2,sys_id3,sys_id4';&amp;#13;
+var pairs = competitorUtil.getCompetitorPairs(competitorsString);&amp;#13;
+&amp;#13;
+gs.info('Competitor Pairs: ' + JSON.stringify(pairs));&lt;/description&gt;&lt;name&gt;CompetitorsUtil&lt;/name&gt;&lt;script&gt;&lt;![CDATA[function CompetitorsUtil(competitorsString) {
+        var pairs = [];
+
+        if (!gs.nil(competitorsString)) {
+            // Split the competitors string into an array of sys_ids
+            var competitorsArray = competitorsString.split(',');
+            
+            // Iterate over the array to form pairs
+            for (var i = 0; i &lt; competitorsArray.length; i++) {
+                for (var j = i + 1; j &lt; competitorsArray.length; j++) {
+                    pairs.push([competitorsArray[i], competitorsArray[j]]);
+                }
+            }
+        }
+
+        return JSON.stringify(pairs);
+    }]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-28 20:49:42&lt;/sys_created_on&gt;&lt;sys_id&gt;35850e88476202106a3eedf1d16d43da&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;CompetitorsUtil&lt;/sys_name&gt;&lt;sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_35850e88476202106a3eedf1d16d43da&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-28 21:59:10&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>369501240</payload_hash>
+        <record_name>CompetitorsUtil</record_name>
+        <reverted_from/>
+        <source>ed8b0ac0470202106a3eedf1d16d43b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-28 21:59:10</sys_created_on>
+        <sys_id>b3c5120047e202106a3eedf1d16d4301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18fc136e2fc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-28 21:59:10</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>7bc51200b8e20210fafebc8961e19800</update_guid>
+        <update_guid_history>7bc51200b8e20210fafebc8961e19800:369501240,af859ecc0ba202104df13add234d1ba0:1504015969,e7e45ac8fea20210e332c7238d8eb3d5:-1443904900,1ef2920c02a202100f0366a7758e85b3:214258014,ac76020c7b6202102b0324c23273ae3c:472112639,06e50e88b26202106a021f3d74ef913f:-902691482</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-28 22:05:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>1d212a2b417143a485030c48da47ad84</sys_id>
+        <sys_metadata>35850e88476202106a3eedf1d16d43da</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CompetitorsUtil</sys_name>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope_delete display_value="">5360a778b1d14ee69fe48f4dc1dd5bf1</sys_scope_delete>
+        <sys_update_name>sys_script_include_35850e88476202106a3eedf1d16d43da</sys_update_name>
+        <sys_update_version display_value="sys_script_include_35850e88476202106a3eedf1d16d43da">b3c5120047e202106a3eedf1d16d4301</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-28 22:05:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

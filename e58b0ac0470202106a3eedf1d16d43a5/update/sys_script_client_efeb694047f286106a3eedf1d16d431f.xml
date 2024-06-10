@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>set lane 1 automatically</description>
+        <field>r2_lane</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>R2 Lane Selection </name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+// Prevent the script from running during form load or if the new value is empty
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    // Initialize the flag if it doesn't exist
+    if (typeof g_form.laneChangeFlag === 'undefined') {
+        g_form.laneChangeFlag = false;
+    }
+
+    // Check if the flag is already set, if so, return to prevent recursion
+    if (g_form.laneChangeFlag) {
+        return;
+    }
+
+    // Set the flag to true to indicate the script is running
+    g_form.laneChangeFlag = true;
+
+    // Get the value of r2_lane
+    var lane1Value = g_form.getValue('r2_lane');
+    
+    // Check the value of r2_lane and set r1_lane accordingly
+    if (lane1Value == '1') {
+        g_form.setValue('r1_lane', '2');
+    } else if (lane1Value == '2') {
+        g_form.setValue('r1_lane', '1');
+    }
+
+    // Reset the flag to false after execution
+    g_form.laneChangeFlag = false;
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-10 05:11:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>efeb694047f286106a3eedf1d16d431f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>R2 Lane Selection </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name>sys_script_client_efeb694047f286106a3eedf1d16d431f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-10 05:20:35</sys_updated_on>
+        <table>x_407566_hot_tra_0_race</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

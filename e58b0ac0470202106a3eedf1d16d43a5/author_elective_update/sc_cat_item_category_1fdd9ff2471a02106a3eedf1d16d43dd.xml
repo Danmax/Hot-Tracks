@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Add Track">cead1bf2471a02106a3eedf1d16d43d9</sc_cat_item>
+        <sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-25 06:01:35</sys_created_on>
+        <sys_id>1fdd9ff2471a02106a3eedf1d16d43dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Add Track</sys_name>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name>sc_cat_item_category_1fdd9ff2471a02106a3eedf1d16d43dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-25 06:01:35</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</application>
+        <file_path/>
+        <instance_id>41d1b26fdb62b59438f117291396196f</instance_id>
+        <instance_name>dev221640</instance_name>
+        <name>sc_cat_item_category_1fdd9ff2471a02106a3eedf1d16d43dd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Add Track">cead1bf2471a02106a3eedf1d16d43d9</sc_cat_item><sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-25 06:01:35</sys_created_on><sys_id>1fdd9ff2471a02106a3eedf1d16d43dd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Services.Add Track</sys_name><sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package><sys_policy/><sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope><sys_update_name>sc_cat_item_category_1fdd9ff2471a02106a3eedf1d16d43dd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-25 06:01:35</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>2014837114</payload_hash>
+        <record_name>Services.Add Track</record_name>
+        <reverted_from/>
+        <source>ed8b0ac0470202106a3eedf1d16d43b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-25 06:01:35</sys_created_on>
+        <sys_id>57dd9ff2471a02106a3eedf1d16d43e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18fae571c520000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-25 06:01:35</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>57dd9ff2311a0210ccd5c16cdc5f73e1</update_guid>
+        <update_guid_history>57dd9ff2311a0210ccd5c16cdc5f73e1:2014837114</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Services.Add Track">ddeddff2471a02106a3eedf1d16d4394</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-25 06:01:43</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>016b7a2205c842458c71f405ec0028d1</sys_id>
+        <sys_metadata>1fdd9ff2471a02106a3eedf1d16d43dd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Add Track</sys_name>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope_delete display_value="">5360a778b1d14ee69fe48f4dc1dd5bf1</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_1fdd9ff2471a02106a3eedf1d16d43dd</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_1fdd9ff2471a02106a3eedf1d16d43dd">57dd9ff2471a02106a3eedf1d16d43e2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-25 06:01:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

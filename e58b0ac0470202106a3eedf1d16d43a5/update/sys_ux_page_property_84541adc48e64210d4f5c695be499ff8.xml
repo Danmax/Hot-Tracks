@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="Hot Tracks">c4545adc8ee64210bad404a8c4f17406</page>
+        <required_translations>[ {
+  "message" : "New Driver",
+  "comment" : ""
+}, {
+  "message" : "New Match",
+  "comment" : ""
+}, {
+  "message" : "New Tournament",
+  "comment" : ""
+}, {
+  "message" : "New Track",
+  "comment" : ""
+}, {
+  "message" : "New Wheels",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-29 16:31:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>84541adc48e64210d4f5c695be499ff8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name>sys_ux_page_property_84541adc48e64210d4f5c695be499ff8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-29 16:31:16</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_407566_hot_tra_0.c4545adc8ee64210bad404a8c4f17406.root.chrome_tab</unique_name>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Tournament"},"routeInfo":{"route":"record","fields":{"table":"x_407566_hot_tra_0_tournament","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_407566_hot_tra_0_tournament","canCreate":true}}},{"label":{"translatable":true,"message":"New Match"},"routeInfo":{"route":"record","fields":{"table":"x_407566_hot_tra_0_match","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_407566_hot_tra_0_match","canCreate":true}}},{"label":{"translatable":true,"message":"New Track"},"routeInfo":{"route":"record","fields":{"table":"x_407566_hot_tra_0_track","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_407566_hot_tra_0_track","canCreate":true}}},{"label":{"translatable":true,"message":"New Wheels"},"routeInfo":{"route":"record","fields":{"table":"x_407566_hot_tra_0_wheels","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_407566_hot_tra_0_wheels","canCreate":true}}},{"label":{"translatable":true,"message":"New Driver"},"routeInfo":{"route":"record","fields":{"table":"x_407566_hot_tra_0_driver","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_407566_hot_tra_0_driver","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=84541adc48e64210d4f5c695be499ff8"/>
+</record_update>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f1a417f647d602106a3eedf1d16d43d4" label="Track" max_length="40" name="x_407566_hot_tra_0_track" text_index="true" type="collection">
+        <element label="Length" max_length="40" name="length" type="string"/>
+        <element label="City" max_length="140" name="city" type="string"/>
+        <element label="Image" max_length="40" name="image" type="user_image"/>
+        <element display="true" label="Name" max_length="240" name="name" type="string"/>
+    </element>
+</database>
