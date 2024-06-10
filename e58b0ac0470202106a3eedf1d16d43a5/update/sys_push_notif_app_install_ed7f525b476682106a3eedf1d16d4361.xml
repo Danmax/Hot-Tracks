@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_app_install">
+    <sys_push_notif_app_install action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <last_registered_on>2024-06-08 12:01:06</last_registered_on>
+        <send_badge_count>true</send_badge_count>
+        <sys_class_name>sys_push_notif_app_install</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-08 01:01:36</sys_created_on>
+        <sys_id>ed7f525b476682106a3eedf1d16d4361</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>dCIBpkvORH-yPHn40dZ7Rs:APA91bFVfj5a0aFYC6Ez4__qRK8vNS9aclZGluC4fuAI2dDRKfqn9l81fqJK3HXBU2BFbsalpOdEF08AMAP9x8uThI9A07cKiqiHliFgHIa7dbKvwJvJBiE0Ctk8VjIpptzbQLWumv04</sys_name>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_push_application_id display_value="ServiceNow Request Application">ac7f61d273122300d63a566a4cf6a78b</sys_push_application_id>
+        <sys_push_platform_id display_value="Google">53e75f30ff0002009738ffffffffff12</sys_push_platform_id>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name>sys_push_notif_app_install_ed7f525b476682106a3eedf1d16d4361</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-08 12:01:06</sys_updated_on>
+        <sys_user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</sys_user_id>
+        <token>dCIBpkvORH-yPHn40dZ7Rs:APA91bFVfj5a0aFYC6Ez4__qRK8vNS9aclZGluC4fuAI2dDRKfqn9l81fqJK3HXBU2BFbsalpOdEF08AMAP9x8uThI9A07cKiqiHliFgHIa7dbKvwJvJBiE0Ctk8VjIpptzbQLWumv04</token>
+    </sys_push_notif_app_install>
+</record_update>

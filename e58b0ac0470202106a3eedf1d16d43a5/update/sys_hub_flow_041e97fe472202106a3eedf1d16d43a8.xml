@@ -1,0 +1,3199 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>labelCacheCleanUpExecuted=true,timeFromCreateToActivate=3000</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>update_match_winner</internal_name>
+        <label_cache>[{"name":"1de33520-b420-4c3a-af08-bc4c242bbd59.record.racer_2.race_wins","label":"7 - Update Record➛Race Record➛Racer 2➛Race Wins","reference":"","reference_display":"Race Wins","type":"integer","base_type":"integer","parent_table_name":"x_407566_hot_tra_0_wheels","column_name":"race_wins","usedInstances":{"53b83006-eaf8-400a-b171-154a3a6f22d5":["race_wins"]}},{"name":"1de33520-b420-4c3a-af08-bc4c242bbd59.record.racer_2","label":"7 - Update Record➛Race Record➛Racer 2","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","parent_table_name":"x_407566_hot_tra_0_race","column_name":"racer_2","usedInstances":{"53b83006-eaf8-400a-b171-154a3a6f22d5":["record"]}},{"name":"78f155bd-1a6b-4492-b3f6-02e198a40e4b.record.racer_1.race_wins","label":"3 - Update Record➛Race Record➛Racer 1➛Race Wins","reference":"","reference_display":"Race Wins","type":"integer","base_type":"integer","parent_table_name":"x_407566_hot_tra_0_wheels","column_name":"race_wins","usedInstances":{"571ab83a-1c35-4fa2-9e43-ec19f00829d4":["race_wins"]}},{"name":"78f155bd-1a6b-4492-b3f6-02e198a40e4b.record.racer_1","label":"3 - Update Record➛Race Record➛Racer 1","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","parent_table_name":"x_407566_hot_tra_0_race","column_name":"racer_1","usedInstances":{"571ab83a-1c35-4fa2-9e43-ec19f00829d4":["record"],"53b83006-eaf8-400a-b171-154a3a6f22d5":["record"]}},{"name":"c1c91358-4e91-43c8-855b-ba5b06b57568.Record","label":"1 - Look Up Record➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match Record","type":"reference","base_type":"reference","usedInstances":{"615d7e1c-c082-4905-9664-4841d1f79174":["record"],"d49de3a5-fe78-47c4-a999-0e30badee131":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c1c91358-4e91-43c8-855b-ba5b06b57568.Record.r2_wins","label":"1 - Look Up Record➛Match Record➛R2 Wins","reference":"","reference_display":"R2 Wins","type":"integer","base_type":"integer","parent_table_name":"x_407566_hot_tra_0_match","column_name":"r2_wins","usedInstances":{"6c4b62e8-6d24-400a-b225-04bbefa083fc":["r2_wins"],"d49de3a5-fe78-47c4-a999-0e30badee131":["r2_wins"]}},{"name":"c1c91358-4e91-43c8-855b-ba5b06b57568.Record.r1_wins","label":"1 - Look Up Record➛Match Record➛R1 Wins","reference":"","reference_display":"R1 Wins","type":"integer","base_type":"integer","parent_table_name":"x_407566_hot_tra_0_match","column_name":"r1_wins","usedInstances":{"be04f4fb-0442-4a47-bee6-f68792e17ece":["r1_wins"],"615d7e1c-c082-4905-9664-4841d1f79174":["r1_wins"]}},{"name":"c1c91358-4e91-43c8-855b-ba5b06b57568.Record.crc","label":"1 - Look Up Record➛Match Record➛CRC","reference":"","reference_display":"CRC","type":"integer","base_type":"integer","parent_table_name":"x_407566_hot_tra_0_match","column_name":"crc","usedInstances":{"be04f4fb-0442-4a47-bee6-f68792e17ece":["crc"],"6c4b62e8-6d24-400a-b225-04bbefa083fc":["crc"],"615d7e1c-c082-4905-9664-4841d1f79174":["crc"]}},{"name":"subflow.input6","label":"Input➛trigger_racer_2","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"53c6f9bc-b331-4bc9-b045-39ad8fa23b96"}},{"name":"subflow.input5","label":"Input➛trigger_racer_1","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"7abbcea0-5331-4604-823b-2494f3e7a6f5"}},{"name":"subflow.input4","label":"Input➛trigger_current","reference":"x_407566_hot_tra_0_race","reference_display":"Race","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"9f29508b-08e5-4cb3-b2f7-1fbf9565d60b"}},{"name":"subflow.input3","label":"Input➛trigger_r2_time","reference":"","type":"decimal","base_type":"decimal","usedInstances":{},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d81f449f-2d11-49b4-95a9-ff053a78b999"}},{"name":"subflow.input2","label":"Input➛trigger_r1_time","reference":"","type":"decimal","base_type":"decimal","usedInstances":{},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"b2467416-5dba-404b-ab8c-3e8bf35a71e1"}},{"name":"subflow.input1","label":"Input➛trigger_round_match","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"a48f1c65-b215-40c8-879a-c2eb06df1475"}}]</label_cache>
+        <master_snapshot>851e5f72476202106a3eedf1d16d432d</master_snapshot>
+        <name>Update Race Winner</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>041e97fe472202106a3eedf1d16d43a8</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Update Race Winner</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name>sys_hub_flow_041e97fe472202106a3eedf1d16d43a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 17:20:19</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=041e97fe472202106a3eedf1d16d43a8"/>
+    <sys_variable_value action="delete_multiple" query="document_key=041e97fe472202106a3eedf1d16d43a8"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=041e97fe472202106a3eedf1d16d43a8"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=041e97fe472202106a3eedf1d16d43a8"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=041e97fe472202106a3eedf1d16d43a8^sys_idNOT INc01e1f72476202106a3eedf1d16d4307"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>041e97fe472202106a3eedf1d16d43a8</id>
+        <name>Update Match Winner</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:09</sys_created_on>
+        <sys_id>c01e1f72476202106a3eedf1d16d4307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:09</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=c01e1f72476202106a3eedf1d16d4307"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=041e97fe472202106a3eedf1d16d43a8^sys_idNOT IN0c1e1f72476202106a3eedf1d16d435e,181e1f72476202106a3eedf1d16d4369,501e1f72476202106a3eedf1d16d4373,541e1f72476202106a3eedf1d16d4366,9c1e1f72476202106a3eedf1d16d436f,d81e1f72476202106a3eedf1d16d436c"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>input1</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>trigger_round_match</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Update Race Winner">041e97fe472202106a3eedf1d16d43a8</model>
+        <model_id>041e97fe472202106a3eedf1d16d43a8</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_041e97fe472202106a3eedf1d16d43a8</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_407566_hot_tra_0_match">x_407566_hot_tra_0_match</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:09</sys_created_on>
+        <sys_id>0c1e1f72476202106a3eedf1d16d435e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0c1e1f72476202106a3eedf1d16d435e"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=decimal,uiTypeLabel=Decimal</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>input3</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Decimal">decimal</internal_type>
+        <label>trigger_r2_time</label>
+        <mandatory>true</mandatory>
+        <max_length>15</max_length>
+        <model display_value="Update Race Winner">041e97fe472202106a3eedf1d16d43a8</model>
+        <model_id>041e97fe472202106a3eedf1d16d43a8</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_041e97fe472202106a3eedf1d16d43a8</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:10</sys_created_on>
+        <sys_id>181e1f72476202106a3eedf1d16d4369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=181e1f72476202106a3eedf1d16d4369"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>input6</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>trigger_racer_2</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Update Race Winner">041e97fe472202106a3eedf1d16d43a8</model>
+        <model_id>041e97fe472202106a3eedf1d16d43a8</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_041e97fe472202106a3eedf1d16d43a8</name>
+        <next_element/>
+        <order>6</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_407566_hot_tra_0_wheels">x_407566_hot_tra_0_wheels</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:10</sys_created_on>
+        <sys_id>501e1f72476202106a3eedf1d16d4373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=501e1f72476202106a3eedf1d16d4373"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=decimal,uiTypeLabel=Decimal</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>input2</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Decimal">decimal</internal_type>
+        <label>trigger_r1_time</label>
+        <mandatory>true</mandatory>
+        <max_length>15</max_length>
+        <model display_value="Update Race Winner">041e97fe472202106a3eedf1d16d43a8</model>
+        <model_id>041e97fe472202106a3eedf1d16d43a8</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_041e97fe472202106a3eedf1d16d43a8</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:09</sys_created_on>
+        <sys_id>541e1f72476202106a3eedf1d16d4366</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=541e1f72476202106a3eedf1d16d4366"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>input5</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>trigger_racer_1</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Update Race Winner">041e97fe472202106a3eedf1d16d43a8</model>
+        <model_id>041e97fe472202106a3eedf1d16d43a8</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_041e97fe472202106a3eedf1d16d43a8</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_407566_hot_tra_0_wheels">x_407566_hot_tra_0_wheels</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:10</sys_created_on>
+        <sys_id>9c1e1f72476202106a3eedf1d16d436f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9c1e1f72476202106a3eedf1d16d436f"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Record</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>input4</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>trigger_current</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Update Race Winner">041e97fe472202106a3eedf1d16d43a8</model>
+        <model_id>041e97fe472202106a3eedf1d16d43a8</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_041e97fe472202106a3eedf1d16d43a8</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_407566_hot_tra_0_race">x_407566_hot_tra_0_race</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:10</sys_created_on>
+        <sys_id>d81e1f72476202106a3eedf1d16d436c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d81e1f72476202106a3eedf1d16d436c"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=041e97fe472202106a3eedf1d16d43a8"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=041e97fe472202106a3eedf1d16d43a8"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=041e97fe472202106a3eedf1d16d43a8^sys_idNOT IN181e1f72476202106a3eedf1d16d439d,1c1e1f72476202106a3eedf1d16d438f,681e1f72476202106a3eedf1d16d43b9,6c1e1f72476202106a3eedf1d16d43a3,e41e1f72476202106a3eedf1d16d43bf,e81e1f72476202106a3eedf1d16d43a9,e81e1f72476202106a3eedf1d16d43b3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Race Winner">041e97fe472202106a3eedf1d16d43a8</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>5fb70abf-d8cb-4914-9298-f1dc4592730a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:10</sys_created_on>
+        <sys_id>181e1f72476202106a3eedf1d16d439d</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 17:06:41</sys_updated_on>
+        <ui_id>78f155bd-1a6b-4492-b3f6-02e198a40e4b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=181e1f72476202106a3eedf1d16d439d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>181e1f72476202106a3eedf1d16d439d</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:10</sys_created_on>
+        <sys_id>a41e1f72476202106a3eedf1d16d439f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:10</sys_updated_on>
+        <value>x_407566_hot_tra_0_race</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=181e1f72476202106a3eedf1d16d439d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>181e1f72476202106a3eedf1d16d439d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:10</sys_created_on>
+        <sys_id>241e1f72476202106a3eedf1d16d439f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{subflow.input4}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>181e1f72476202106a3eedf1d16d439d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:10</sys_created_on>
+        <sys_id>ac1e1f72476202106a3eedf1d16d439e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>181e1f72476202106a3eedf1d16d439d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:10</sys_created_on>
+        <sys_id>601e1f72476202106a3eedf1d16d439f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>winner={{subflow.input5}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=181e1f72476202106a3eedf1d16d439d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=181e1f72476202106a3eedf1d16d439d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Race Winner">041e97fe472202106a3eedf1d16d43a8</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:10</sys_created_on>
+        <sys_id>1c1e1f72476202106a3eedf1d16d438f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 17:06:41</sys_updated_on>
+        <ui_id>c1c91358-4e91-43c8-855b-ba5b06b57568</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1c1e1f72476202106a3eedf1d16d438f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1c1e1f72476202106a3eedf1d16d438f</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:10</sys_created_on>
+        <sys_id>9c1e1f72476202106a3eedf1d16d4392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:10</sys_updated_on>
+        <value>x_407566_hot_tra_0_match</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1c1e1f72476202106a3eedf1d16d438f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>1c1e1f72476202106a3eedf1d16d438f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:10</sys_created_on>
+        <sys_id>141e1f72476202106a3eedf1d16d4392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>sys_id={{subflow.input1}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>1c1e1f72476202106a3eedf1d16d438f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:10</sys_created_on>
+        <sys_id>1c1e1f72476202106a3eedf1d16d4392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1c1e1f72476202106a3eedf1d16d438f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1c1e1f72476202106a3eedf1d16d438f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Race Winner">041e97fe472202106a3eedf1d16d43a8</flow>
+        <generation_source/>
+        <order>8</order>
+        <parent_ui_id>ba980996-b956-4e6e-8912-1a8bfd1eb62d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>681e1f72476202106a3eedf1d16d43b9</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 17:06:41</sys_updated_on>
+        <ui_id>2625ba28-92f0-4885-8058-ef566b670a73</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=681e1f72476202106a3eedf1d16d43b9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>681e1f72476202106a3eedf1d16d43b9</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>a01e1f72476202106a3eedf1d16d43bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:11</sys_updated_on>
+        <value>x_407566_hot_tra_0_match</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=681e1f72476202106a3eedf1d16d43b9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>681e1f72476202106a3eedf1d16d43b9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>201e1f72476202106a3eedf1d16d43bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{c1c91358-4e91-43c8-855b-ba5b06b57568.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>681e1f72476202106a3eedf1d16d43b9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>a81e1f72476202106a3eedf1d16d43ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>681e1f72476202106a3eedf1d16d43b9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>6c1e1f72476202106a3eedf1d16d43ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>crc={{fd_transform:5da3dd5b-0c67-4a30-925e-c36659aa3362}}^r2_wins={{fd_transform:22f177a2-176f-4ae7-be60-14bebf6f16bc}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=681e1f72476202106a3eedf1d16d43b9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=681e1f72476202106a3eedf1d16d43b9"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Race Winner">041e97fe472202106a3eedf1d16d43a8</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>5fb70abf-d8cb-4914-9298-f1dc4592730a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:10</sys_created_on>
+        <sys_id>6c1e1f72476202106a3eedf1d16d43a3</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 17:06:41</sys_updated_on>
+        <ui_id>6ff2bbb0-e0f0-4c83-90c9-7917fc6fed5f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6c1e1f72476202106a3eedf1d16d43a3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6c1e1f72476202106a3eedf1d16d43a3</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:10</sys_created_on>
+        <sys_id>a41e1f72476202106a3eedf1d16d43a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:10</sys_updated_on>
+        <value>x_407566_hot_tra_0_match</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6c1e1f72476202106a3eedf1d16d43a3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>6c1e1f72476202106a3eedf1d16d43a3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:10</sys_created_on>
+        <sys_id>241e1f72476202106a3eedf1d16d43a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{c1c91358-4e91-43c8-855b-ba5b06b57568.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>6c1e1f72476202106a3eedf1d16d43a3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:10</sys_created_on>
+        <sys_id>ac1e1f72476202106a3eedf1d16d43a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>6c1e1f72476202106a3eedf1d16d43a3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:10</sys_created_on>
+        <sys_id>601e1f72476202106a3eedf1d16d43a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>crc={{fd_transform:209038a9-894b-4460-9d2e-b7e45fbaf135}}^r1_wins={{fd_transform:deff4734-04f6-4c5a-928e-bb78f05efd56}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6c1e1f72476202106a3eedf1d16d43a3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6c1e1f72476202106a3eedf1d16d43a3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Race Winner">041e97fe472202106a3eedf1d16d43a8</flow>
+        <generation_source/>
+        <order>9</order>
+        <parent_ui_id>ba980996-b956-4e6e-8912-1a8bfd1eb62d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>e41e1f72476202106a3eedf1d16d43bf</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 17:06:41</sys_updated_on>
+        <ui_id>e60875d6-c959-4a2e-8689-511bc4c863e8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e41e1f72476202106a3eedf1d16d43bf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e41e1f72476202106a3eedf1d16d43bf</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>201e1f72476202106a3eedf1d16d43c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:11</sys_updated_on>
+        <value>x_407566_hot_tra_0_wheels</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e41e1f72476202106a3eedf1d16d43bf"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>e41e1f72476202106a3eedf1d16d43bf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>ac1e1f72476202106a3eedf1d16d43c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{1de33520-b420-4c3a-af08-bc4c242bbd59.record.racer_2}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>e41e1f72476202106a3eedf1d16d43bf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>281e1f72476202106a3eedf1d16d43c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>e41e1f72476202106a3eedf1d16d43bf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>e81e1f72476202106a3eedf1d16d43c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>race_wins={{fd_transform:ff3d23e0-096a-4b4e-bcd3-590616bb5131}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e41e1f72476202106a3eedf1d16d43bf"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e41e1f72476202106a3eedf1d16d43bf"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Race Winner">041e97fe472202106a3eedf1d16d43a8</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>5fb70abf-d8cb-4914-9298-f1dc4592730a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>e81e1f72476202106a3eedf1d16d43a9</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 17:20:09</sys_updated_on>
+        <ui_id>42cab470-bd75-4f5c-aaf7-718b84427bf6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e81e1f72476202106a3eedf1d16d43a9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e81e1f72476202106a3eedf1d16d43a9</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>241e1f72476202106a3eedf1d16d43ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:11</sys_updated_on>
+        <value>x_407566_hot_tra_0_wheels</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e81e1f72476202106a3eedf1d16d43a9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>e81e1f72476202106a3eedf1d16d43a9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>a01e1f72476202106a3eedf1d16d43ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{78f155bd-1a6b-4492-b3f6-02e198a40e4b.record.racer_1}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>e81e1f72476202106a3eedf1d16d43a9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>2c1e1f72476202106a3eedf1d16d43aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>e81e1f72476202106a3eedf1d16d43a9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>ec1e1f72476202106a3eedf1d16d43aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>race_wins={{fd_transform:4ba10158-35e9-4b01-8710-0dc0d513df7f}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e81e1f72476202106a3eedf1d16d43a9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e81e1f72476202106a3eedf1d16d43a9"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Race Winner">041e97fe472202106a3eedf1d16d43a8</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>ba980996-b956-4e6e-8912-1a8bfd1eb62d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>e81e1f72476202106a3eedf1d16d43b3</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 17:06:41</sys_updated_on>
+        <ui_id>1de33520-b420-4c3a-af08-bc4c242bbd59</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e81e1f72476202106a3eedf1d16d43b3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e81e1f72476202106a3eedf1d16d43b3</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>241e1f72476202106a3eedf1d16d43b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:11</sys_updated_on>
+        <value>x_407566_hot_tra_0_race</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e81e1f72476202106a3eedf1d16d43b3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>e81e1f72476202106a3eedf1d16d43b3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>a01e1f72476202106a3eedf1d16d43b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{subflow.input4}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>e81e1f72476202106a3eedf1d16d43b3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>2c1e1f72476202106a3eedf1d16d43b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>e81e1f72476202106a3eedf1d16d43b3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>ec1e1f72476202106a3eedf1d16d43b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>winner={{subflow.input6}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e81e1f72476202106a3eedf1d16d43b3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e81e1f72476202106a3eedf1d16d43b3"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=041e97fe472202106a3eedf1d16d43a8"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=041e97fe472202106a3eedf1d16d43a8^sys_idNOT IN601e1f72476202106a3eedf1d16d43ac,981e1f72476202106a3eedf1d16d4394"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">681e1f72476202106a3eedf1d16d43ab</block>
+        <comment/>
+        <connected_to>5fb70abf-d8cb-4914-9298-f1dc4592730a</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update Race Winner">041e97fe472202106a3eedf1d16d43a8</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>601e1f72476202106a3eedf1d16d43ac</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:16</sys_updated_on>
+        <ui_id>ba980996-b956-4e6e-8912-1a8bfd1eb62d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=601e1f72476202106a3eedf1d16d43ac"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>601e1f72476202106a3eedf1d16d43ac</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>241e1f72476202106a3eedf1d16d43af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:11</sys_updated_on>
+        <value>Racer 2 Winner</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=601e1f72476202106a3eedf1d16d43ac"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>601e1f72476202106a3eedf1d16d43ac</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>a01e1f72476202106a3eedf1d16d43af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:11</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value>{{subflow.input3}}&lt;{{subflow.input2}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>601e1f72476202106a3eedf1d16d43ac</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>ec1e1f72476202106a3eedf1d16d43ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:11</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=601e1f72476202106a3eedf1d16d43ac"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=601e1f72476202106a3eedf1d16d43ac"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">1c1e1f72476202106a3eedf1d16d4393</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update Race Winner">041e97fe472202106a3eedf1d16d43a8</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:10</sys_created_on>
+        <sys_id>981e1f72476202106a3eedf1d16d4394</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:16</sys_updated_on>
+        <ui_id>5fb70abf-d8cb-4914-9298-f1dc4592730a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=981e1f72476202106a3eedf1d16d4394"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>981e1f72476202106a3eedf1d16d4394</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:10</sys_created_on>
+        <sys_id>d41e1f72476202106a3eedf1d16d4398</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:10</sys_updated_on>
+        <value>Racer 1 Winner</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=981e1f72476202106a3eedf1d16d4394"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>981e1f72476202106a3eedf1d16d4394</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:10</sys_created_on>
+        <sys_id>541e1f72476202106a3eedf1d16d4398</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:10</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{subflow.input2}}&lt;{{subflow.input3}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>981e1f72476202106a3eedf1d16d4394</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:10</sys_created_on>
+        <sys_id>901e1f72476202106a3eedf1d16d4398</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:10</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=981e1f72476202106a3eedf1d16d4394"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=981e1f72476202106a3eedf1d16d4394"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=041e97fe472202106a3eedf1d16d43a8^sys_idNOT IN201e1f72476202106a3eedf1d16d43c5,241e1f72476202106a3eedf1d16d43c4,2c1e1f72476202106a3eedf1d16d43c5,601e1f72476202106a3eedf1d16d43c4,681e1f72476202106a3eedf1d16d43c5,6c1e1f72476202106a3eedf1d16d43c4,a41e1f72476202106a3eedf1d16d43c3,a41e1f72476202106a3eedf1d16d43c5,a81e1f72476202106a3eedf1d16d43c4,ac1e1f72476202106a3eedf1d16d43c3,e01e1f72476202106a3eedf1d16d43c5,e41e1f72476202106a3eedf1d16d43c4"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>041e97fe472202106a3eedf1d16d43a8</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>5da3dd5b-0c67-4a30-925e-c36659aa3362</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>201e1f72476202106a3eedf1d16d43c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:11</sys_updated_on>
+        <transform_compositions>[{"id":"06190ffa23a220103a3339e1d7bf65f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"1","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="add">50980bfa23a220103a3339e1d7bf6510</transform_definition_id>
+        <ui_id>e466aacc-e957-4754-9970-b478d34ca6a7</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>041e97fe472202106a3eedf1d16d43a8</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>deff4734-04f6-4c5a-928e-bb78f05efd56</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>241e1f72476202106a3eedf1d16d43c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:11</sys_updated_on>
+        <transform_compositions>[{"id":"06190ffa23a220103a3339e1d7bf65f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"1","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="add">50980bfa23a220103a3339e1d7bf6510</transform_definition_id>
+        <ui_id>75b9de5f-b769-4f2e-8f2f-f4594b639fe6</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>041e97fe472202106a3eedf1d16d43a8</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>ff3d23e0-096a-4b4e-bcd3-590616bb5131</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>2c1e1f72476202106a3eedf1d16d43c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:11</sys_updated_on>
+        <transform_compositions>[{"id":"06190ffa23a220103a3339e1d7bf65f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"1","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="add">50980bfa23a220103a3339e1d7bf6510</transform_definition_id>
+        <ui_id>5105632a-b5c4-4a8b-aa78-0bd8399d6f14</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>041e97fe472202106a3eedf1d16d43a8</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{c1c91358-4e91-43c8-855b-ba5b06b57568.Record.r1_wins}}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>601e1f72476202106a3eedf1d16d43c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:11</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>deff4734-04f6-4c5a-928e-bb78f05efd56</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>041e97fe472202106a3eedf1d16d43a8</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{1de33520-b420-4c3a-af08-bc4c242bbd59.record.racer_2.race_wins}}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>681e1f72476202106a3eedf1d16d43c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:11</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>ff3d23e0-096a-4b4e-bcd3-590616bb5131</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>041e97fe472202106a3eedf1d16d43a8</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{c1c91358-4e91-43c8-855b-ba5b06b57568.Record.crc}}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>6c1e1f72476202106a3eedf1d16d43c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:11</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>5da3dd5b-0c67-4a30-925e-c36659aa3362</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>041e97fe472202106a3eedf1d16d43a8</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{c1c91358-4e91-43c8-855b-ba5b06b57568.Record.crc}}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>a41e1f72476202106a3eedf1d16d43c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:11</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>209038a9-894b-4460-9d2e-b7e45fbaf135</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>041e97fe472202106a3eedf1d16d43a8</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>22f177a2-176f-4ae7-be60-14bebf6f16bc</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>a41e1f72476202106a3eedf1d16d43c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:11</sys_updated_on>
+        <transform_compositions>[{"id":"06190ffa23a220103a3339e1d7bf65f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"1","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="add">50980bfa23a220103a3339e1d7bf6510</transform_definition_id>
+        <ui_id>234ea0d8-1e53-48be-b2a2-580161746ebd</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>041e97fe472202106a3eedf1d16d43a8</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>4ba10158-35e9-4b01-8710-0dc0d513df7f</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>a81e1f72476202106a3eedf1d16d43c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:11</sys_updated_on>
+        <transform_compositions>[{"id":"06190ffa23a220103a3339e1d7bf65f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"1","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="add">50980bfa23a220103a3339e1d7bf6510</transform_definition_id>
+        <ui_id>f5e24b1e-9907-47bb-8925-94086c62840d</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>041e97fe472202106a3eedf1d16d43a8</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>209038a9-894b-4460-9d2e-b7e45fbaf135</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>ac1e1f72476202106a3eedf1d16d43c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:11</sys_updated_on>
+        <transform_compositions>[{"id":"06190ffa23a220103a3339e1d7bf65f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"1","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="add">50980bfa23a220103a3339e1d7bf6510</transform_definition_id>
+        <ui_id>342b34d6-2ee1-4a9a-965d-386dda14f1e1</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>041e97fe472202106a3eedf1d16d43a8</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{c1c91358-4e91-43c8-855b-ba5b06b57568.Record.r2_wins}}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>e01e1f72476202106a3eedf1d16d43c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:11</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>22f177a2-176f-4ae7-be60-14bebf6f16bc</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>041e97fe472202106a3eedf1d16d43a8</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{78f155bd-1a6b-4492-b3f6-02e198a40e4b.record.racer_1.race_wins}}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:11</sys_created_on>
+        <sys_id>e41e1f72476202106a3eedf1d16d43c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:11</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>4ba10158-35e9-4b01-8710-0dc0d513df7f</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=041e97fe472202106a3eedf1d16d43a8"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_041e97fe472202106a3eedf1d16d43a8^sys_idNOT IN141e1f72476202106a3eedf1d16d4375,181e1f72476202106a3eedf1d16d4368,501e1f72476202106a3eedf1d16d4372,9c1e1f72476202106a3eedf1d16d436e,d81e1f72476202106a3eedf1d16d436b,dc1e1f72476202106a3eedf1d16d4364"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>input6</element>
+        <help/>
+        <hint/>
+        <label>trigger_racer_2</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_041e97fe472202106a3eedf1d16d43a8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:10</sys_created_on>
+        <sys_id>141e1f72476202106a3eedf1d16d4375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>input2</element>
+        <help/>
+        <hint/>
+        <label>trigger_r1_time</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_041e97fe472202106a3eedf1d16d43a8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:10</sys_created_on>
+        <sys_id>181e1f72476202106a3eedf1d16d4368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>input5</element>
+        <help/>
+        <hint/>
+        <label>trigger_racer_1</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_041e97fe472202106a3eedf1d16d43a8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:10</sys_created_on>
+        <sys_id>501e1f72476202106a3eedf1d16d4372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>input4</element>
+        <help/>
+        <hint/>
+        <label>trigger_current</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_041e97fe472202106a3eedf1d16d43a8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:10</sys_created_on>
+        <sys_id>9c1e1f72476202106a3eedf1d16d436e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>input3</element>
+        <help/>
+        <hint/>
+        <label>trigger_r2_time</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_041e97fe472202106a3eedf1d16d43a8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:10</sys_created_on>
+        <sys_id>d81e1f72476202106a3eedf1d16d436b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>input1</element>
+        <help/>
+        <hint/>
+        <label>trigger_round_match</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_041e97fe472202106a3eedf1d16d43a8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:09</sys_created_on>
+        <sys_id>dc1e1f72476202106a3eedf1d16d4364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_041e97fe472202106a3eedf1d16d43a8"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_041e97fe472202106a3eedf1d16d43a8"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_041e97fe472202106a3eedf1d16d43a8"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>labelCacheCleanUpExecuted=true</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <internal_name>update_match_winner</internal_name>
+        <label_cache>[{"name":"subflow.input1","label":"Input➛trigger_round_match","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"a48f1c65-b215-40c8-879a-c2eb06df1475"}},{"name":"subflow.input2","label":"Input➛trigger_r1_time","reference":"","type":"decimal","base_type":"decimal","usedInstances":{},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"b2467416-5dba-404b-ab8c-3e8bf35a71e1"}},{"name":"subflow.input3","label":"Input➛trigger_r2_time","reference":"","type":"decimal","base_type":"decimal","usedInstances":{},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d81f449f-2d11-49b4-95a9-ff053a78b999"}},{"name":"subflow.input4","label":"Input➛trigger_current","reference":"x_407566_hot_tra_0_race","reference_display":"Race","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"9f29508b-08e5-4cb3-b2f7-1fbf9565d60b"}},{"name":"subflow.input5","label":"Input➛trigger_racer_1","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"7abbcea0-5331-4604-823b-2494f3e7a6f5"}},{"name":"subflow.input6","label":"Input➛trigger_racer_2","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"53c6f9bc-b331-4bc9-b045-39ad8fa23b96"}},{"name":"c1c91358-4e91-43c8-855b-ba5b06b57568.Record.crc","label":"1 - Look Up Record➛Match Record➛CRC","reference":"","reference_display":"CRC","type":"integer","base_type":"integer","parent_table_name":"x_407566_hot_tra_0_match","column_name":"crc","usedInstances":{"be04f4fb-0442-4a47-bee6-f68792e17ece":["crc"],"6c4b62e8-6d24-400a-b225-04bbefa083fc":["crc"],"615d7e1c-c082-4905-9664-4841d1f79174":["crc"]}},{"name":"c1c91358-4e91-43c8-855b-ba5b06b57568.Record.r1_wins","label":"1 - Look Up Record➛Match Record➛R1 Wins","reference":"","reference_display":"R1 Wins","type":"integer","base_type":"integer","parent_table_name":"x_407566_hot_tra_0_match","column_name":"r1_wins","usedInstances":{"be04f4fb-0442-4a47-bee6-f68792e17ece":["r1_wins"],"615d7e1c-c082-4905-9664-4841d1f79174":["r1_wins"]}},{"name":"c1c91358-4e91-43c8-855b-ba5b06b57568.Record.r2_wins","label":"1 - Look Up Record➛Match Record➛R2 Wins","reference":"","reference_display":"R2 Wins","type":"integer","base_type":"integer","parent_table_name":"x_407566_hot_tra_0_match","column_name":"r2_wins","usedInstances":{"6c4b62e8-6d24-400a-b225-04bbefa083fc":["r2_wins"],"d49de3a5-fe78-47c4-a999-0e30badee131":["r2_wins"]}},{"name":"c1c91358-4e91-43c8-855b-ba5b06b57568.Record","label":"1 - Look Up Record➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"615d7e1c-c082-4905-9664-4841d1f79174":["record"],"d49de3a5-fe78-47c4-a999-0e30badee131":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"78f155bd-1a6b-4492-b3f6-02e198a40e4b.record.racer_1","label":"3 - Update Record➛Race Record➛Racer 1","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","parent_table_name":"x_407566_hot_tra_0_race","column_name":"racer_1","usedInstances":{"571ab83a-1c35-4fa2-9e43-ec19f00829d4":["record"],"53b83006-eaf8-400a-b171-154a3a6f22d5":["record"]}},{"name":"78f155bd-1a6b-4492-b3f6-02e198a40e4b.record.racer_1.race_wins","label":"3 - Update Record➛Race Record➛Racer 1➛Race Wins","reference":"","reference_display":"Race Wins","type":"integer","base_type":"integer","parent_table_name":"x_407566_hot_tra_0_wheels","column_name":"race_wins","usedInstances":{"571ab83a-1c35-4fa2-9e43-ec19f00829d4":["race_wins"]}},{"name":"1de33520-b420-4c3a-af08-bc4c242bbd59.record.racer_2","label":"7 - Update Record➛Race Record➛Racer 2","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","parent_table_name":"x_407566_hot_tra_0_race","column_name":"racer_2","usedInstances":{"53b83006-eaf8-400a-b171-154a3a6f22d5":["record"]}},{"name":"1de33520-b420-4c3a-af08-bc4c242bbd59.record.racer_2.race_wins","label":"7 - Update Record➛Race Record➛Racer 2➛Race Wins","reference":"","reference_display":"Race Wins","type":"integer","base_type":"integer","parent_table_name":"x_407566_hot_tra_0_wheels","column_name":"race_wins","usedInstances":{"53b83006-eaf8-400a-b171-154a3a6f22d5":["race_wins"]}}]</label_cache>
+        <master>true</master>
+        <name>Update Match Winner</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Update Race Winner">041e97fe472202106a3eedf1d16d43a8</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>851e5f72476202106a3eedf1d16d432d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:12</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=851e5f72476202106a3eedf1d16d432d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=851e5f72476202106a3eedf1d16d432d"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=851e5f72476202106a3eedf1d16d432d"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=851e5f72476202106a3eedf1d16d432d"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=851e5f72476202106a3eedf1d16d432d^sys_idNOT IN4d1e5f72476202106a3eedf1d16d432e"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>851e5f72476202106a3eedf1d16d432d</id>
+        <name>Update Match Winner</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:13</sys_created_on>
+        <sys_id>4d1e5f72476202106a3eedf1d16d432e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:13</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=4d1e5f72476202106a3eedf1d16d432e"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=851e5f72476202106a3eedf1d16d432d^sys_idNOT IN011e5f72476202106a3eedf1d16d4373,091e5f72476202106a3eedf1d16d4356,091e5f72476202106a3eedf1d16d435e,811e5f72476202106a3eedf1d16d437b,891e5f72476202106a3eedf1d16d434e,8d1e5f72476202106a3eedf1d16d432f"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>input5</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>trigger_racer_1</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Update Match Winner">851e5f72476202106a3eedf1d16d432d</model>
+        <model_id>851e5f72476202106a3eedf1d16d432d</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_851e5f72476202106a3eedf1d16d432d</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_407566_hot_tra_0_wheels">x_407566_hot_tra_0_wheels</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:13</sys_created_on>
+        <sys_id>011e5f72476202106a3eedf1d16d4373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=011e5f72476202106a3eedf1d16d4373"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=decimal,uiTypeLabel=Decimal</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>input3</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Decimal">decimal</internal_type>
+        <label>trigger_r2_time</label>
+        <mandatory>true</mandatory>
+        <max_length>15</max_length>
+        <model display_value="Update Match Winner">851e5f72476202106a3eedf1d16d432d</model>
+        <model_id>851e5f72476202106a3eedf1d16d432d</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_851e5f72476202106a3eedf1d16d432d</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:13</sys_created_on>
+        <sys_id>091e5f72476202106a3eedf1d16d4356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=091e5f72476202106a3eedf1d16d4356"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Record</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>input4</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>trigger_current</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Update Match Winner">851e5f72476202106a3eedf1d16d432d</model>
+        <model_id>851e5f72476202106a3eedf1d16d432d</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_851e5f72476202106a3eedf1d16d432d</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_407566_hot_tra_0_race">x_407566_hot_tra_0_race</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:13</sys_created_on>
+        <sys_id>091e5f72476202106a3eedf1d16d435e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=091e5f72476202106a3eedf1d16d435e"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>input6</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>trigger_racer_2</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Update Match Winner">851e5f72476202106a3eedf1d16d432d</model>
+        <model_id>851e5f72476202106a3eedf1d16d432d</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_851e5f72476202106a3eedf1d16d432d</name>
+        <next_element/>
+        <order>6</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_407566_hot_tra_0_wheels">x_407566_hot_tra_0_wheels</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:13</sys_created_on>
+        <sys_id>811e5f72476202106a3eedf1d16d437b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=811e5f72476202106a3eedf1d16d437b"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=decimal,uiTypeLabel=Decimal</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>input2</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Decimal">decimal</internal_type>
+        <label>trigger_r1_time</label>
+        <mandatory>true</mandatory>
+        <max_length>15</max_length>
+        <model display_value="Update Match Winner">851e5f72476202106a3eedf1d16d432d</model>
+        <model_id>851e5f72476202106a3eedf1d16d432d</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_851e5f72476202106a3eedf1d16d432d</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:13</sys_created_on>
+        <sys_id>891e5f72476202106a3eedf1d16d434e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=891e5f72476202106a3eedf1d16d434e"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>input1</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>trigger_round_match</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Update Match Winner">851e5f72476202106a3eedf1d16d432d</model>
+        <model_id>851e5f72476202106a3eedf1d16d432d</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_851e5f72476202106a3eedf1d16d432d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_407566_hot_tra_0_match">x_407566_hot_tra_0_match</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:13</sys_created_on>
+        <sys_id>8d1e5f72476202106a3eedf1d16d432f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8d1e5f72476202106a3eedf1d16d432f"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=851e5f72476202106a3eedf1d16d432d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=851e5f72476202106a3eedf1d16d432d"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=851e5f72476202106a3eedf1d16d432d^sys_idNOT IN191e5f72476202106a3eedf1d16d43ba,251e5f72476202106a3eedf1d16d43d2,251e5f72476202106a3eedf1d16d43d8,551e5f72476202106a3eedf1d16d43cc,591e5f72476202106a3eedf1d16d43b2,951e5f72476202106a3eedf1d16d43c6,d51e5f72476202106a3eedf1d16d43c0"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Match Winner">851e5f72476202106a3eedf1d16d432d</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>5fb70abf-d8cb-4914-9298-f1dc4592730a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:14</sys_created_on>
+        <sys_id>191e5f72476202106a3eedf1d16d43ba</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:14</sys_updated_on>
+        <ui_id>78f155bd-1a6b-4492-b3f6-02e198a40e4b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=191e5f72476202106a3eedf1d16d43ba"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>191e5f72476202106a3eedf1d16d43ba</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:14</sys_created_on>
+        <sys_id>511e5f72476202106a3eedf1d16d43bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:14</sys_updated_on>
+        <value>x_407566_hot_tra_0_race</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=191e5f72476202106a3eedf1d16d43ba"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>191e5f72476202106a3eedf1d16d43ba</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:14</sys_created_on>
+        <sys_id>dd1e5f72476202106a3eedf1d16d43bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{subflow.input4}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>191e5f72476202106a3eedf1d16d43ba</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:14</sys_created_on>
+        <sys_id>591e5f72476202106a3eedf1d16d43bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>191e5f72476202106a3eedf1d16d43ba</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:14</sys_created_on>
+        <sys_id>1d1e5f72476202106a3eedf1d16d43bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>winner={{subflow.input5}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=191e5f72476202106a3eedf1d16d43ba"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=191e5f72476202106a3eedf1d16d43ba"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Match Winner">851e5f72476202106a3eedf1d16d432d</flow>
+        <generation_source/>
+        <order>8</order>
+        <parent_ui_id>ba980996-b956-4e6e-8912-1a8bfd1eb62d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:14</sys_created_on>
+        <sys_id>251e5f72476202106a3eedf1d16d43d2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:15</sys_updated_on>
+        <ui_id>2625ba28-92f0-4885-8058-ef566b670a73</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=251e5f72476202106a3eedf1d16d43d2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>251e5f72476202106a3eedf1d16d43d2</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:15</sys_created_on>
+        <sys_id>6d1e5f72476202106a3eedf1d16d43d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:15</sys_updated_on>
+        <value>x_407566_hot_tra_0_match</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=251e5f72476202106a3eedf1d16d43d2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>251e5f72476202106a3eedf1d16d43d2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:15</sys_created_on>
+        <sys_id>e91e5f72476202106a3eedf1d16d43d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{c1c91358-4e91-43c8-855b-ba5b06b57568.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>251e5f72476202106a3eedf1d16d43d2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:15</sys_created_on>
+        <sys_id>651e5f72476202106a3eedf1d16d43d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>251e5f72476202106a3eedf1d16d43d2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:15</sys_created_on>
+        <sys_id>291e5f72476202106a3eedf1d16d43d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>crc={{fd_transform:5da3dd5b-0c67-4a30-925e-c36659aa3362}}^r2_wins={{fd_transform:22f177a2-176f-4ae7-be60-14bebf6f16bc}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=251e5f72476202106a3eedf1d16d43d2"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=251e5f72476202106a3eedf1d16d43d2"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Match Winner">851e5f72476202106a3eedf1d16d432d</flow>
+        <generation_source/>
+        <order>9</order>
+        <parent_ui_id>ba980996-b956-4e6e-8912-1a8bfd1eb62d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:15</sys_created_on>
+        <sys_id>251e5f72476202106a3eedf1d16d43d8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:15</sys_updated_on>
+        <ui_id>e60875d6-c959-4a2e-8689-511bc4c863e8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=251e5f72476202106a3eedf1d16d43d8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>251e5f72476202106a3eedf1d16d43d8</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:15</sys_created_on>
+        <sys_id>6d1e5f72476202106a3eedf1d16d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:15</sys_updated_on>
+        <value>x_407566_hot_tra_0_wheels</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=251e5f72476202106a3eedf1d16d43d8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>251e5f72476202106a3eedf1d16d43d8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:15</sys_created_on>
+        <sys_id>e91e5f72476202106a3eedf1d16d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{1de33520-b420-4c3a-af08-bc4c242bbd59.record.racer_2}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>251e5f72476202106a3eedf1d16d43d8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:15</sys_created_on>
+        <sys_id>651e5f72476202106a3eedf1d16d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>251e5f72476202106a3eedf1d16d43d8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:15</sys_created_on>
+        <sys_id>291e5f72476202106a3eedf1d16d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>race_wins={{fd_transform:ff3d23e0-096a-4b4e-bcd3-590616bb5131}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=251e5f72476202106a3eedf1d16d43d8"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=251e5f72476202106a3eedf1d16d43d8"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Match Winner">851e5f72476202106a3eedf1d16d432d</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>ba980996-b956-4e6e-8912-1a8bfd1eb62d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:14</sys_created_on>
+        <sys_id>551e5f72476202106a3eedf1d16d43cc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:14</sys_updated_on>
+        <ui_id>1de33520-b420-4c3a-af08-bc4c242bbd59</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=551e5f72476202106a3eedf1d16d43cc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>551e5f72476202106a3eedf1d16d43cc</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:14</sys_created_on>
+        <sys_id>9d1e5f72476202106a3eedf1d16d43cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:14</sys_updated_on>
+        <value>x_407566_hot_tra_0_race</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=551e5f72476202106a3eedf1d16d43cc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>551e5f72476202106a3eedf1d16d43cc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:14</sys_created_on>
+        <sys_id>1d1e5f72476202106a3eedf1d16d43cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{subflow.input4}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>551e5f72476202106a3eedf1d16d43cc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:14</sys_created_on>
+        <sys_id>951e5f72476202106a3eedf1d16d43cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>551e5f72476202106a3eedf1d16d43cc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:14</sys_created_on>
+        <sys_id>591e5f72476202106a3eedf1d16d43cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>winner={{subflow.input6}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=551e5f72476202106a3eedf1d16d43cc"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=551e5f72476202106a3eedf1d16d43cc"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Match Winner">851e5f72476202106a3eedf1d16d432d</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:14</sys_created_on>
+        <sys_id>591e5f72476202106a3eedf1d16d43b2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:14</sys_updated_on>
+        <ui_id>c1c91358-4e91-43c8-855b-ba5b06b57568</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=591e5f72476202106a3eedf1d16d43b2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>591e5f72476202106a3eedf1d16d43b2</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:14</sys_created_on>
+        <sys_id>551e5f72476202106a3eedf1d16d43b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:14</sys_updated_on>
+        <value>x_407566_hot_tra_0_match</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=591e5f72476202106a3eedf1d16d43b2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>591e5f72476202106a3eedf1d16d43b2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:14</sys_created_on>
+        <sys_id>111e5f72476202106a3eedf1d16d43b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>sys_id={{subflow.input1}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>591e5f72476202106a3eedf1d16d43b2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:14</sys_created_on>
+        <sys_id>d11e5f72476202106a3eedf1d16d43b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=591e5f72476202106a3eedf1d16d43b2"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=591e5f72476202106a3eedf1d16d43b2"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Match Winner">851e5f72476202106a3eedf1d16d432d</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>5fb70abf-d8cb-4914-9298-f1dc4592730a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:14</sys_created_on>
+        <sys_id>951e5f72476202106a3eedf1d16d43c6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:14</sys_updated_on>
+        <ui_id>42cab470-bd75-4f5c-aaf7-718b84427bf6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=951e5f72476202106a3eedf1d16d43c6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>951e5f72476202106a3eedf1d16d43c6</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:14</sys_created_on>
+        <sys_id>dd1e5f72476202106a3eedf1d16d43c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:14</sys_updated_on>
+        <value>x_407566_hot_tra_0_wheels</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=951e5f72476202106a3eedf1d16d43c6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>951e5f72476202106a3eedf1d16d43c6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:14</sys_created_on>
+        <sys_id>5d1e5f72476202106a3eedf1d16d43c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{78f155bd-1a6b-4492-b3f6-02e198a40e4b.record.racer_1}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>951e5f72476202106a3eedf1d16d43c6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:14</sys_created_on>
+        <sys_id>d51e5f72476202106a3eedf1d16d43c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>951e5f72476202106a3eedf1d16d43c6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:14</sys_created_on>
+        <sys_id>991e5f72476202106a3eedf1d16d43c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>race_wins={{fd_transform:4ba10158-35e9-4b01-8710-0dc0d513df7f}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=951e5f72476202106a3eedf1d16d43c6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=951e5f72476202106a3eedf1d16d43c6"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Match Winner">851e5f72476202106a3eedf1d16d432d</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>5fb70abf-d8cb-4914-9298-f1dc4592730a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:14</sys_created_on>
+        <sys_id>d51e5f72476202106a3eedf1d16d43c0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:14</sys_updated_on>
+        <ui_id>6ff2bbb0-e0f0-4c83-90c9-7917fc6fed5f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d51e5f72476202106a3eedf1d16d43c0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d51e5f72476202106a3eedf1d16d43c0</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:14</sys_created_on>
+        <sys_id>111e5f72476202106a3eedf1d16d43c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:14</sys_updated_on>
+        <value>x_407566_hot_tra_0_match</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d51e5f72476202106a3eedf1d16d43c0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>d51e5f72476202106a3eedf1d16d43c0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:14</sys_created_on>
+        <sys_id>9d1e5f72476202106a3eedf1d16d43c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{c1c91358-4e91-43c8-855b-ba5b06b57568.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d51e5f72476202106a3eedf1d16d43c0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:14</sys_created_on>
+        <sys_id>191e5f72476202106a3eedf1d16d43c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>d51e5f72476202106a3eedf1d16d43c0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:14</sys_created_on>
+        <sys_id>d91e5f72476202106a3eedf1d16d43c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>crc={{fd_transform:209038a9-894b-4460-9d2e-b7e45fbaf135}}^r1_wins={{fd_transform:deff4734-04f6-4c5a-928e-bb78f05efd56}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d51e5f72476202106a3eedf1d16d43c0"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d51e5f72476202106a3eedf1d16d43c0"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=851e5f72476202106a3eedf1d16d432d"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=851e5f72476202106a3eedf1d16d432d^sys_idNOT IN991e5f72476202106a3eedf1d16d4394,dd1e5f72476202106a3eedf1d16d4398"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">1c1e1f72476202106a3eedf1d16d4393</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update Match Winner">851e5f72476202106a3eedf1d16d432d</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:13</sys_created_on>
+        <sys_id>991e5f72476202106a3eedf1d16d4394</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:14</sys_updated_on>
+        <ui_id>5fb70abf-d8cb-4914-9298-f1dc4592730a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=991e5f72476202106a3eedf1d16d4394"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>991e5f72476202106a3eedf1d16d4394</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:14</sys_created_on>
+        <sys_id>911e5f72476202106a3eedf1d16d4398</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:14</sys_updated_on>
+        <value>Racer 1 Winner</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=991e5f72476202106a3eedf1d16d4394"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>991e5f72476202106a3eedf1d16d4394</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:14</sys_created_on>
+        <sys_id>111e5f72476202106a3eedf1d16d4398</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:14</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{subflow.input2}}&lt;{{subflow.input3}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>991e5f72476202106a3eedf1d16d4394</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:14</sys_created_on>
+        <sys_id>5d1e5f72476202106a3eedf1d16d4397</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:14</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=991e5f72476202106a3eedf1d16d4394"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=991e5f72476202106a3eedf1d16d4394"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">681e1f72476202106a3eedf1d16d43ab</block>
+        <comment/>
+        <connected_to>5fb70abf-d8cb-4914-9298-f1dc4592730a</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update Match Winner">851e5f72476202106a3eedf1d16d432d</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:14</sys_created_on>
+        <sys_id>dd1e5f72476202106a3eedf1d16d4398</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:14</sys_updated_on>
+        <ui_id>ba980996-b956-4e6e-8912-1a8bfd1eb62d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=dd1e5f72476202106a3eedf1d16d4398"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>dd1e5f72476202106a3eedf1d16d4398</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:14</sys_created_on>
+        <sys_id>d11e5f72476202106a3eedf1d16d439c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:14</sys_updated_on>
+        <value>Racer 2 Winner</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=dd1e5f72476202106a3eedf1d16d4398"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>dd1e5f72476202106a3eedf1d16d4398</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:14</sys_created_on>
+        <sys_id>511e5f72476202106a3eedf1d16d439c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:14</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value>{{subflow.input3}}&lt;{{subflow.input2}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>dd1e5f72476202106a3eedf1d16d4398</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:14</sys_created_on>
+        <sys_id>9d1e5f72476202106a3eedf1d16d439b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:14</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=dd1e5f72476202106a3eedf1d16d4398"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=dd1e5f72476202106a3eedf1d16d4398"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=851e5f72476202106a3eedf1d16d432d^sys_idNOT IN211e5f72476202106a3eedf1d16d43da,211e5f72476202106a3eedf1d16d43db,251e5f72476202106a3eedf1d16d43da,251e5f72476202106a3eedf1d16d43db,291e5f72476202106a3eedf1d16d43da,2d1e5f72476202106a3eedf1d16d43da,a11e5f72476202106a3eedf1d16d43da,a11e5f72476202106a3eedf1d16d43db,a51e5f72476202106a3eedf1d16d43da,a51e5f72476202106a3eedf1d16d43db,a91e5f72476202106a3eedf1d16d43da,ad1e5f72476202106a3eedf1d16d43da"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>851e5f72476202106a3eedf1d16d432d</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>deff4734-04f6-4c5a-928e-bb78f05efd56</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:15</sys_created_on>
+        <sys_id>211e5f72476202106a3eedf1d16d43da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:15</sys_updated_on>
+        <transform_compositions>[{"id":"06190ffa23a220103a3339e1d7bf65f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"1","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="add">50980bfa23a220103a3339e1d7bf6510</transform_definition_id>
+        <ui_id>75b9de5f-b769-4f2e-8f2f-f4594b639fe6</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>851e5f72476202106a3eedf1d16d432d</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{c1c91358-4e91-43c8-855b-ba5b06b57568.Record.r2_wins}}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:15</sys_created_on>
+        <sys_id>211e5f72476202106a3eedf1d16d43db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:15</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>22f177a2-176f-4ae7-be60-14bebf6f16bc</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>851e5f72476202106a3eedf1d16d432d</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>4ba10158-35e9-4b01-8710-0dc0d513df7f</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:15</sys_created_on>
+        <sys_id>251e5f72476202106a3eedf1d16d43da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:15</sys_updated_on>
+        <transform_compositions>[{"id":"06190ffa23a220103a3339e1d7bf65f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"1","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="add">50980bfa23a220103a3339e1d7bf6510</transform_definition_id>
+        <ui_id>f5e24b1e-9907-47bb-8925-94086c62840d</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>851e5f72476202106a3eedf1d16d432d</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{1de33520-b420-4c3a-af08-bc4c242bbd59.record.racer_2.race_wins}}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:15</sys_created_on>
+        <sys_id>251e5f72476202106a3eedf1d16d43db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:15</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>ff3d23e0-096a-4b4e-bcd3-590616bb5131</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>851e5f72476202106a3eedf1d16d432d</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>209038a9-894b-4460-9d2e-b7e45fbaf135</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:15</sys_created_on>
+        <sys_id>291e5f72476202106a3eedf1d16d43da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:15</sys_updated_on>
+        <transform_compositions>[{"id":"06190ffa23a220103a3339e1d7bf65f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"1","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="add">50980bfa23a220103a3339e1d7bf6510</transform_definition_id>
+        <ui_id>342b34d6-2ee1-4a9a-965d-386dda14f1e1</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>851e5f72476202106a3eedf1d16d432d</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{c1c91358-4e91-43c8-855b-ba5b06b57568.Record.crc}}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:15</sys_created_on>
+        <sys_id>2d1e5f72476202106a3eedf1d16d43da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:15</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>209038a9-894b-4460-9d2e-b7e45fbaf135</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>851e5f72476202106a3eedf1d16d432d</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{c1c91358-4e91-43c8-855b-ba5b06b57568.Record.crc}}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:15</sys_created_on>
+        <sys_id>a11e5f72476202106a3eedf1d16d43da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:15</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>5da3dd5b-0c67-4a30-925e-c36659aa3362</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>851e5f72476202106a3eedf1d16d432d</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>ff3d23e0-096a-4b4e-bcd3-590616bb5131</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:15</sys_created_on>
+        <sys_id>a11e5f72476202106a3eedf1d16d43db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:15</sys_updated_on>
+        <transform_compositions>[{"id":"06190ffa23a220103a3339e1d7bf65f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"1","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="add">50980bfa23a220103a3339e1d7bf6510</transform_definition_id>
+        <ui_id>5105632a-b5c4-4a8b-aa78-0bd8399d6f14</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>851e5f72476202106a3eedf1d16d432d</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{c1c91358-4e91-43c8-855b-ba5b06b57568.Record.r1_wins}}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:15</sys_created_on>
+        <sys_id>a51e5f72476202106a3eedf1d16d43da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:15</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>deff4734-04f6-4c5a-928e-bb78f05efd56</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>851e5f72476202106a3eedf1d16d432d</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>22f177a2-176f-4ae7-be60-14bebf6f16bc</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:15</sys_created_on>
+        <sys_id>a51e5f72476202106a3eedf1d16d43db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:15</sys_updated_on>
+        <transform_compositions>[{"id":"06190ffa23a220103a3339e1d7bf65f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"1","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="add">50980bfa23a220103a3339e1d7bf6510</transform_definition_id>
+        <ui_id>234ea0d8-1e53-48be-b2a2-580161746ebd</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>851e5f72476202106a3eedf1d16d432d</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>5da3dd5b-0c67-4a30-925e-c36659aa3362</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:15</sys_created_on>
+        <sys_id>a91e5f72476202106a3eedf1d16d43da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:15</sys_updated_on>
+        <transform_compositions>[{"id":"06190ffa23a220103a3339e1d7bf65f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"1","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="add">50980bfa23a220103a3339e1d7bf6510</transform_definition_id>
+        <ui_id>e466aacc-e957-4754-9970-b478d34ca6a7</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>851e5f72476202106a3eedf1d16d432d</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{78f155bd-1a6b-4492-b3f6-02e198a40e4b.record.racer_1.race_wins}}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:15</sys_created_on>
+        <sys_id>ad1e5f72476202106a3eedf1d16d43da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:15</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>4ba10158-35e9-4b01-8710-0dc0d513df7f</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=851e5f72476202106a3eedf1d16d432d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_851e5f72476202106a3eedf1d16d432d^sys_idNOT IN011e5f72476202106a3eedf1d16d434b,091e5f72476202106a3eedf1d16d4377,851e5f72476202106a3eedf1d16d436f,8d1e5f72476202106a3eedf1d16d4352,8d1e5f72476202106a3eedf1d16d435a,c91e5f72476202106a3eedf1d16d437f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>input1</element>
+        <help/>
+        <hint/>
+        <label>trigger_round_match</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_851e5f72476202106a3eedf1d16d432d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:13</sys_created_on>
+        <sys_id>011e5f72476202106a3eedf1d16d434b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>input5</element>
+        <help/>
+        <hint/>
+        <label>trigger_racer_1</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_851e5f72476202106a3eedf1d16d432d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:13</sys_created_on>
+        <sys_id>091e5f72476202106a3eedf1d16d4377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>input4</element>
+        <help/>
+        <hint/>
+        <label>trigger_current</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_851e5f72476202106a3eedf1d16d432d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:13</sys_created_on>
+        <sys_id>851e5f72476202106a3eedf1d16d436f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>input2</element>
+        <help/>
+        <hint/>
+        <label>trigger_r1_time</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_851e5f72476202106a3eedf1d16d432d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:13</sys_created_on>
+        <sys_id>8d1e5f72476202106a3eedf1d16d4352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>input3</element>
+        <help/>
+        <hint/>
+        <label>trigger_r2_time</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_851e5f72476202106a3eedf1d16d432d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:13</sys_created_on>
+        <sys_id>8d1e5f72476202106a3eedf1d16d435a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>input6</element>
+        <help/>
+        <hint/>
+        <label>trigger_racer_2</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_851e5f72476202106a3eedf1d16d432d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:13</sys_created_on>
+        <sys_id>c91e5f72476202106a3eedf1d16d437f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_851e5f72476202106a3eedf1d16d432d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_851e5f72476202106a3eedf1d16d432d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_851e5f72476202106a3eedf1d16d432d"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>041e97fe472202106a3eedf1d16d43a8</sys_id>
+        <latest_snapshot>851e5f72476202106a3eedf1d16d432d</latest_snapshot>
+        <compiler_build>glide-washingtondc-12-20-2023__patch3-hotfix1-05-12-2024_05-16-2024_0813.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=041e97fe472202106a3eedf1d16d43a8"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=041e97fe472202106a3eedf1d16d43a8^sys_idNOT INe91e9f72476202106a3eedf1d16d431f"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"e91e9f72476202106a3eedf1d16d431f","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="Update Race Winner">041e97fe472202106a3eedf1d16d43a8</plan_id>
+        <snapshot>cb29a7f247a202106a3eedf1d16d43a3</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-06 16:18:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e91e9f72476202106a3eedf1d16d431f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-06 16:18:15</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>

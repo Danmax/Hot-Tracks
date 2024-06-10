@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d08e9ca6479202106a3eedf1d16d43f5" extends="sys_user" label="Driver" max_length="40" name="x_407566_hot_tra_0_driver" text_index="true" type="collection">
+        <element choice="1" label="Driver Type" max_length="140" name="driver_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Classic Muscle" value="classic_muscle"/>
+                <element inactive_on_update="false" label="First Responder" value="first_responder"/>
+                <element inactive_on_update="false" label="Patriotic Trucker" value="patriotic_trucker"/>
+                <element inactive_on_update="false" label="Rally Off Raoder" value="rally_off_roader"/>
+                <element inactive_on_update="false" label="Casual Driver" value="casual_driver"/>
+                <element inactive_on_update="false" label="Drag Racer" value="drag_racer"/>
+                <element inactive_on_update="false" label="Stunt Driver" value="stunt_driver"/>
+                <element inactive_on_update="false" label="Import Tuner" value="import_tuner"/>
+                <element inactive_on_update="false" label="F1 Motorist" value="f1_motorist"/>
+                <element inactive_on_update="false" label="Euro Exotic" value="euro_exotic"/>
+                <element inactive_on_update="false" label="Reckless Felon" value="reckless_felon"/>
+                <element inactive_on_update="false" label="Electric Cybernetic" value="electric_cybernetic"/>
+                <element inactive_on_update="false" label="Track Star" value="track_star"/>
+                <element inactive_on_update="false" label="Speed Racer" value="speed_racer"/>
+                <element inactive_on_update="false" label="Shut it Down Drifter" value="shut_it_down_drifter"/>
+                <element inactive_on_update="false" label="Luxury Tourer" value="luxury_tourer"/>
+            </choice>
+        </element>
+    </element>
+</database>

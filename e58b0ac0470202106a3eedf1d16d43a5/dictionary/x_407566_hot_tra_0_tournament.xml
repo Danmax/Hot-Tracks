@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e69c0644470202106a3eedf1d16d4346" label="Tournament" max_length="40" name="x_407566_hot_tra_0_tournament" text_index="true" type="collection">
+        <element label="Image" max_length="40" name="image" type="user_image"/>
+        <element label="Competitors" max_length="1024" name="competitors" reference="x_407566_hot_tra_0_wheels" type="glide_list"/>
+        <element label="Wins to Advance" max_length="40" name="wins_to_advance" type="integer"/>
+        <element display="true" label="Title" max_length="140" name="title" type="string"/>
+        <element label="Double Elimination" max_length="40" name="double_elimination" type="boolean"/>
+        <element label="Track" max_length="32" name="track" reference="x_407566_hot_tra_0_track" type="reference"/>
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
+        <element label="Cars" max_length="40" name="cars" type="integer"/>
+        <element choice="3" default="draft" label="State" max_length="40" name="tournament_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Completed" sequence="4" value="completed"/>
+                <element inactive_on_update="false" label="On Hold" sequence="3" value="on_hold"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
+                <element inactive_on_update="false" label="In Progress" sequence="2" value="in_progress"/>
+                <element inactive_on_update="false" label="Ready" sequence="1" value="ready"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="5" value="cancelled"/>
+            </choice>
+        </element>
+    </element>
+</database>
