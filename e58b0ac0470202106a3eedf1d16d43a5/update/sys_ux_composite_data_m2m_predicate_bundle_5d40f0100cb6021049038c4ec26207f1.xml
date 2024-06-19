@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Catalog Item page - Related Items dataset">dd40f01036b60210b856d6b6601811f5</dataset>
+        <order/>
+        <predicate_bundle display_value="Custom portal - Related items">dd40f010f8b60210770d27e866f082f2</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-06-10 19:29:45</sys_created_on>
+        <sys_id>5d40f0100cb6021049038c4ec26207f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_5d40f0100cb6021049038c4ec26207f1</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-06-10 19:29:45</sys_updated_on>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+</record_update>
