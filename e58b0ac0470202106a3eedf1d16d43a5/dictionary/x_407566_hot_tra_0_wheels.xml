@@ -29,6 +29,7 @@
         <element label="Driver" max_length="32" name="driver" reference="x_407566_hot_tra_0_driver" type="reference"/>
         <element default="0" label="Rank Points" max_length="255" name="rank_points" read_only="true" type="integer"/>
         <element label="Champion" max_length="40" name="champion" type="boolean"/>
+        <element default="0" label="Qualifier Rank" max_length="40" name="qualifier_rank" type="integer"/>
         <element default="0" label="Match Wins" max_length="40" name="match_wins" read_only="true" type="integer"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element default="0" label="Races" max_length="40" name="races" read_only="true" type="integer"/>

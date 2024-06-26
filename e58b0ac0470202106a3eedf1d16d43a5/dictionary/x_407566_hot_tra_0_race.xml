@@ -21,6 +21,7 @@
             </choice>
         </element>
         <element label="Title" max_length="240" name="title" type="string"/>
+        <element label="Qualifier" max_length="40" name="qualifier" type="boolean"/>
         <index name="index">
             <element name="racer_1"/>
         </index>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="d9200f09470b02106a3eedf1d16d43a2" sys_domain="global" table="x_407566_hot_tra_0_tournament" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-26 00:09:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>55200f09470b02106a3eedf1d16d43a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_407566_hot_tra_0_tournament" name="x_407566_hot_tra_0_tournament" sys_domain="global" view="Default view">d9200f09470b02106a3eedf1d16d43a2</sys_ui_form>
+            <sys_ui_section caption="Tournament" display_value="Tournament" name="x_407566_hot_tra_0_tournament" sys_domain="global" view="Default view">d1200f09470b02106a3eedf1d16d432c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-26 00:09:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-26 00:09:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d1200f09470b02106a3eedf1d16d43a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_407566_hot_tra_0_tournament" name="x_407566_hot_tra_0_tournament" sys_domain="global" view="Default view">d9200f09470b02106a3eedf1d16d43a2</sys_ui_form>
+            <sys_ui_section caption="Tournament" display_value="Tournament" name="x_407566_hot_tra_0_tournament" sys_domain="global" view="Default view">f69c06c0470202106a3eedf1d16d4352</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-26 00:09:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_407566_hot_tra_0_tournament</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-26 00:09:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d9200f09470b02106a3eedf1d16d43a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_407566_hot_tra_0_tournament</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+            <sys_update_name>sys_ui_form_sections_d9200f09470b02106a3eedf1d16d43a2</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-26 00:09:28</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

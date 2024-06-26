@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="e69c0644470202106a3eedf1d16d4346" label="Tournament" max_length="40" name="x_407566_hot_tra_0_tournament" text_index="true" type="collection">
+        <element label="Journal" max_length="40" name="journal" type="journal"/>
         <element label="Image" max_length="40" name="image" type="user_image"/>
-        <element label="Competitors" max_length="1024" name="competitors" reference="x_407566_hot_tra_0_wheels" type="glide_list"/>
+        <element label="QList" max_length="4000" name="qlist" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Competitors" max_length="1024" name="competitors" reference="x_407566_hot_tra_0_wheels" type="glide_list"/>
+        <element choice="3" label="Match Structure" max_length="40" name="match_structure" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Custom" sequence="2" value="custom"/>
+                <element inactive_on_update="false" label="Random" sequence="0" value="random"/>
+                <element inactive_on_update="false" label="Seeded" sequence="1" value="seeded"/>
+            </choice>
+        </element>
         <element label="Wins to Advance" max_length="40" name="wins_to_advance" type="integer"/>
         <element display="true" label="Title" max_length="140" name="title" type="string"/>
         <element label="Double Elimination" max_length="40" name="double_elimination" type="boolean"/>
@@ -10,12 +19,13 @@
         <element label="Cars" max_length="40" name="cars" type="integer"/>
         <element choice="3" default="draft" label="State" max_length="40" name="tournament_state" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Completed" sequence="4" value="completed"/>
-                <element inactive_on_update="false" label="On Hold" sequence="3" value="on_hold"/>
+                <element inactive_on_update="false" label="Qualifier" sequence="1" value="qualifier"/>
+                <element inactive_on_update="false" label="Completed" sequence="5" value="completed"/>
+                <element inactive_on_update="false" label="On Hold" sequence="4" value="on_hold"/>
                 <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
-                <element inactive_on_update="false" label="In Progress" sequence="2" value="in_progress"/>
-                <element inactive_on_update="false" label="Ready" sequence="1" value="ready"/>
-                <element inactive_on_update="false" label="Cancelled" sequence="5" value="cancelled"/>
+                <element inactive_on_update="false" label="In Progress" sequence="3" value="in_progress"/>
+                <element inactive_on_update="false" label="Ready" sequence="2" value="ready"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="6" value="cancelled"/>
             </choice>
         </element>
     </element>
