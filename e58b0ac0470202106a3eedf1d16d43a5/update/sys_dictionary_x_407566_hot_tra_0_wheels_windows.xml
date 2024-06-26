@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="year" table="x_407566_hot_tra_0_wheels">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="windows" table="x_407566_hot_tra_0_wheels">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -8,7 +8,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Manufacturer Year</column_label>
+        <column_label>Windows</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,7 +21,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>year</element>
+        <element>windows</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -46,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-04 00:46:48</sys_created_on>
-        <sys_name>Manufacturer Year</sys_name>
+        <sys_created_on>2024-06-26 17:27:24</sys_created_on>
+        <sys_name>Windows</sys_name>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_update_name>sys_dictionary_x_407566_hot_tra_0_wheels_year</sys_update_name>
+        <sys_update_name>sys_dictionary_x_407566_hot_tra_0_wheels_windows</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-26 17:27:30</sys_updated_on>
+        <sys_updated_on>2024-06-26 17:27:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

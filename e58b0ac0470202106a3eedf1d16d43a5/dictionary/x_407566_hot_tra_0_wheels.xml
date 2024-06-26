@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="39bb4ec0470202106a3eedf1d16d43ad" label="Wheels" max_length="40" name="x_407566_hot_tra_0_wheels" text_index="true" type="collection">
         <element default="0" label="Race Wins" max_length="40" name="race_wins" read_only="true" type="integer"/>
+        <element label="Windows" max_length="40" name="windows" type="string"/>
+        <element label="Color" max_length="40" name="color" type="color"/>
+        <element label="Manufacturer" max_length="140" name="manufacturer" type="string"/>
         <element label="Car Number" max_length="40" name="car_number" type="string"/>
         <element label="Model" max_length="140" name="model" type="string"/>
-        <element label="Year" max_length="40" name="year" type="string"/>
+        <element label="Manufacturer Year" max_length="40" name="year" type="string"/>
         <element choice="3" label="Type" max_length="40" name="type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="First Responder" sequence="11" value="first_responder"/>
@@ -26,12 +29,32 @@
         <element label="Photo" max_length="40" name="photo" type="user_image"/>
         <element label="Weight" max_length="40" name="weight" type="string"/>
         <element display="true" formula="CONCATENATE( year, &quot; &quot; ,model, &quot; &quot;, type)" label="Title" max_length="140" name="title" type="string" virtual="true" virtual_type="formula"/>
+        <element label="Make" max_length="40" name="make" type="string"/>
+        <element choice="3" default="active" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Traded" sequence="2" value="traded"/>
+                <element inactive_on_update="false" label="Junked" sequence="6" value="junked"/>
+                <element inactive_on_update="false" label="In Box" sequence="1" value="in_box"/>
+                <element inactive_on_update="false" label="Retired" sequence="5" value="retired"/>
+                <element inactive_on_update="false" label="On Tour" sequence="4" value="on_tour"/>
+                <element inactive_on_update="false" label="Sold" sequence="3" value="sold"/>
+                <element inactive_on_update="false" label="Active" sequence="0" value="active"/>
+            </choice>
+        </element>
+        <element label="Series No" max_length="40" name="series_no" type="string"/>
         <element label="Driver" max_length="32" name="driver" reference="x_407566_hot_tra_0_driver" type="reference"/>
+        <element label="Scale" max_length="40" name="scale" type="string"/>
         <element default="0" label="Rank Points" max_length="255" name="rank_points" read_only="true" type="integer"/>
+        <element label="Serial #" max_length="40" name="serial" type="string"/>
+        <element label="Estimated Value" max_length="40" name="estimated_value" type="currency"/>
         <element label="Champion" max_length="40" name="champion" type="boolean"/>
+        <element label="URL Link" max_length="40" name="url_link" type="url"/>
         <element default="0" label="Qualifier Rank" max_length="40" name="qualifier_rank" type="integer"/>
         <element default="0" label="Match Wins" max_length="40" name="match_wins" read_only="true" type="integer"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Model Year" max_length="40" name="model_year" type="string"/>
+        <element label="Series" max_length="240" name="series" type="string"/>
+        <element label="Description" max_length="540" name="description" type="string"/>
         <element default="0" label="Races" max_length="40" name="races" read_only="true" type="integer"/>
     </element>
 </database>
