@@ -148,5 +148,24 @@
             <sys_updated_on>2024-06-26 17:27:26</sys_updated_on>
             <value>junked</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MIA</label>
+            <language>en</language>
+            <name>x_407566_hot_tra_0_wheels</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-04 05:25:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-04 05:25:12</sys_updated_on>
+            <value>MIA</value>
+        </sys_choice>
     </sys_choice>
 </record_update>

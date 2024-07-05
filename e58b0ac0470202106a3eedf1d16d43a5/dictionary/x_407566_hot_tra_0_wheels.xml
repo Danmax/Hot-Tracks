@@ -34,6 +34,7 @@
             <choice>
                 <element inactive_on_update="false" label="Traded" sequence="2" value="traded"/>
                 <element inactive_on_update="false" label="Junked" sequence="6" value="junked"/>
+                <element inactive_on_update="false" label="MIA" sequence="7" value="MIA"/>
                 <element inactive_on_update="false" label="In Box" sequence="1" value="in_box"/>
                 <element inactive_on_update="false" label="Retired" sequence="5" value="retired"/>
                 <element inactive_on_update="false" label="On Tour" sequence="4" value="on_tour"/>
@@ -41,20 +42,28 @@
                 <element inactive_on_update="false" label="Active" sequence="0" value="active"/>
             </choice>
         </element>
+        <element label="Last Sold for" max_length="40" name="last_sold_for" type="string"/>
+        <element label="Video" max_length="40" name="video" type="video"/>
         <element label="Series No" max_length="40" name="series_no" type="string"/>
         <element label="Driver" max_length="32" name="driver" reference="x_407566_hot_tra_0_driver" type="reference"/>
         <element label="Scale" max_length="40" name="scale" type="string"/>
         <element default="0" label="Rank Points" max_length="255" name="rank_points" read_only="true" type="integer"/>
         <element label="Serial #" max_length="40" name="serial" type="string"/>
         <element label="Estimated Value" max_length="40" name="estimated_value" type="currency"/>
-        <element label="Champion" max_length="40" name="champion" type="boolean"/>
+        <element label="Champion" max_length="40" name="champion" read_only="true" type="boolean"/>
+        <element default="0" label="DEW" max_length="40" name="dew" type="integer"/>
         <element label="URL Link" max_length="40" name="url_link" type="url"/>
         <element default="0" label="Qualifier Rank" max_length="40" name="qualifier_rank" type="integer"/>
         <element default="0" label="Match Wins" max_length="40" name="match_wins" read_only="true" type="integer"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Fastest Time Record" max_length="32" name="fastest_time_record" reference="x_407566_hot_tra_0_race" type="reference"/>
         <element label="Model Year" max_length="40" name="model_year" type="string"/>
         <element label="Series" max_length="240" name="series" type="string"/>
         <element label="Description" max_length="540" name="description" type="string"/>
+        <element label="Fastest Time" max_length="40" name="fastest_time" type="string"/>
         <element default="0" label="Races" max_length="40" name="races" read_only="true" type="integer"/>
+        <index name="index">
+            <element name="fastest_time_record"/>
+        </index>
     </element>
 </database>
