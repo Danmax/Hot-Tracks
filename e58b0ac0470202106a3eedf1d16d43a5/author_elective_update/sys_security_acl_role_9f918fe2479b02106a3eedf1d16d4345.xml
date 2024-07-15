@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-13 02:22:28</sys_created_on>
+        <sys_id>9f918fe2479b02106a3eedf1d16d4345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_407566_hot_tra_0_group_member.x_407566_hot_tra_0.user</sys_name>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_security_acl display_value="x_407566_hot_tra_0_group_member">4b918fe2479b02106a3eedf1d16d4332</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_9f918fe2479b02106a3eedf1d16d4345</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-13 02:22:28</sys_updated_on>
+        <sys_user_role display_value="x_407566_hot_tra_0.user" name="x_407566_hot_tra_0.user">258b0ac0470202106a3eedf1d16d43cd</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</application>
+        <file_path/>
+        <instance_id>41d1b26fdb62b59438f117291396196f</instance_id>
+        <instance_name>dev221640</instance_name>
+        <name>sys_security_acl_role_9f918fe2479b02106a3eedf1d16d4345</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-13 02:22:28</sys_created_on><sys_id>9f918fe2479b02106a3eedf1d16d4345</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_407566_hot_tra_0_group_member.x_407566_hot_tra_0.user</sys_name><sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package><sys_policy/><sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope><sys_security_acl display_value="x_407566_hot_tra_0_group_member">4b918fe2479b02106a3eedf1d16d4332</sys_security_acl><sys_update_name>sys_security_acl_role_9f918fe2479b02106a3eedf1d16d4345</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-13 02:22:28</sys_updated_on><sys_user_role display_value="x_407566_hot_tra_0.user" name="x_407566_hot_tra_0.user">258b0ac0470202106a3eedf1d16d43cd</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1389536165</payload_hash>
+        <record_name>x_407566_hot_tra_0_group_member.x_407566_hot_tra_0.user</record_name>
+        <reverted_from/>
+        <source>c8c4e8d4473602106a3eedf1d16d43b9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-13 02:22:28</sys_created_on>
+        <sys_id>93918fe2479b02106a3eedf1d16d434b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190a9e61b9b0000002</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-13 02:22:28</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>97918fe26e9b02103f46de8c9e8cd34a</update_guid>
+        <update_guid_history>97918fe26e9b02103f46de8c9e8cd34a:-1389536165</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_407566_hot_tra_0_group_member.x_407566_hot_tra_0.user">0d81db6a47db02106a3eedf1d16d4349</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-13 03:31:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>0c6e12f809b64e1494c42784f58cd0b9</sys_id>
+        <sys_metadata>9f918fe2479b02106a3eedf1d16d4345</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_407566_hot_tra_0_group_member.x_407566_hot_tra_0.user</sys_name>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_parent display_value="">4b918fe2479b02106a3eedf1d16d4332</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope_delete display_value="">5360a778b1d14ee69fe48f4dc1dd5bf1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_9f918fe2479b02106a3eedf1d16d4345</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_9f918fe2479b02106a3eedf1d16d4345">93918fe2479b02106a3eedf1d16d434b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-13 03:31:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

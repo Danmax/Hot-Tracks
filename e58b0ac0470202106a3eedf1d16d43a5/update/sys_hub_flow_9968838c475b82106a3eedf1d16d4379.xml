@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=4472000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=50827000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>25000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,7 +15,7 @@
         <flow_priority/>
         <generation_source/>
         <internal_name>copy_of_update_match_winner_and_fastest_time</internal_name>
-        <label_cache>[{"name":"Updated_1.current.tournament","label":"Trigger - Record Updated➛Match Record➛Tournament","reference":"x_407566_hot_tra_0_tournament","reference_display":"Tournament","type":"reference","base_type":"reference","usedInstances":{"f041aa91-5dd2-47cc-852d-8f9321123e2c":["tournament"]}},{"name":"e50bfe35-747d-4adb-b290-c0c9a1ea2089.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{"f01cf3d4-205c-405e-b7fd-161f03505c6b":["condition"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"e50bfe35-747d-4adb-b290-c0c9a1ea2089.__action_status__.code","label":"1 - Look Up Record➛Action Status➛Code","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{}},{"name":"flow_variable.loser.model","label":"Flow Variables➛Loser➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","usedInstances":{"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77":["title"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["title"]}},{"name":"e50bfe35-747d-4adb-b290-c0c9a1ea2089.Record.racer_1.model","label":"1 - Look Up Record➛Match Record➛Racer 1➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","usedInstances":{"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77":["title"]}},{"name":"flow_variable.loser","label":"Flow Variables➛Loser","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77":["racer_2","title"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["racer_1"]}},{"name":"Updated_1.current.match_winner","label":"Trigger - Record Updated➛Match Record➛Match Winner","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"26416c5b-b1c1-4f9f-9caf-1ed87d31dca3":["winner-0"]}},{"name":"e50bfe35-747d-4adb-b290-c0c9a1ea2089.Record","label":"1 - Look Up Record➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7f3589f9-aa2f-4251-856e-1f15a5f8a056.Records","label":"3 - Look Up Records➛Race Records","reference":"x_407566_hot_tra_0_race","reference_display":"Race","type":"records","base_type":"records","usedInstances":{"933800be-e59a-4e01-8596-ba450ef703b7":["log_message"]}},{"name":"888d574a-f301-425f-bff4-99daf42ea63c.record.match_winner.rank_points","label":"19 - Update Record➛Match Record➛Match Winner➛Rank Points","reference":"","reference_display":"Rank Points","type":"integer","base_type":"integer","usedInstances":{"88e0a138-996a-40d5-b737-494cab1d9ccb":["rank_points"]}},{"name":"888d574a-f301-425f-bff4-99daf42ea63c.record.match_winner.match_wins","label":"19 - Update Record➛Match Record➛Match Winner➛Match Wins","reference":"","reference_display":"Match Wins","type":"integer","base_type":"integer","usedInstances":{"88e0a138-996a-40d5-b737-494cab1d9ccb":["match_wins"]}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.match_winner.rank_points","label":"11 - Update Record➛Match Record➛Match Winner➛Rank Points","reference":"","reference_display":"Rank Points","type":"integer","base_type":"integer","usedInstances":{"48b6a60d-0290-463e-8e1f-d8960e3a9e13":["rank_points"]}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.match_winner.match_wins","label":"11 - Update Record➛Match Record➛Match Winner➛Match Wins","reference":"","reference_display":"Match Wins","type":"integer","base_type":"integer","usedInstances":{"48b6a60d-0290-463e-8e1f-d8960e3a9e13":["match_wins"]}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.racer_1.match_wins","label":"11 - Update Record➛Match Record➛Racer 1➛Match Wins","reference":"","reference_display":"Match Wins","type":"integer","base_type":"integer","usedInstances":{"48b6a60d-0290-463e-8e1f-d8960e3a9e13":["match_wins"]}},{"name":"888d574a-f301-425f-bff4-99daf42ea63c.record.wins_to_advance","label":"19 - Update Record➛Match Record➛Wins To Advance","reference":"","reference_display":"Wins To Advance","type":"integer","base_type":"integer","usedInstances":{"86fd16dd-16c5-4491-8164-b854f2ddc65d":["wins_to_advance"]}},{"name":"888d574a-f301-425f-bff4-99daf42ea63c.record.tournament","label":"19 - Update Record➛Match Record➛Tournament","reference":"x_407566_hot_tra_0_tournament","reference_display":"Tournament","type":"reference","base_type":"reference","usedInstances":{"86fd16dd-16c5-4491-8164-b854f2ddc65d":["tournament"]}},{"name":"888d574a-f301-425f-bff4-99daf42ea63c.record.match_winner.model","label":"19 - Update Record➛Match Record➛Match Winner➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","usedInstances":{"86fd16dd-16c5-4491-8164-b854f2ddc65d":["title"],"bddbd6a1-2c56-49e6-a78c-125ecc1f37d7":["title"]}},{"name":"51e1f4b0-b0cb-4d56-b80c-03ec5ab3cdca.Record.racer_1.model","label":"22 - Look Up Record➛Match Record➛Racer 1➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","usedInstances":{"bddbd6a1-2c56-49e6-a78c-125ecc1f37d7":["title"]}},{"name":"888d574a-f301-425f-bff4-99daf42ea63c.record.match_winner","label":"19 - Update Record➛Match Record➛Match Winner","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"86fd16dd-16c5-4491-8164-b854f2ddc65d":["racer_1"],"88e0a138-996a-40d5-b737-494cab1d9ccb":["record"],"bddbd6a1-2c56-49e6-a78c-125ecc1f37d7":["racer_2"]}},{"name":"51e1f4b0-b0cb-4d56-b80c-03ec5ab3cdca.Record","label":"22 - Look Up Record➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"bddbd6a1-2c56-49e6-a78c-125ecc1f37d7":["record"]}},{"name":"51e1f4b0-b0cb-4d56-b80c-03ec5ab3cdca.status","label":"22 - Look Up Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","usedInstances":{"abe87e0a-20c8-4b66-aaa1-e41e69801b1b":["condition"],"c0b7b823-85f7-42b2-a40a-a85cf7fa9ad4":["condition"]}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.match_winner.model","label":"11 - Update Record➛Match Record➛Match Winner➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","usedInstances":{"86fd16dd-16c5-4491-8164-b854f2ddc65d":["values"],"bddbd6a1-2c56-49e6-a78c-125ecc1f37d7":["values"],"5656faea-cd0a-4b96-9ef6-0be09248d18e":["title"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["values"],"3040bff9-8e4d-45d2-8c3d-7c683513f971":["title"]}},{"name":"f3a5bdf0-0711-4ed6-ad0c-50805de08f62.Record.racer_1.model","label":"13 - Look Up Record➛Match Record➛Racer 1➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","usedInstances":{"bddbd6a1-2c56-49e6-a78c-125ecc1f37d7":["values"],"3040bff9-8e4d-45d2-8c3d-7c683513f971":["title"]}},{"name":"f3a5bdf0-0711-4ed6-ad0c-50805de08f62.Record.match_winner.model","label":"13 - Look Up Record➛Match Record➛Match Winner➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","usedInstances":{"5656faea-cd0a-4b96-9ef6-0be09248d18e":["title"]}},{"name":"f3a5bdf0-0711-4ed6-ad0c-50805de08f62.Record.tournament.wins_to_advance","label":"13 - Look Up Record➛Match Record➛Tournament➛Wins to Advance","reference":"","reference_display":"Wins to Advance","type":"integer","base_type":"integer","usedInstances":{"86fd16dd-16c5-4491-8164-b854f2ddc65d":["values"],"5656faea-cd0a-4b96-9ef6-0be09248d18e":["wins_to_advance"]}},{"name":"f3a5bdf0-0711-4ed6-ad0c-50805de08f62.Record.match_winner","label":"13 - Look Up Record➛Match Record➛Match Winner","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"5656faea-cd0a-4b96-9ef6-0be09248d18e":["racer_1"]}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.racer_1","label":"11 - Update Record➛Match Record➛Racer 1","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"48b6a60d-0290-463e-8e1f-d8960e3a9e13":["record"],"88e0a138-996a-40d5-b737-494cab1d9ccb":["record"],"5656faea-cd0a-4b96-9ef6-0be09248d18e":["racer_1"]}},{"name":"f3a5bdf0-0711-4ed6-ad0c-50805de08f62.Record","label":"13 - Look Up Record➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"bddbd6a1-2c56-49e6-a78c-125ecc1f37d7":["record"],"3040bff9-8e4d-45d2-8c3d-7c683513f971":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.tournament.wins_to_advance","label":"11 - Update Record➛Match Record➛Tournament➛Wins to Advance","reference":"","reference_display":"Wins to Advance","type":"integer","base_type":"integer","usedInstances":{"50cb652f-b58f-4184-98c7-e10d6cff8bf8":["wins_to_advance"]}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.tournament","label":"11 - Update Record➛Match Record➛Tournament","reference":"x_407566_hot_tra_0_tournament","reference_display":"Tournament","type":"reference","base_type":"reference","usedInstances":{"50cb652f-b58f-4184-98c7-e10d6cff8bf8":["tournament"],"86fd16dd-16c5-4491-8164-b854f2ddc65d":["values"],"5656faea-cd0a-4b96-9ef6-0be09248d18e":["tournament"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["values"],"3040bff9-8e4d-45d2-8c3d-7c683513f971":["tournament"]}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.match_winner","label":"11 - Update Record➛Match Record➛Match Winner","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"50cb652f-b58f-4184-98c7-e10d6cff8bf8":["racer_1"],"86fd16dd-16c5-4491-8164-b854f2ddc65d":["values"],"48b6a60d-0290-463e-8e1f-d8960e3a9e13":["record"],"bddbd6a1-2c56-49e6-a78c-125ecc1f37d7":["values"],"5656faea-cd0a-4b96-9ef6-0be09248d18e":["racer_1"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["values"],"3040bff9-8e4d-45d2-8c3d-7c683513f971":["racer_2"]}},{"name":"a46eca6b-2df5-4526-a63f-eee830e6fe38.Records","label":"4 - Look Up Records➛Match Records","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"records","base_type":"records","usedInstances":{"49229065-f53d-4404-a3f6-e0fd45831d0c":["condition"],"599ebafb-fb04-46d4-8b6d-ca5c345d0d23":["condition"]}},{"name":"flow_variable.nextround","label":"Flow Variables➛Next Round","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"50cb652f-b58f-4184-98c7-e10d6cff8bf8":["round"],"a46eca6b-2df5-4526-a63f-eee830e6fe38":["conditions"],"86fd16dd-16c5-4491-8164-b854f2ddc65d":["values"],"f3a5bdf0-0711-4ed6-ad0c-50805de08f62":["conditions"],"51e1f4b0-b0cb-4d56-b80c-03ec5ab3cdca":["conditions"],"5656faea-cd0a-4b96-9ef6-0be09248d18e":["round"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["round"],"3040bff9-8e4d-45d2-8c3d-7c683513f971":["round"]}},{"name":"Updated_1.current.round","label":"Trigger - Record Updated➛Match Record➛Round","reference":"","reference_display":"Round","type":"integer","base_type":"integer","usedInstances":{"4f34309a-0af0-410c-a179-f57117c4eeae":["nextround-0"],"c201ac4d-5017-49e4-8255-567dbc5d3fd1":["title"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"6a49c93b-ba52-495b-b324-bd9394b2620a":["record"],"b8ee6354-810c-4113-ada6-4c38f5ff94d0":["conditions"],"7f3589f9-aa2f-4251-856e-1f15a5f8a056":["conditions"],"26416c5b-b1c1-4f9f-9caf-1ed87d31dca3":["winner-0"],"d42f9ef8-dc00-485c-b2e1-e3448c7b47ef":["conditions"],"888d574a-f301-425f-bff4-99daf42ea63c":["record"],"c201ac4d-5017-49e4-8255-567dbc5d3fd1":["round_match"],"5c8dacf0-82f1-4f4a-b04d-e492abf81e95":["conditions"]}},{"name":"Updated_1.current.crc","label":"Trigger - Record Updated➛Match Record➛CRC","reference":"","reference_display":"CRC","type":"integer","base_type":"integer","usedInstances":{"98719461-8b8f-4af6-aac9-841350908db2":["condition"],"c201ac4d-5017-49e4-8255-567dbc5d3fd1":["race","title"]}},{"name":"Updated_1.current.racer_2","label":"Trigger - Record Updated➛Match Record➛Racer 2","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"249b1112-f433-4522-8412-ca15ed631caf":["match_winner"],"888d574a-f301-425f-bff4-99daf42ea63c":["match_winner"],"c201ac4d-5017-49e4-8255-567dbc5d3fd1":["racer_2"]}},{"name":"Updated_1.current.racer_1","label":"Trigger - Record Updated➛Match Record➛Racer 1","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"6a49c93b-ba52-495b-b324-bd9394b2620a":["match_winner"],"b97b6a56-02a8-4430-9fb4-6969009a5a47":["match_winner"],"c201ac4d-5017-49e4-8255-567dbc5d3fd1":["racer_1"]}},{"name":"Updated_1.current.r2_wins","label":"Trigger - Record Updated➛Match Record➛R2 Wins","reference":"","reference_display":"R2 Wins","type":"integer","base_type":"integer","usedInstances":{"98719461-8b8f-4af6-aac9-841350908db2":["condition"],"a992be41-1a34-429d-9dad-7a14808e7c8c":["condition"]}},{"name":"Updated_1.current.wins_to_advance","label":"Trigger - Record Updated➛Match Record➛Wins To Advance","reference":"","reference_display":"Wins To Advance","type":"integer","base_type":"integer","usedInstances":{"98719461-8b8f-4af6-aac9-841350908db2":["condition"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["wins_to_advance"],"db21e1cd-296f-4088-b991-b3bac7c198f3":["condition"],"a992be41-1a34-429d-9dad-7a14808e7c8c":["condition"]}},{"name":"Updated_1.current.r1_wins","label":"Trigger - Record Updated➛Match Record➛R1 Wins","reference":"","reference_display":"R1 Wins","type":"integer","base_type":"integer","usedInstances":{"98719461-8b8f-4af6-aac9-841350908db2":["condition"],"db21e1cd-296f-4088-b991-b3bac7c198f3":["condition"]}},{"name":"f3a5bdf0-0711-4ed6-ad0c-50805de08f62.status","label":"13 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{"caba02a0-4704-40ca-8194-b85c6824742b":["condition"],"b533f96a-c6ee-4e58-b492-746de9776111":["condition"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.wins_to_advance","label":"11 - Update Record➛Match Record➛Wins To Advance","reference":"","reference_display":"Wins To Advance","type":"integer","base_type":"integer","usedInstances":{"5656faea-cd0a-4b96-9ef6-0be09248d18e":["wins_to_advance"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["values"]}},{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛Match Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","usedInstances":{"500e617e-71fb-464c-94df-f975ab8f9d9d":["match_sys_id"],"88cfaa6a-18f9-46d2-a4cf-133cde0bb021":["match_sys_id"]}},{"name":"500e617e-71fb-464c-94df-f975ab8f9d9d.fastest_time","label":"10 - Get Fastest Time➛Fastest Time","reference_display":"Fastest Time","type":"decimal","base_type":"decimal","usedInstances":{"6a49c93b-ba52-495b-b324-bd9394b2620a":["fastest_time"]},"attributes":{"uiType":"decimal","uiTypeLabel":"Decimal","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"edc4b4fb-7371-49df-a187-ac893f793664"}},{"name":"88cfaa6a-18f9-46d2-a4cf-133cde0bb021.fastest_time","label":"19 - Get Fastest Time➛Fastest Time","reference":"","reference_display":"Fastest Time","type":"decimal","base_type":"decimal","usedInstances":{"888d574a-f301-425f-bff4-99daf42ea63c":["fastest_time"]}},{"name":"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77.record.racer_1","label":"5 - Update Record➛Match Record➛Racer 1","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","parent_table_name":"x_407566_hot_tra_0_match","column_name":"racer_1","usedInstances":{"268c2f42-d364-4a71-8d8e-7128a45cbd30":["racer_1"]}},{"name":"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77.record.racer_2","label":"5 - Update Record➛Match Record➛Racer 2","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","parent_table_name":"x_407566_hot_tra_0_match","column_name":"racer_2","usedInstances":{"268c2f42-d364-4a71-8d8e-7128a45cbd30":["racer_2"]}},{"name":"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77.record","label":"5 - Update Record➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"268c2f42-d364-4a71-8d8e-7128a45cbd30":["round_match"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77.record.racer_1.model","label":"5 - Update Record➛Match Record➛Racer 1➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","parent_table_name":"x_407566_hot_tra_0_wheels","column_name":"model","usedInstances":{"268c2f42-d364-4a71-8d8e-7128a45cbd30":["title"]}},{"name":"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77.record.racer_2.model","label":"5 - Update Record➛Match Record➛Racer 2➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","parent_table_name":"x_407566_hot_tra_0_wheels","column_name":"model","usedInstances":{"268c2f42-d364-4a71-8d8e-7128a45cbd30":["title"]}}]</label_cache>
+        <label_cache>[{"name":"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77.record.racer_2.model","label":"7 - Update Record➛Match Record➛Racer 2➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","parent_table_name":"x_407566_hot_tra_0_wheels","column_name":"model","usedInstances":{"268c2f42-d364-4a71-8d8e-7128a45cbd30":["title"]}},{"name":"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77.record.racer_1.model","label":"7 - Update Record➛Match Record➛Racer 1➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","parent_table_name":"x_407566_hot_tra_0_wheels","column_name":"model","usedInstances":{"268c2f42-d364-4a71-8d8e-7128a45cbd30":["title"]}},{"name":"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77.record","label":"7 - Update Record➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"268c2f42-d364-4a71-8d8e-7128a45cbd30":["round_match"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77.record.racer_2","label":"7 - Update Record➛Match Record➛Racer 2","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","parent_table_name":"x_407566_hot_tra_0_match","column_name":"racer_2","usedInstances":{"268c2f42-d364-4a71-8d8e-7128a45cbd30":["racer_2"]}},{"name":"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77.record.racer_1","label":"7 - Update Record➛Match Record➛Racer 1","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","parent_table_name":"x_407566_hot_tra_0_match","column_name":"racer_1","usedInstances":{"268c2f42-d364-4a71-8d8e-7128a45cbd30":["racer_1"]}},{"name":"88cfaa6a-18f9-46d2-a4cf-133cde0bb021.fastest_time","label":"19 - Get Fastest Time➛Fastest Time","reference":"","reference_display":"Fastest Time","type":"decimal","base_type":"decimal","usedInstances":{"888d574a-f301-425f-bff4-99daf42ea63c":["fastest_time"]}},{"name":"500e617e-71fb-464c-94df-f975ab8f9d9d.fastest_time","label":"10 - Get Fastest Time➛Fastest Time","reference_display":"Fastest Time","type":"decimal","base_type":"decimal","usedInstances":{"6a49c93b-ba52-495b-b324-bd9394b2620a":["fastest_time"]},"attributes":{"uiType":"decimal","uiTypeLabel":"Decimal","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"edc4b4fb-7371-49df-a187-ac893f793664"}},{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛Match Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","usedInstances":{"500e617e-71fb-464c-94df-f975ab8f9d9d":["match_sys_id"],"88cfaa6a-18f9-46d2-a4cf-133cde0bb021":["match_sys_id"]}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.wins_to_advance","label":"11 - Update Record➛Match Record➛Wins To Advance","reference":"","reference_display":"Wins To Advance","type":"integer","base_type":"integer","usedInstances":{"5656faea-cd0a-4b96-9ef6-0be09248d18e":["wins_to_advance"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["values"]}},{"name":"f3a5bdf0-0711-4ed6-ad0c-50805de08f62.status","label":"13 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{"caba02a0-4704-40ca-8194-b85c6824742b":["condition"],"b533f96a-c6ee-4e58-b492-746de9776111":["condition"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"Updated_1.current.r1_wins","label":"Trigger - Record Updated➛Match Record➛R1 Wins","reference":"","reference_display":"R1 Wins","type":"integer","base_type":"integer","usedInstances":{"98719461-8b8f-4af6-aac9-841350908db2":["condition"],"db21e1cd-296f-4088-b991-b3bac7c198f3":["condition"]}},{"name":"Updated_1.current.wins_to_advance","label":"Trigger - Record Updated➛Match Record➛Wins To Advance","reference":"","reference_display":"Wins To Advance","type":"integer","base_type":"integer","usedInstances":{"98719461-8b8f-4af6-aac9-841350908db2":["condition"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["wins_to_advance"],"db21e1cd-296f-4088-b991-b3bac7c198f3":["condition"],"a992be41-1a34-429d-9dad-7a14808e7c8c":["condition"]}},{"name":"Updated_1.current.r2_wins","label":"Trigger - Record Updated➛Match Record➛R2 Wins","reference":"","reference_display":"R2 Wins","type":"integer","base_type":"integer","usedInstances":{"98719461-8b8f-4af6-aac9-841350908db2":["condition"],"a992be41-1a34-429d-9dad-7a14808e7c8c":["condition"]}},{"name":"Updated_1.current.racer_1","label":"Trigger - Record Updated➛Match Record➛Racer 1","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"6a49c93b-ba52-495b-b324-bd9394b2620a":["match_winner"],"b97b6a56-02a8-4430-9fb4-6969009a5a47":["match_winner"],"c201ac4d-5017-49e4-8255-567dbc5d3fd1":["racer_1"]}},{"name":"Updated_1.current.racer_2","label":"Trigger - Record Updated➛Match Record➛Racer 2","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"249b1112-f433-4522-8412-ca15ed631caf":["match_winner"],"888d574a-f301-425f-bff4-99daf42ea63c":["match_winner"],"c201ac4d-5017-49e4-8255-567dbc5d3fd1":["racer_2"]}},{"name":"Updated_1.current.crc","label":"Trigger - Record Updated➛Match Record➛CRC","reference":"","reference_display":"CRC","type":"integer","base_type":"integer","usedInstances":{"98719461-8b8f-4af6-aac9-841350908db2":["condition"],"c201ac4d-5017-49e4-8255-567dbc5d3fd1":["race","title"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"6a49c93b-ba52-495b-b324-bd9394b2620a":["record"],"b8ee6354-810c-4113-ada6-4c38f5ff94d0":["conditions"],"7f3589f9-aa2f-4251-856e-1f15a5f8a056":["conditions"],"26416c5b-b1c1-4f9f-9caf-1ed87d31dca3":["winner-0"],"d42f9ef8-dc00-485c-b2e1-e3448c7b47ef":["conditions"],"888d574a-f301-425f-bff4-99daf42ea63c":["record"],"c201ac4d-5017-49e4-8255-567dbc5d3fd1":["round_match"],"5c8dacf0-82f1-4f4a-b04d-e492abf81e95":["conditions"]}},{"name":"Updated_1.current.round","label":"Trigger - Record Updated➛Match Record➛Round","reference":"","reference_display":"Round","type":"integer","base_type":"integer","usedInstances":{"4f34309a-0af0-410c-a179-f57117c4eeae":["nextround-0"],"c201ac4d-5017-49e4-8255-567dbc5d3fd1":["title"]}},{"name":"flow_variable.nextround","label":"Flow Variables➛Next Round","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"50cb652f-b58f-4184-98c7-e10d6cff8bf8":["round"],"a46eca6b-2df5-4526-a63f-eee830e6fe38":["conditions"],"86fd16dd-16c5-4491-8164-b854f2ddc65d":["values"],"f3a5bdf0-0711-4ed6-ad0c-50805de08f62":["conditions"],"51e1f4b0-b0cb-4d56-b80c-03ec5ab3cdca":["conditions"],"5656faea-cd0a-4b96-9ef6-0be09248d18e":["round"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["round"],"3040bff9-8e4d-45d2-8c3d-7c683513f971":["round"]}},{"name":"a46eca6b-2df5-4526-a63f-eee830e6fe38.Records","label":"4 - Look Up Records➛Match Records","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"records","base_type":"records","usedInstances":{"49229065-f53d-4404-a3f6-e0fd45831d0c":["condition"],"599ebafb-fb04-46d4-8b6d-ca5c345d0d23":["condition"]}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.match_winner","label":"11 - Update Record➛Match Record➛Match Winner","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"50cb652f-b58f-4184-98c7-e10d6cff8bf8":["racer_1"],"86fd16dd-16c5-4491-8164-b854f2ddc65d":["values"],"48b6a60d-0290-463e-8e1f-d8960e3a9e13":["record"],"bddbd6a1-2c56-49e6-a78c-125ecc1f37d7":["values"],"5656faea-cd0a-4b96-9ef6-0be09248d18e":["racer_1"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["values"],"3040bff9-8e4d-45d2-8c3d-7c683513f971":["racer_2"]}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.tournament","label":"11 - Update Record➛Match Record➛Tournament","reference":"x_407566_hot_tra_0_tournament","reference_display":"Tournament","type":"reference","base_type":"reference","usedInstances":{"50cb652f-b58f-4184-98c7-e10d6cff8bf8":["tournament"],"86fd16dd-16c5-4491-8164-b854f2ddc65d":["values"],"5656faea-cd0a-4b96-9ef6-0be09248d18e":["tournament"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["values"],"3040bff9-8e4d-45d2-8c3d-7c683513f971":["tournament"]}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.tournament.wins_to_advance","label":"11 - Update Record➛Match Record➛Tournament➛Wins to Advance","reference":"","reference_display":"Wins to Advance","type":"integer","base_type":"integer","usedInstances":{"50cb652f-b58f-4184-98c7-e10d6cff8bf8":["wins_to_advance"]}},{"name":"f3a5bdf0-0711-4ed6-ad0c-50805de08f62.Record","label":"13 - Look Up Record➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"bddbd6a1-2c56-49e6-a78c-125ecc1f37d7":["record"],"3040bff9-8e4d-45d2-8c3d-7c683513f971":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.racer_1","label":"11 - Update Record➛Match Record➛Racer 1","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"48b6a60d-0290-463e-8e1f-d8960e3a9e13":["record"],"88e0a138-996a-40d5-b737-494cab1d9ccb":["record"],"5656faea-cd0a-4b96-9ef6-0be09248d18e":["racer_1"]}},{"name":"f3a5bdf0-0711-4ed6-ad0c-50805de08f62.Record.match_winner","label":"13 - Look Up Record➛Match Record➛Match Winner","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"5656faea-cd0a-4b96-9ef6-0be09248d18e":["racer_1"]}},{"name":"f3a5bdf0-0711-4ed6-ad0c-50805de08f62.Record.tournament.wins_to_advance","label":"13 - Look Up Record➛Match Record➛Tournament➛Wins to Advance","reference":"","reference_display":"Wins to Advance","type":"integer","base_type":"integer","usedInstances":{"86fd16dd-16c5-4491-8164-b854f2ddc65d":["values"],"5656faea-cd0a-4b96-9ef6-0be09248d18e":["wins_to_advance"]}},{"name":"f3a5bdf0-0711-4ed6-ad0c-50805de08f62.Record.match_winner.model","label":"13 - Look Up Record➛Match Record➛Match Winner➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","usedInstances":{"5656faea-cd0a-4b96-9ef6-0be09248d18e":["title"]}},{"name":"f3a5bdf0-0711-4ed6-ad0c-50805de08f62.Record.racer_1.model","label":"13 - Look Up Record➛Match Record➛Racer 1➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","usedInstances":{"bddbd6a1-2c56-49e6-a78c-125ecc1f37d7":["values"],"3040bff9-8e4d-45d2-8c3d-7c683513f971":["title"]}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.match_winner.model","label":"11 - Update Record➛Match Record➛Match Winner➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","usedInstances":{"86fd16dd-16c5-4491-8164-b854f2ddc65d":["values"],"bddbd6a1-2c56-49e6-a78c-125ecc1f37d7":["values"],"5656faea-cd0a-4b96-9ef6-0be09248d18e":["title"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["values"],"3040bff9-8e4d-45d2-8c3d-7c683513f971":["title"]}},{"name":"51e1f4b0-b0cb-4d56-b80c-03ec5ab3cdca.status","label":"22 - Look Up Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","usedInstances":{"abe87e0a-20c8-4b66-aaa1-e41e69801b1b":["condition"],"c0b7b823-85f7-42b2-a40a-a85cf7fa9ad4":["condition"]}},{"name":"51e1f4b0-b0cb-4d56-b80c-03ec5ab3cdca.Record","label":"22 - Look Up Record➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"bddbd6a1-2c56-49e6-a78c-125ecc1f37d7":["record"]}},{"name":"888d574a-f301-425f-bff4-99daf42ea63c.record.match_winner","label":"19 - Update Record➛Match Record➛Match Winner","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"86fd16dd-16c5-4491-8164-b854f2ddc65d":["racer_1"],"88e0a138-996a-40d5-b737-494cab1d9ccb":["record"],"bddbd6a1-2c56-49e6-a78c-125ecc1f37d7":["racer_2"]}},{"name":"51e1f4b0-b0cb-4d56-b80c-03ec5ab3cdca.Record.racer_1.model","label":"22 - Look Up Record➛Match Record➛Racer 1➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","usedInstances":{"bddbd6a1-2c56-49e6-a78c-125ecc1f37d7":["title"]}},{"name":"888d574a-f301-425f-bff4-99daf42ea63c.record.match_winner.model","label":"19 - Update Record➛Match Record➛Match Winner➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","usedInstances":{"86fd16dd-16c5-4491-8164-b854f2ddc65d":["title"],"bddbd6a1-2c56-49e6-a78c-125ecc1f37d7":["title"]}},{"name":"888d574a-f301-425f-bff4-99daf42ea63c.record.tournament","label":"19 - Update Record➛Match Record➛Tournament","reference":"x_407566_hot_tra_0_tournament","reference_display":"Tournament","type":"reference","base_type":"reference","usedInstances":{"86fd16dd-16c5-4491-8164-b854f2ddc65d":["tournament"]}},{"name":"888d574a-f301-425f-bff4-99daf42ea63c.record.wins_to_advance","label":"19 - Update Record➛Match Record➛Wins To Advance","reference":"","reference_display":"Wins To Advance","type":"integer","base_type":"integer","usedInstances":{"86fd16dd-16c5-4491-8164-b854f2ddc65d":["wins_to_advance"]}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.racer_1.match_wins","label":"11 - Update Record➛Match Record➛Racer 1➛Match Wins","reference":"","reference_display":"Match Wins","type":"integer","base_type":"integer","usedInstances":{"48b6a60d-0290-463e-8e1f-d8960e3a9e13":["match_wins"]}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.match_winner.match_wins","label":"11 - Update Record➛Match Record➛Match Winner➛Match Wins","reference":"","reference_display":"Match Wins","type":"integer","base_type":"integer","usedInstances":{"48b6a60d-0290-463e-8e1f-d8960e3a9e13":["match_wins"]}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.match_winner.rank_points","label":"11 - Update Record➛Match Record➛Match Winner➛Rank Points","reference":"","reference_display":"Rank Points","type":"integer","base_type":"integer","usedInstances":{"48b6a60d-0290-463e-8e1f-d8960e3a9e13":["rank_points"]}},{"name":"888d574a-f301-425f-bff4-99daf42ea63c.record.match_winner.match_wins","label":"19 - Update Record➛Match Record➛Match Winner➛Match Wins","reference":"","reference_display":"Match Wins","type":"integer","base_type":"integer","usedInstances":{"88e0a138-996a-40d5-b737-494cab1d9ccb":["match_wins"]}},{"name":"888d574a-f301-425f-bff4-99daf42ea63c.record.match_winner.rank_points","label":"19 - Update Record➛Match Record➛Match Winner➛Rank Points","reference":"","reference_display":"Rank Points","type":"integer","base_type":"integer","usedInstances":{"88e0a138-996a-40d5-b737-494cab1d9ccb":["rank_points"]}},{"name":"7f3589f9-aa2f-4251-856e-1f15a5f8a056.Records","label":"3 - Look Up Records➛Race Records","reference":"x_407566_hot_tra_0_race","reference_display":"Race","type":"records","base_type":"records","usedInstances":{"933800be-e59a-4e01-8596-ba450ef703b7":["log_message"]}},{"name":"e50bfe35-747d-4adb-b290-c0c9a1ea2089.Record","label":"1 - Look Up Record➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.match_winner","label":"Trigger - Record Updated➛Match Record➛Match Winner","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"26416c5b-b1c1-4f9f-9caf-1ed87d31dca3":["winner-0"]}},{"name":"flow_variable.loser","label":"Flow Variables➛Loser","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","column_name":"","usedInstances":{"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77":["racer_2","title"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["racer_1"],"6143e4d4-1f75-4a96-938f-e8fc80c22414":["conditions"]},"attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e50bfe35-747d-4adb-b290-c0c9a1ea2089.Record.racer_1.model","label":"1 - Look Up Record➛Match Record➛Racer 1➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","usedInstances":{"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77":["title"]}},{"name":"flow_variable.loser.model","label":"Flow Variables➛Loser➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","parent_table_name":"x_407566_hot_tra_0_wheels","column_name":"model","usedInstances":{"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77":["title"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["title"]}},{"name":"e50bfe35-747d-4adb-b290-c0c9a1ea2089.__action_status__.code","label":"1 - Look Up Record➛Action Status➛Code","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{}},{"name":"e50bfe35-747d-4adb-b290-c0c9a1ea2089.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{"f01cf3d4-205c-405e-b7fd-161f03505c6b":["condition"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"Updated_1.current.tournament","label":"Trigger - Record Updated➛Match Record➛Tournament","reference":"x_407566_hot_tra_0_tournament","reference_display":"Tournament","type":"reference","base_type":"reference","usedInstances":{"f041aa91-5dd2-47cc-852d-8f9321123e2c":["tournament"]}},{"name":"6143e4d4-1f75-4a96-938f-e8fc80c22414.Record","label":"3 - Look Up Record➛Wheels Record","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"241ff51f-4455-4359-8e55-d43bb0a87dca":["log_message"],"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77":["racer_2"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6143e4d4-1f75-4a96-938f-e8fc80c22414.Record.model","label":"3 - Look Up Record➛Wheels Record➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","parent_table_name":"x_407566_hot_tra_0_wheels","column_name":"model","usedInstances":{"241ff51f-4455-4359-8e55-d43bb0a87dca":["log_message"],"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77":["title"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["title"]}}]</label_cache>
         <master_snapshot>6579574847db82106a3eedf1d16d43bf</master_snapshot>
         <name>Double Elimination Set Matches</name>
         <natlang/>
@@ -35,7 +35,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9968838c475b82106a3eedf1d16d4379</sys_id>
-        <sys_mod_count>90</sys_mod_count>
+        <sys_mod_count>110</sys_mod_count>
         <sys_name>Double Elimination Set Matches</sys_name>
         <sys_overrides/>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
@@ -43,7 +43,7 @@
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name>sys_hub_flow_9968838c475b82106a3eedf1d16d4379</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 09:41:54</sys_updated_on>
+        <sys_updated_on>2024-07-05 22:34:32</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=9968838c475b82106a3eedf1d16d4379"/>
@@ -81,14 +81,14 @@
         <identifier>9968838c475b82106a3eedf1d16d4379</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-05 09:41:54</sys_created_on>
-        <sys_id>5279974847db82106a3eedf1d16d438f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2024-07-05 22:34:31</sys_created_on>
+        <sys_id>374ac2dc475bc2106a3eedf1d16d43a2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 09:41:54</sys_updated_on>
+        <sys_updated_on>2024-07-05 22:34:31</sys_updated_on>
         <trigger display_value="">5679974847db82106a3eedf1d16d438e</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=9968838c475b82106a3eedf1d16d4379^sys_idNOT IN5279974847db82106a3eedf1d16d438f"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=9968838c475b82106a3eedf1d16d4379^sys_idNOT IN374ac2dc475bc2106a3eedf1d16d43a2"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=9968838c475b82106a3eedf1d16d4379^sys_idNOT IN7568c38c475b82106a3eedf1d16d4396"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -99,10 +99,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-05 08:27:19</sys_created_on>
         <sys_id>7568c38c475b82106a3eedf1d16d4396</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 09:41:54</sys_updated_on>
+        <sys_updated_on>2024-07-05 22:34:31</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -230,14 +230,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-05 08:27:17</sys_created_on>
         <sys_id>1968838c475b82106a3eedf1d16d43d4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 09:41:54</sys_updated_on>
+        <sys_updated_on>2024-07-05 22:34:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -314,14 +314,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-05 08:27:17</sys_created_on>
         <sys_id>2d68838c475b82106a3eedf1d16d43d8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 09:41:54</sys_updated_on>
+        <sys_updated_on>2024-07-05 22:34:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -444,7 +444,135 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6d68838c475b82106a3eedf1d16d43db"/>
     <sys_hub_flow_output action="delete_multiple" query="model=9968838c475b82106a3eedf1d16d4379"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=9968838c475b82106a3eedf1d16d4379"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=9968838c475b82106a3eedf1d16d4379^sys_idNOT IN1ea7538447db82106a3eedf1d16d43e2,3aae8bc4479b82106a3eedf1d16d439d,4b8e8f44479b82106a3eedf1d16d439b,d014d30047db82106a3eedf1d16d430c"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=9968838c475b82106a3eedf1d16d4379^sys_idNOT IN01d84e1c475bc2106a3eedf1d16d4340,05388698475bc2106a3eedf1d16d4394,1ea7538447db82106a3eedf1d16d43e2,3aae8bc4479b82106a3eedf1d16d439d,4b8e8f44479b82106a3eedf1d16d439b,d014d30047db82106a3eedf1d16d430c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Double Elimination Set Matches">9968838c475b82106a3eedf1d16d4379</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 22:28:02</sys_created_on>
+        <sys_id>01d84e1c475bc2106a3eedf1d16d4340</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 22:34:31</sys_updated_on>
+        <ui_id>6143e4d4-1f75-4a96-938f-e8fc80c22414</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=01d84e1c475bc2106a3eedf1d16d4340"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>01d84e1c475bc2106a3eedf1d16d4340</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 22:28:55</sys_created_on>
+        <sys_id>f509c2d8475bc2106a3eedf1d16d4390</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 22:28:55</sys_updated_on>
+        <value>x_407566_hot_tra_0_wheels</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>01d84e1c475bc2106a3eedf1d16d4340</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 22:28:55</sys_created_on>
+        <sys_id>fd09c2d8475bc2106a3eedf1d16d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 22:28:55</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Don't fail on error">ceab42a673110010d70877186bf6a74f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=01d84e1c475bc2106a3eedf1d16d4340"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>01d84e1c475bc2106a3eedf1d16d4340</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 22:28:55</sys_created_on>
+        <sys_id>b909c2d8475bc2106a3eedf1d16d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 22:28:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>sys_id={{flow_variable.loser}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>01d84e1c475bc2106a3eedf1d16d4340</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 22:28:55</sys_created_on>
+        <sys_id>7d09c2d8475bc2106a3eedf1d16d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 22:28:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__snc_dont_fail_on_error</field>
+        <id>01d84e1c475bc2106a3eedf1d16d4340</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 22:28:55</sys_created_on>
+        <sys_id>f109c2d8475bc2106a3eedf1d16d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 22:28:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=01d84e1c475bc2106a3eedf1d16d4340"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=01d84e1c475bc2106a3eedf1d16d4340"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Double Elimination Set Matches">9968838c475b82106a3eedf1d16d4379</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 22:25:19</sys_created_on>
+        <sys_id>05388698475bc2106a3eedf1d16d4394</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 22:34:31</sys_updated_on>
+        <ui_id>241ff51f-4455-4359-8e55-d43bb0a87dca</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=05388698475bc2106a3eedf1d16d4394"/>
+    <sys_element_mapping action="delete_multiple" query="id=05388698475bc2106a3eedf1d16d4394"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>05388698475bc2106a3eedf1d16d4394</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 22:25:58</sys_created_on>
+        <sys_id>3e58421c475bc2106a3eedf1d16d432e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 22:30:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>Id: {{6143e4d4-1f75-4a96-938f-e8fc80c22414.Record}}Mode: {{6143e4d4-1f75-4a96-938f-e8fc80c22414.Record.model}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=05388698475bc2106a3eedf1d16d4394"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=05388698475bc2106a3eedf1d16d4394"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -455,16 +583,16 @@
         <display_text/>
         <flow display_value="Double Elimination Set Matches">9968838c475b82106a3eedf1d16d4379</flow>
         <generation_source/>
-        <order>6</order>
+        <order>8</order>
         <parent_ui_id>f01cf3d4-205c-405e-b7fd-161f03505c6b</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-05 09:33:59</sys_created_on>
         <sys_id>1ea7538447db82106a3eedf1d16d43e2</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 09:41:54</sys_updated_on>
+        <sys_updated_on>2024-07-05 22:34:31</sys_updated_on>
         <ui_id>268c2f42-d364-4a71-8d8e-7128a45cbd30</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1ea7538447db82106a3eedf1d16d43e2"/>
@@ -524,10 +652,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-05 08:54:41</sys_created_on>
         <sys_id>3aae8bc4479b82106a3eedf1d16d439d</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 09:41:54</sys_updated_on>
+        <sys_updated_on>2024-07-05 22:34:31</sys_updated_on>
         <ui_id>e50bfe35-747d-4adb-b290-c0c9a1ea2089</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3aae8bc4479b82106a3eedf1d16d439d"/>
@@ -586,16 +714,16 @@
         <display_text/>
         <flow display_value="Double Elimination Set Matches">9968838c475b82106a3eedf1d16d4379</flow>
         <generation_source/>
-        <order>5</order>
+        <order>7</order>
         <parent_ui_id>f01cf3d4-205c-405e-b7fd-161f03505c6b</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-05 08:54:10</sys_created_on>
         <sys_id>4b8e8f44479b82106a3eedf1d16d439b</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 09:41:54</sys_updated_on>
+        <sys_updated_on>2024-07-05 22:34:31</sys_updated_on>
         <ui_id>c16f7a9c-7569-4d5f-b6ae-aa97316a2a77</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4b8e8f44479b82106a3eedf1d16d439b"/>
@@ -658,11 +786,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-05 08:57:11</sys_created_on>
         <sys_id>af3f8b08479b82106a3eedf1d16d43ee</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 09:17:32</sys_updated_on>
+        <sys_updated_on>2024-07-05 22:34:24</sys_updated_on>
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value>der=false^racer_2={{flow_variable.loser}}^stage=matched^title=DER {{e50bfe35-747d-4adb-b290-c0c9a1ea2089.Record.racer_1.model}}VS {{flow_variable.loser.model}}</value>
+        <value>der=false^racer_2={{6143e4d4-1f75-4a96-938f-e8fc80c22414.Record}}^stage=matched^title=DER {{e50bfe35-747d-4adb-b290-c0c9a1ea2089.Record.racer_1.model}}VS {{6143e4d4-1f75-4a96-938f-e8fc80c22414.Record.model}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=4b8e8f44479b82106a3eedf1d16d439b"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=4b8e8f44479b82106a3eedf1d16d439b"/>
@@ -676,16 +804,16 @@
         <display_text/>
         <flow display_value="Double Elimination Set Matches">9968838c475b82106a3eedf1d16d4379</flow>
         <generation_source/>
-        <order>8</order>
+        <order>10</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-05 09:18:16</sys_created_on>
         <sys_id>d014d30047db82106a3eedf1d16d430c</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 09:41:54</sys_updated_on>
+        <sys_updated_on>2024-07-05 22:34:31</sys_updated_on>
         <ui_id>f041aa91-5dd2-47cc-852d-8f9321123e2c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d014d30047db82106a3eedf1d16d430c"/>
@@ -722,11 +850,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-05 09:18:16</sys_created_on>
         <sys_id>d014d30047db82106a3eedf1d16d430e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 09:28:45</sys_updated_on>
+        <sys_updated_on>2024-07-05 22:31:49</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>racer_1={{flow_variable.loser}}^round={{flow_variable.nextround}}^stage=awaiting_match^tournament={{Updated_1.current.tournament}}^wins_to_advance={{Updated_1.current.wins_to_advance}}^title={{flow_variable.loser.model}} VS Awaiting DER Match^der=true^journal=Double Elimination Match </value>
+        <value>racer_1={{flow_variable.loser}}^round={{flow_variable.nextround}}^stage=awaiting_match^tournament={{Updated_1.current.tournament}}^wins_to_advance={{Updated_1.current.wins_to_advance}}^title={{6143e4d4-1f75-4a96-938f-e8fc80c22414.Record.model}} VS Awaiting DER Match^der=true^journal=Double Elimination Match </value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=d014d30047db82106a3eedf1d16d430c"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=d014d30047db82106a3eedf1d16d430c"/>
@@ -756,10 +884,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-05 08:57:11</sys_created_on>
         <sys_id>6b3f8b08479b82106a3eedf1d16d43f0</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 09:41:54</sys_updated_on>
+        <sys_updated_on>2024-07-05 22:34:31</sys_updated_on>
         <ui_id>26416c5b-b1c1-4f9f-9caf-1ed87d31dca3</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -809,7 +937,7 @@
         <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
-        <order>3</order>
+        <order>5</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -817,10 +945,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-05 08:27:18</sys_created_on>
         <sys_id>ad68838c475b82106a3eedf1d16d43ee</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 09:41:54</sys_updated_on>
+        <sys_updated_on>2024-07-05 22:34:31</sys_updated_on>
         <ui_id>4f34309a-0af0-410c-a179-f57117c4eeae</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -871,7 +999,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>4</order>
+        <order>6</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -879,10 +1007,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-05 09:19:22</sys_created_on>
         <sys_id>d0549fcc479b82106a3eedf1d16d4364</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 09:41:54</sys_updated_on>
+        <sys_updated_on>2024-07-05 22:34:31</sys_updated_on>
         <ui_id>f01cf3d4-205c-405e-b7fd-161f03505c6b</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -945,7 +1073,7 @@
         <generation_source/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
-        <order>7</order>
+        <order>9</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>f01cf3d4-205c-405e-b7fd-161f03505c6b</parent_ui_id>
@@ -953,10 +1081,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-05 09:22:48</sys_created_on>
         <sys_id>e615138047db82106a3eedf1d16d43eb</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 09:41:54</sys_updated_on>
+        <sys_updated_on>2024-07-05 22:34:31</sys_updated_on>
         <ui_id>13908ce6-47b8-4512-812c-5916efdfd8c2</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1794,7 +1922,7 @@
         <description/>
         <flow_priority/>
         <internal_name>double_elimination_set_matches</internal_name>
-        <label_cache>[{"name":"Updated_1.current.tournament","label":"Trigger - Record Updated➛Match Record➛Tournament","reference":"x_407566_hot_tra_0_tournament","reference_display":"Tournament","type":"reference","base_type":"reference","usedInstances":{"f041aa91-5dd2-47cc-852d-8f9321123e2c":["tournament"]}},{"name":"e50bfe35-747d-4adb-b290-c0c9a1ea2089.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{"f01cf3d4-205c-405e-b7fd-161f03505c6b":["condition"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"e50bfe35-747d-4adb-b290-c0c9a1ea2089.__action_status__.code","label":"1 - Look Up Record➛Action Status➛Code","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{}},{"name":"flow_variable.loser.model","label":"Flow Variables➛Loser➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","usedInstances":{"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77":["title"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["title"]}},{"name":"e50bfe35-747d-4adb-b290-c0c9a1ea2089.Record.racer_1.model","label":"1 - Look Up Record➛Match Record➛Racer 1➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","usedInstances":{"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77":["title"]}},{"name":"flow_variable.loser","label":"Flow Variables➛Loser","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77":["racer_2","title"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["racer_1"]}},{"name":"Updated_1.current.match_winner","label":"Trigger - Record Updated➛Match Record➛Match Winner","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"26416c5b-b1c1-4f9f-9caf-1ed87d31dca3":["winner-0"]}},{"name":"e50bfe35-747d-4adb-b290-c0c9a1ea2089.Record","label":"1 - Look Up Record➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7f3589f9-aa2f-4251-856e-1f15a5f8a056.Records","label":"3 - Look Up Records➛Race Records","reference":"x_407566_hot_tra_0_race","reference_display":"Race","type":"records","base_type":"records","usedInstances":{"933800be-e59a-4e01-8596-ba450ef703b7":["log_message"]}},{"name":"888d574a-f301-425f-bff4-99daf42ea63c.record.match_winner.rank_points","label":"19 - Update Record➛Match Record➛Match Winner➛Rank Points","reference":"","reference_display":"Rank Points","type":"integer","base_type":"integer","usedInstances":{"88e0a138-996a-40d5-b737-494cab1d9ccb":["rank_points"]}},{"name":"888d574a-f301-425f-bff4-99daf42ea63c.record.match_winner.match_wins","label":"19 - Update Record➛Match Record➛Match Winner➛Match Wins","reference":"","reference_display":"Match Wins","type":"integer","base_type":"integer","usedInstances":{"88e0a138-996a-40d5-b737-494cab1d9ccb":["match_wins"]}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.match_winner.rank_points","label":"11 - Update Record➛Match Record➛Match Winner➛Rank Points","reference":"","reference_display":"Rank Points","type":"integer","base_type":"integer","usedInstances":{"48b6a60d-0290-463e-8e1f-d8960e3a9e13":["rank_points"]}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.match_winner.match_wins","label":"11 - Update Record➛Match Record➛Match Winner➛Match Wins","reference":"","reference_display":"Match Wins","type":"integer","base_type":"integer","usedInstances":{"48b6a60d-0290-463e-8e1f-d8960e3a9e13":["match_wins"]}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.racer_1.match_wins","label":"11 - Update Record➛Match Record➛Racer 1➛Match Wins","reference":"","reference_display":"Match Wins","type":"integer","base_type":"integer","usedInstances":{"48b6a60d-0290-463e-8e1f-d8960e3a9e13":["match_wins"]}},{"name":"888d574a-f301-425f-bff4-99daf42ea63c.record.wins_to_advance","label":"19 - Update Record➛Match Record➛Wins To Advance","reference":"","reference_display":"Wins To Advance","type":"integer","base_type":"integer","usedInstances":{"86fd16dd-16c5-4491-8164-b854f2ddc65d":["wins_to_advance"]}},{"name":"888d574a-f301-425f-bff4-99daf42ea63c.record.tournament","label":"19 - Update Record➛Match Record➛Tournament","reference":"x_407566_hot_tra_0_tournament","reference_display":"Tournament","type":"reference","base_type":"reference","usedInstances":{"86fd16dd-16c5-4491-8164-b854f2ddc65d":["tournament"]}},{"name":"888d574a-f301-425f-bff4-99daf42ea63c.record.match_winner.model","label":"19 - Update Record➛Match Record➛Match Winner➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","usedInstances":{"86fd16dd-16c5-4491-8164-b854f2ddc65d":["title"],"bddbd6a1-2c56-49e6-a78c-125ecc1f37d7":["title"]}},{"name":"51e1f4b0-b0cb-4d56-b80c-03ec5ab3cdca.Record.racer_1.model","label":"22 - Look Up Record➛Match Record➛Racer 1➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","usedInstances":{"bddbd6a1-2c56-49e6-a78c-125ecc1f37d7":["title"]}},{"name":"888d574a-f301-425f-bff4-99daf42ea63c.record.match_winner","label":"19 - Update Record➛Match Record➛Match Winner","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"86fd16dd-16c5-4491-8164-b854f2ddc65d":["racer_1"],"88e0a138-996a-40d5-b737-494cab1d9ccb":["record"],"bddbd6a1-2c56-49e6-a78c-125ecc1f37d7":["racer_2"]}},{"name":"51e1f4b0-b0cb-4d56-b80c-03ec5ab3cdca.Record","label":"22 - Look Up Record➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"bddbd6a1-2c56-49e6-a78c-125ecc1f37d7":["record"]}},{"name":"51e1f4b0-b0cb-4d56-b80c-03ec5ab3cdca.status","label":"22 - Look Up Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","usedInstances":{"abe87e0a-20c8-4b66-aaa1-e41e69801b1b":["condition"],"c0b7b823-85f7-42b2-a40a-a85cf7fa9ad4":["condition"]}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.match_winner.model","label":"11 - Update Record➛Match Record➛Match Winner➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","usedInstances":{"86fd16dd-16c5-4491-8164-b854f2ddc65d":["values"],"bddbd6a1-2c56-49e6-a78c-125ecc1f37d7":["values"],"5656faea-cd0a-4b96-9ef6-0be09248d18e":["title"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["values"],"3040bff9-8e4d-45d2-8c3d-7c683513f971":["title"]}},{"name":"f3a5bdf0-0711-4ed6-ad0c-50805de08f62.Record.racer_1.model","label":"13 - Look Up Record➛Match Record➛Racer 1➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","usedInstances":{"bddbd6a1-2c56-49e6-a78c-125ecc1f37d7":["values"],"3040bff9-8e4d-45d2-8c3d-7c683513f971":["title"]}},{"name":"f3a5bdf0-0711-4ed6-ad0c-50805de08f62.Record.match_winner.model","label":"13 - Look Up Record➛Match Record➛Match Winner➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","usedInstances":{"5656faea-cd0a-4b96-9ef6-0be09248d18e":["title"]}},{"name":"f3a5bdf0-0711-4ed6-ad0c-50805de08f62.Record.tournament.wins_to_advance","label":"13 - Look Up Record➛Match Record➛Tournament➛Wins to Advance","reference":"","reference_display":"Wins to Advance","type":"integer","base_type":"integer","usedInstances":{"86fd16dd-16c5-4491-8164-b854f2ddc65d":["values"],"5656faea-cd0a-4b96-9ef6-0be09248d18e":["wins_to_advance"]}},{"name":"f3a5bdf0-0711-4ed6-ad0c-50805de08f62.Record.match_winner","label":"13 - Look Up Record➛Match Record➛Match Winner","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"5656faea-cd0a-4b96-9ef6-0be09248d18e":["racer_1"]}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.racer_1","label":"11 - Update Record➛Match Record➛Racer 1","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"48b6a60d-0290-463e-8e1f-d8960e3a9e13":["record"],"88e0a138-996a-40d5-b737-494cab1d9ccb":["record"],"5656faea-cd0a-4b96-9ef6-0be09248d18e":["racer_1"]}},{"name":"f3a5bdf0-0711-4ed6-ad0c-50805de08f62.Record","label":"13 - Look Up Record➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"bddbd6a1-2c56-49e6-a78c-125ecc1f37d7":["record"],"3040bff9-8e4d-45d2-8c3d-7c683513f971":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.tournament.wins_to_advance","label":"11 - Update Record➛Match Record➛Tournament➛Wins to Advance","reference":"","reference_display":"Wins to Advance","type":"integer","base_type":"integer","usedInstances":{"50cb652f-b58f-4184-98c7-e10d6cff8bf8":["wins_to_advance"]}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.tournament","label":"11 - Update Record➛Match Record➛Tournament","reference":"x_407566_hot_tra_0_tournament","reference_display":"Tournament","type":"reference","base_type":"reference","usedInstances":{"50cb652f-b58f-4184-98c7-e10d6cff8bf8":["tournament"],"86fd16dd-16c5-4491-8164-b854f2ddc65d":["values"],"5656faea-cd0a-4b96-9ef6-0be09248d18e":["tournament"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["values"],"3040bff9-8e4d-45d2-8c3d-7c683513f971":["tournament"]}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.match_winner","label":"11 - Update Record➛Match Record➛Match Winner","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"50cb652f-b58f-4184-98c7-e10d6cff8bf8":["racer_1"],"86fd16dd-16c5-4491-8164-b854f2ddc65d":["values"],"48b6a60d-0290-463e-8e1f-d8960e3a9e13":["record"],"bddbd6a1-2c56-49e6-a78c-125ecc1f37d7":["values"],"5656faea-cd0a-4b96-9ef6-0be09248d18e":["racer_1"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["values"],"3040bff9-8e4d-45d2-8c3d-7c683513f971":["racer_2"]}},{"name":"a46eca6b-2df5-4526-a63f-eee830e6fe38.Records","label":"4 - Look Up Records➛Match Records","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"records","base_type":"records","usedInstances":{"49229065-f53d-4404-a3f6-e0fd45831d0c":["condition"],"599ebafb-fb04-46d4-8b6d-ca5c345d0d23":["condition"]}},{"name":"flow_variable.nextround","label":"Flow Variables➛Next Round","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"50cb652f-b58f-4184-98c7-e10d6cff8bf8":["round"],"a46eca6b-2df5-4526-a63f-eee830e6fe38":["conditions"],"86fd16dd-16c5-4491-8164-b854f2ddc65d":["values"],"f3a5bdf0-0711-4ed6-ad0c-50805de08f62":["conditions"],"51e1f4b0-b0cb-4d56-b80c-03ec5ab3cdca":["conditions"],"5656faea-cd0a-4b96-9ef6-0be09248d18e":["round"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["round"],"3040bff9-8e4d-45d2-8c3d-7c683513f971":["round"]}},{"name":"Updated_1.current.round","label":"Trigger - Record Updated➛Match Record➛Round","reference":"","reference_display":"Round","type":"integer","base_type":"integer","usedInstances":{"4f34309a-0af0-410c-a179-f57117c4eeae":["nextround-0"],"c201ac4d-5017-49e4-8255-567dbc5d3fd1":["title"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"6a49c93b-ba52-495b-b324-bd9394b2620a":["record"],"b8ee6354-810c-4113-ada6-4c38f5ff94d0":["conditions"],"7f3589f9-aa2f-4251-856e-1f15a5f8a056":["conditions"],"26416c5b-b1c1-4f9f-9caf-1ed87d31dca3":["winner-0"],"d42f9ef8-dc00-485c-b2e1-e3448c7b47ef":["conditions"],"888d574a-f301-425f-bff4-99daf42ea63c":["record"],"c201ac4d-5017-49e4-8255-567dbc5d3fd1":["round_match"],"5c8dacf0-82f1-4f4a-b04d-e492abf81e95":["conditions"]}},{"name":"Updated_1.current.crc","label":"Trigger - Record Updated➛Match Record➛CRC","reference":"","reference_display":"CRC","type":"integer","base_type":"integer","usedInstances":{"98719461-8b8f-4af6-aac9-841350908db2":["condition"],"c201ac4d-5017-49e4-8255-567dbc5d3fd1":["race","title"]}},{"name":"Updated_1.current.racer_2","label":"Trigger - Record Updated➛Match Record➛Racer 2","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"249b1112-f433-4522-8412-ca15ed631caf":["match_winner"],"888d574a-f301-425f-bff4-99daf42ea63c":["match_winner"],"c201ac4d-5017-49e4-8255-567dbc5d3fd1":["racer_2"]}},{"name":"Updated_1.current.racer_1","label":"Trigger - Record Updated➛Match Record➛Racer 1","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"6a49c93b-ba52-495b-b324-bd9394b2620a":["match_winner"],"b97b6a56-02a8-4430-9fb4-6969009a5a47":["match_winner"],"c201ac4d-5017-49e4-8255-567dbc5d3fd1":["racer_1"]}},{"name":"Updated_1.current.r2_wins","label":"Trigger - Record Updated➛Match Record➛R2 Wins","reference":"","reference_display":"R2 Wins","type":"integer","base_type":"integer","usedInstances":{"98719461-8b8f-4af6-aac9-841350908db2":["condition"],"a992be41-1a34-429d-9dad-7a14808e7c8c":["condition"]}},{"name":"Updated_1.current.wins_to_advance","label":"Trigger - Record Updated➛Match Record➛Wins To Advance","reference":"","reference_display":"Wins To Advance","type":"integer","base_type":"integer","usedInstances":{"98719461-8b8f-4af6-aac9-841350908db2":["condition"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["wins_to_advance"],"db21e1cd-296f-4088-b991-b3bac7c198f3":["condition"],"a992be41-1a34-429d-9dad-7a14808e7c8c":["condition"]}},{"name":"Updated_1.current.r1_wins","label":"Trigger - Record Updated➛Match Record➛R1 Wins","reference":"","reference_display":"R1 Wins","type":"integer","base_type":"integer","usedInstances":{"98719461-8b8f-4af6-aac9-841350908db2":["condition"],"db21e1cd-296f-4088-b991-b3bac7c198f3":["condition"]}},{"name":"f3a5bdf0-0711-4ed6-ad0c-50805de08f62.status","label":"13 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{"caba02a0-4704-40ca-8194-b85c6824742b":["condition"],"b533f96a-c6ee-4e58-b492-746de9776111":["condition"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.wins_to_advance","label":"11 - Update Record➛Match Record➛Wins To Advance","reference":"","reference_display":"Wins To Advance","type":"integer","base_type":"integer","usedInstances":{"5656faea-cd0a-4b96-9ef6-0be09248d18e":["wins_to_advance"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["values"]}},{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛Match Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","usedInstances":{"500e617e-71fb-464c-94df-f975ab8f9d9d":["match_sys_id"],"88cfaa6a-18f9-46d2-a4cf-133cde0bb021":["match_sys_id"]}},{"name":"500e617e-71fb-464c-94df-f975ab8f9d9d.fastest_time","label":"10 - Get Fastest Time➛Fastest Time","reference_display":"Fastest Time","type":"decimal","base_type":"decimal","usedInstances":{"6a49c93b-ba52-495b-b324-bd9394b2620a":["fastest_time"]},"attributes":{"uiType":"decimal","uiTypeLabel":"Decimal","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"edc4b4fb-7371-49df-a187-ac893f793664"}},{"name":"88cfaa6a-18f9-46d2-a4cf-133cde0bb021.fastest_time","label":"19 - Get Fastest Time➛Fastest Time","reference":"","reference_display":"Fastest Time","type":"decimal","base_type":"decimal","usedInstances":{"888d574a-f301-425f-bff4-99daf42ea63c":["fastest_time"]}},{"name":"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77.record.racer_1","label":"5 - Update Record➛Match Record➛Racer 1","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","parent_table_name":"x_407566_hot_tra_0_match","column_name":"racer_1","usedInstances":{"268c2f42-d364-4a71-8d8e-7128a45cbd30":["racer_1"]}},{"name":"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77.record.racer_2","label":"5 - Update Record➛Match Record➛Racer 2","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","parent_table_name":"x_407566_hot_tra_0_match","column_name":"racer_2","usedInstances":{"268c2f42-d364-4a71-8d8e-7128a45cbd30":["racer_2"]}},{"name":"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77.record","label":"5 - Update Record➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"268c2f42-d364-4a71-8d8e-7128a45cbd30":["round_match"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77.record.racer_1.model","label":"5 - Update Record➛Match Record➛Racer 1➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","parent_table_name":"x_407566_hot_tra_0_wheels","column_name":"model","usedInstances":{"268c2f42-d364-4a71-8d8e-7128a45cbd30":["title"]}},{"name":"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77.record.racer_2.model","label":"5 - Update Record➛Match Record➛Racer 2➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","parent_table_name":"x_407566_hot_tra_0_wheels","column_name":"model","usedInstances":{"268c2f42-d364-4a71-8d8e-7128a45cbd30":["title"]}}]</label_cache>
+        <label_cache>[{"name":"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77.record.racer_2.model","label":"7 - Update Record➛Match Record➛Racer 2➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","parent_table_name":"x_407566_hot_tra_0_wheels","column_name":"model","usedInstances":{"268c2f42-d364-4a71-8d8e-7128a45cbd30":["title"]}},{"name":"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77.record.racer_1.model","label":"7 - Update Record➛Match Record➛Racer 1➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","parent_table_name":"x_407566_hot_tra_0_wheels","column_name":"model","usedInstances":{"268c2f42-d364-4a71-8d8e-7128a45cbd30":["title"]}},{"name":"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77.record","label":"7 - Update Record➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"268c2f42-d364-4a71-8d8e-7128a45cbd30":["round_match"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77.record.racer_2","label":"7 - Update Record➛Match Record➛Racer 2","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","parent_table_name":"x_407566_hot_tra_0_match","column_name":"racer_2","usedInstances":{"268c2f42-d364-4a71-8d8e-7128a45cbd30":["racer_2"]}},{"name":"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77.record.racer_1","label":"7 - Update Record➛Match Record➛Racer 1","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","parent_table_name":"x_407566_hot_tra_0_match","column_name":"racer_1","usedInstances":{"268c2f42-d364-4a71-8d8e-7128a45cbd30":["racer_1"]}},{"name":"88cfaa6a-18f9-46d2-a4cf-133cde0bb021.fastest_time","label":"19 - Get Fastest Time➛Fastest Time","reference":"","reference_display":"Fastest Time","type":"decimal","base_type":"decimal","usedInstances":{"888d574a-f301-425f-bff4-99daf42ea63c":["fastest_time"]}},{"name":"500e617e-71fb-464c-94df-f975ab8f9d9d.fastest_time","label":"10 - Get Fastest Time➛Fastest Time","reference_display":"Fastest Time","type":"decimal","base_type":"decimal","usedInstances":{"6a49c93b-ba52-495b-b324-bd9394b2620a":["fastest_time"]},"attributes":{"uiType":"decimal","uiTypeLabel":"Decimal","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"edc4b4fb-7371-49df-a187-ac893f793664"}},{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛Match Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","usedInstances":{"500e617e-71fb-464c-94df-f975ab8f9d9d":["match_sys_id"],"88cfaa6a-18f9-46d2-a4cf-133cde0bb021":["match_sys_id"]}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.wins_to_advance","label":"11 - Update Record➛Match Record➛Wins To Advance","reference":"","reference_display":"Wins To Advance","type":"integer","base_type":"integer","usedInstances":{"5656faea-cd0a-4b96-9ef6-0be09248d18e":["wins_to_advance"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["values"]}},{"name":"f3a5bdf0-0711-4ed6-ad0c-50805de08f62.status","label":"13 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{"caba02a0-4704-40ca-8194-b85c6824742b":["condition"],"b533f96a-c6ee-4e58-b492-746de9776111":["condition"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"Updated_1.current.r1_wins","label":"Trigger - Record Updated➛Match Record➛R1 Wins","reference":"","reference_display":"R1 Wins","type":"integer","base_type":"integer","usedInstances":{"98719461-8b8f-4af6-aac9-841350908db2":["condition"],"db21e1cd-296f-4088-b991-b3bac7c198f3":["condition"]}},{"name":"Updated_1.current.wins_to_advance","label":"Trigger - Record Updated➛Match Record➛Wins To Advance","reference":"","reference_display":"Wins To Advance","type":"integer","base_type":"integer","usedInstances":{"98719461-8b8f-4af6-aac9-841350908db2":["condition"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["wins_to_advance"],"db21e1cd-296f-4088-b991-b3bac7c198f3":["condition"],"a992be41-1a34-429d-9dad-7a14808e7c8c":["condition"]}},{"name":"Updated_1.current.r2_wins","label":"Trigger - Record Updated➛Match Record➛R2 Wins","reference":"","reference_display":"R2 Wins","type":"integer","base_type":"integer","usedInstances":{"98719461-8b8f-4af6-aac9-841350908db2":["condition"],"a992be41-1a34-429d-9dad-7a14808e7c8c":["condition"]}},{"name":"Updated_1.current.racer_1","label":"Trigger - Record Updated➛Match Record➛Racer 1","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"6a49c93b-ba52-495b-b324-bd9394b2620a":["match_winner"],"b97b6a56-02a8-4430-9fb4-6969009a5a47":["match_winner"],"c201ac4d-5017-49e4-8255-567dbc5d3fd1":["racer_1"]}},{"name":"Updated_1.current.racer_2","label":"Trigger - Record Updated➛Match Record➛Racer 2","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"249b1112-f433-4522-8412-ca15ed631caf":["match_winner"],"888d574a-f301-425f-bff4-99daf42ea63c":["match_winner"],"c201ac4d-5017-49e4-8255-567dbc5d3fd1":["racer_2"]}},{"name":"Updated_1.current.crc","label":"Trigger - Record Updated➛Match Record➛CRC","reference":"","reference_display":"CRC","type":"integer","base_type":"integer","usedInstances":{"98719461-8b8f-4af6-aac9-841350908db2":["condition"],"c201ac4d-5017-49e4-8255-567dbc5d3fd1":["race","title"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"6a49c93b-ba52-495b-b324-bd9394b2620a":["record"],"b8ee6354-810c-4113-ada6-4c38f5ff94d0":["conditions"],"7f3589f9-aa2f-4251-856e-1f15a5f8a056":["conditions"],"26416c5b-b1c1-4f9f-9caf-1ed87d31dca3":["winner-0"],"d42f9ef8-dc00-485c-b2e1-e3448c7b47ef":["conditions"],"888d574a-f301-425f-bff4-99daf42ea63c":["record"],"c201ac4d-5017-49e4-8255-567dbc5d3fd1":["round_match"],"5c8dacf0-82f1-4f4a-b04d-e492abf81e95":["conditions"]}},{"name":"Updated_1.current.round","label":"Trigger - Record Updated➛Match Record➛Round","reference":"","reference_display":"Round","type":"integer","base_type":"integer","usedInstances":{"4f34309a-0af0-410c-a179-f57117c4eeae":["nextround-0"],"c201ac4d-5017-49e4-8255-567dbc5d3fd1":["title"]}},{"name":"flow_variable.nextround","label":"Flow Variables➛Next Round","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"50cb652f-b58f-4184-98c7-e10d6cff8bf8":["round"],"a46eca6b-2df5-4526-a63f-eee830e6fe38":["conditions"],"86fd16dd-16c5-4491-8164-b854f2ddc65d":["values"],"f3a5bdf0-0711-4ed6-ad0c-50805de08f62":["conditions"],"51e1f4b0-b0cb-4d56-b80c-03ec5ab3cdca":["conditions"],"5656faea-cd0a-4b96-9ef6-0be09248d18e":["round"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["round"],"3040bff9-8e4d-45d2-8c3d-7c683513f971":["round"]}},{"name":"a46eca6b-2df5-4526-a63f-eee830e6fe38.Records","label":"4 - Look Up Records➛Match Records","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"records","base_type":"records","usedInstances":{"49229065-f53d-4404-a3f6-e0fd45831d0c":["condition"],"599ebafb-fb04-46d4-8b6d-ca5c345d0d23":["condition"]}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.match_winner","label":"11 - Update Record➛Match Record➛Match Winner","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"50cb652f-b58f-4184-98c7-e10d6cff8bf8":["racer_1"],"86fd16dd-16c5-4491-8164-b854f2ddc65d":["values"],"48b6a60d-0290-463e-8e1f-d8960e3a9e13":["record"],"bddbd6a1-2c56-49e6-a78c-125ecc1f37d7":["values"],"5656faea-cd0a-4b96-9ef6-0be09248d18e":["racer_1"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["values"],"3040bff9-8e4d-45d2-8c3d-7c683513f971":["racer_2"]}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.tournament","label":"11 - Update Record➛Match Record➛Tournament","reference":"x_407566_hot_tra_0_tournament","reference_display":"Tournament","type":"reference","base_type":"reference","usedInstances":{"50cb652f-b58f-4184-98c7-e10d6cff8bf8":["tournament"],"86fd16dd-16c5-4491-8164-b854f2ddc65d":["values"],"5656faea-cd0a-4b96-9ef6-0be09248d18e":["tournament"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["values"],"3040bff9-8e4d-45d2-8c3d-7c683513f971":["tournament"]}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.tournament.wins_to_advance","label":"11 - Update Record➛Match Record➛Tournament➛Wins to Advance","reference":"","reference_display":"Wins to Advance","type":"integer","base_type":"integer","usedInstances":{"50cb652f-b58f-4184-98c7-e10d6cff8bf8":["wins_to_advance"]}},{"name":"f3a5bdf0-0711-4ed6-ad0c-50805de08f62.Record","label":"13 - Look Up Record➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"bddbd6a1-2c56-49e6-a78c-125ecc1f37d7":["record"],"3040bff9-8e4d-45d2-8c3d-7c683513f971":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.racer_1","label":"11 - Update Record➛Match Record➛Racer 1","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"48b6a60d-0290-463e-8e1f-d8960e3a9e13":["record"],"88e0a138-996a-40d5-b737-494cab1d9ccb":["record"],"5656faea-cd0a-4b96-9ef6-0be09248d18e":["racer_1"]}},{"name":"f3a5bdf0-0711-4ed6-ad0c-50805de08f62.Record.match_winner","label":"13 - Look Up Record➛Match Record➛Match Winner","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"5656faea-cd0a-4b96-9ef6-0be09248d18e":["racer_1"]}},{"name":"f3a5bdf0-0711-4ed6-ad0c-50805de08f62.Record.tournament.wins_to_advance","label":"13 - Look Up Record➛Match Record➛Tournament➛Wins to Advance","reference":"","reference_display":"Wins to Advance","type":"integer","base_type":"integer","usedInstances":{"86fd16dd-16c5-4491-8164-b854f2ddc65d":["values"],"5656faea-cd0a-4b96-9ef6-0be09248d18e":["wins_to_advance"]}},{"name":"f3a5bdf0-0711-4ed6-ad0c-50805de08f62.Record.match_winner.model","label":"13 - Look Up Record➛Match Record➛Match Winner➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","usedInstances":{"5656faea-cd0a-4b96-9ef6-0be09248d18e":["title"]}},{"name":"f3a5bdf0-0711-4ed6-ad0c-50805de08f62.Record.racer_1.model","label":"13 - Look Up Record➛Match Record➛Racer 1➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","usedInstances":{"bddbd6a1-2c56-49e6-a78c-125ecc1f37d7":["values"],"3040bff9-8e4d-45d2-8c3d-7c683513f971":["title"]}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.match_winner.model","label":"11 - Update Record➛Match Record➛Match Winner➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","usedInstances":{"86fd16dd-16c5-4491-8164-b854f2ddc65d":["values"],"bddbd6a1-2c56-49e6-a78c-125ecc1f37d7":["values"],"5656faea-cd0a-4b96-9ef6-0be09248d18e":["title"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["values"],"3040bff9-8e4d-45d2-8c3d-7c683513f971":["title"]}},{"name":"51e1f4b0-b0cb-4d56-b80c-03ec5ab3cdca.status","label":"22 - Look Up Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","usedInstances":{"abe87e0a-20c8-4b66-aaa1-e41e69801b1b":["condition"],"c0b7b823-85f7-42b2-a40a-a85cf7fa9ad4":["condition"]}},{"name":"51e1f4b0-b0cb-4d56-b80c-03ec5ab3cdca.Record","label":"22 - Look Up Record➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"bddbd6a1-2c56-49e6-a78c-125ecc1f37d7":["record"]}},{"name":"888d574a-f301-425f-bff4-99daf42ea63c.record.match_winner","label":"19 - Update Record➛Match Record➛Match Winner","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"86fd16dd-16c5-4491-8164-b854f2ddc65d":["racer_1"],"88e0a138-996a-40d5-b737-494cab1d9ccb":["record"],"bddbd6a1-2c56-49e6-a78c-125ecc1f37d7":["racer_2"]}},{"name":"51e1f4b0-b0cb-4d56-b80c-03ec5ab3cdca.Record.racer_1.model","label":"22 - Look Up Record➛Match Record➛Racer 1➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","usedInstances":{"bddbd6a1-2c56-49e6-a78c-125ecc1f37d7":["title"]}},{"name":"888d574a-f301-425f-bff4-99daf42ea63c.record.match_winner.model","label":"19 - Update Record➛Match Record➛Match Winner➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","usedInstances":{"86fd16dd-16c5-4491-8164-b854f2ddc65d":["title"],"bddbd6a1-2c56-49e6-a78c-125ecc1f37d7":["title"]}},{"name":"888d574a-f301-425f-bff4-99daf42ea63c.record.tournament","label":"19 - Update Record➛Match Record➛Tournament","reference":"x_407566_hot_tra_0_tournament","reference_display":"Tournament","type":"reference","base_type":"reference","usedInstances":{"86fd16dd-16c5-4491-8164-b854f2ddc65d":["tournament"]}},{"name":"888d574a-f301-425f-bff4-99daf42ea63c.record.wins_to_advance","label":"19 - Update Record➛Match Record➛Wins To Advance","reference":"","reference_display":"Wins To Advance","type":"integer","base_type":"integer","usedInstances":{"86fd16dd-16c5-4491-8164-b854f2ddc65d":["wins_to_advance"]}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.racer_1.match_wins","label":"11 - Update Record➛Match Record➛Racer 1➛Match Wins","reference":"","reference_display":"Match Wins","type":"integer","base_type":"integer","usedInstances":{"48b6a60d-0290-463e-8e1f-d8960e3a9e13":["match_wins"]}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.match_winner.match_wins","label":"11 - Update Record➛Match Record➛Match Winner➛Match Wins","reference":"","reference_display":"Match Wins","type":"integer","base_type":"integer","usedInstances":{"48b6a60d-0290-463e-8e1f-d8960e3a9e13":["match_wins"]}},{"name":"6a49c93b-ba52-495b-b324-bd9394b2620a.record.match_winner.rank_points","label":"11 - Update Record➛Match Record➛Match Winner➛Rank Points","reference":"","reference_display":"Rank Points","type":"integer","base_type":"integer","usedInstances":{"48b6a60d-0290-463e-8e1f-d8960e3a9e13":["rank_points"]}},{"name":"888d574a-f301-425f-bff4-99daf42ea63c.record.match_winner.match_wins","label":"19 - Update Record➛Match Record➛Match Winner➛Match Wins","reference":"","reference_display":"Match Wins","type":"integer","base_type":"integer","usedInstances":{"88e0a138-996a-40d5-b737-494cab1d9ccb":["match_wins"]}},{"name":"888d574a-f301-425f-bff4-99daf42ea63c.record.match_winner.rank_points","label":"19 - Update Record➛Match Record➛Match Winner➛Rank Points","reference":"","reference_display":"Rank Points","type":"integer","base_type":"integer","usedInstances":{"88e0a138-996a-40d5-b737-494cab1d9ccb":["rank_points"]}},{"name":"7f3589f9-aa2f-4251-856e-1f15a5f8a056.Records","label":"3 - Look Up Records➛Race Records","reference":"x_407566_hot_tra_0_race","reference_display":"Race","type":"records","base_type":"records","usedInstances":{"933800be-e59a-4e01-8596-ba450ef703b7":["log_message"]}},{"name":"e50bfe35-747d-4adb-b290-c0c9a1ea2089.Record","label":"1 - Look Up Record➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.match_winner","label":"Trigger - Record Updated➛Match Record➛Match Winner","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"26416c5b-b1c1-4f9f-9caf-1ed87d31dca3":["winner-0"]}},{"name":"flow_variable.loser","label":"Flow Variables➛Loser","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","column_name":"","usedInstances":{"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77":["racer_2","title"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["racer_1"],"6143e4d4-1f75-4a96-938f-e8fc80c22414":["conditions"]},"attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e50bfe35-747d-4adb-b290-c0c9a1ea2089.Record.racer_1.model","label":"1 - Look Up Record➛Match Record➛Racer 1➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","usedInstances":{"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77":["title"]}},{"name":"flow_variable.loser.model","label":"Flow Variables➛Loser➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","parent_table_name":"x_407566_hot_tra_0_wheels","column_name":"model","usedInstances":{"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77":["title"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["title"]}},{"name":"e50bfe35-747d-4adb-b290-c0c9a1ea2089.__action_status__.code","label":"1 - Look Up Record➛Action Status➛Code","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{}},{"name":"e50bfe35-747d-4adb-b290-c0c9a1ea2089.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{"f01cf3d4-205c-405e-b7fd-161f03505c6b":["condition"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"Updated_1.current.tournament","label":"Trigger - Record Updated➛Match Record➛Tournament","reference":"x_407566_hot_tra_0_tournament","reference_display":"Tournament","type":"reference","base_type":"reference","usedInstances":{"f041aa91-5dd2-47cc-852d-8f9321123e2c":["tournament"]}},{"name":"6143e4d4-1f75-4a96-938f-e8fc80c22414.Record","label":"3 - Look Up Record➛Wheels Record","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"241ff51f-4455-4359-8e55-d43bb0a87dca":["log_message"],"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77":["racer_2"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6143e4d4-1f75-4a96-938f-e8fc80c22414.Record.model","label":"3 - Look Up Record➛Wheels Record➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","parent_table_name":"x_407566_hot_tra_0_wheels","column_name":"model","usedInstances":{"241ff51f-4455-4359-8e55-d43bb0a87dca":["log_message"],"c16f7a9c-7569-4d5f-b6ae-aa97316a2a77":["title"],"f041aa91-5dd2-47cc-852d-8f9321123e2c":["title"]}}]</label_cache>
         <master>true</master>
         <name>Double Elimination Set Matches</name>
         <natlang/>
@@ -1811,7 +1939,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6579574847db82106a3eedf1d16d43bf</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1819,7 +1947,7 @@
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 09:41:51</sys_updated_on>
+        <sys_updated_on>2024-07-05 22:34:29</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=6579574847db82106a3eedf1d16d43bf"/>
@@ -1834,10 +1962,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-05 09:41:53</sys_created_on>
         <sys_id>ca79974847db82106a3eedf1d16d4349</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 09:41:54</sys_updated_on>
+        <sys_updated_on>2024-07-05 22:34:31</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1892,7 +2020,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1951,14 +2079,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-05 09:41:51</sys_created_on>
         <sys_id>2979574847db82106a3eedf1d16d43ce</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 09:41:51</sys_updated_on>
+        <sys_updated_on>2024-07-05 22:34:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1972,11 +2100,34 @@
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2979574847db82106a3eedf1d16d43ce"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>global</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">d6018d5c90c0021087de3cfccdb0d63a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2035,14 +2186,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-05 09:41:51</sys_created_on>
         <sys_id>f579574847db82106a3eedf1d16d43e0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 09:41:51</sys_updated_on>
+        <sys_updated_on>2024-07-05 22:34:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2060,7 +2211,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2119,14 +2270,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-05 09:41:51</sys_created_on>
         <sys_id>f979574847db82106a3eedf1d16d43e8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 09:41:51</sys_updated_on>
+        <sys_updated_on>2024-07-05 22:34:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2142,7 +2293,45 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f979574847db82106a3eedf1d16d43e8"/>
     <sys_hub_flow_output action="delete_multiple" query="model=6579574847db82106a3eedf1d16d43bf"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=6579574847db82106a3eedf1d16d43bf"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=6579574847db82106a3eedf1d16d43bf^sys_idNOT IN4679974847db82106a3eedf1d16d433a,4679974847db82106a3eedf1d16d4342,8279974847db82106a3eedf1d16d4331,c279974847db82106a3eedf1d16d4348"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=6579574847db82106a3eedf1d16d43bf^sys_idNOT IN174a82dc475bc2106a3eedf1d16d4340,4679974847db82106a3eedf1d16d433a,4679974847db82106a3eedf1d16d4342,8279974847db82106a3eedf1d16d4331,9b4a82dc475bc2106a3eedf1d16d4337,c279974847db82106a3eedf1d16d4348"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Double Elimination Set Matches">6579574847db82106a3eedf1d16d43bf</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 22:34:28</sys_created_on>
+        <sys_id>174a82dc475bc2106a3eedf1d16d4340</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 22:34:29</sys_updated_on>
+        <ui_id>241ff51f-4455-4359-8e55-d43bb0a87dca</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=174a82dc475bc2106a3eedf1d16d4340"/>
+    <sys_element_mapping action="delete_multiple" query="id=174a82dc475bc2106a3eedf1d16d4340"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>174a82dc475bc2106a3eedf1d16d4340</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 22:34:28</sys_created_on>
+        <sys_id>d74a82dc475bc2106a3eedf1d16d4341</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 22:34:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>Id: {{6143e4d4-1f75-4a96-938f-e8fc80c22414.Record}}Mode: {{6143e4d4-1f75-4a96-938f-e8fc80c22414.Record.model}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=174a82dc475bc2106a3eedf1d16d4340"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=174a82dc475bc2106a3eedf1d16d4340"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -2153,16 +2342,16 @@
         <display_text/>
         <flow display_value="Double Elimination Set Matches">6579574847db82106a3eedf1d16d43bf</flow>
         <generation_source/>
-        <order>5</order>
+        <order>7</order>
         <parent_ui_id>f01cf3d4-205c-405e-b7fd-161f03505c6b</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-05 09:41:52</sys_created_on>
         <sys_id>4679974847db82106a3eedf1d16d433a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 09:41:53</sys_updated_on>
+        <sys_updated_on>2024-07-05 22:34:29</sys_updated_on>
         <ui_id>c16f7a9c-7569-4d5f-b6ae-aa97316a2a77</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4679974847db82106a3eedf1d16d433a"/>
@@ -2211,11 +2400,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-05 09:41:53</sys_created_on>
         <sys_id>4e79974847db82106a3eedf1d16d433b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 09:41:53</sys_updated_on>
+        <sys_updated_on>2024-07-05 22:34:28</sys_updated_on>
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value>der=false^racer_2={{flow_variable.loser}}^stage=matched^title=DER {{e50bfe35-747d-4adb-b290-c0c9a1ea2089.Record.racer_1.model}}VS {{flow_variable.loser.model}}</value>
+        <value>der=false^racer_2={{6143e4d4-1f75-4a96-938f-e8fc80c22414.Record}}^stage=matched^title=DER {{e50bfe35-747d-4adb-b290-c0c9a1ea2089.Record.racer_1.model}}VS {{6143e4d4-1f75-4a96-938f-e8fc80c22414.Record.model}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=4679974847db82106a3eedf1d16d433a"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=4679974847db82106a3eedf1d16d433a"/>
@@ -2229,16 +2418,16 @@
         <display_text/>
         <flow display_value="Double Elimination Set Matches">6579574847db82106a3eedf1d16d43bf</flow>
         <generation_source/>
-        <order>6</order>
+        <order>8</order>
         <parent_ui_id>f01cf3d4-205c-405e-b7fd-161f03505c6b</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-05 09:41:53</sys_created_on>
         <sys_id>4679974847db82106a3eedf1d16d4342</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 09:41:53</sys_updated_on>
+        <sys_updated_on>2024-07-05 22:34:29</sys_updated_on>
         <ui_id>268c2f42-d364-4a71-8d8e-7128a45cbd30</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4679974847db82106a3eedf1d16d4342"/>
@@ -2298,10 +2487,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-05 09:41:52</sys_created_on>
         <sys_id>8279974847db82106a3eedf1d16d4331</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 09:41:52</sys_updated_on>
+        <sys_updated_on>2024-07-05 22:34:29</sys_updated_on>
         <ui_id>e50bfe35-747d-4adb-b290-c0c9a1ea2089</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8279974847db82106a3eedf1d16d4331"/>
@@ -2353,6 +2542,96 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Double Elimination Set Matches">6579574847db82106a3eedf1d16d43bf</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 22:34:28</sys_created_on>
+        <sys_id>9b4a82dc475bc2106a3eedf1d16d4337</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 22:34:29</sys_updated_on>
+        <ui_id>6143e4d4-1f75-4a96-938f-e8fc80c22414</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9b4a82dc475bc2106a3eedf1d16d4337"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9b4a82dc475bc2106a3eedf1d16d4337</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 22:34:28</sys_created_on>
+        <sys_id>974a82dc475bc2106a3eedf1d16d433a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 22:34:28</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Don't fail on error">ceab42a673110010d70877186bf6a74f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9b4a82dc475bc2106a3eedf1d16d4337</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 22:34:28</sys_created_on>
+        <sys_id>9f4a82dc475bc2106a3eedf1d16d433a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 22:34:28</sys_updated_on>
+        <value>x_407566_hot_tra_0_wheels</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9b4a82dc475bc2106a3eedf1d16d4337"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>9b4a82dc475bc2106a3eedf1d16d4337</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 22:34:28</sys_created_on>
+        <sys_id>534a82dc475bc2106a3eedf1d16d433a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 22:34:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>sys_id={{flow_variable.loser}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>9b4a82dc475bc2106a3eedf1d16d4337</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 22:34:28</sys_created_on>
+        <sys_id>174a82dc475bc2106a3eedf1d16d433a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 22:34:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__snc_dont_fail_on_error</field>
+        <id>9b4a82dc475bc2106a3eedf1d16d4337</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 22:34:28</sys_created_on>
+        <sys_id>9b4a82dc475bc2106a3eedf1d16d4339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 22:34:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9b4a82dc475bc2106a3eedf1d16d4337"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9b4a82dc475bc2106a3eedf1d16d4337"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
         <attributes/>
@@ -2360,16 +2639,16 @@
         <display_text/>
         <flow display_value="Double Elimination Set Matches">6579574847db82106a3eedf1d16d43bf</flow>
         <generation_source/>
-        <order>8</order>
+        <order>10</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-05 09:41:53</sys_created_on>
         <sys_id>c279974847db82106a3eedf1d16d4348</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 09:41:53</sys_updated_on>
+        <sys_updated_on>2024-07-05 22:34:29</sys_updated_on>
         <ui_id>f041aa91-5dd2-47cc-852d-8f9321123e2c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c279974847db82106a3eedf1d16d4348"/>
@@ -2406,11 +2685,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-05 09:41:53</sys_created_on>
         <sys_id>4679974847db82106a3eedf1d16d4349</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 09:41:53</sys_updated_on>
+        <sys_updated_on>2024-07-05 22:34:28</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>racer_1={{flow_variable.loser}}^round={{flow_variable.nextround}}^stage=awaiting_match^tournament={{Updated_1.current.tournament}}^wins_to_advance={{Updated_1.current.wins_to_advance}}^title={{flow_variable.loser.model}} VS Awaiting DER Match^der=true^journal=Double Elimination Match </value>
+        <value>racer_1={{flow_variable.loser}}^round={{flow_variable.nextround}}^stage=awaiting_match^tournament={{Updated_1.current.tournament}}^wins_to_advance={{Updated_1.current.wins_to_advance}}^title={{6143e4d4-1f75-4a96-938f-e8fc80c22414.Record.model}} VS Awaiting DER Match^der=true^journal=Double Elimination Match </value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=c279974847db82106a3eedf1d16d4348"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=c279974847db82106a3eedf1d16d4348"/>
@@ -2440,10 +2719,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-05 09:41:52</sys_created_on>
         <sys_id>3579974847db82106a3eedf1d16d4317</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 09:41:52</sys_updated_on>
+        <sys_updated_on>2024-07-05 22:34:29</sys_updated_on>
         <ui_id>26416c5b-b1c1-4f9f-9caf-1ed87d31dca3</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2492,7 +2771,7 @@
         <generation_source/>
         <inputs/>
         <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
-        <order>7</order>
+        <order>9</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>f01cf3d4-205c-405e-b7fd-161f03505c6b</parent_ui_id>
@@ -2500,10 +2779,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-05 09:41:52</sys_created_on>
         <sys_id>4e79974847db82106a3eedf1d16d4324</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 09:41:52</sys_updated_on>
+        <sys_updated_on>2024-07-05 22:34:29</sys_updated_on>
         <ui_id>13908ce6-47b8-4512-812c-5916efdfd8c2</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2528,7 +2807,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>4</order>
+        <order>6</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -2536,10 +2815,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-05 09:41:52</sys_created_on>
         <sys_id>f179974847db82106a3eedf1d16d4320</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 09:41:52</sys_updated_on>
+        <sys_updated_on>2024-07-05 22:34:29</sys_updated_on>
         <ui_id>f01cf3d4-205c-405e-b7fd-161f03505c6b</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2603,7 +2882,7 @@
         <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
-        <order>3</order>
+        <order>5</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -2611,10 +2890,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-05 09:41:52</sys_created_on>
         <sys_id>f579974847db82106a3eedf1d16d431c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 09:41:52</sys_updated_on>
+        <sys_updated_on>2024-07-05 22:34:29</sys_updated_on>
         <ui_id>4f34309a-0af0-410c-a179-f57117c4eeae</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -3472,7 +3751,7 @@
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=9968838c475b82106a3eedf1d16d4379^sys_idNOT IN1a79974847db82106a3eedf1d16d4390"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
-        <plan/>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"1a79974847db82106a3eedf1d16d4390","name":"plan","plan_signature":null}}</plan>
         <plan_id>9968838c475b82106a3eedf1d16d4379</plan_id>
         <snapshot>6579574847db82106a3eedf1d16d43bf</snapshot>
         <sys_created_by>admin</sys_created_by>
@@ -3480,11 +3759,11 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1a79974847db82106a3eedf1d16d4390</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-05 09:41:54</sys_updated_on>
+        <sys_updated_on>2024-07-05 22:34:31</sys_updated_on>
         <trigger display_value="">5679974847db82106a3eedf1d16d438e</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=9968838c475b82106a3eedf1d16d4379"/>

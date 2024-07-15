@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a7cc0186471302106a3eedf1d16d436c" label="Team" max_length="40" name="x_407566_hot_tra_0_team" type="collection">
+        <element label="Manager" max_length="32" name="manager" reference="x_407566_hot_tra_0_driver" type="reference"/>
+        <element label="Name" max_length="240" name="name" type="string"/>
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Emblem" max_length="40" name="emblem" type="user_image"/>
+        <element label="Parent" max_length="40" name="parent" type="string"/>
+        <element label="Default" max_length="32" name="default" reference="x_407566_hot_tra_0_driver" type="reference"/>
+        <element label="Description" max_length="540" name="description" type="string"/>
+        <element label="Type" max_length="240" name="type" type="string"/>
+        <element label="City" max_length="240" name="city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="User Rules" max_length="240" name="user_rules" type="string"/>
+        <index name="index">
+            <element name="default"/>
+        </index>
+        <index name="index2">
+            <element name="manager"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
