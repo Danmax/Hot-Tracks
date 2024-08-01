@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m">
+    <sys_m2m action="INSERT_OR_UPDATE">
+        <from_table>x_407566_hot_tra_0_driver</from_table>
+        <m2m_from_field>x_407566_hot_tra_0_driver</m2m_from_field>
+        <m2m_from_label>Teams</m2m_from_label>
+        <m2m_table>x_407566_hot_tra_0_m2m_x_407566_ho_x_407566_ho</m2m_table>
+        <m2m_to_field>x_407566_hot_tra_0_team</m2m_to_field>
+        <m2m_to_label>Drivers</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-13 03:27:38</sys_created_on>
+        <sys_id>b6505f6647db02106a3eedf1d16d43c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_407566_hot_tra_0_m2m_x_407566_ho_x_407566_ho</sys_name>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name>sys_m2m_b6505f6647db02106a3eedf1d16d43c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-13 03:27:38</sys_updated_on>
+        <to_table>x_407566_hot_tra_0_team</to_table>
+    </sys_m2m>
+</record_update>

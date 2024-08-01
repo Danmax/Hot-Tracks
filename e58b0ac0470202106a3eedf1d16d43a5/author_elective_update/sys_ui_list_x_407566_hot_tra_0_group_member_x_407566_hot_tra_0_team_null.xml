@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="x_407566_hot_tra_0_team" relationship="" sys_domain="global" table="x_407566_hot_tra_0_group_member" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>team</element>
+            <list_id display_value="x_407566_hot_tra_0_group_member" element="NULL" name="x_407566_hot_tra_0_group_member" parent="x_407566_hot_tra_0_team" relationship="NULL" sys_domain="global" view="Default view">6a538766479b02106a3eedf1d16d4310</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-13 02:30:04</sys_created_on>
+            <sys_id>ea538766479b02106a3eedf1d16d4311</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-13 02:30:04</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>driver</element>
+            <list_id display_value="x_407566_hot_tra_0_group_member" element="NULL" name="x_407566_hot_tra_0_group_member" parent="x_407566_hot_tra_0_team" relationship="NULL" sys_domain="global" view="Default view">6a538766479b02106a3eedf1d16d4310</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-13 02:30:04</sys_created_on>
+            <sys_id>e2538766479b02106a3eedf1d16d4312</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-13 02:30:04</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_407566_hot_tra_0_group_member</name>
+            <parent>x_407566_hot_tra_0_team</parent>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-13 02:30:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6a538766479b02106a3eedf1d16d4310</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_407566_hot_tra_0_group_member</sys_name>
+            <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+            <sys_update_name>sys_ui_list_x_407566_hot_tra_0_group_member_x_407566_hot_tra_0_team_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-13 02:30:04</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</application>
+        <file_path/>
+        <instance_id>41d1b26fdb62b59438f117291396196f</instance_id>
+        <instance_name>dev221640</instance_name>
+        <name>sys_ui_list_x_407566_hot_tra_0_group_member_x_407566_hot_tra_0_team_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="x_407566_hot_tra_0_team" relationship="" sys_domain="global" table="x_407566_hot_tra_0_group_member" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>team</element><list_id display_value="x_407566_hot_tra_0_group_member" element="NULL" name="x_407566_hot_tra_0_group_member" parent="x_407566_hot_tra_0_team" relationship="NULL" sys_domain="global" view="Default view">6a538766479b02106a3eedf1d16d4310</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-13 02:30:04</sys_created_on><sys_id>ea538766479b02106a3eedf1d16d4311</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-13 02:30:04</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>driver</element><list_id display_value="x_407566_hot_tra_0_group_member" element="NULL" name="x_407566_hot_tra_0_group_member" parent="x_407566_hot_tra_0_team" relationship="NULL" sys_domain="global" view="Default view">6a538766479b02106a3eedf1d16d4310</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-13 02:30:04</sys_created_on><sys_id>e2538766479b02106a3eedf1d16d4312</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-13 02:30:04</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_407566_hot_tra_0_group_member</name><parent>x_407566_hot_tra_0_team</parent><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-13 02:30:04</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6a538766479b02106a3eedf1d16d4310</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_407566_hot_tra_0_group_member</sys_name><sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package><sys_policy/><sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope><sys_update_name>sys_ui_list_x_407566_hot_tra_0_group_member_x_407566_hot_tra_0_team_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-13 02:30:04</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>1624737706</payload_hash>
+        <record_name>Team.Group Member</record_name>
+        <reverted_from/>
+        <source>c8c4e8d4473602106a3eedf1d16d43b9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-13 02:30:04</sys_created_on>
+        <sys_id>aa534ba6479b02106a3eedf1d16d436a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190a9ed11c30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-13 02:30:04</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>6e538766a89b021060637f2380234713</update_guid>
+        <update_guid_history>6e538766a89b021060637f2380234713:1624737706</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-13 03:31:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>226f2c44ae1f4b8089e0b9954c7c9a40</sys_id>
+        <sys_metadata>6a538766479b02106a3eedf1d16d4310</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_407566_hot_tra_0_group_member</sys_name>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_parent display_value="">fd910fe2479b02106a3eedf1d16d43ef</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope_delete display_value="">5360a778b1d14ee69fe48f4dc1dd5bf1</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_407566_hot_tra_0_group_member_x_407566_hot_tra_0_team_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_407566_hot_tra_0_group_member_x_407566_hot_tra_0_team_null">aa534ba6479b02106a3eedf1d16d436a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-13 03:31:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

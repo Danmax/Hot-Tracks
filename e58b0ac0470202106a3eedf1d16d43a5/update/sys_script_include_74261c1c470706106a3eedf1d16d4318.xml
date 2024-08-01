@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_407566_hot_tra_0.GetWheelsModel</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>GetWheelsModel</name>
+        <script><![CDATA[var GetWheelsModel = Class.create();
+GetWheelsModel.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	modelName: function () {
+		var driverIds = this.getParameter("sysparm_driverIds");
+		var grWheels = new GlideRecord('x_407566_hot_tra_0_wheels');
+		grWheels.addQuery("sys_id", "IN", driverIds);
+		grWheels.query();
+
+		var results = [];
+		while (grWheels.next()) {
+			// Build the payload. You can return additional data if needed. 
+			var result = {
+				"model": grWheels.getDisplayValue('model')
+			};
+
+			results.push(result);
+		}
+
+		// Return the JSON string of results
+		return JSON.stringify(results);
+	},
+	type: 'GetWheelsModel'
+});
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-23 03:51:15</sys_created_on>
+        <sys_id>74261c1c470706106a3eedf1d16d4318</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>GetWheelsModel</sys_name>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name>sys_script_include_74261c1c470706106a3eedf1d16d4318</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-23 04:01:23</sys_updated_on>
+    </sys_script_include>
+</record_update>

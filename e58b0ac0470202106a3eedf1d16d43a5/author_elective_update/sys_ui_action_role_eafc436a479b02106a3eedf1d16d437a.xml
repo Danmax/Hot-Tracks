@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="DELETE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-13 03:15:31</sys_created_on>
+        <sys_id>eafc436a479b02106a3eedf1d16d437a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_407566_hot_tra_0.user</sys_name>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_ui_action display_value="">6dfc0f6a479b02106a3eedf1d16d4327</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_eafc436a479b02106a3eedf1d16d437a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-13 03:15:31</sys_updated_on>
+        <sys_user_role display_value="x_407566_hot_tra_0.user" name="x_407566_hot_tra_0.user">258b0ac0470202106a3eedf1d16d43cd</sys_user_role>
+    </sys_ui_action_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</application>
+        <file_path/>
+        <instance_id>41d1b26fdb62b59438f117291396196f</instance_id>
+        <instance_name>dev221640</instance_name>
+        <name>sys_ui_action_role_eafc436a479b02106a3eedf1d16d437a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role"><sys_ui_action_role action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-13 03:15:31</sys_created_on><sys_id>eafc436a479b02106a3eedf1d16d437a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_407566_hot_tra_0.user</sys_name><sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package><sys_policy/><sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope><sys_ui_action display_value="">6dfc0f6a479b02106a3eedf1d16d4327</sys_ui_action><sys_update_name>sys_ui_action_role_eafc436a479b02106a3eedf1d16d437a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-13 03:15:31</sys_updated_on><sys_user_role display_value="x_407566_hot_tra_0.user" name="x_407566_hot_tra_0.user">258b0ac0470202106a3eedf1d16d43cd</sys_user_role></sys_ui_action_role></record_update>]]></payload>
+        <payload_hash>-1983812278</payload_hash>
+        <record_name>.x_407566_hot_tra_0.user</record_name>
+        <reverted_from/>
+        <source>c8c4e8d4473602106a3eedf1d16d43b9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-13 03:15:32</sys_created_on>
+        <sys_id>60cd076a479b02106a3eedf1d16d43d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190aa16b0590000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-13 03:15:32</sys_updated_on>
+        <type>UI Action Role</type>
+        <update_guid>64cd076a979b02100cd5277769bda9d6</update_guid>
+        <update_guid_history>64cd076a979b02100cd5277769bda9d6:-1983812278</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-13 03:16:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action_role">sys_ui_action_role</sys_db_object>
+        <sys_id>9ec9ac86ca204dbb80a4179e3c2ba419</sys_id>
+        <sys_metadata>eafc436a479b02106a3eedf1d16d437a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_407566_hot_tra_0.user</sys_name>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope_delete display_value="">5360a778b1d14ee69fe48f4dc1dd5bf1</sys_scope_delete>
+        <sys_update_name>sys_ui_action_role_eafc436a479b02106a3eedf1d16d437a</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_role_eafc436a479b02106a3eedf1d16d437a">60cd076a479b02106a3eedf1d16d43d7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-13 03:16:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

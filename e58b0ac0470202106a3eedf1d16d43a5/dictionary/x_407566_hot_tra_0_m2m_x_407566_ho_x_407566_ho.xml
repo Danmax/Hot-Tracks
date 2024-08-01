@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f9805f6647db02106a3eedf1d16d43a0" label="Team Member" max_length="40" name="x_407566_hot_tra_0_m2m_x_407566_ho_x_407566_ho" type="collection">
+        <element attributes="encode_utf8=false" label="Teams" max_length="32" name="x_407566_hot_tra_0_team" reference="x_407566_hot_tra_0_team" type="reference"/>
+        <element attributes="encode_utf8=false" label="Drivers" max_length="32" name="x_407566_hot_tra_0_driver" reference="x_407566_hot_tra_0_driver" type="reference"/>
+        <index name="index">
+            <element name="x_407566_hot_tra_0_driver"/>
+        </index>
+        <index name="index2">
+            <element name="x_407566_hot_tra_0_team"/>
+        </index>
+    </element>
+</database>
