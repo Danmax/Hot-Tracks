@@ -1,0 +1,1774 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=13989000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-washingtondc-12-20-2023__patch3-hotfix1-05-12-2024_05-16-2024_0813.zip</compiler_build>
+        <copied_from>122f84f747ba42106a3eedf1d16d4368</copied_from>
+        <copied_from_name>Finish Qualifiers Build Rank</copied_from_name>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>copy_of_finish_qualifiers_build_rank</internal_name>
+        <label_cache>[{"name":"b4593690-30f9-4162-b155-d2b46f20db90.item.racer_1.sys_id","label":"6 - For Each➛Match Record➛Racer 1➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"fca60c94-e362-420c-96b4-425c99b4c745":["competitor-0"]},"attributes":null},{"name":"56c4f0f7-839f-430f-ba7e-a3be7e545852.Records","label":"5 - Look Up Records➛Match Records","reference":"x_407566_hot_tra_0_match","reference_display":"Match Records","type":"records","base_type":"records","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"b4593690-30f9-4162-b155-d2b46f20db90":["items"]},"attributes":null},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Tournament Record","reference":"x_407566_hot_tra_0_tournament","reference_display":"Tournament","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"bc201344-29e9-408b-8e69-1de465d145c5":["conditions"],"3303d438-089c-4248-8462-c924f531b272":["conditions"],"56c4f0f7-839f-430f-ba7e-a3be7e545852":["conditions"],"2654e20a-fb49-4dc1-8014-471f9872fc49":["record"]},"attributes":null},{"name":"3303d438-089c-4248-8462-c924f531b272.Records","label":"1 - Look Up Records➛Match Records","reference":"x_407566_hot_tra_0_match","reference_display":"Match Records","type":"records","base_type":"records","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"9acca52f-cfe9-4413-a1c3-bc4c9d8e7eb0":["items"]},"attributes":null},{"name":"9acca52f-cfe9-4413-a1c3-bc4c9d8e7eb0.item","label":"2 - For Each➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match Record","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"37292e7e-69be-4257-bda1-767954f90a29":["conditions"],"e98e6d92-a41b-4635-8445-f0cd8d69ebad":["record"],"b28a382f-0ac1-466c-9f35-cc3b59f1c7fe":["record"],"b55d39dd-19f3-4b33-9119-bd696e79b356":["match_sys_id"]},"attributes":null},{"name":"37292e7e-69be-4257-bda1-767954f90a29.Record.r1_time","label":"3 - Look Up Record➛Race Record➛R1 Time","reference":"","reference_display":"R1 Time","type":"decimal","base_type":"decimal","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"e98e6d92-a41b-4635-8445-f0cd8d69ebad":["fastest_time"]},"attributes":null},{"name":"flow_variable.ranklist","label":"Flow Variables➛RankList","reference":"","reference_display":"","type":"string","base_type":"string","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"fad2d8eb-71f6-4936-8d58-dbcca0aafaa6":["ranklist-0"],"2654e20a-fb49-4dc1-8014-471f9872fc49":["q_rank_list"]},"attributes":null},{"name":"flow_variable.competitor","label":"Flow Variables➛competitor","reference":"","reference_display":"","type":"string","base_type":"string","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"fad2d8eb-71f6-4936-8d58-dbcca0aafaa6":["ranklist-0"]},"attributes":null},{"name":"b4593690-30f9-4162-b155-d2b46f20db90.item.racer_1.model","label":"6 - For Each➛Match Record➛Racer 1➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"fca60c94-e362-420c-96b4-425c99b4c745":["name-1"]},"attributes":null},{"name":"b4593690-30f9-4162-b155-d2b46f20db90.item","label":"6 - For Each➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"ccc602c9-6b4d-4e38-bdc2-b4fee24981d9":["martch_record"]},"attributes":null}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Copy of Finish Qualifiers Build Rank</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e1fdc9ff47fe42106a3eedf1d16d43e6</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Copy of Finish Qualifiers Build Rank</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name>sys_hub_flow_e1fdc9ff47fe42106a3eedf1d16d43e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:50:59</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=e1fdc9ff47fe42106a3eedf1d16d43e6"/>
+    <sys_variable_value action="DELETE" query="document_key=e1fdc9ff47fe42106a3eedf1d16d43e6"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=e1fdc9ff47fe42106a3eedf1d16d43e6^sys_idNOT INcafd0dff47fe42106a3eedf1d16d4376"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Copy of Finish Qualifiers Build Rank">e1fdc9ff47fe42106a3eedf1d16d43e6</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:13</sys_created_on>
+        <sys_id>cafd0dff47fe42106a3eedf1d16d4376</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:13</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=cafd0dff47fe42106a3eedf1d16d4376"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>cafd0dff47fe42106a3eedf1d16d4376</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:13</sys_created_on>
+        <sys_id>0efd0dff47fe42106a3eedf1d16d4377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:13</sys_updated_on>
+        <value>tournament_stateCHANGESFROMqualifier^tournament_stateCHANGESTOready</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>cafd0dff47fe42106a3eedf1d16d4376</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:13</sys_created_on>
+        <sys_id>4afd0dff47fe42106a3eedf1d16d4377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:13</sys_updated_on>
+        <value>every</value>
+        <variable display_value="Run Trigger">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>cafd0dff47fe42106a3eedf1d16d4376</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:13</sys_created_on>
+        <sys_id>cefd0dff47fe42106a3eedf1d16d4377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:13</sys_updated_on>
+        <value>x_407566_hot_tra_0_tournament</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=cafd0dff47fe42106a3eedf1d16d4376"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=e1fdc9ff47fe42106a3eedf1d16d43e6"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=e1fdc9ff47fe42106a3eedf1d16d43e6^sys_idNOT INa1fdc9ff47fe42106a3eedf1d16d43e7"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>e1fdc9ff47fe42106a3eedf1d16d43e6</id>
+        <name>Copy of Finish Qualifiers Build Rank</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:11</sys_created_on>
+        <sys_id>a1fdc9ff47fe42106a3eedf1d16d43e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:11</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=a1fdc9ff47fe42106a3eedf1d16d43e7"/>
+    <sys_hub_flow_input action="DELETE" query="model=e1fdc9ff47fe42106a3eedf1d16d43e6^sys_idNOT IN31fd0dff47fe42106a3eedf1d16d431d,b5fd0dff47fe42106a3eedf1d16d4324,f1fd0dff47fe42106a3eedf1d16d4321"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Copy of Finish Qualifiers Build Rank">e1fdc9ff47fe42106a3eedf1d16d43e6</model>
+        <model_id>e1fdc9ff47fe42106a3eedf1d16d43e6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_e1fdc9ff47fe42106a3eedf1d16d43e6</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:12</sys_created_on>
+        <sys_id>31fd0dff47fe42106a3eedf1d16d431d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=31fd0dff47fe42106a3eedf1d16d431d"/>
+    <sys_complex_object action="DELETE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>global</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">d6018d5c90c0021087de3cfccdb0d63a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Copy of Finish Qualifiers Build Rank">e1fdc9ff47fe42106a3eedf1d16d43e6</model>
+        <model_id>e1fdc9ff47fe42106a3eedf1d16d43e6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_e1fdc9ff47fe42106a3eedf1d16d43e6</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:12</sys_created_on>
+        <sys_id>b5fd0dff47fe42106a3eedf1d16d4324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=b5fd0dff47fe42106a3eedf1d16d4324"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Copy of Finish Qualifiers Build Rank">e1fdc9ff47fe42106a3eedf1d16d43e6</model>
+        <model_id>e1fdc9ff47fe42106a3eedf1d16d43e6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_e1fdc9ff47fe42106a3eedf1d16d43e6</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:12</sys_created_on>
+        <sys_id>f1fd0dff47fe42106a3eedf1d16d4321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=f1fd0dff47fe42106a3eedf1d16d4321"/>
+    <sys_hub_flow_output action="DELETE" query="model=e1fdc9ff47fe42106a3eedf1d16d43e6"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=e1fdc9ff47fe42106a3eedf1d16d43e6"/>
+    <sys_hub_action_instance action="DELETE" query="flow=e1fdc9ff47fe42106a3eedf1d16d43e6^sys_idNOT IN02fd0dff47fe42106a3eedf1d16d435f,06fd0dff47fe42106a3eedf1d16d4366,0afd0dff47fe42106a3eedf1d16d436e,8efd0dff47fe42106a3eedf1d16d4374,a12e8133473282106a3eedf1d16d4300,fdfd0dff47fe42106a3eedf1d16d4354"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Finish Qualifiers Build Rank">e1fdc9ff47fe42106a3eedf1d16d43e6</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>9acca52f-cfe9-4413-a1c3-bc4c9d8e7eb0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:13</sys_created_on>
+        <sys_id>02fd0dff47fe42106a3eedf1d16d435f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:13</sys_updated_on>
+        <ui_id>37292e7e-69be-4257-bda1-767954f90a29</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=02fd0dff47fe42106a3eedf1d16d435f"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>02fd0dff47fe42106a3eedf1d16d435f</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:13</sys_created_on>
+        <sys_id>0efd0dff47fe42106a3eedf1d16d4361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:13</sys_updated_on>
+        <value>x_407566_hot_tra_0_race</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>02fd0dff47fe42106a3eedf1d16d435f</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:13</sys_created_on>
+        <sys_id>4afd0dff47fe42106a3eedf1d16d4361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:13</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Don't fail on error">ceab42a673110010d70877186bf6a74f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>02fd0dff47fe42106a3eedf1d16d435f</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:13</sys_created_on>
+        <sys_id>86fd0dff47fe42106a3eedf1d16d4361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:13</sys_updated_on>
+        <value>r1_time</value>
+        <variable display_value="Order by">1d09f99587003300663ca1bb36cb0bad</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=02fd0dff47fe42106a3eedf1d16d435f"/>
+    <sys_element_mapping action="DELETE">
+        <field>conditions</field>
+        <id>02fd0dff47fe42106a3eedf1d16d435f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:13</sys_created_on>
+        <sys_id>42fd0dff47fe42106a3eedf1d16d4361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>round_match={{9acca52f-cfe9-4413-a1c3-bc4c9d8e7eb0.item}}^r1_timeISNOTEMPTY</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>sort_column</field>
+        <id>02fd0dff47fe42106a3eedf1d16d435f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:13</sys_created_on>
+        <sys_id>cafd0dff47fe42106a3eedf1d16d4360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table</field>
+        <id>02fd0dff47fe42106a3eedf1d16d435f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:13</sys_created_on>
+        <sys_id>06fd0dff47fe42106a3eedf1d16d4361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>__snc_dont_fail_on_error</field>
+        <id>02fd0dff47fe42106a3eedf1d16d435f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:13</sys_created_on>
+        <sys_id>8efd0dff47fe42106a3eedf1d16d4360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=02fd0dff47fe42106a3eedf1d16d435f"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=02fd0dff47fe42106a3eedf1d16d435f"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Finish Qualifiers Build Rank">e1fdc9ff47fe42106a3eedf1d16d43e6</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>9acca52f-cfe9-4413-a1c3-bc4c9d8e7eb0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:13</sys_created_on>
+        <sys_id>06fd0dff47fe42106a3eedf1d16d4366</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:13</sys_updated_on>
+        <ui_id>e98e6d92-a41b-4635-8445-f0cd8d69ebad</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=06fd0dff47fe42106a3eedf1d16d4366"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>06fd0dff47fe42106a3eedf1d16d4366</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:13</sys_created_on>
+        <sys_id>42fd0dff47fe42106a3eedf1d16d4368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:13</sys_updated_on>
+        <value>x_407566_hot_tra_0_match</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=06fd0dff47fe42106a3eedf1d16d4366"/>
+    <sys_element_mapping action="DELETE">
+        <field>record</field>
+        <id>06fd0dff47fe42106a3eedf1d16d4366</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:13</sys_created_on>
+        <sys_id>cefd0dff47fe42106a3eedf1d16d4367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{9acca52f-cfe9-4413-a1c3-bc4c9d8e7eb0.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>06fd0dff47fe42106a3eedf1d16d4366</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:13</sys_created_on>
+        <sys_id>4afd0dff47fe42106a3eedf1d16d4367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>06fd0dff47fe42106a3eedf1d16d4366</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:13</sys_created_on>
+        <sys_id>0efd0dff47fe42106a3eedf1d16d4367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>fastest_time={{37292e7e-69be-4257-bda1-767954f90a29.Record.r1_time}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=06fd0dff47fe42106a3eedf1d16d4366"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=06fd0dff47fe42106a3eedf1d16d4366"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Finish Qualifiers Build Rank">e1fdc9ff47fe42106a3eedf1d16d43e6</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:13</sys_created_on>
+        <sys_id>0afd0dff47fe42106a3eedf1d16d436e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:13</sys_updated_on>
+        <ui_id>56c4f0f7-839f-430f-ba7e-a3be7e545852</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=0afd0dff47fe42106a3eedf1d16d436e"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0afd0dff47fe42106a3eedf1d16d436e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:13</sys_created_on>
+        <sys_id>0afd0dff47fe42106a3eedf1d16d4370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:13</sys_updated_on>
+        <value>x_407566_hot_tra_0_match</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0afd0dff47fe42106a3eedf1d16d436e</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:13</sys_created_on>
+        <sys_id>46fd0dff47fe42106a3eedf1d16d4370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:13</sys_updated_on>
+        <value>fastest_time</value>
+        <variable display_value="Order by">c7400a1587003300663ca1bb36cb0b55</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=0afd0dff47fe42106a3eedf1d16d436e"/>
+    <sys_element_mapping action="DELETE">
+        <field>conditions</field>
+        <id>0afd0dff47fe42106a3eedf1d16d436e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:13</sys_created_on>
+        <sys_id>02fd0dff47fe42106a3eedf1d16d4370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>tournament={{Updated_1.current}}^stage=qualifier</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>sort_column</field>
+        <id>0afd0dff47fe42106a3eedf1d16d436e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:13</sys_created_on>
+        <sys_id>4efd0dff47fe42106a3eedf1d16d436f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table</field>
+        <id>0afd0dff47fe42106a3eedf1d16d436e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:13</sys_created_on>
+        <sys_id>c2fd0dff47fe42106a3eedf1d16d4370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=0afd0dff47fe42106a3eedf1d16d436e"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=0afd0dff47fe42106a3eedf1d16d436e"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Finish Qualifiers Build Rank">e1fdc9ff47fe42106a3eedf1d16d43e6</flow>
+        <generation_source/>
+        <order>10</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:13</sys_created_on>
+        <sys_id>8efd0dff47fe42106a3eedf1d16d4374</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:44:43</sys_updated_on>
+        <ui_id>2654e20a-fb49-4dc1-8014-471f9872fc49</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=8efd0dff47fe42106a3eedf1d16d4374"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8efd0dff47fe42106a3eedf1d16d4374</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:13</sys_created_on>
+        <sys_id>c6fd0dff47fe42106a3eedf1d16d4376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:13</sys_updated_on>
+        <value>x_407566_hot_tra_0_tournament</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=8efd0dff47fe42106a3eedf1d16d4374"/>
+    <sys_element_mapping action="DELETE">
+        <field>record</field>
+        <id>8efd0dff47fe42106a3eedf1d16d4374</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:13</sys_created_on>
+        <sys_id>46fd0dff47fe42106a3eedf1d16d4376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>8efd0dff47fe42106a3eedf1d16d4374</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:13</sys_created_on>
+        <sys_id>cefd0dff47fe42106a3eedf1d16d4375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>8efd0dff47fe42106a3eedf1d16d4374</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:13</sys_created_on>
+        <sys_id>82fd0dff47fe42106a3eedf1d16d4376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>q_rank_list={{flow_variable.ranklist}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=8efd0dff47fe42106a3eedf1d16d4374"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=8efd0dff47fe42106a3eedf1d16d4374"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Rank List Object">51ed49ff47fe42106a3eedf1d16d4377</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Copy of Finish Qualifiers Build Rank">e1fdc9ff47fe42106a3eedf1d16d43e6</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>b4593690-30f9-4162-b155-d2b46f20db90</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:39:01</sys_created_on>
+        <sys_id>a12e8133473282106a3eedf1d16d4300</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:39:52</sys_updated_on>
+        <ui_id>ccc602c9-6b4d-4e38-bdc2-b4fee24981d9</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=a12e8133473282106a3eedf1d16d4300"/>
+    <sys_element_mapping action="DELETE" query="id=a12e8133473282106a3eedf1d16d4300"/>
+    <sys_element_mapping action="DELETE">
+        <field>martch_record</field>
+        <id>a12e8133473282106a3eedf1d16d4300</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:39:52</sys_created_on>
+        <sys_id>165e4133473282106a3eedf1d16d4348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:39:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_51ed49ff47fe42106a3eedf1d16d4377</table>
+        <value>{{b4593690-30f9-4162-b155-d2b46f20db90.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=a12e8133473282106a3eedf1d16d4300^sys_idNOT INda5e4133473282106a3eedf1d16d4347"/>
+    <sys_hub_input_scripts action="DELETE">
+        <active>true</active>
+        <input_name>rank</input_name>
+        <instance>a12e8133473282106a3eedf1d16d4300</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"rank":{"scriptActive":true,"script":"const count \u003d fd_data.flow_var.rank? fd_data.flow_var.rank:0;\nconst newCount \u003d count+1;\nreturn newCount"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:39:52</sys_created_on>
+        <sys_id>da5e4133473282106a3eedf1d16d4347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:39:52</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=a12e8133473282106a3eedf1d16d4300"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Finish Qualifiers Build Rank">e1fdc9ff47fe42106a3eedf1d16d43e6</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:13</sys_created_on>
+        <sys_id>fdfd0dff47fe42106a3eedf1d16d4354</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:13</sys_updated_on>
+        <ui_id>3303d438-089c-4248-8462-c924f531b272</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=fdfd0dff47fe42106a3eedf1d16d4354"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fdfd0dff47fe42106a3eedf1d16d4354</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:13</sys_created_on>
+        <sys_id>0afd0dff47fe42106a3eedf1d16d4357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:13</sys_updated_on>
+        <value>x_407566_hot_tra_0_match</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=fdfd0dff47fe42106a3eedf1d16d4354"/>
+    <sys_element_mapping action="DELETE">
+        <field>conditions</field>
+        <id>fdfd0dff47fe42106a3eedf1d16d4354</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:13</sys_created_on>
+        <sys_id>c2fd0dff47fe42106a3eedf1d16d4357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>tournament={{Updated_1.current}}^stage=qualifier</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table</field>
+        <id>fdfd0dff47fe42106a3eedf1d16d4354</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:13</sys_created_on>
+        <sys_id>86fd0dff47fe42106a3eedf1d16d4357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=fdfd0dff47fe42106a3eedf1d16d4354"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=fdfd0dff47fe42106a3eedf1d16d4354"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=e1fdc9ff47fe42106a3eedf1d16d43e6"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=e1fdc9ff47fe42106a3eedf1d16d43e6^sys_idNOT IN157f4d73473282106a3eedf1d16d435c,71fd0dff47fe42106a3eedf1d16d4330,b9fd0dff47fe42106a3eedf1d16d432b,fdfd0dff47fe42106a3eedf1d16d433f"/>
+    <sys_hub_flow_logic action="DELETE">
+        <attributes/>
+        <block display_value="">6ed01db3473282106a3eedf1d16d4308</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy of Finish Qualifiers Build Rank">e1fdc9ff47fe42106a3eedf1d16d43e6</flow>
+        <flow_variable/>
+        <flow_variables_assigned>ranklist</flow_variables_assigned>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>b4593690-30f9-4162-b155-d2b46f20db90</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:44:43</sys_created_on>
+        <sys_id>157f4d73473282106a3eedf1d16d435c</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:50:49</sys_updated_on>
+        <ui_id>6cb44b20-c2bb-4d2b-9251-53aafa5054a4</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=157f4d73473282106a3eedf1d16d435c"/>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_flow_variable_e1fdc9ff47fe42106a3eedf1d16d43e6^id=157f4d73473282106a3eedf1d16d435c"/>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=157f4d73473282106a3eedf1d16d435c"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=157f4d73473282106a3eedf1d16d435c^sys_idNOT IN82efc973473282106a3eedf1d16d436d"/>
+    <sys_hub_input_scripts action="DELETE">
+        <active>true</active>
+        <input_name>ranklist</input_name>
+        <instance>157f4d73473282106a3eedf1d16d435c</instance>
+        <referenced_table>sys_hub_flow_logic</referenced_table>
+        <script>{"ranklist":{"scriptActive":true,"script":"const list \u003d fd_data.flow_var.ranklist? fd_data.flow_var.ranklist:{};\nconst obj \u003d {\n    name:fd_data.flow_var.name,\n    sys_id:fd_data.flow_var.competitor,\n    rank:fd_data.flow_var.rank\n}\nlist.push(obj);\nreturn list"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:46:41</sys_created_on>
+        <sys_id>82efc973473282106a3eedf1d16d436d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:50:49</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_flow_logic action="DELETE">
+        <attributes/>
+        <block display_value="">56c91cb747fa42106a3eedf1d16d43aa</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy of Finish Qualifiers Build Rank">e1fdc9ff47fe42106a3eedf1d16d43e6</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:12</sys_created_on>
+        <sys_id>71fd0dff47fe42106a3eedf1d16d4330</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:44:43</sys_updated_on>
+        <ui_id>b4593690-30f9-4162-b155-d2b46f20db90</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=71fd0dff47fe42106a3eedf1d16d4330"/>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_flow_variable_e1fdc9ff47fe42106a3eedf1d16d43e6^id=71fd0dff47fe42106a3eedf1d16d4330"/>
+    <sys_element_mapping action="DELETE" query="id=71fd0dff47fe42106a3eedf1d16d4330"/>
+    <sys_element_mapping action="DELETE">
+        <field>items</field>
+        <id>71fd0dff47fe42106a3eedf1d16d4330</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:12</sys_created_on>
+        <sys_id>3dfd0dff47fe42106a3eedf1d16d4332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:12</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{56c4f0f7-839f-430f-ba7e-a3be7e545852.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=71fd0dff47fe42106a3eedf1d16d4330"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=71fd0dff47fe42106a3eedf1d16d4330"/>
+    <sys_hub_flow_logic action="DELETE">
+        <attributes/>
+        <block display_value="">43055cff47ba42106a3eedf1d16d434a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy of Finish Qualifiers Build Rank">e1fdc9ff47fe42106a3eedf1d16d43e6</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:12</sys_created_on>
+        <sys_id>b9fd0dff47fe42106a3eedf1d16d432b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:12</sys_updated_on>
+        <ui_id>9acca52f-cfe9-4413-a1c3-bc4c9d8e7eb0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=b9fd0dff47fe42106a3eedf1d16d432b"/>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_flow_variable_e1fdc9ff47fe42106a3eedf1d16d43e6^id=b9fd0dff47fe42106a3eedf1d16d432b"/>
+    <sys_element_mapping action="DELETE" query="id=b9fd0dff47fe42106a3eedf1d16d432b"/>
+    <sys_element_mapping action="DELETE">
+        <field>items</field>
+        <id>b9fd0dff47fe42106a3eedf1d16d432b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:12</sys_created_on>
+        <sys_id>71fd0dff47fe42106a3eedf1d16d432f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:12</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{3303d438-089c-4248-8462-c924f531b272.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=b9fd0dff47fe42106a3eedf1d16d432b"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=b9fd0dff47fe42106a3eedf1d16d432b"/>
+    <sys_hub_flow_logic action="DELETE">
+        <attributes/>
+        <block display_value="">b68cdcbb47fa42106a3eedf1d16d4326</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy of Finish Qualifiers Build Rank">e1fdc9ff47fe42106a3eedf1d16d43e6</flow>
+        <flow_variable/>
+        <flow_variable/>
+        <flow_variables_assigned>competitor,name,rank</flow_variables_assigned>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>b4593690-30f9-4162-b155-d2b46f20db90</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:12</sys_created_on>
+        <sys_id>fdfd0dff47fe42106a3eedf1d16d433f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:40:09</sys_updated_on>
+        <ui_id>fca60c94-e362-420c-96b4-425c99b4c745</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=fdfd0dff47fe42106a3eedf1d16d433f"/>
+    <sys_element_mapping action="DELETE" query="id=fdfd0dff47fe42106a3eedf1d16d433f"/>
+    <sys_element_mapping action="DELETE">
+        <field>competitor</field>
+        <id>fdfd0dff47fe42106a3eedf1d16d433f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:12</sys_created_on>
+        <sys_id>71fd0dff47fe42106a3eedf1d16d4344</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:12</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_e1fdc9ff47fe42106a3eedf1d16d43e6</table>
+        <value>{{b4593690-30f9-4162-b155-d2b46f20db90.item.racer_1.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>name</field>
+        <id>fdfd0dff47fe42106a3eedf1d16d433f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:12</sys_created_on>
+        <sys_id>35fd0dff47fe42106a3eedf1d16d4344</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:12</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_e1fdc9ff47fe42106a3eedf1d16d43e6</table>
+        <value>{{b4593690-30f9-4162-b155-d2b46f20db90.item.racer_1.model}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=fdfd0dff47fe42106a3eedf1d16d433f"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=fdfd0dff47fe42106a3eedf1d16d433f^sys_idNOT IN75fd0dff47fe42106a3eedf1d16d4341"/>
+    <sys_hub_input_scripts action="DELETE">
+        <active>true</active>
+        <input_name>rank</input_name>
+        <instance>fdfd0dff47fe42106a3eedf1d16d433f</instance>
+        <referenced_table>sys_hub_flow_logic</referenced_table>
+        <script>{"rank":{"scriptActive":true,"script":"const count \u003d fd_data.flow_var.rank? fd_data.flow_var.rank:0;\nconst newCount \u003d count+1;\nreturn newCount"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:12</sys_created_on>
+        <sys_id>75fd0dff47fe42106a3eedf1d16d4341</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:12</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=e1fdc9ff47fe42106a3eedf1d16d43e6"/>
+    <sys_hub_flow_variable action="DELETE" query="model=e1fdc9ff47fe42106a3eedf1d16d43e6^sys_idNOT IN39fd0dff47fe42106a3eedf1d16d4304,7dfd0dff47fe42106a3eedf1d16d4307,b1fd0dff47fe42106a3eedf1d16d430b,e1fdc9ff47fe42106a3eedf1d16d43ed,e5fdc9ff47fe42106a3eedf1d16d43f1,f1fd0dff47fe42106a3eedf1d16d4301"/>
+    <sys_hub_flow_variable action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=bc34fdf2-8a56-4f93-b53b-184d7e30ba83</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>arrayobj</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>arrayObj</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Copy of Finish Qualifiers Build Rank">e1fdc9ff47fe42106a3eedf1d16d43e6</model>
+        <model_id>e1fdc9ff47fe42106a3eedf1d16d43e6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_e1fdc9ff47fe42106a3eedf1d16d43e6</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:12</sys_created_on>
+        <sys_id>39fd0dff47fe42106a3eedf1d16d4304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=1f3079f3-b267-4ab0-a14a-23405fbcf521</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>jsonobj</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>JSONobj</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Copy of Finish Qualifiers Build Rank">e1fdc9ff47fe42106a3eedf1d16d43e6</model>
+        <model_id>e1fdc9ff47fe42106a3eedf1d16d43e6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_e1fdc9ff47fe42106a3eedf1d16d43e6</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:12</sys_created_on>
+        <sys_id>7dfd0dff47fe42106a3eedf1d16d4307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=e7040151-ec8a-462a-92ad-d55baa2a47c8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>rank</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Rank</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of Finish Qualifiers Build Rank">e1fdc9ff47fe42106a3eedf1d16d43e6</model>
+        <model_id>e1fdc9ff47fe42106a3eedf1d16d43e6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_e1fdc9ff47fe42106a3eedf1d16d43e6</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:12</sys_created_on>
+        <sys_id>b1fd0dff47fe42106a3eedf1d16d430b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=6722e538-0153-4b46-8752-b8f7e5c348fb</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ranklist</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>RankList</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of Finish Qualifiers Build Rank">e1fdc9ff47fe42106a3eedf1d16d43e6</model>
+        <model_id>e1fdc9ff47fe42106a3eedf1d16d43e6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_e1fdc9ff47fe42106a3eedf1d16d43e6</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:12</sys_created_on>
+        <sys_id>e1fdc9ff47fe42106a3eedf1d16d43ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=a4d02936-a1a1-4847-8acf-e17f3bc0b58e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>competitor</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>competitor</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of Finish Qualifiers Build Rank">e1fdc9ff47fe42106a3eedf1d16d43e6</model>
+        <model_id>e1fdc9ff47fe42106a3eedf1d16d43e6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_e1fdc9ff47fe42106a3eedf1d16d43e6</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:12</sys_created_on>
+        <sys_id>e5fdc9ff47fe42106a3eedf1d16d43f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=8f2266df-968b-4d3d-a5ce-3f4e170bd1b5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Name</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of Finish Qualifiers Build Rank">e1fdc9ff47fe42106a3eedf1d16d43e6</model>
+        <model_id>e1fdc9ff47fe42106a3eedf1d16d43e6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_e1fdc9ff47fe42106a3eedf1d16d43e6</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:12</sys_created_on>
+        <sys_id>f1fd0dff47fe42106a3eedf1d16d4301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_e1fdc9ff47fe42106a3eedf1d16d43e6^sys_idNOT IN31fd0dff47fe42106a3eedf1d16d4327,b5fd0dff47fe42106a3eedf1d16d4323,f1fd0dff47fe42106a3eedf1d16d4320"/>
+    <sys_documentation action="DELETE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e1fdc9ff47fe42106a3eedf1d16d43e6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:12</sys_created_on>
+        <sys_id>31fd0dff47fe42106a3eedf1d16d4327</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e1fdc9ff47fe42106a3eedf1d16d43e6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:12</sys_created_on>
+        <sys_id>b5fd0dff47fe42106a3eedf1d16d4323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e1fdc9ff47fe42106a3eedf1d16d43e6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:38:12</sys_created_on>
+        <sys_id>f1fd0dff47fe42106a3eedf1d16d4320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:38:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_e1fdc9ff47fe42106a3eedf1d16d43e6"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_e1fdc9ff47fe42106a3eedf1d16d43e6"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_e1fdc9ff47fe42106a3eedf1d16d43e6"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=e1fdc9ff47fe42106a3eedf1d16d43e6"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=e1fdc9ff47fe42106a3eedf1d16d43e6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</application>
+        <file_path/>
+        <instance_id>41d1b26fdb62b59438f117291396196f</instance_id>
+        <instance_name>dev221640</instance_name>
+        <name>sys_hub_flow_e1fdc9ff47fe42106a3eedf1d16d43e6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;false&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=13989000,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;authored_on_release_version&gt;25000&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;compiler_build&gt;glide-washingtondc-12-20-2023__patch3-hotfix1-05-12-2024_05-16-2024_0813.zip&lt;/compiler_build&gt;&lt;copied_from&gt;122f84f747ba42106a3eedf1d16d4368&lt;/copied_from&gt;&lt;copied_from_name&gt;Finish Qualifiers Build Rank&lt;/copied_from_name&gt;&lt;description/&gt;&lt;display_name_after_preview/&gt;&lt;flow_priority&gt;MEDIUM&lt;/flow_priority&gt;&lt;generation_source/&gt;&lt;internal_name&gt;copy_of_finish_qualifiers_build_rank&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"b4593690-30f9-4162-b155-d2b46f20db90.item.racer_1.sys_id","label":"6 - For Each➛Match Record➛Racer 1➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"fca60c94-e362-420c-96b4-425c99b4c745":["competitor-0"]},"attributes":null},{"name":"56c4f0f7-839f-430f-ba7e-a3be7e545852.Records","label":"5 - Look Up Records➛Match Records","reference":"x_407566_hot_tra_0_match","reference_display":"Match Records","type":"records","base_type":"records","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"b4593690-30f9-4162-b155-d2b46f20db90":["items"]},"attributes":null},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Tournament Record","reference":"x_407566_hot_tra_0_tournament","reference_display":"Tournament","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"bc201344-29e9-408b-8e69-1de465d145c5":["conditions"],"3303d438-089c-4248-8462-c924f531b272":["conditions"],"56c4f0f7-839f-430f-ba7e-a3be7e545852":["conditions"],"2654e20a-fb49-4dc1-8014-471f9872fc49":["record"]},"attributes":null},{"name":"3303d438-089c-4248-8462-c924f531b272.Records","label":"1 - Look Up Records➛Match Records","reference":"x_407566_hot_tra_0_match","reference_display":"Match Records","type":"records","base_type":"records","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"9acca52f-cfe9-4413-a1c3-bc4c9d8e7eb0":["items"]},"attributes":null},{"name":"9acca52f-cfe9-4413-a1c3-bc4c9d8e7eb0.item","label":"2 - For Each➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match Record","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"37292e7e-69be-4257-bda1-767954f90a29":["conditions"],"e98e6d92-a41b-4635-8445-f0cd8d69ebad":["record"],"b28a382f-0ac1-466c-9f35-cc3b59f1c7fe":["record"],"b55d39dd-19f3-4b33-9119-bd696e79b356":["match_sys_id"]},"attributes":null},{"name":"37292e7e-69be-4257-bda1-767954f90a29.Record.r1_time","label":"3 - Look Up Record➛Race Record➛R1 Time","reference":"","reference_display":"R1 Time","type":"decimal","base_type":"decimal","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"e98e6d92-a41b-4635-8445-f0cd8d69ebad":["fastest_time"]},"attributes":null},{"name":"flow_variable.ranklist","label":"Flow Variables➛RankList","reference":"","reference_display":"","type":"string","base_type":"string","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"fad2d8eb-71f6-4936-8d58-dbcca0aafaa6":["ranklist-0"],"2654e20a-fb49-4dc1-8014-471f9872fc49":["q_rank_list"]},"attributes":null},{"name":"flow_variable.competitor","label":"Flow Variables➛competitor","reference":"","reference_display":"","type":"string","base_type":"string","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"fad2d8eb-71f6-4936-8d58-dbcca0aafaa6":["ranklist-0"]},"attributes":null},{"name":"b4593690-30f9-4162-b155-d2b46f20db90.item.racer_1.model","label":"6 - For Each➛Match Record➛Racer 1➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"fca60c94-e362-420c-96b4-425c99b4c745":["name-1"]},"attributes":null},{"name":"b4593690-30f9-4162-b155-d2b46f20db90.item","label":"6 - For Each➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"ccc602c9-6b4d-4e38-bdc2-b4fee24981d9":["martch_record"]},"attributes":null}]&lt;/label_cache&gt;&lt;latest_snapshot/&gt;&lt;master_snapshot/&gt;&lt;name&gt;Copy of Finish Qualifiers Build Rank&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;draft&lt;/status&gt;&lt;substatus/&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:11&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;Copy of Finish Qualifiers Build Rank&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:50:59&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=e1fdc9ff47fe42106a3eedf1d16d43e6"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=e1fdc9ff47fe42106a3eedf1d16d43e6"/&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=e1fdc9ff47fe42106a3eedf1d16d43e6^sys_idNOT INcafd0dff47fe42106a3eedf1d16d4376"/&gt;&lt;sys_hub_trigger_instance action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Copy of Finish Qualifiers Build Rank"&gt;e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/flow&gt;&lt;name&gt;Updated&lt;/name&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:13&lt;/sys_created_on&gt;&lt;sys_id&gt;cafd0dff47fe42106a3eedf1d16d4376&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:13&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Updated"&gt;bb695e60c31322002841b63b12d3aea5&lt;/trigger_definition&gt;&lt;trigger_inputs/&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_update&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=cafd0dff47fe42106a3eedf1d16d4376"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;cafd0dff47fe42106a3eedf1d16d4376&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:13&lt;/sys_created_on&gt;&lt;sys_id&gt;0efd0dff47fe42106a3eedf1d16d4377&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:13&lt;/sys_updated_on&gt;&lt;value&gt;tournament_stateCHANGESFROMqualifier^tournament_stateCHANGESTOready&lt;/value&gt;&lt;variable display_value="Condition"&gt;bb9adea0c31322002841b63b12d3ae67&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;cafd0dff47fe42106a3eedf1d16d4376&lt;/document_key&gt;&lt;order&gt;101&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:13&lt;/sys_created_on&gt;&lt;sys_id&gt;4afd0dff47fe42106a3eedf1d16d4377&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:13&lt;/sys_updated_on&gt;&lt;value&gt;every&lt;/value&gt;&lt;variable display_value="Run Trigger"&gt;c19523d8c31932002841b63b12d3aea1&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;cafd0dff47fe42106a3eedf1d16d4376&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:13&lt;/sys_created_on&gt;&lt;sys_id&gt;cefd0dff47fe42106a3eedf1d16d4377&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:13&lt;/sys_updated_on&gt;&lt;value&gt;x_407566_hot_tra_0_tournament&lt;/value&gt;&lt;variable display_value="Table"&gt;1dda12e0c31322002841b63b12d3aea8&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=cafd0dff47fe42106a3eedf1d16d4376"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=e1fdc9ff47fe42106a3eedf1d16d43e6"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=e1fdc9ff47fe42106a3eedf1d16d43e6^sys_idNOT INa1fdc9ff47fe42106a3eedf1d16d43e7"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/id&gt;&lt;name&gt;Copy of Finish Qualifiers Build Rank&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:11&lt;/sys_created_on&gt;&lt;sys_id&gt;a1fdc9ff47fe42106a3eedf1d16d43e7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:11&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=a1fdc9ff47fe42106a3eedf1d16d43e7"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=e1fdc9ff47fe42106a3eedf1d16d43e6^sys_idNOT IN31fd0dff47fe42106a3eedf1d16d431d,b5fd0dff47fe42106a3eedf1d16d4324,f1fd0dff47fe42106a3eedf1d16d4321"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Copy of Finish Qualifiers Build Rank"&gt;e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/model&gt;&lt;model_id&gt;e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:12&lt;/sys_created_on&gt;&lt;sys_id&gt;31fd0dff47fe42106a3eedf1d16d431d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:12&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=31fd0dff47fe42106a3eedf1d16d431d"/&gt;&lt;sys_complex_object action="INSERT_OR_UPDATE"&gt;&lt;label/&gt;&lt;name&gt;FDCollection&lt;/name&gt;&lt;namespace&gt;FlowDesigner&lt;/namespace&gt;&lt;scope_name&gt;global&lt;/scope_name&gt;&lt;serialized_content&gt;{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}&lt;/serialized_content&gt;&lt;sys_class_name&gt;sys_complex_object&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-06-13 23:19:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path/&gt;&lt;sys_id&gt;f4f014150f023300ecf0cc52ff767eed&lt;/sys_id&gt;&lt;sys_mod_count&gt;101&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model"&gt;d6018d5c90c0021087de3cfccdb0d63a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-28 05:06:11&lt;/sys_updated_on&gt;&lt;type&gt;complex_object_collection&lt;/type&gt;&lt;/sys_complex_object&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;model display_value="Copy of Finish Qualifiers Build Rank"&gt;e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/model&gt;&lt;model_id&gt;e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:12&lt;/sys_created_on&gt;&lt;sys_id&gt;b5fd0dff47fe42106a3eedf1d16d4324&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:12&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b5fd0dff47fe42106a3eedf1d16d4324"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Copy of Finish Qualifiers Build Rank"&gt;e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/model&gt;&lt;model_id&gt;e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:12&lt;/sys_created_on&gt;&lt;sys_id&gt;f1fd0dff47fe42106a3eedf1d16d4321&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:12&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f1fd0dff47fe42106a3eedf1d16d4321"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=e1fdc9ff47fe42106a3eedf1d16d43e6"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=e1fdc9ff47fe42106a3eedf1d16d43e6"/&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=e1fdc9ff47fe42106a3eedf1d16d43e6^sys_idNOT IN02fd0dff47fe42106a3eedf1d16d435f,06fd0dff47fe42106a3eedf1d16d4366,0afd0dff47fe42106a3eedf1d16d436e,8efd0dff47fe42106a3eedf1d16d4374,a12e8133473282106a3eedf1d16d4300,fdfd0dff47fe42106a3eedf1d16d4354"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Look Up Record"&gt;9d09f99587003300663ca1bb36cb0ba3&lt;/action_type&gt;&lt;action_type_parent display_value="Look Up Record"&gt;b93f42810b30030085c083eb37673a63&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;9d09f99587003300663ca1bb36cb0ba3&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Copy of Finish Qualifiers Build Rank"&gt;e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;3&lt;/order&gt;&lt;parent_ui_id&gt;9acca52f-cfe9-4413-a1c3-bc4c9d8e7eb0&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:13&lt;/sys_created_on&gt;&lt;sys_id&gt;02fd0dff47fe42106a3eedf1d16d435f&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:13&lt;/sys_updated_on&gt;&lt;ui_id&gt;37292e7e-69be-4257-bda1-767954f90a29&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=02fd0dff47fe42106a3eedf1d16d435f"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;02fd0dff47fe42106a3eedf1d16d435f&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:13&lt;/sys_created_on&gt;&lt;sys_id&gt;0efd0dff47fe42106a3eedf1d16d4361&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:13&lt;/sys_updated_on&gt;&lt;value&gt;x_407566_hot_tra_0_race&lt;/value&gt;&lt;variable display_value="Table"&gt;d909f99587003300663ca1bb36cb0ba4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;02fd0dff47fe42106a3eedf1d16d435f&lt;/document_key&gt;&lt;order&gt;5&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:13&lt;/sys_created_on&gt;&lt;sys_id&gt;4afd0dff47fe42106a3eedf1d16d4361&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:13&lt;/sys_updated_on&gt;&lt;value&gt;1&lt;/value&gt;&lt;variable display_value="Don't fail on error"&gt;ceab42a673110010d70877186bf6a74f&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;02fd0dff47fe42106a3eedf1d16d435f&lt;/document_key&gt;&lt;order&gt;2&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:13&lt;/sys_created_on&gt;&lt;sys_id&gt;86fd0dff47fe42106a3eedf1d16d4361&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:13&lt;/sys_updated_on&gt;&lt;value&gt;r1_time&lt;/value&gt;&lt;variable display_value="Order by"&gt;1d09f99587003300663ca1bb36cb0bad&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=02fd0dff47fe42106a3eedf1d16d435f"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;conditions&lt;/field&gt;&lt;id&gt;02fd0dff47fe42106a3eedf1d16d435f&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:13&lt;/sys_created_on&gt;&lt;sys_id&gt;42fd0dff47fe42106a3eedf1d16d4361&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:13&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3&lt;/table&gt;&lt;value&gt;round_match={{9acca52f-cfe9-4413-a1c3-bc4c9d8e7eb0.item}}^r1_timeISNOTEMPTY&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;sort_column&lt;/field&gt;&lt;id&gt;02fd0dff47fe42106a3eedf1d16d435f&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:13&lt;/sys_created_on&gt;&lt;sys_id&gt;cafd0dff47fe42106a3eedf1d16d4360&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:13&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table&lt;/field&gt;&lt;id&gt;02fd0dff47fe42106a3eedf1d16d435f&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:13&lt;/sys_created_on&gt;&lt;sys_id&gt;06fd0dff47fe42106a3eedf1d16d4361&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:13&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;__snc_dont_fail_on_error&lt;/field&gt;&lt;id&gt;02fd0dff47fe42106a3eedf1d16d435f&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:13&lt;/sys_created_on&gt;&lt;sys_id&gt;8efd0dff47fe42106a3eedf1d16d4360&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:13&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=02fd0dff47fe42106a3eedf1d16d435f"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=02fd0dff47fe42106a3eedf1d16d435f"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Update Record"&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/action_type&gt;&lt;action_type_parent display_value="Update Record"&gt;baf174c8c3c232002841b63b12d3aee4&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Copy of Finish Qualifiers Build Rank"&gt;e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;4&lt;/order&gt;&lt;parent_ui_id&gt;9acca52f-cfe9-4413-a1c3-bc4c9d8e7eb0&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:13&lt;/sys_created_on&gt;&lt;sys_id&gt;06fd0dff47fe42106a3eedf1d16d4366&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:13&lt;/sys_updated_on&gt;&lt;ui_id&gt;e98e6d92-a41b-4635-8445-f0cd8d69ebad&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=06fd0dff47fe42106a3eedf1d16d4366"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;06fd0dff47fe42106a3eedf1d16d4366&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:13&lt;/sys_created_on&gt;&lt;sys_id&gt;42fd0dff47fe42106a3eedf1d16d4368&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:13&lt;/sys_updated_on&gt;&lt;value&gt;x_407566_hot_tra_0_match&lt;/value&gt;&lt;variable display_value="Table"&gt;b5d01916c31332002841b63b12d3aec9&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=06fd0dff47fe42106a3eedf1d16d4366"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;record&lt;/field&gt;&lt;id&gt;06fd0dff47fe42106a3eedf1d16d4366&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:13&lt;/sys_created_on&gt;&lt;sys_id&gt;cefd0dff47fe42106a3eedf1d16d4367&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:13&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value&gt;{{9acca52f-cfe9-4413-a1c3-bc4c9d8e7eb0.item}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;06fd0dff47fe42106a3eedf1d16d4366&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:13&lt;/sys_created_on&gt;&lt;sys_id&gt;4afd0dff47fe42106a3eedf1d16d4367&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:13&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;values&lt;/field&gt;&lt;id&gt;06fd0dff47fe42106a3eedf1d16d4366&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:13&lt;/sys_created_on&gt;&lt;sys_id&gt;0efd0dff47fe42106a3eedf1d16d4367&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:13&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value&gt;fastest_time={{37292e7e-69be-4257-bda1-767954f90a29.Record.r1_time}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=06fd0dff47fe42106a3eedf1d16d4366"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=06fd0dff47fe42106a3eedf1d16d4366"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Look Up Records"&gt;43400a1587003300663ca1bb36cb0b4b&lt;/action_type&gt;&lt;action_type_parent display_value="Look Up Records"&gt;d1c56ec50b30030085c083eb37673a50&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;43400a1587003300663ca1bb36cb0b4b&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Copy of Finish Qualifiers Build Rank"&gt;e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;5&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:13&lt;/sys_created_on&gt;&lt;sys_id&gt;0afd0dff47fe42106a3eedf1d16d436e&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:13&lt;/sys_updated_on&gt;&lt;ui_id&gt;56c4f0f7-839f-430f-ba7e-a3be7e545852&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=0afd0dff47fe42106a3eedf1d16d436e"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;0afd0dff47fe42106a3eedf1d16d436e&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:13&lt;/sys_created_on&gt;&lt;sys_id&gt;0afd0dff47fe42106a3eedf1d16d4370&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:13&lt;/sys_updated_on&gt;&lt;value&gt;x_407566_hot_tra_0_match&lt;/value&gt;&lt;variable display_value="Table"&gt;8f400a1587003300663ca1bb36cb0b4b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;0afd0dff47fe42106a3eedf1d16d436e&lt;/document_key&gt;&lt;order&gt;2&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:13&lt;/sys_created_on&gt;&lt;sys_id&gt;46fd0dff47fe42106a3eedf1d16d4370&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:13&lt;/sys_updated_on&gt;&lt;value&gt;fastest_time&lt;/value&gt;&lt;variable display_value="Order by"&gt;c7400a1587003300663ca1bb36cb0b55&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=0afd0dff47fe42106a3eedf1d16d436e"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;conditions&lt;/field&gt;&lt;id&gt;0afd0dff47fe42106a3eedf1d16d436e&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:13&lt;/sys_created_on&gt;&lt;sys_id&gt;02fd0dff47fe42106a3eedf1d16d4370&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:13&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b&lt;/table&gt;&lt;value&gt;tournament={{Updated_1.current}}^stage=qualifier&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;sort_column&lt;/field&gt;&lt;id&gt;0afd0dff47fe42106a3eedf1d16d436e&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:13&lt;/sys_created_on&gt;&lt;sys_id&gt;4efd0dff47fe42106a3eedf1d16d436f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:13&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table&lt;/field&gt;&lt;id&gt;0afd0dff47fe42106a3eedf1d16d436e&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:13&lt;/sys_created_on&gt;&lt;sys_id&gt;c2fd0dff47fe42106a3eedf1d16d4370&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:13&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=0afd0dff47fe42106a3eedf1d16d436e"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=0afd0dff47fe42106a3eedf1d16d436e"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Update Record"&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/action_type&gt;&lt;action_type_parent display_value="Update Record"&gt;baf174c8c3c232002841b63b12d3aee4&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Copy of Finish Qualifiers Build Rank"&gt;e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;10&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:13&lt;/sys_created_on&gt;&lt;sys_id&gt;8efd0dff47fe42106a3eedf1d16d4374&lt;/sys_id&gt;&lt;sys_mod_count&gt;20&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:44:43&lt;/sys_updated_on&gt;&lt;ui_id&gt;2654e20a-fb49-4dc1-8014-471f9872fc49&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=8efd0dff47fe42106a3eedf1d16d4374"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;8efd0dff47fe42106a3eedf1d16d4374&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:13&lt;/sys_created_on&gt;&lt;sys_id&gt;c6fd0dff47fe42106a3eedf1d16d4376&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:13&lt;/sys_updated_on&gt;&lt;value&gt;x_407566_hot_tra_0_tournament&lt;/value&gt;&lt;variable display_value="Table"&gt;b5d01916c31332002841b63b12d3aec9&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=8efd0dff47fe42106a3eedf1d16d4374"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;record&lt;/field&gt;&lt;id&gt;8efd0dff47fe42106a3eedf1d16d4374&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:13&lt;/sys_created_on&gt;&lt;sys_id&gt;46fd0dff47fe42106a3eedf1d16d4376&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:13&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value&gt;{{Updated_1.current}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;8efd0dff47fe42106a3eedf1d16d4374&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:13&lt;/sys_created_on&gt;&lt;sys_id&gt;cefd0dff47fe42106a3eedf1d16d4375&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:13&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;values&lt;/field&gt;&lt;id&gt;8efd0dff47fe42106a3eedf1d16d4374&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:13&lt;/sys_created_on&gt;&lt;sys_id&gt;82fd0dff47fe42106a3eedf1d16d4376&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:13&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value&gt;q_rank_list={{flow_variable.ranklist}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=8efd0dff47fe42106a3eedf1d16d4374"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=8efd0dff47fe42106a3eedf1d16d4374"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Create Rank List Object"&gt;51ed49ff47fe42106a3eedf1d16d4377&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="Copy of Finish Qualifiers Build Rank"&gt;e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;7&lt;/order&gt;&lt;parent_ui_id&gt;b4593690-30f9-4162-b155-d2b46f20db90&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:39:01&lt;/sys_created_on&gt;&lt;sys_id&gt;a12e8133473282106a3eedf1d16d4300&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:39:52&lt;/sys_updated_on&gt;&lt;ui_id&gt;ccc602c9-6b4d-4e38-bdc2-b4fee24981d9&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=a12e8133473282106a3eedf1d16d4300"/&gt;&lt;sys_element_mapping action="delete_multiple" query="id=a12e8133473282106a3eedf1d16d4300"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;martch_record&lt;/field&gt;&lt;id&gt;a12e8133473282106a3eedf1d16d4300&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:39:52&lt;/sys_created_on&gt;&lt;sys_id&gt;165e4133473282106a3eedf1d16d4348&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:39:52&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_51ed49ff47fe42106a3eedf1d16d4377&lt;/table&gt;&lt;value&gt;{{b4593690-30f9-4162-b155-d2b46f20db90.item}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=a12e8133473282106a3eedf1d16d4300^sys_idNOT INda5e4133473282106a3eedf1d16d4347"/&gt;&lt;sys_hub_input_scripts action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;input_name&gt;rank&lt;/input_name&gt;&lt;instance&gt;a12e8133473282106a3eedf1d16d4300&lt;/instance&gt;&lt;referenced_table&gt;sys_hub_action_instance&lt;/referenced_table&gt;&lt;script&gt;{"rank":{"scriptActive":true,"script":"const count \u003d fd_data.flow_var.rank? fd_data.flow_var.rank:0;\nconst newCount \u003d count+1;\nreturn newCount"}}&lt;/script&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:39:52&lt;/sys_created_on&gt;&lt;sys_id&gt;da5e4133473282106a3eedf1d16d4347&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:39:52&lt;/sys_updated_on&gt;&lt;/sys_hub_input_scripts&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=a12e8133473282106a3eedf1d16d4300"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Look Up Records"&gt;43400a1587003300663ca1bb36cb0b4b&lt;/action_type&gt;&lt;action_type_parent display_value="Look Up Records"&gt;d1c56ec50b30030085c083eb37673a50&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;43400a1587003300663ca1bb36cb0b4b&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Copy of Finish Qualifiers Build Rank"&gt;e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:13&lt;/sys_created_on&gt;&lt;sys_id&gt;fdfd0dff47fe42106a3eedf1d16d4354&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:13&lt;/sys_updated_on&gt;&lt;ui_id&gt;3303d438-089c-4248-8462-c924f531b272&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=fdfd0dff47fe42106a3eedf1d16d4354"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;fdfd0dff47fe42106a3eedf1d16d4354&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:13&lt;/sys_created_on&gt;&lt;sys_id&gt;0afd0dff47fe42106a3eedf1d16d4357&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:13&lt;/sys_updated_on&gt;&lt;value&gt;x_407566_hot_tra_0_match&lt;/value&gt;&lt;variable display_value="Table"&gt;8f400a1587003300663ca1bb36cb0b4b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=fdfd0dff47fe42106a3eedf1d16d4354"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;conditions&lt;/field&gt;&lt;id&gt;fdfd0dff47fe42106a3eedf1d16d4354&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:13&lt;/sys_created_on&gt;&lt;sys_id&gt;c2fd0dff47fe42106a3eedf1d16d4357&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:13&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b&lt;/table&gt;&lt;value&gt;tournament={{Updated_1.current}}^stage=qualifier&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table&lt;/field&gt;&lt;id&gt;fdfd0dff47fe42106a3eedf1d16d4354&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:13&lt;/sys_created_on&gt;&lt;sys_id&gt;86fd0dff47fe42106a3eedf1d16d4357&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:13&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=fdfd0dff47fe42106a3eedf1d16d4354"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=fdfd0dff47fe42106a3eedf1d16d4354"/&gt;&lt;sys_hub_sub_flow_instance action="delete_multiple" query="flow=e1fdc9ff47fe42106a3eedf1d16d43e6"/&gt;&lt;sys_hub_flow_logic action="delete_multiple" query="flow=e1fdc9ff47fe42106a3eedf1d16d43e6^sys_idNOT IN157f4d73473282106a3eedf1d16d435c,71fd0dff47fe42106a3eedf1d16d4330,b9fd0dff47fe42106a3eedf1d16d432b,fdfd0dff47fe42106a3eedf1d16d433f"/&gt;&lt;sys_hub_flow_logic action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;block display_value=""&gt;6ed01db3473282106a3eedf1d16d4308&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;decision_table_inputs/&gt;&lt;display_text/&gt;&lt;extended_inputs/&gt;&lt;flow display_value="Copy of Finish Qualifiers Build Rank"&gt;e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/flow&gt;&lt;flow_variable/&gt;&lt;flow_variables_assigned&gt;ranklist&lt;/flow_variables_assigned&gt;&lt;generation_source/&gt;&lt;inputs/&gt;&lt;logic_definition display_value="Set Flow Variables"&gt;4f787d1e0f9b0010ecf0cc52ff767ea0&lt;/logic_definition&gt;&lt;order&gt;9&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;outputs_to_assign/&gt;&lt;parent_ui_id&gt;b4593690-30f9-4162-b155-d2b46f20db90&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_flow_logic&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:44:43&lt;/sys_created_on&gt;&lt;sys_id&gt;157f4d73473282106a3eedf1d16d435c&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:50:49&lt;/sys_updated_on&gt;&lt;ui_id&gt;6cb44b20-c2bb-4d2b-9251-53aafa5054a4&lt;/ui_id&gt;&lt;workflow_inputs/&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=157f4d73473282106a3eedf1d16d435c"/&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_e1fdc9ff47fe42106a3eedf1d16d43e6^id=157f4d73473282106a3eedf1d16d435c"/&gt;&lt;sys_hub_flow_logic_ext_input action="delete_multiple" query="model=157f4d73473282106a3eedf1d16d435c"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=157f4d73473282106a3eedf1d16d435c^sys_idNOT IN82efc973473282106a3eedf1d16d436d"/&gt;&lt;sys_hub_input_scripts action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;input_name&gt;ranklist&lt;/input_name&gt;&lt;instance&gt;157f4d73473282106a3eedf1d16d435c&lt;/instance&gt;&lt;referenced_table&gt;sys_hub_flow_logic&lt;/referenced_table&gt;&lt;script&gt;{"ranklist":{"scriptActive":true,"script":"const list \u003d fd_data.flow_var.ranklist? fd_data.flow_var.ranklist:{};\nconst obj \u003d {\n    name:fd_data.flow_var.name,\n    sys_id:fd_data.flow_var.competitor,\n    rank:fd_data.flow_var.rank\n}\nlist.push(obj);\nreturn list"}}&lt;/script&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:46:41&lt;/sys_created_on&gt;&lt;sys_id&gt;82efc973473282106a3eedf1d16d436d&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:50:49&lt;/sys_updated_on&gt;&lt;/sys_hub_input_scripts&gt;&lt;sys_hub_flow_logic action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;block display_value=""&gt;56c91cb747fa42106a3eedf1d16d43aa&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;decision_table_inputs/&gt;&lt;display_text/&gt;&lt;extended_inputs/&gt;&lt;flow display_value="Copy of Finish Qualifiers Build Rank"&gt;e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/flow&gt;&lt;flow_variable/&gt;&lt;flow_variables_assigned/&gt;&lt;generation_source/&gt;&lt;inputs/&gt;&lt;inputs/&gt;&lt;logic_definition display_value="For Each"&gt;098e1dc5c3e232002841b63b12d3ae33&lt;/logic_definition&gt;&lt;order&gt;6&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;outputs_to_assign/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:12&lt;/sys_created_on&gt;&lt;sys_id&gt;71fd0dff47fe42106a3eedf1d16d4330&lt;/sys_id&gt;&lt;sys_mod_count&gt;11&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:44:43&lt;/sys_updated_on&gt;&lt;ui_id&gt;b4593690-30f9-4162-b155-d2b46f20db90&lt;/ui_id&gt;&lt;workflow_inputs/&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=71fd0dff47fe42106a3eedf1d16d4330"/&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_e1fdc9ff47fe42106a3eedf1d16d43e6^id=71fd0dff47fe42106a3eedf1d16d4330"/&gt;&lt;sys_element_mapping action="delete_multiple" query="id=71fd0dff47fe42106a3eedf1d16d4330"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;items&lt;/field&gt;&lt;id&gt;71fd0dff47fe42106a3eedf1d16d4330&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:12&lt;/sys_created_on&gt;&lt;sys_id&gt;3dfd0dff47fe42106a3eedf1d16d4332&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:12&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33&lt;/table&gt;&lt;value&gt;{{56c4f0f7-839f-430f-ba7e-a3be7e545852.Records}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_flow_logic_ext_input action="delete_multiple" query="model=71fd0dff47fe42106a3eedf1d16d4330"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=71fd0dff47fe42106a3eedf1d16d4330"/&gt;&lt;sys_hub_flow_logic action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;block display_value=""&gt;43055cff47ba42106a3eedf1d16d434a&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;decision_table_inputs/&gt;&lt;display_text/&gt;&lt;extended_inputs/&gt;&lt;flow display_value="Copy of Finish Qualifiers Build Rank"&gt;e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/flow&gt;&lt;flow_variable/&gt;&lt;flow_variables_assigned/&gt;&lt;generation_source/&gt;&lt;inputs/&gt;&lt;inputs/&gt;&lt;logic_definition display_value="For Each"&gt;098e1dc5c3e232002841b63b12d3ae33&lt;/logic_definition&gt;&lt;order&gt;2&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;outputs_to_assign/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:12&lt;/sys_created_on&gt;&lt;sys_id&gt;b9fd0dff47fe42106a3eedf1d16d432b&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:12&lt;/sys_updated_on&gt;&lt;ui_id&gt;9acca52f-cfe9-4413-a1c3-bc4c9d8e7eb0&lt;/ui_id&gt;&lt;workflow_inputs/&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=b9fd0dff47fe42106a3eedf1d16d432b"/&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_e1fdc9ff47fe42106a3eedf1d16d43e6^id=b9fd0dff47fe42106a3eedf1d16d432b"/&gt;&lt;sys_element_mapping action="delete_multiple" query="id=b9fd0dff47fe42106a3eedf1d16d432b"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;items&lt;/field&gt;&lt;id&gt;b9fd0dff47fe42106a3eedf1d16d432b&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:12&lt;/sys_created_on&gt;&lt;sys_id&gt;71fd0dff47fe42106a3eedf1d16d432f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:12&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33&lt;/table&gt;&lt;value&gt;{{3303d438-089c-4248-8462-c924f531b272.Records}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b9fd0dff47fe42106a3eedf1d16d432b"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=b9fd0dff47fe42106a3eedf1d16d432b"/&gt;&lt;sys_hub_flow_logic action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;block display_value=""&gt;b68cdcbb47fa42106a3eedf1d16d4326&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;decision_table_inputs/&gt;&lt;display_text/&gt;&lt;extended_inputs/&gt;&lt;flow display_value="Copy of Finish Qualifiers Build Rank"&gt;e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/flow&gt;&lt;flow_variable/&gt;&lt;flow_variable/&gt;&lt;flow_variables_assigned&gt;competitor,name,rank&lt;/flow_variables_assigned&gt;&lt;generation_source/&gt;&lt;inputs/&gt;&lt;logic_definition display_value="Set Flow Variables"&gt;4f787d1e0f9b0010ecf0cc52ff767ea0&lt;/logic_definition&gt;&lt;order&gt;8&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;outputs_to_assign/&gt;&lt;parent_ui_id&gt;b4593690-30f9-4162-b155-d2b46f20db90&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_flow_logic&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:12&lt;/sys_created_on&gt;&lt;sys_id&gt;fdfd0dff47fe42106a3eedf1d16d433f&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:40:09&lt;/sys_updated_on&gt;&lt;ui_id&gt;fca60c94-e362-420c-96b4-425c99b4c745&lt;/ui_id&gt;&lt;workflow_inputs/&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=fdfd0dff47fe42106a3eedf1d16d433f"/&gt;&lt;sys_element_mapping action="delete_multiple" query="id=fdfd0dff47fe42106a3eedf1d16d433f"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;competitor&lt;/field&gt;&lt;id&gt;fdfd0dff47fe42106a3eedf1d16d433f&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:12&lt;/sys_created_on&gt;&lt;sys_id&gt;71fd0dff47fe42106a3eedf1d16d4344&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:12&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_flow_variable_e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/table&gt;&lt;value&gt;{{b4593690-30f9-4162-b155-d2b46f20db90.item.racer_1.sys_id}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;name&lt;/field&gt;&lt;id&gt;fdfd0dff47fe42106a3eedf1d16d433f&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:12&lt;/sys_created_on&gt;&lt;sys_id&gt;35fd0dff47fe42106a3eedf1d16d4344&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:12&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_flow_variable_e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/table&gt;&lt;value&gt;{{b4593690-30f9-4162-b155-d2b46f20db90.item.racer_1.model}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_flow_logic_ext_input action="delete_multiple" query="model=fdfd0dff47fe42106a3eedf1d16d433f"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=fdfd0dff47fe42106a3eedf1d16d433f^sys_idNOT IN75fd0dff47fe42106a3eedf1d16d4341"/&gt;&lt;sys_hub_input_scripts action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;input_name&gt;rank&lt;/input_name&gt;&lt;instance&gt;fdfd0dff47fe42106a3eedf1d16d433f&lt;/instance&gt;&lt;referenced_table&gt;sys_hub_flow_logic&lt;/referenced_table&gt;&lt;script&gt;{"rank":{"scriptActive":true,"script":"const count \u003d fd_data.flow_var.rank? fd_data.flow_var.rank:0;\nconst newCount \u003d count+1;\nreturn newCount"}}&lt;/script&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:12&lt;/sys_created_on&gt;&lt;sys_id&gt;75fd0dff47fe42106a3eedf1d16d4341&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:12&lt;/sys_updated_on&gt;&lt;/sys_hub_input_scripts&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=e1fdc9ff47fe42106a3eedf1d16d43e6"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=e1fdc9ff47fe42106a3eedf1d16d43e6^sys_idNOT IN39fd0dff47fe42106a3eedf1d16d4304,7dfd0dff47fe42106a3eedf1d16d4307,b1fd0dff47fe42106a3eedf1d16d430b,e1fdc9ff47fe42106a3eedf1d16d43ed,e5fdc9ff47fe42106a3eedf1d16d43f1,f1fd0dff47fe42106a3eedf1d16d4301"/&gt;&lt;sys_hub_flow_variable action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=bc34fdf2-8a56-4f93-b53b-184d7e30ba83&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;arrayobj&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="JSON"&gt;json&lt;/internal_type&gt;&lt;label&gt;arrayObj&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;model display_value="Copy of Finish Qualifiers Build Rank"&gt;e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/model&gt;&lt;model_id&gt;e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_variable_e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;0&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_variable&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:12&lt;/sys_created_on&gt;&lt;sys_id&gt;39fd0dff47fe42106a3eedf1d16d4304&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:12&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_variable&gt;&lt;sys_hub_flow_variable action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=1f3079f3-b267-4ab0-a14a-23405fbcf521&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;jsonobj&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="JSON"&gt;json&lt;/internal_type&gt;&lt;label&gt;JSONobj&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;model display_value="Copy of Finish Qualifiers Build Rank"&gt;e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/model&gt;&lt;model_id&gt;e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_variable_e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;0&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_variable&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:12&lt;/sys_created_on&gt;&lt;sys_id&gt;7dfd0dff47fe42106a3eedf1d16d4307&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:12&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_variable&gt;&lt;sys_hub_flow_variable action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=e7040151-ec8a-462a-92ad-d55baa2a47c8&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;rank&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Rank&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Copy of Finish Qualifiers Build Rank"&gt;e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/model&gt;&lt;model_id&gt;e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_variable_e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;0&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_variable&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:12&lt;/sys_created_on&gt;&lt;sys_id&gt;b1fd0dff47fe42106a3eedf1d16d430b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:12&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_variable&gt;&lt;sys_hub_flow_variable action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=6722e538-0153-4b46-8752-b8f7e5c348fb&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;ranklist&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;RankList&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Copy of Finish Qualifiers Build Rank"&gt;e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/model&gt;&lt;model_id&gt;e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_variable_e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;0&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_variable&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:12&lt;/sys_created_on&gt;&lt;sys_id&gt;e1fdc9ff47fe42106a3eedf1d16d43ed&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:12&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_variable&gt;&lt;sys_hub_flow_variable action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=a4d02936-a1a1-4847-8acf-e17f3bc0b58e&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;competitor&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;competitor&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Copy of Finish Qualifiers Build Rank"&gt;e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/model&gt;&lt;model_id&gt;e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_variable_e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;0&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_variable&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:12&lt;/sys_created_on&gt;&lt;sys_id&gt;e5fdc9ff47fe42106a3eedf1d16d43f1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:12&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_variable&gt;&lt;sys_hub_flow_variable action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=8f2266df-968b-4d3d-a5ce-3f4e170bd1b5&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Copy of Finish Qualifiers Build Rank"&gt;e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/model&gt;&lt;model_id&gt;e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_variable_e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;0&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_variable&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:12&lt;/sys_created_on&gt;&lt;sys_id&gt;f1fd0dff47fe42106a3eedf1d16d4301&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:12&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_variable&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_e1fdc9ff47fe42106a3eedf1d16d43e6^sys_idNOT IN31fd0dff47fe42106a3eedf1d16d4327,b5fd0dff47fe42106a3eedf1d16d4323,f1fd0dff47fe42106a3eedf1d16d4320"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:12&lt;/sys_created_on&gt;&lt;sys_id&gt;31fd0dff47fe42106a3eedf1d16d4327&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:12&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:12&lt;/sys_created_on&gt;&lt;sys_id&gt;b5fd0dff47fe42106a3eedf1d16d4323&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:12&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_e1fdc9ff47fe42106a3eedf1d16d43e6&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-21 18:38:12&lt;/sys_created_on&gt;&lt;sys_id&gt;f1fd0dff47fe42106a3eedf1d16d4320&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-21 18:38:12&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_e1fdc9ff47fe42106a3eedf1d16d43e6"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_e1fdc9ff47fe42106a3eedf1d16d43e6"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_e1fdc9ff47fe42106a3eedf1d16d43e6"/&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=e1fdc9ff47fe42106a3eedf1d16d43e6"/&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=e1fdc9ff47fe42106a3eedf1d16d43e6"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1589766596</payload_hash>
+        <record_name>Copy of Finish Qualifiers Build Rank</record_name>
+        <reverted_from/>
+        <source>c8c4e8d4473602106a3eedf1d16d43b9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:51:00</sys_created_on>
+        <sys_id>8de0d137473282106a3eedf1d16d4337</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1903c233a0d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:51:00</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>c1e0d137fb32821033a9b11ee2499437</update_guid>
+        <update_guid_history>c1e0d137fb32821033a9b11ee2499437:-1589766596,20ff0db39f328210404d7d5aa8b841e7:74468379,3f7f81b3cd3282104f59125b61bcbbec:-1551560949,5d5fcd737e328210932ffa3d9062354f:-934989401,c64f4d7359328210279f79d6cacbc1a2:-1158490323,ca3fc973373282100f12a56db6126ee3:152009997,b46e0933de32821095125c09de60fa31:-108373914,203ec133a7328210e62e20a5a1d13c53:-1212057941,943ec133fb328210cc772fed2fe1381b:120627780,d2fd0dff41fe421056a8bd69189086c5:881609366,a9fdc9ff7bfe421000e544a9a4a781ea:-1509223865</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 19:03:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>843ffdab380e421095f163ac43b61449</sys_id>
+        <sys_metadata>e1fdc9ff47fe42106a3eedf1d16d43e6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Finish Qualifiers Build Rank</sys_name>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope_delete display_value="">5360a778b1d14ee69fe48f4dc1dd5bf1</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_e1fdc9ff47fe42106a3eedf1d16d43e6</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_e1fdc9ff47fe42106a3eedf1d16d43e6">8de0d137473282106a3eedf1d16d4337</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 19:03:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

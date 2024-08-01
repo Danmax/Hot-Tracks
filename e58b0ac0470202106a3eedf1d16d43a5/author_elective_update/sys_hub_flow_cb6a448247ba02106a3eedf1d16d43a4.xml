@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=26423000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>3fd4884a477a02106a3eedf1d16d43b9</copied_from>
+        <copied_from_name>Copy2 of Upload Wheels Photo to </copied_from_name>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>photo_to_image_db</internal_name>
+        <label_cache>[{"name":"e3bf5bd7-8591-4529-8cdc-fd82822b05d2.Record.chunk_size_bytes","label":"2 - Look Up Record➛Attachment Record➛Chunk size bytes","reference":"","reference_display":"Chunk size bytes","type":"integer","base_type":"integer","usedInstances":{"c2424dde-8bdb-479f-861a-a9954314c1a5":["log_message"]}},{"name":"Created or Updated_1.current.image_url","label":"Trigger - Record Created or Updated➛Wheels Record➛Image URL","reference":"","reference_display":"Image URL","type":"string","base_type":"string","usedInstances":{"8cb8a7d3-8d14-47f4-92c7-15317a7f4e16":["condition"]}},{"name":"Created or Updated_1.current.model","label":"Trigger - Record Created or Updated➛Wheels Record➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","usedInstances":{"3c2f2584-458e-428a-b75f-22f901f9a68d":["name","sys_name"]}},{"name":"Created or Updated_1.current.photo","label":"Trigger - Record Created or Updated➛Wheels Record➛Photo","reference":"","reference_display":"Photo","type":"user_image","base_type":"user_image","usedInstances":{"3c2f2584-458e-428a-b75f-22f901f9a68d":["image"],"e3bf5bd7-8591-4529-8cdc-fd82822b05d2":["conditions"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Wheels Record","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"95f184fd-53e4-4578-a492-2bf73cf5328d":["source_record"]}},{"name":"3c2f2584-458e-428a-b75f-22f901f9a68d.record","label":"5 - Create Record➛Images Record","reference":"db_image","reference_display":"Images Record","type":"reference","base_type":"reference","usedInstances":{"ba5c5c1e-d782-46ea-a872-3ebcc0785a09":["target_record"],"899484fd-3691-4f9b-8240-b6afac32c91f":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e3bf5bd7-8591-4529-8cdc-fd82822b05d2.Record","label":"2 - Look Up Record➛Attachment Record","reference":"sys_attachment","reference_display":"Attachment Record","type":"reference","base_type":"reference","usedInstances":{"ba5c5c1e-d782-46ea-a872-3ebcc0785a09":["attachment_record"],"b4f5bfad-ac3b-4524-af8a-749e25550fde":["source_record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e3bf5bd7-8591-4529-8cdc-fd82822b05d2.Record.file_name","label":"2 - Look Up Record➛Attachment Record➛File name","reference":"","reference_display":"File name","type":"string","base_type":"string","usedInstances":{"b4f5bfad-ac3b-4524-af8a-749e25550fde":["file_name"]}},{"name":"b4f5bfad-ac3b-4524-af8a-749e25550fde.parameter","label":"4 - Look Up Attachment➛Attachment Sys ID","reference_display":"Attachment Sys ID","type":"string","base_type":"string","usedInstances":{"899484fd-3691-4f9b-8240-b6afac32c91f":["image"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b143af44-a3d5-4f5f-9429-760e819835ec"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Photo to Image DB</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles name="image_admin">a2e5ab360a0a0b41002d44d7f90464b4</run_with_roles>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cb6a448247ba02106a3eedf1d16d43a4</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Photo to Image DB</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name>sys_hub_flow_cb6a448247ba02106a3eedf1d16d43a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:29:11</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=cb6a448247ba02106a3eedf1d16d43a4"/>
+    <sys_variable_value action="DELETE" query="document_key=cb6a448247ba02106a3eedf1d16d43a4"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=cb6a448247ba02106a3eedf1d16d43a4^sys_idNOT IN576a848247ba02106a3eedf1d16d4312"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Photo to Image DB">cb6a448247ba02106a3eedf1d16d43a4</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:46</sys_created_on>
+        <sys_id>576a848247ba02106a3eedf1d16d4312</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:46</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=576a848247ba02106a3eedf1d16d4312"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>576a848247ba02106a3eedf1d16d4312</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:46</sys_created_on>
+        <sys_id>1b6a848247ba02106a3eedf1d16d4313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:46</sys_updated_on>
+        <value>photoVALCHANGES</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>576a848247ba02106a3eedf1d16d4312</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:46</sys_created_on>
+        <sys_id>576a848247ba02106a3eedf1d16d4313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:46</sys_updated_on>
+        <value>unique_changes</value>
+        <variable display_value="Run Trigger">2b9def50c31132002841b63b12d3ae5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>576a848247ba02106a3eedf1d16d4312</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:46</sys_created_on>
+        <sys_id>db6a848247ba02106a3eedf1d16d4313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:46</sys_updated_on>
+        <value>x_407566_hot_tra_0_wheels</value>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=576a848247ba02106a3eedf1d16d4312"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=cb6a448247ba02106a3eedf1d16d43a4"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=cb6a448247ba02106a3eedf1d16d43a4^sys_idNOT INcb6a448247ba02106a3eedf1d16d43a7"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>cb6a448247ba02106a3eedf1d16d43a4</id>
+        <name>Photo to Image DB</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:45</sys_created_on>
+        <sys_id>cb6a448247ba02106a3eedf1d16d43a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:45</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=cb6a448247ba02106a3eedf1d16d43a7"/>
+    <sys_hub_flow_input action="DELETE" query="model=cb6a448247ba02106a3eedf1d16d43a4^sys_idNOT IN1f6a448247ba02106a3eedf1d16d43b8,536a448247ba02106a3eedf1d16d43b6,d36a448247ba02106a3eedf1d16d43af"/>
+    <sys_complex_object action="DELETE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>global</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">d6018d5c90c0021087de3cfccdb0d63a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Photo to Image DB">cb6a448247ba02106a3eedf1d16d43a4</model>
+        <model_id>cb6a448247ba02106a3eedf1d16d43a4</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_cb6a448247ba02106a3eedf1d16d43a4</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:45</sys_created_on>
+        <sys_id>1f6a448247ba02106a3eedf1d16d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=1f6a448247ba02106a3eedf1d16d43b8"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Photo to Image DB">cb6a448247ba02106a3eedf1d16d43a4</model>
+        <model_id>cb6a448247ba02106a3eedf1d16d43a4</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_cb6a448247ba02106a3eedf1d16d43a4</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:45</sys_created_on>
+        <sys_id>536a448247ba02106a3eedf1d16d43b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=536a448247ba02106a3eedf1d16d43b6"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Photo to Image DB">cb6a448247ba02106a3eedf1d16d43a4</model>
+        <model_id>cb6a448247ba02106a3eedf1d16d43a4</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_cb6a448247ba02106a3eedf1d16d43a4</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:45</sys_created_on>
+        <sys_id>d36a448247ba02106a3eedf1d16d43af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=d36a448247ba02106a3eedf1d16d43af"/>
+    <sys_hub_flow_output action="DELETE" query="model=cb6a448247ba02106a3eedf1d16d43a4"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=cb6a448247ba02106a3eedf1d16d43a4"/>
+    <sys_hub_action_instance action="DELETE" query="flow=cb6a448247ba02106a3eedf1d16d43a4^sys_idNOT IN176a448247ba02106a3eedf1d16d43df,576a448247ba02106a3eedf1d16d43ec,5b6a448247ba02106a3eedf1d16d43e6,9f6a848247ba02106a3eedf1d16d430f,df6a448247ba02106a3eedf1d16d43d7"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Photo to Image DB">cb6a448247ba02106a3eedf1d16d43a4</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>8cb8a7d3-8d14-47f4-92c7-15317a7f4e16</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:45</sys_created_on>
+        <sys_id>176a448247ba02106a3eedf1d16d43df</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:45</sys_updated_on>
+        <ui_id>c2424dde-8bdb-479f-861a-a9954314c1a5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=176a448247ba02106a3eedf1d16d43df"/>
+    <sys_element_mapping action="DELETE" query="id=176a448247ba02106a3eedf1d16d43df"/>
+    <sys_element_mapping action="DELETE">
+        <field>log_message</field>
+        <id>176a448247ba02106a3eedf1d16d43df</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:45</sys_created_on>
+        <sys_id>1b6a448247ba02106a3eedf1d16d43e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>Wheels: {{Created or Updated_1.current.photo}}
+lookup: {{e3bf5bd7-8591-4529-8cdc-fd82822b05d2.Record.chunk_size_bytes}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=176a448247ba02106a3eedf1d16d43df"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=176a448247ba02106a3eedf1d16d43df"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Photo to Image DB">cb6a448247ba02106a3eedf1d16d43a4</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>8cb8a7d3-8d14-47f4-92c7-15317a7f4e16</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:46</sys_created_on>
+        <sys_id>576a448247ba02106a3eedf1d16d43ec</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:14:15</sys_updated_on>
+        <ui_id>3c2f2584-458e-428a-b75f-22f901f9a68d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=576a448247ba02106a3eedf1d16d43ec"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>576a448247ba02106a3eedf1d16d43ec</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:46</sys_created_on>
+        <sys_id>536a448247ba02106a3eedf1d16d43ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:46</sys_updated_on>
+        <value>db_image</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>576a448247ba02106a3eedf1d16d43ec</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:46</sys_created_on>
+        <sys_id>9f6a448247ba02106a3eedf1d16d43ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:46</sys_updated_on>
+        <value>name=hotTracks.jpg^category=Hot Tracks^sys_scope={"display":"Hot Tracks","value":"e58b0ac0470202106a3eedf1d16d43a5","table":"sys_app","sys_id":"e58b0ac0470202106a3eedf1d16d43a5"}^sys_class_name=db_image</value>
+        <variable display_value="Fields">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1^id=576a448247ba02106a3eedf1d16d43ec"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=576a448247ba02106a3eedf1d16d43ec"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=576a448247ba02106a3eedf1d16d43ec"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Attachment">6ecdee36935023005e69925cf67ffb47</action_type>
+        <action_type_parent display_value="Look Up Attachment">aabdae36935023005e69925cf67ffb5e</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>6ecdee36935023005e69925cf67ffb47</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Photo to Image DB">cb6a448247ba02106a3eedf1d16d43a4</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>8cb8a7d3-8d14-47f4-92c7-15317a7f4e16</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:46</sys_created_on>
+        <sys_id>5b6a448247ba02106a3eedf1d16d43e6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:46</sys_updated_on>
+        <ui_id>b4f5bfad-ac3b-4524-af8a-749e25550fde</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=5b6a448247ba02106a3eedf1d16d43e6"/>
+    <sys_element_mapping action="DELETE" query="id=5b6a448247ba02106a3eedf1d16d43e6"/>
+    <sys_element_mapping action="DELETE">
+        <field>file_name</field>
+        <id>5b6a448247ba02106a3eedf1d16d43e6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:46</sys_created_on>
+        <sys_id>136a448247ba02106a3eedf1d16d43e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_6ecdee36935023005e69925cf67ffb47</table>
+        <value>{{e3bf5bd7-8591-4529-8cdc-fd82822b05d2.Record.file_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>source_record</field>
+        <id>5b6a448247ba02106a3eedf1d16d43e6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:46</sys_created_on>
+        <sys_id>5f6a448247ba02106a3eedf1d16d43e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_6ecdee36935023005e69925cf67ffb47</table>
+        <value>{{e3bf5bd7-8591-4529-8cdc-fd82822b05d2.Record}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=5b6a448247ba02106a3eedf1d16d43e6"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=5b6a448247ba02106a3eedf1d16d43e6"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Copy Attachment">30fe6cdb0f973300dfd3694e68767e5a</action_type>
+        <action_type_parent display_value="Copy Attachment">95849c2a9353130079b5925cf67ffb91</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>30fe6cdb0f973300dfd3694e68767e5a</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Photo to Image DB">cb6a448247ba02106a3eedf1d16d43a4</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>8cb8a7d3-8d14-47f4-92c7-15317a7f4e16</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:46</sys_created_on>
+        <sys_id>9f6a848247ba02106a3eedf1d16d430f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:46</sys_updated_on>
+        <ui_id>54e314e9-9cef-41e7-a74e-b43ee07357b5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=9f6a848247ba02106a3eedf1d16d430f"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9f6a848247ba02106a3eedf1d16d430f</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:46</sys_created_on>
+        <sys_id>1f6a848247ba02106a3eedf1d16d4311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:46</sys_updated_on>
+        <value/>
+        <variable display_value="Target Record">b0fe6cdb0f973300dfd3694e68767e60</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9f6a848247ba02106a3eedf1d16d430f</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:46</sys_created_on>
+        <sys_id>df6a848247ba02106a3eedf1d16d4311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:46</sys_updated_on>
+        <value>db_image</value>
+        <variable display_value="Table">f4fe6cdb0f973300dfd3694e68767e67</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=9f6a848247ba02106a3eedf1d16d430f"/>
+    <sys_element_mapping action="DELETE">
+        <field>attachment_record</field>
+        <id>9f6a848247ba02106a3eedf1d16d430f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:46</sys_created_on>
+        <sys_id>9b6a848247ba02106a3eedf1d16d4311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_30fe6cdb0f973300dfd3694e68767e5a</table>
+        <value>{{e3bf5bd7-8591-4529-8cdc-fd82822b05d2.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table</field>
+        <id>9f6a848247ba02106a3eedf1d16d430f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:46</sys_created_on>
+        <sys_id>d76a848247ba02106a3eedf1d16d4311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_30fe6cdb0f973300dfd3694e68767e5a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>target_record</field>
+        <id>9f6a848247ba02106a3eedf1d16d430f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:46</sys_created_on>
+        <sys_id>176a848247ba02106a3eedf1d16d4311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_30fe6cdb0f973300dfd3694e68767e5a</table>
+        <value>{{3c2f2584-458e-428a-b75f-22f901f9a68d.record}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=9f6a848247ba02106a3eedf1d16d430f"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=9f6a848247ba02106a3eedf1d16d430f"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Photo to Image DB">cb6a448247ba02106a3eedf1d16d43a4</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id>8cb8a7d3-8d14-47f4-92c7-15317a7f4e16</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:45</sys_created_on>
+        <sys_id>df6a448247ba02106a3eedf1d16d43d7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:45</sys_updated_on>
+        <ui_id>e3bf5bd7-8591-4529-8cdc-fd82822b05d2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=df6a448247ba02106a3eedf1d16d43d7"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>df6a448247ba02106a3eedf1d16d43d7</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:45</sys_created_on>
+        <sys_id>936a448247ba02106a3eedf1d16d43db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:45</sys_updated_on>
+        <value>sys_attachment</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>df6a448247ba02106a3eedf1d16d43d7</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:45</sys_created_on>
+        <sys_id>df6a448247ba02106a3eedf1d16d43da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:45</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Don't fail on error">ceab42a673110010d70877186bf6a74f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=df6a448247ba02106a3eedf1d16d43d7"/>
+    <sys_element_mapping action="DELETE">
+        <field>conditions</field>
+        <id>df6a448247ba02106a3eedf1d16d43d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:45</sys_created_on>
+        <sys_id>9b6a448247ba02106a3eedf1d16d43da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>sys_id={{Created or Updated_1.current.photo}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table</field>
+        <id>df6a448247ba02106a3eedf1d16d43d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:45</sys_created_on>
+        <sys_id>5f6a448247ba02106a3eedf1d16d43da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>__snc_dont_fail_on_error</field>
+        <id>df6a448247ba02106a3eedf1d16d43d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:45</sys_created_on>
+        <sys_id>d76a448247ba02106a3eedf1d16d43da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=df6a448247ba02106a3eedf1d16d43d7"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=df6a448247ba02106a3eedf1d16d43d7"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=cb6a448247ba02106a3eedf1d16d43a4"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=cb6a448247ba02106a3eedf1d16d43a4^sys_idNOT INd36a448247ba02106a3eedf1d16d43bf"/>
+    <sys_hub_flow_logic action="DELETE">
+        <attributes/>
+        <block display_value="">37d2aaf9477202106a3eedf1d16d43f9</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Photo to Image DB">cb6a448247ba02106a3eedf1d16d43a4</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:45</sys_created_on>
+        <sys_id>d36a448247ba02106a3eedf1d16d43bf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:45</sys_updated_on>
+        <ui_id>8cb8a7d3-8d14-47f4-92c7-15317a7f4e16</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=d36a448247ba02106a3eedf1d16d43bf"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>d36a448247ba02106a3eedf1d16d43bf</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:45</sys_created_on>
+        <sys_id>576a448247ba02106a3eedf1d16d43c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:45</sys_updated_on>
+        <value>If Image URL Is Empty</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=d36a448247ba02106a3eedf1d16d43bf"/>
+    <sys_element_mapping action="DELETE">
+        <field>condition</field>
+        <id>d36a448247ba02106a3eedf1d16d43bf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:45</sys_created_on>
+        <sys_id>d36a448247ba02106a3eedf1d16d43c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:45</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Created or Updated_1.current.image_url}}ISEMPTY</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>condition_name</field>
+        <id>d36a448247ba02106a3eedf1d16d43bf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:45</sys_created_on>
+        <sys_id>db6a448247ba02106a3eedf1d16d43c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:45</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=d36a448247ba02106a3eedf1d16d43bf"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=d36a448247ba02106a3eedf1d16d43bf"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=cb6a448247ba02106a3eedf1d16d43a4"/>
+    <sys_hub_flow_variable action="DELETE" query="model=cb6a448247ba02106a3eedf1d16d43a4"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_cb6a448247ba02106a3eedf1d16d43a4^sys_idNOT IN136a448247ba02106a3eedf1d16d43b5,536a448247ba02106a3eedf1d16d43b8,536a448247ba02106a3eedf1d16d43bb"/>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_cb6a448247ba02106a3eedf1d16d43a4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:45</sys_created_on>
+        <sys_id>136a448247ba02106a3eedf1d16d43b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_cb6a448247ba02106a3eedf1d16d43a4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:45</sys_created_on>
+        <sys_id>536a448247ba02106a3eedf1d16d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_cb6a448247ba02106a3eedf1d16d43a4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:13:45</sys_created_on>
+        <sys_id>536a448247ba02106a3eedf1d16d43bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:13:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_cb6a448247ba02106a3eedf1d16d43a4"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_cb6a448247ba02106a3eedf1d16d43a4"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_cb6a448247ba02106a3eedf1d16d43a4"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=cb6a448247ba02106a3eedf1d16d43a4"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=cb6a448247ba02106a3eedf1d16d43a4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</application>
+        <file_path/>
+        <instance_id>41d1b26fdb62b59438f117291396196f</instance_id>
+        <instance_name>dev221640</instance_name>
+        <name>sys_hub_flow_cb6a448247ba02106a3eedf1d16d43a4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;false&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=26423000,viewActivatedIn=naturalLanguage&lt;/attributes&gt;&lt;authored_on_release_version&gt;25000&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;compiler_build/&gt;&lt;copied_from&gt;3fd4884a477a02106a3eedf1d16d43b9&lt;/copied_from&gt;&lt;copied_from_name&gt;Copy2 of Upload Wheels Photo to &lt;/copied_from_name&gt;&lt;description/&gt;&lt;display_name_after_preview/&gt;&lt;flow_priority&gt;MEDIUM&lt;/flow_priority&gt;&lt;generation_source/&gt;&lt;internal_name&gt;photo_to_image_db&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"e3bf5bd7-8591-4529-8cdc-fd82822b05d2.Record.chunk_size_bytes","label":"2 - Look Up Record➛Attachment Record➛Chunk size bytes","reference":"","reference_display":"Chunk size bytes","type":"integer","base_type":"integer","usedInstances":{"c2424dde-8bdb-479f-861a-a9954314c1a5":["log_message"]}},{"name":"Created or Updated_1.current.image_url","label":"Trigger - Record Created or Updated➛Wheels Record➛Image URL","reference":"","reference_display":"Image URL","type":"string","base_type":"string","usedInstances":{"8cb8a7d3-8d14-47f4-92c7-15317a7f4e16":["condition"]}},{"name":"Created or Updated_1.current.model","label":"Trigger - Record Created or Updated➛Wheels Record➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","usedInstances":{"3c2f2584-458e-428a-b75f-22f901f9a68d":["name","sys_name"]}},{"name":"Created or Updated_1.current.photo","label":"Trigger - Record Created or Updated➛Wheels Record➛Photo","reference":"","reference_display":"Photo","type":"user_image","base_type":"user_image","usedInstances":{"3c2f2584-458e-428a-b75f-22f901f9a68d":["image"],"e3bf5bd7-8591-4529-8cdc-fd82822b05d2":["conditions"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Wheels Record","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"95f184fd-53e4-4578-a492-2bf73cf5328d":["source_record"]}},{"name":"3c2f2584-458e-428a-b75f-22f901f9a68d.record","label":"5 - Create Record➛Images Record","reference":"db_image","reference_display":"Images Record","type":"reference","base_type":"reference","usedInstances":{"ba5c5c1e-d782-46ea-a872-3ebcc0785a09":["target_record"],"899484fd-3691-4f9b-8240-b6afac32c91f":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e3bf5bd7-8591-4529-8cdc-fd82822b05d2.Record","label":"2 - Look Up Record➛Attachment Record","reference":"sys_attachment","reference_display":"Attachment Record","type":"reference","base_type":"reference","usedInstances":{"ba5c5c1e-d782-46ea-a872-3ebcc0785a09":["attachment_record"],"b4f5bfad-ac3b-4524-af8a-749e25550fde":["source_record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e3bf5bd7-8591-4529-8cdc-fd82822b05d2.Record.file_name","label":"2 - Look Up Record➛Attachment Record➛File name","reference":"","reference_display":"File name","type":"string","base_type":"string","usedInstances":{"b4f5bfad-ac3b-4524-af8a-749e25550fde":["file_name"]}},{"name":"b4f5bfad-ac3b-4524-af8a-749e25550fde.parameter","label":"4 - Look Up Attachment➛Attachment Sys ID","reference_display":"Attachment Sys ID","type":"string","base_type":"string","usedInstances":{"899484fd-3691-4f9b-8240-b6afac32c91f":["image"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b143af44-a3d5-4f5f-9429-760e819835ec"}}]&lt;/label_cache&gt;&lt;latest_snapshot/&gt;&lt;master_snapshot/&gt;&lt;name&gt;Photo to Image DB&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles name="image_admin"&gt;a2e5ab360a0a0b41002d44d7f90464b4&lt;/run_with_roles&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;draft&lt;/status&gt;&lt;substatus/&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:45&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;cb6a448247ba02106a3eedf1d16d43a4&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Photo to Image DB&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_cb6a448247ba02106a3eedf1d16d43a4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:29:11&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=cb6a448247ba02106a3eedf1d16d43a4"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=cb6a448247ba02106a3eedf1d16d43a4"/&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=cb6a448247ba02106a3eedf1d16d43a4^sys_idNOT IN576a848247ba02106a3eedf1d16d4312"/&gt;&lt;sys_hub_trigger_instance action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Photo to Image DB"&gt;cb6a448247ba02106a3eedf1d16d43a4&lt;/flow&gt;&lt;name&gt;Created or Updated&lt;/name&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:46&lt;/sys_created_on&gt;&lt;sys_id&gt;576a848247ba02106a3eedf1d16d4312&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:46&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Created or Updated"&gt;a45d9180c32222002841b63b12d3aea7&lt;/trigger_definition&gt;&lt;trigger_inputs/&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_create_or_update&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=576a848247ba02106a3eedf1d16d4312"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;576a848247ba02106a3eedf1d16d4312&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:46&lt;/sys_created_on&gt;&lt;sys_id&gt;1b6a848247ba02106a3eedf1d16d4313&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:46&lt;/sys_updated_on&gt;&lt;value&gt;photoVALCHANGES&lt;/value&gt;&lt;variable display_value="Condition"&gt;707dd180c32222002841b63b12d3aecb&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;576a848247ba02106a3eedf1d16d4312&lt;/document_key&gt;&lt;order&gt;200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:46&lt;/sys_created_on&gt;&lt;sys_id&gt;576a848247ba02106a3eedf1d16d4313&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:46&lt;/sys_updated_on&gt;&lt;value&gt;unique_changes&lt;/value&gt;&lt;variable display_value="Run Trigger"&gt;2b9def50c31132002841b63b12d3ae5b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_trigger_instance&lt;/document&gt;&lt;document_key&gt;576a848247ba02106a3eedf1d16d4312&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:46&lt;/sys_created_on&gt;&lt;sys_id&gt;db6a848247ba02106a3eedf1d16d4313&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:46&lt;/sys_updated_on&gt;&lt;value&gt;x_407566_hot_tra_0_wheels&lt;/value&gt;&lt;variable display_value="Table"&gt;cf1e1980c32222002841b63b12d3aea0&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=576a848247ba02106a3eedf1d16d4312"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=cb6a448247ba02106a3eedf1d16d43a4"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=cb6a448247ba02106a3eedf1d16d43a4^sys_idNOT INcb6a448247ba02106a3eedf1d16d43a7"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;cb6a448247ba02106a3eedf1d16d43a4&lt;/id&gt;&lt;name&gt;Photo to Image DB&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:45&lt;/sys_created_on&gt;&lt;sys_id&gt;cb6a448247ba02106a3eedf1d16d43a7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:45&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=cb6a448247ba02106a3eedf1d16d43a7"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=cb6a448247ba02106a3eedf1d16d43a4^sys_idNOT IN1f6a448247ba02106a3eedf1d16d43b8,536a448247ba02106a3eedf1d16d43b6,d36a448247ba02106a3eedf1d16d43af"/&gt;&lt;sys_complex_object action="INSERT_OR_UPDATE"&gt;&lt;label/&gt;&lt;name&gt;FDCollection&lt;/name&gt;&lt;namespace&gt;FlowDesigner&lt;/namespace&gt;&lt;scope_name&gt;global&lt;/scope_name&gt;&lt;serialized_content&gt;{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}&lt;/serialized_content&gt;&lt;sys_class_name&gt;sys_complex_object&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-06-13 23:19:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path/&gt;&lt;sys_id&gt;f4f014150f023300ecf0cc52ff767eed&lt;/sys_id&gt;&lt;sys_mod_count&gt;101&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model"&gt;d6018d5c90c0021087de3cfccdb0d63a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-28 05:06:11&lt;/sys_updated_on&gt;&lt;type&gt;complex_object_collection&lt;/type&gt;&lt;/sys_complex_object&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;model display_value="Photo to Image DB"&gt;cb6a448247ba02106a3eedf1d16d43a4&lt;/model&gt;&lt;model_id&gt;cb6a448247ba02106a3eedf1d16d43a4&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_cb6a448247ba02106a3eedf1d16d43a4&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:45&lt;/sys_created_on&gt;&lt;sys_id&gt;1f6a448247ba02106a3eedf1d16d43b8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:45&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1f6a448247ba02106a3eedf1d16d43b8"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Photo to Image DB"&gt;cb6a448247ba02106a3eedf1d16d43a4&lt;/model&gt;&lt;model_id&gt;cb6a448247ba02106a3eedf1d16d43a4&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_cb6a448247ba02106a3eedf1d16d43a4&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:45&lt;/sys_created_on&gt;&lt;sys_id&gt;536a448247ba02106a3eedf1d16d43b6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:45&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=536a448247ba02106a3eedf1d16d43b6"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Photo to Image DB"&gt;cb6a448247ba02106a3eedf1d16d43a4&lt;/model&gt;&lt;model_id&gt;cb6a448247ba02106a3eedf1d16d43a4&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_cb6a448247ba02106a3eedf1d16d43a4&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:45&lt;/sys_created_on&gt;&lt;sys_id&gt;d36a448247ba02106a3eedf1d16d43af&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:45&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d36a448247ba02106a3eedf1d16d43af"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=cb6a448247ba02106a3eedf1d16d43a4"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=cb6a448247ba02106a3eedf1d16d43a4"/&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=cb6a448247ba02106a3eedf1d16d43a4^sys_idNOT IN176a448247ba02106a3eedf1d16d43df,576a448247ba02106a3eedf1d16d43ec,5b6a448247ba02106a3eedf1d16d43e6,9f6a848247ba02106a3eedf1d16d430f,df6a448247ba02106a3eedf1d16d43d7"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Log"&gt;5bc1bcc6531003003bf1d9109ec587d4&lt;/action_type&gt;&lt;action_type_parent display_value="Log"&gt;0e0ae8c2531003003bf1d9109ec587c8&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;5bc1bcc6531003003bf1d9109ec587d4&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Photo to Image DB"&gt;cb6a448247ba02106a3eedf1d16d43a4&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;3&lt;/order&gt;&lt;parent_ui_id&gt;8cb8a7d3-8d14-47f4-92c7-15317a7f4e16&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:45&lt;/sys_created_on&gt;&lt;sys_id&gt;176a448247ba02106a3eedf1d16d43df&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:45&lt;/sys_updated_on&gt;&lt;ui_id&gt;c2424dde-8bdb-479f-861a-a9954314c1a5&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=176a448247ba02106a3eedf1d16d43df"/&gt;&lt;sys_element_mapping action="delete_multiple" query="id=176a448247ba02106a3eedf1d16d43df"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;log_message&lt;/field&gt;&lt;id&gt;176a448247ba02106a3eedf1d16d43df&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:45&lt;/sys_created_on&gt;&lt;sys_id&gt;1b6a448247ba02106a3eedf1d16d43e0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:45&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4&lt;/table&gt;&lt;value&gt;Wheels: {{Created or Updated_1.current.photo}}
+lookup: {{e3bf5bd7-8591-4529-8cdc-fd82822b05d2.Record.chunk_size_bytes}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=176a448247ba02106a3eedf1d16d43df"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=176a448247ba02106a3eedf1d16d43df"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Create Record"&gt;2de05916c31332002841b63b12d3aee1&lt;/action_type&gt;&lt;action_type_parent display_value="Create Record"&gt;02f0b88cc3c632002841b63b12d3aeff&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;2de05916c31332002841b63b12d3aee1&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Photo to Image DB"&gt;cb6a448247ba02106a3eedf1d16d43a4&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;5&lt;/order&gt;&lt;parent_ui_id&gt;8cb8a7d3-8d14-47f4-92c7-15317a7f4e16&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:46&lt;/sys_created_on&gt;&lt;sys_id&gt;576a448247ba02106a3eedf1d16d43ec&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:14:15&lt;/sys_updated_on&gt;&lt;ui_id&gt;3c2f2584-458e-428a-b75f-22f901f9a68d&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=576a448247ba02106a3eedf1d16d43ec"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;576a448247ba02106a3eedf1d16d43ec&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:46&lt;/sys_created_on&gt;&lt;sys_id&gt;536a448247ba02106a3eedf1d16d43ee&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:46&lt;/sys_updated_on&gt;&lt;value&gt;db_image&lt;/value&gt;&lt;variable display_value="Table"&gt;61e05916c31332002841b63b12d3aee4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;576a448247ba02106a3eedf1d16d43ec&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:46&lt;/sys_created_on&gt;&lt;sys_id&gt;9f6a448247ba02106a3eedf1d16d43ed&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:46&lt;/sys_updated_on&gt;&lt;value&gt;name=hotTracks.jpg^category=Hot Tracks^sys_scope={"display":"Hot Tracks","value":"e58b0ac0470202106a3eedf1d16d43a5","table":"sys_app","sys_id":"e58b0ac0470202106a3eedf1d16d43a5"}^sys_class_name=db_image&lt;/value&gt;&lt;variable display_value="Fields"&gt;6de09916c31332002841b63b12d3ae1b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1^id=576a448247ba02106a3eedf1d16d43ec"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=576a448247ba02106a3eedf1d16d43ec"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=576a448247ba02106a3eedf1d16d43ec"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Look Up Attachment"&gt;6ecdee36935023005e69925cf67ffb47&lt;/action_type&gt;&lt;action_type_parent display_value="Look Up Attachment"&gt;aabdae36935023005e69925cf67ffb5e&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;6ecdee36935023005e69925cf67ffb47&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Photo to Image DB"&gt;cb6a448247ba02106a3eedf1d16d43a4&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;4&lt;/order&gt;&lt;parent_ui_id&gt;8cb8a7d3-8d14-47f4-92c7-15317a7f4e16&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:46&lt;/sys_created_on&gt;&lt;sys_id&gt;5b6a448247ba02106a3eedf1d16d43e6&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:46&lt;/sys_updated_on&gt;&lt;ui_id&gt;b4f5bfad-ac3b-4524-af8a-749e25550fde&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=5b6a448247ba02106a3eedf1d16d43e6"/&gt;&lt;sys_element_mapping action="delete_multiple" query="id=5b6a448247ba02106a3eedf1d16d43e6"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;file_name&lt;/field&gt;&lt;id&gt;5b6a448247ba02106a3eedf1d16d43e6&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:46&lt;/sys_created_on&gt;&lt;sys_id&gt;136a448247ba02106a3eedf1d16d43e8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:46&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_6ecdee36935023005e69925cf67ffb47&lt;/table&gt;&lt;value&gt;{{e3bf5bd7-8591-4529-8cdc-fd82822b05d2.Record.file_name}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;source_record&lt;/field&gt;&lt;id&gt;5b6a448247ba02106a3eedf1d16d43e6&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:46&lt;/sys_created_on&gt;&lt;sys_id&gt;5f6a448247ba02106a3eedf1d16d43e7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:46&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_6ecdee36935023005e69925cf67ffb47&lt;/table&gt;&lt;value&gt;{{e3bf5bd7-8591-4529-8cdc-fd82822b05d2.Record}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=5b6a448247ba02106a3eedf1d16d43e6"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=5b6a448247ba02106a3eedf1d16d43e6"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Copy Attachment"&gt;30fe6cdb0f973300dfd3694e68767e5a&lt;/action_type&gt;&lt;action_type_parent display_value="Copy Attachment"&gt;95849c2a9353130079b5925cf67ffb91&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;30fe6cdb0f973300dfd3694e68767e5a&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Photo to Image DB"&gt;cb6a448247ba02106a3eedf1d16d43a4&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;6&lt;/order&gt;&lt;parent_ui_id&gt;8cb8a7d3-8d14-47f4-92c7-15317a7f4e16&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:46&lt;/sys_created_on&gt;&lt;sys_id&gt;9f6a848247ba02106a3eedf1d16d430f&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:46&lt;/sys_updated_on&gt;&lt;ui_id&gt;54e314e9-9cef-41e7-a74e-b43ee07357b5&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=9f6a848247ba02106a3eedf1d16d430f"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;9f6a848247ba02106a3eedf1d16d430f&lt;/document_key&gt;&lt;order&gt;2&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:46&lt;/sys_created_on&gt;&lt;sys_id&gt;1f6a848247ba02106a3eedf1d16d4311&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:46&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Target Record"&gt;b0fe6cdb0f973300dfd3694e68767e60&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;9f6a848247ba02106a3eedf1d16d430f&lt;/document_key&gt;&lt;order&gt;3&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:46&lt;/sys_created_on&gt;&lt;sys_id&gt;df6a848247ba02106a3eedf1d16d4311&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:46&lt;/sys_updated_on&gt;&lt;value&gt;db_image&lt;/value&gt;&lt;variable display_value="Table"&gt;f4fe6cdb0f973300dfd3694e68767e67&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=9f6a848247ba02106a3eedf1d16d430f"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;attachment_record&lt;/field&gt;&lt;id&gt;9f6a848247ba02106a3eedf1d16d430f&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:46&lt;/sys_created_on&gt;&lt;sys_id&gt;9b6a848247ba02106a3eedf1d16d4311&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:46&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_30fe6cdb0f973300dfd3694e68767e5a&lt;/table&gt;&lt;value&gt;{{e3bf5bd7-8591-4529-8cdc-fd82822b05d2.Record}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table&lt;/field&gt;&lt;id&gt;9f6a848247ba02106a3eedf1d16d430f&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:46&lt;/sys_created_on&gt;&lt;sys_id&gt;d76a848247ba02106a3eedf1d16d4311&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:46&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_30fe6cdb0f973300dfd3694e68767e5a&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;target_record&lt;/field&gt;&lt;id&gt;9f6a848247ba02106a3eedf1d16d430f&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:46&lt;/sys_created_on&gt;&lt;sys_id&gt;176a848247ba02106a3eedf1d16d4311&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:46&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_30fe6cdb0f973300dfd3694e68767e5a&lt;/table&gt;&lt;value&gt;{{3c2f2584-458e-428a-b75f-22f901f9a68d.record}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=9f6a848247ba02106a3eedf1d16d430f"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=9f6a848247ba02106a3eedf1d16d430f"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Look Up Record"&gt;9d09f99587003300663ca1bb36cb0ba3&lt;/action_type&gt;&lt;action_type_parent display_value="Look Up Record"&gt;b93f42810b30030085c083eb37673a63&lt;/action_type_parent&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;9d09f99587003300663ca1bb36cb0ba3&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Photo to Image DB"&gt;cb6a448247ba02106a3eedf1d16d43a4&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id&gt;8cb8a7d3-8d14-47f4-92c7-15317a7f4e16&lt;/parent_ui_id&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:45&lt;/sys_created_on&gt;&lt;sys_id&gt;df6a448247ba02106a3eedf1d16d43d7&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:45&lt;/sys_updated_on&gt;&lt;ui_id&gt;e3bf5bd7-8591-4529-8cdc-fd82822b05d2&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=df6a448247ba02106a3eedf1d16d43d7"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;df6a448247ba02106a3eedf1d16d43d7&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:45&lt;/sys_created_on&gt;&lt;sys_id&gt;936a448247ba02106a3eedf1d16d43db&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:45&lt;/sys_updated_on&gt;&lt;value&gt;sys_attachment&lt;/value&gt;&lt;variable display_value="Table"&gt;d909f99587003300663ca1bb36cb0ba4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;df6a448247ba02106a3eedf1d16d43d7&lt;/document_key&gt;&lt;order&gt;5&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:45&lt;/sys_created_on&gt;&lt;sys_id&gt;df6a448247ba02106a3eedf1d16d43da&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:45&lt;/sys_updated_on&gt;&lt;value&gt;1&lt;/value&gt;&lt;variable display_value="Don't fail on error"&gt;ceab42a673110010d70877186bf6a74f&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=df6a448247ba02106a3eedf1d16d43d7"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;conditions&lt;/field&gt;&lt;id&gt;df6a448247ba02106a3eedf1d16d43d7&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:45&lt;/sys_created_on&gt;&lt;sys_id&gt;9b6a448247ba02106a3eedf1d16d43da&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:45&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3&lt;/table&gt;&lt;value&gt;sys_id={{Created or Updated_1.current.photo}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table&lt;/field&gt;&lt;id&gt;df6a448247ba02106a3eedf1d16d43d7&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:45&lt;/sys_created_on&gt;&lt;sys_id&gt;5f6a448247ba02106a3eedf1d16d43da&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:45&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;__snc_dont_fail_on_error&lt;/field&gt;&lt;id&gt;df6a448247ba02106a3eedf1d16d43d7&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:45&lt;/sys_created_on&gt;&lt;sys_id&gt;d76a448247ba02106a3eedf1d16d43da&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:45&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=df6a448247ba02106a3eedf1d16d43d7"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=df6a448247ba02106a3eedf1d16d43d7"/&gt;&lt;sys_hub_sub_flow_instance action="delete_multiple" query="flow=cb6a448247ba02106a3eedf1d16d43a4"/&gt;&lt;sys_hub_flow_logic action="delete_multiple" query="flow=cb6a448247ba02106a3eedf1d16d43a4^sys_idNOT INd36a448247ba02106a3eedf1d16d43bf"/&gt;&lt;sys_hub_flow_logic action="INSERT_OR_UPDATE"&gt;&lt;attributes/&gt;&lt;block display_value=""&gt;37d2aaf9477202106a3eedf1d16d43f9&lt;/block&gt;&lt;comment/&gt;&lt;connected_to/&gt;&lt;decision_table/&gt;&lt;decision_table_inputs/&gt;&lt;display_text/&gt;&lt;extended_inputs/&gt;&lt;flow display_value="Photo to Image DB"&gt;cb6a448247ba02106a3eedf1d16d43a4&lt;/flow&gt;&lt;flow_variable/&gt;&lt;flow_variables_assigned/&gt;&lt;generation_source/&gt;&lt;inputs/&gt;&lt;inputs/&gt;&lt;logic_definition display_value="If"&gt;af4e1945c3e232002841b63b12d3ae3e&lt;/logic_definition&gt;&lt;order&gt;1&lt;/order&gt;&lt;outputs_assigned/&gt;&lt;outputs_to_assign/&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_flow_logic&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:45&lt;/sys_created_on&gt;&lt;sys_id&gt;d36a448247ba02106a3eedf1d16d43bf&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:45&lt;/sys_updated_on&gt;&lt;ui_id&gt;8cb8a7d3-8d14-47f4-92c7-15317a7f4e16&lt;/ui_id&gt;&lt;workflow_inputs/&gt;&lt;workflow_reference/&gt;&lt;/sys_hub_flow_logic&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=d36a448247ba02106a3eedf1d16d43bf"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_flow_logic&lt;/document&gt;&lt;document_key&gt;d36a448247ba02106a3eedf1d16d43bf&lt;/document_key&gt;&lt;order&gt;10&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:45&lt;/sys_created_on&gt;&lt;sys_id&gt;576a448247ba02106a3eedf1d16d43c3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:45&lt;/sys_updated_on&gt;&lt;value&gt;If Image URL Is Empty&lt;/value&gt;&lt;variable display_value="Condition Label"&gt;f0af19c1c32632002841b63b12d3aea3&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=d36a448247ba02106a3eedf1d16d43bf"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;condition&lt;/field&gt;&lt;id&gt;d36a448247ba02106a3eedf1d16d43bf&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:45&lt;/sys_created_on&gt;&lt;sys_id&gt;d36a448247ba02106a3eedf1d16d43c3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:45&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e&lt;/table&gt;&lt;value&gt;{{Created or Updated_1.current.image_url}}ISEMPTY&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;condition_name&lt;/field&gt;&lt;id&gt;d36a448247ba02106a3eedf1d16d43bf&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:45&lt;/sys_created_on&gt;&lt;sys_id&gt;db6a448247ba02106a3eedf1d16d43c2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:45&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_flow_logic_ext_input action="delete_multiple" query="model=d36a448247ba02106a3eedf1d16d43bf"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=d36a448247ba02106a3eedf1d16d43bf"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=cb6a448247ba02106a3eedf1d16d43a4"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=cb6a448247ba02106a3eedf1d16d43a4"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_cb6a448247ba02106a3eedf1d16d43a4^sys_idNOT IN136a448247ba02106a3eedf1d16d43b5,536a448247ba02106a3eedf1d16d43b8,536a448247ba02106a3eedf1d16d43bb"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_cb6a448247ba02106a3eedf1d16d43a4&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:45&lt;/sys_created_on&gt;&lt;sys_id&gt;136a448247ba02106a3eedf1d16d43b5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:45&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_cb6a448247ba02106a3eedf1d16d43a4&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:45&lt;/sys_created_on&gt;&lt;sys_id&gt;536a448247ba02106a3eedf1d16d43b8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:45&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;changed_fields&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Changed Fields&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_cb6a448247ba02106a3eedf1d16d43a4&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-06-16 03:13:45&lt;/sys_created_on&gt;&lt;sys_id&gt;536a448247ba02106a3eedf1d16d43bb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Hot Tracks"&gt;e58b0ac0470202106a3eedf1d16d43a5&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-06-16 03:13:45&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_cb6a448247ba02106a3eedf1d16d43a4"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_cb6a448247ba02106a3eedf1d16d43a4"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_cb6a448247ba02106a3eedf1d16d43a4"/&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=cb6a448247ba02106a3eedf1d16d43a4"/&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=cb6a448247ba02106a3eedf1d16d43a4"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1488478310</payload_hash>
+        <record_name>Photo to Image DB</record_name>
+        <reverted_from/>
+        <source>c8c4e8d4473602106a3eedf1d16d43b9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:29:11</sys_created_on>
+        <sys_id>51fd88c647ba02106a3eedf1d16d43d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1901f177ea20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:29:11</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>d5fd88c66aba02106c4ef9b0b7b53dd2</update_guid>
+        <update_guid_history>d5fd88c66aba02106c4ef9b0b7b53dd2:-1488478310,87aa4c82c5ba0210358d2a0b19bf5770:2070390725,6f6a8482dcba021015cc0d959d436b39:-1994568751,4f6a4482b2ba021085af2d87fa25caab:-1377879334</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:30:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>03fb36c8aeae493e824750520feb6364</sys_id>
+        <sys_metadata>cb6a448247ba02106a3eedf1d16d43a4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Photo to Image DB</sys_name>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope_delete display_value="">5360a778b1d14ee69fe48f4dc1dd5bf1</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_cb6a448247ba02106a3eedf1d16d43a4</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_cb6a448247ba02106a3eedf1d16d43a4">51fd88c647ba02106a3eedf1d16d43d3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:30:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

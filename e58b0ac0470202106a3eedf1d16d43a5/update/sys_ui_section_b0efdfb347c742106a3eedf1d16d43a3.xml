@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Histoy" section_id="b0efdfb347c742106a3eedf1d16d43a3" sys_domain="global" table="x_407566_hot_tra_0_tournament" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>journal</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-04 15:31:28</sys_created_on>
+            <sys_id>45ef13f347c742106a3eedf1d16d4334</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Histoy" display_value="Histoy" name="x_407566_hot_tra_0_tournament" sys_domain="global" view="Default view">b0efdfb347c742106a3eedf1d16d43a3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-04 15:31:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Histoy</caption>
+            <header>false</header>
+            <name>x_407566_hot_tra_0_tournament</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-04 15:31:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b0efdfb347c742106a3eedf1d16d43a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_407566_hot_tra_0_tournament</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+            <sys_update_name>sys_ui_section_b0efdfb347c742106a3eedf1d16d43a3</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-04 15:31:27</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

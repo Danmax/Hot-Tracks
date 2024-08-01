@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Load Test</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	if (!g_form.getValue('qlist')) {
+		return;
+	}
+	//var driverIds = g_form.getValue('qlist').toString();
+
+	var driverIds = ["a2069de74766c2106a3eedf1d16d4368", "81ea516f47e6c2106a3eedf1d16d43cc", "f2aa75a747aac2106a3eedf1d16d432c", "f60b75a747aac2106a3eedf1d16d4349"];
+	// Create a new GlideAjax object and specify the script include
+	var ga = new GlideAjax('GetWheelsInfo');
+
+	ga.addParam('sysparm_name', 'displayName');
+	ga.addParam('sysparm_driverIds', driverIds);
+	console.log("ga parms", ga)
+	ga.getXMLAnswer(managerParse);
+}
+
+// Callback function to handle the response
+function managerParse(response) {
+	// Check if response is null or empty
+	if (!response || response === 'null') {
+		g_form.addErrorMessage('No response received from the server');
+		return;
+	}
+
+	try {
+		// Parse the JSON response
+		var wheelsInfo = JSON.parse(response);
+		console.log("WheelsInfo", wheelsInfo)
+		// Check if wheelsInfo is an array
+		if (Array.isArray(wheelsInfo)) {
+
+			var ranks = [];
+			for (var i = 0; i < wheelsInfo.length; i++) {
+				ranks.push("# " + (i + 1) + ": " + wheelsInfo[i].model);
+			}
+			var val = ranks.join('\n');
+			g_form.setValue('journal', "Qualifiers \n" + val);
+
+		} else {
+			g_form.addErrorMessage('Unexpected response format');
+		}
+	} catch (e) {
+		g_form.addErrorMessage('Error parsing response: ' + e.message);
+	}
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 21:58:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4eb03d3747f282106a3eedf1d16d43a6</sys_id>
+        <sys_mod_count>50</sys_mod_count>
+        <sys_name>Load Test</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name>sys_script_client_4eb03d3747f282106a3eedf1d16d43a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-23 05:11:03</sys_updated_on>
+        <table>x_407566_hot_tra_0_tournament</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

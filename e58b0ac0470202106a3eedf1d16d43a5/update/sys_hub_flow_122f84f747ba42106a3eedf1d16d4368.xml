@@ -1,0 +1,3486 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=276938000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>finish_qualifiers_build_rank</internal_name>
+        <label_cache>[{"name":"d8d68da5-41cc-4b15-8ebf-e6e08682f6cb.data","label":"9 - Get Top Qualifiers List➛data","reference_display":"data","type":"string","base_type":"string","usedInstances":{"2654e20a-fb49-4dc1-8014-471f9872fc49":["journal"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"5e0b026f-d239-4df4-9f19-93840f72fe7b"}},{"name":"b4593690-30f9-4162-b155-d2b46f20db90.item.racer_1.sys_id","label":"6 - For Each➛Match Record➛Racer 1➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","usedInstances":{"fca60c94-e362-420c-96b4-425c99b4c745":["competitor-0"]}},{"name":"56c4f0f7-839f-430f-ba7e-a3be7e545852.Records","label":"5 - Look Up Records➛Match Records","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"records","base_type":"records","usedInstances":{"b4593690-30f9-4162-b155-d2b46f20db90":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Tournament Record","reference":"x_407566_hot_tra_0_tournament","reference_display":"Tournament","type":"reference","base_type":"reference","usedInstances":{"bc201344-29e9-408b-8e69-1de465d145c5":["conditions"],"3303d438-089c-4248-8462-c924f531b272":["conditions"],"56c4f0f7-839f-430f-ba7e-a3be7e545852":["conditions"],"2654e20a-fb49-4dc1-8014-471f9872fc49":["record"]}},{"name":"3303d438-089c-4248-8462-c924f531b272.Records","label":"1 - Look Up Records➛Match Records","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"records","base_type":"records","usedInstances":{"9acca52f-cfe9-4413-a1c3-bc4c9d8e7eb0":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9acca52f-cfe9-4413-a1c3-bc4c9d8e7eb0.item","label":"2 - For Each➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"37292e7e-69be-4257-bda1-767954f90a29":["conditions"],"e98e6d92-a41b-4635-8445-f0cd8d69ebad":["record"],"b28a382f-0ac1-466c-9f35-cc3b59f1c7fe":["record"],"b55d39dd-19f3-4b33-9119-bd696e79b356":["match_sys_id"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"37292e7e-69be-4257-bda1-767954f90a29.Record.r1_time","label":"3 - Look Up Record➛Race Record➛R1 Time","reference":"","reference_display":"R1 Time","type":"decimal","base_type":"decimal","usedInstances":{"e98e6d92-a41b-4635-8445-f0cd8d69ebad":["fastest_time"]}},{"name":"flow_variable.ranklist","label":"Flow Variables➛RankList","reference":"","reference_display":"","type":"string","base_type":"string","usedInstances":{"fad2d8eb-71f6-4936-8d58-dbcca0aafaa6":["ranklist-0"],"d8d68da5-41cc-4b15-8ebf-e6e08682f6cb":["qlist"],"2654e20a-fb49-4dc1-8014-471f9872fc49":["q_rank_list","qlist"]}},{"name":"flow_variable.competitor","label":"Flow Variables➛competitor","reference":"","reference_display":"","type":"string","base_type":"string","usedInstances":{"fad2d8eb-71f6-4936-8d58-dbcca0aafaa6":["ranklist-0"]}},{"name":"b4593690-30f9-4162-b155-d2b46f20db90.item.racer_1.model","label":"6 - For Each➛Match Record➛Racer 1➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","usedInstances":{"fca60c94-e362-420c-96b4-425c99b4c745":["name-1"]}}]</label_cache>
+        <master_snapshot>5f055cff47ba42106a3eedf1d16d43b9</master_snapshot>
+        <name>Finish Qualifiers Build Rank</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>73059cff47ba42106a3eedf1d16d432e</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:03:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>122f84f747ba42106a3eedf1d16d4368</sys_id>
+        <sys_mod_count>166</sys_mod_count>
+        <sys_name>Finish Qualifiers Build Rank</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name>sys_hub_flow_122f84f747ba42106a3eedf1d16d4368</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 19:00:08</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=122f84f747ba42106a3eedf1d16d4368"/>
+    <sys_variable_value action="delete_multiple" query="document_key=122f84f747ba42106a3eedf1d16d4368"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_407566_hot_tra_0_tournament">tournament_stateCHANGESFROMqualifier^tournament_stateCHANGESTOready<item display_value="Qualifier" endquery="false" field="tournament_state" goto="false" newquery="false" operator="CHANGESFROM" or="false" value="qualifier"/>
+            <item display_value="Ready" endquery="false" field="tournament_state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="ready"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>73059cff47ba42106a3eedf1d16d432e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:29:34</sys_updated_on>
+        <table>x_407566_hot_tra_0_tournament</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>122f84f747ba42106a3eedf1d16d4368</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-24 18:59:33</sys_created_on>
+        <sys_id>379fa4b44703c6106a3eedf1d16d43b1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 18:59:33</sys_updated_on>
+        <trigger display_value="">73059cff47ba42106a3eedf1d16d432e</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=122f84f747ba42106a3eedf1d16d4368^sys_idNOT IN379fa4b44703c6106a3eedf1d16d43b1"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=122f84f747ba42106a3eedf1d16d4368^sys_idNOT INb3bf44b747ba42106a3eedf1d16d43ba"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Finish Qualifiers Build Rank">122f84f747ba42106a3eedf1d16d4368</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:06:22</sys_created_on>
+        <sys_id>b3bf44b747ba42106a3eedf1d16d43ba</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 18:59:58</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b3bf44b747ba42106a3eedf1d16d43ba"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>b3bf44b747ba42106a3eedf1d16d43ba</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:06:22</sys_created_on>
+        <sys_id>3bbf44b747ba42106a3eedf1d16d43bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:06:22</sys_updated_on>
+        <value>x_407566_hot_tra_0_tournament</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>b3bf44b747ba42106a3eedf1d16d43ba</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:06:22</sys_created_on>
+        <sys_id>77bf44b747ba42106a3eedf1d16d43bb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:06:55</sys_updated_on>
+        <value>tournament_stateCHANGESFROMqualifier^tournament_stateCHANGESTOready</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>b3bf44b747ba42106a3eedf1d16d43ba</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:06:22</sys_created_on>
+        <sys_id>7fbf44b747ba42106a3eedf1d16d43ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:06:22</sys_updated_on>
+        <value>every</value>
+        <variable display_value="Run Trigger">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=b3bf44b747ba42106a3eedf1d16d43ba"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=122f84f747ba42106a3eedf1d16d4368"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=122f84f747ba42106a3eedf1d16d4368^sys_idNOT INde2f84f747ba42106a3eedf1d16d4368"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>122f84f747ba42106a3eedf1d16d4368</id>
+        <name>Finish Qualifiers Build Rank</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:03:49</sys_created_on>
+        <sys_id>de2f84f747ba42106a3eedf1d16d4368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:03:49</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=de2f84f747ba42106a3eedf1d16d4368"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=122f84f747ba42106a3eedf1d16d4368^sys_idNOT IN43055cff47ba42106a3eedf1d16d4339,8b055cff47ba42106a3eedf1d16d433c,fe055cff47ba42106a3eedf1d16d4334"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>global</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">d6018d5c90c0021087de3cfccdb0d63a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Finish Qualifiers Build Rank">122f84f747ba42106a3eedf1d16d4368</model>
+        <model_id>122f84f747ba42106a3eedf1d16d4368</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_122f84f747ba42106a3eedf1d16d4368</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:31</sys_created_on>
+        <sys_id>43055cff47ba42106a3eedf1d16d4339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:29:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=43055cff47ba42106a3eedf1d16d4339"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Finish Qualifiers Build Rank">122f84f747ba42106a3eedf1d16d4368</model>
+        <model_id>122f84f747ba42106a3eedf1d16d4368</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_122f84f747ba42106a3eedf1d16d4368</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:31</sys_created_on>
+        <sys_id>8b055cff47ba42106a3eedf1d16d433c</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 18:59:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8b055cff47ba42106a3eedf1d16d433c"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Finish Qualifiers Build Rank">122f84f747ba42106a3eedf1d16d4368</model>
+        <model_id>122f84f747ba42106a3eedf1d16d4368</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_122f84f747ba42106a3eedf1d16d4368</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:31</sys_created_on>
+        <sys_id>fe055cff47ba42106a3eedf1d16d4334</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 18:59:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fe055cff47ba42106a3eedf1d16d4334"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=122f84f747ba42106a3eedf1d16d4368"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=122f84f747ba42106a3eedf1d16d4368"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=122f84f747ba42106a3eedf1d16d4368^sys_idNOT IN0627f0bf477e42106a3eedf1d16d4317,2e849cbf47ba42106a3eedf1d16d438c,9081d8bb47ba42106a3eedf1d16d4314,aed418ff47ba42106a3eedf1d16d4313,fe9a18b8478f86106a3eedf1d16d43fd,feb654b347fa42106a3eedf1d16d432f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Finish Qualifiers Build Rank">122f84f747ba42106a3eedf1d16d4368</flow>
+        <generation_source/>
+        <order>10</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 16:58:33</sys_created_on>
+        <sys_id>0627f0bf477e42106a3eedf1d16d4317</sys_id>
+        <sys_mod_count>62</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 19:02:01</sys_updated_on>
+        <ui_id>2654e20a-fb49-4dc1-8014-471f9872fc49</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0627f0bf477e42106a3eedf1d16d4317"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0627f0bf477e42106a3eedf1d16d4317</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 17:00:13</sys_created_on>
+        <sys_id>1e87b4bf477e42106a3eedf1d16d4322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 17:00:13</sys_updated_on>
+        <value>x_407566_hot_tra_0_tournament</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0627f0bf477e42106a3eedf1d16d4317</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 20:18:53</sys_created_on>
+        <sys_id>6005e9b347b282106a3eedf1d16d4356</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 20:20:31</sys_updated_on>
+        <value/>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0627f0bf477e42106a3eedf1d16d4317"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>0627f0bf477e42106a3eedf1d16d4317</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 17:00:13</sys_created_on>
+        <sys_id>9a87b4bf477e42106a3eedf1d16d4322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 17:00:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>0627f0bf477e42106a3eedf1d16d4317</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 17:00:13</sys_created_on>
+        <sys_id>1287b4bf477e42106a3eedf1d16d4322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 17:00:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>0627f0bf477e42106a3eedf1d16d4317</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 17:00:13</sys_created_on>
+        <sys_id>d687b4bf477e42106a3eedf1d16d4322</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 17:28:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>qlist={{flow_variable.ranklist}}^journal={{d8d68da5-41cc-4b15-8ebf-e6e08682f6cb.data}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0627f0bf477e42106a3eedf1d16d4317^sys_idNOT IN7513cadc474f06106a3eedf1d16d4365"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>values</input_name>
+        <instance>0627f0bf477e42106a3eedf1d16d4317</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"journal":{"scriptActive":true,"script":"var scriptInc \u003d new GetWheelsInfo(fd_data.flow_var.ranklist);\nvar result \u003d scriptInc.displayName(); \nvar answer \u003d JSON.parse(result)\nreturn answer"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-23 11:47:16</sys_created_on>
+        <sys_id>7513cadc474f06106a3eedf1d16d4365</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 14:04:55</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0627f0bf477e42106a3eedf1d16d4317"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Finish Qualifiers Build Rank">122f84f747ba42106a3eedf1d16d4368</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>9acca52f-cfe9-4413-a1c3-bc4c9d8e7eb0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:27:19</sys_created_on>
+        <sys_id>2e849cbf47ba42106a3eedf1d16d438c</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 19:02:01</sys_updated_on>
+        <ui_id>37292e7e-69be-4257-bda1-767954f90a29</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2e849cbf47ba42106a3eedf1d16d438c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2e849cbf47ba42106a3eedf1d16d438c</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:28:14</sys_created_on>
+        <sys_id>04c41c7f47ba42106a3eedf1d16d4380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:28:14</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Don't fail on error">ceab42a673110010d70877186bf6a74f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2e849cbf47ba42106a3eedf1d16d438c</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:28:14</sys_created_on>
+        <sys_id>0cc41c7f47ba42106a3eedf1d16d437f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:28:14</sys_updated_on>
+        <value>r1_time</value>
+        <variable display_value="Order by">1d09f99587003300663ca1bb36cb0bad</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2e849cbf47ba42106a3eedf1d16d438c</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:28:14</sys_created_on>
+        <sys_id>c4c41c7f47ba42106a3eedf1d16d4380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:28:14</sys_updated_on>
+        <value>x_407566_hot_tra_0_race</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2e849cbf47ba42106a3eedf1d16d438c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>2e849cbf47ba42106a3eedf1d16d438c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:28:14</sys_created_on>
+        <sys_id>c4c41c7f47ba42106a3eedf1d16d437f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:28:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>round_match={{9acca52f-cfe9-4413-a1c3-bc4c9d8e7eb0.item}}^r1_timeISNOTEMPTY</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sort_column</field>
+        <id>2e849cbf47ba42106a3eedf1d16d438c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:28:14</sys_created_on>
+        <sys_id>4cc41c7f47ba42106a3eedf1d16d437e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:28:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>2e849cbf47ba42106a3eedf1d16d438c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:28:14</sys_created_on>
+        <sys_id>88c41c7f47ba42106a3eedf1d16d437f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:28:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__snc_dont_fail_on_error</field>
+        <id>2e849cbf47ba42106a3eedf1d16d438c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:28:14</sys_created_on>
+        <sys_id>04c41c7f47ba42106a3eedf1d16d437f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:28:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2e849cbf47ba42106a3eedf1d16d438c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2e849cbf47ba42106a3eedf1d16d438c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Finish Qualifiers Build Rank">122f84f747ba42106a3eedf1d16d4368</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:14:02</sys_created_on>
+        <sys_id>9081d8bb47ba42106a3eedf1d16d4314</sys_id>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 19:02:00</sys_updated_on>
+        <ui_id>3303d438-089c-4248-8462-c924f531b272</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9081d8bb47ba42106a3eedf1d16d4314"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9081d8bb47ba42106a3eedf1d16d4314</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:14:39</sys_created_on>
+        <sys_id>d1a158f747ba42106a3eedf1d16d43bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:14:39</sys_updated_on>
+        <value>x_407566_hot_tra_0_match</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9081d8bb47ba42106a3eedf1d16d4314"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>9081d8bb47ba42106a3eedf1d16d4314</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:14:39</sys_created_on>
+        <sys_id>9da158f747ba42106a3eedf1d16d43bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:14:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>tournament={{Updated_1.current}}^stage=qualifier</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>9081d8bb47ba42106a3eedf1d16d4314</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:14:39</sys_created_on>
+        <sys_id>51a158f747ba42106a3eedf1d16d43bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:14:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9081d8bb47ba42106a3eedf1d16d4314"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9081d8bb47ba42106a3eedf1d16d4314"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Finish Qualifiers Build Rank">122f84f747ba42106a3eedf1d16d4368</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>9acca52f-cfe9-4413-a1c3-bc4c9d8e7eb0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:28:40</sys_created_on>
+        <sys_id>aed418ff47ba42106a3eedf1d16d4313</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 19:02:01</sys_updated_on>
+        <ui_id>e98e6d92-a41b-4635-8445-f0cd8d69ebad</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=aed418ff47ba42106a3eedf1d16d4313"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>aed418ff47ba42106a3eedf1d16d4313</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:12</sys_created_on>
+        <sys_id>daf4d8ff47ba42106a3eedf1d16d437b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:29:12</sys_updated_on>
+        <value>x_407566_hot_tra_0_match</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=aed418ff47ba42106a3eedf1d16d4313"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>aed418ff47ba42106a3eedf1d16d4313</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:12</sys_created_on>
+        <sys_id>5af4d8ff47ba42106a3eedf1d16d437b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:29:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{9acca52f-cfe9-4413-a1c3-bc4c9d8e7eb0.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>aed418ff47ba42106a3eedf1d16d4313</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:12</sys_created_on>
+        <sys_id>d2f4d8ff47ba42106a3eedf1d16d437b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:29:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>aed418ff47ba42106a3eedf1d16d4313</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:12</sys_created_on>
+        <sys_id>96f4d8ff47ba42106a3eedf1d16d437b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:29:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>fastest_time={{37292e7e-69be-4257-bda1-767954f90a29.Record.r1_time}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=aed418ff47ba42106a3eedf1d16d4313"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=aed418ff47ba42106a3eedf1d16d4313"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Top Qualifiers List">a45754b4478f86106a3eedf1d16d4349</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Finish Qualifiers Build Rank">122f84f747ba42106a3eedf1d16d4368</flow>
+        <generation_source/>
+        <order>9</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-24 17:27:44</sys_created_on>
+        <sys_id>fe9a18b8478f86106a3eedf1d16d43fd</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 19:02:01</sys_updated_on>
+        <ui_id>d8d68da5-41cc-4b15-8ebf-e6e08682f6cb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fe9a18b8478f86106a3eedf1d16d43fd"/>
+    <sys_element_mapping action="delete_multiple" query="id=fe9a18b8478f86106a3eedf1d16d43fd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>qlist</field>
+        <id>fe9a18b8478f86106a3eedf1d16d43fd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-24 17:28:09</sys_created_on>
+        <sys_id>f4ba1cb8478f86106a3eedf1d16d4363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 17:28:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a45754b4478f86106a3eedf1d16d4349</table>
+        <value>{{flow_variable.ranklist}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fe9a18b8478f86106a3eedf1d16d43fd"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fe9a18b8478f86106a3eedf1d16d43fd"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Finish Qualifiers Build Rank">122f84f747ba42106a3eedf1d16d4368</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:36:52</sys_created_on>
+        <sys_id>feb654b347fa42106a3eedf1d16d432f</sys_id>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 19:02:01</sys_updated_on>
+        <ui_id>56c4f0f7-839f-430f-ba7e-a3be7e545852</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=feb654b347fa42106a3eedf1d16d432f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>feb654b347fa42106a3eedf1d16d432f</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:37:40</sys_created_on>
+        <sys_id>92e650b347fa42106a3eedf1d16d43c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:37:40</sys_updated_on>
+        <value>fastest_time</value>
+        <variable display_value="Order by">c7400a1587003300663ca1bb36cb0b55</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>feb654b347fa42106a3eedf1d16d432f</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:37:40</sys_created_on>
+        <sys_id>9ae650b347fa42106a3eedf1d16d43c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:37:40</sys_updated_on>
+        <value>x_407566_hot_tra_0_match</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=feb654b347fa42106a3eedf1d16d432f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>feb654b347fa42106a3eedf1d16d432f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:37:40</sys_created_on>
+        <sys_id>5ee650b347fa42106a3eedf1d16d43c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:37:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>tournament={{Updated_1.current}}^stage=qualifier</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sort_column</field>
+        <id>feb654b347fa42106a3eedf1d16d432f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:37:40</sys_created_on>
+        <sys_id>96e650b347fa42106a3eedf1d16d43c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:37:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>feb654b347fa42106a3eedf1d16d432f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:37:40</sys_created_on>
+        <sys_id>12e650b347fa42106a3eedf1d16d43c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:37:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=feb654b347fa42106a3eedf1d16d432f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=feb654b347fa42106a3eedf1d16d432f"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=122f84f747ba42106a3eedf1d16d4368"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=122f84f747ba42106a3eedf1d16d4368^sys_idNOT IN276c14bb47fa42106a3eedf1d16d43cf,53a1987b47ba42106a3eedf1d16d43d5,544818b347fa42106a3eedf1d16d430d,ca28943747fa42106a3eedf1d16d4334"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">b68cdcbb47fa42106a3eedf1d16d4326</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Finish Qualifiers Build Rank">122f84f747ba42106a3eedf1d16d4368</flow>
+        <flow_variable/>
+        <flow_variable/>
+        <flow_variables_assigned>competitor,name,rank</flow_variables_assigned>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>b4593690-30f9-4162-b155-d2b46f20db90</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 15:01:47</sys_created_on>
+        <sys_id>276c14bb47fa42106a3eedf1d16d43cf</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 18:59:34</sys_updated_on>
+        <ui_id>fca60c94-e362-420c-96b4-425c99b4c745</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=276c14bb47fa42106a3eedf1d16d43cf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>276c14bb47fa42106a3eedf1d16d43cf</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 17:39:30</sys_created_on>
+        <sys_id>8a80493f47be42106a3eedf1d16d43fd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 17:44:02</sys_updated_on>
+        <value/>
+        <variable display_value="Rank">f7bafcf347be42106a3eedf1d16d438a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=276c14bb47fa42106a3eedf1d16d43cf"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>competitor</field>
+        <id>276c14bb47fa42106a3eedf1d16d43cf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 15:02:17</sys_created_on>
+        <sys_id>3a8cdcbb47fa42106a3eedf1d16d4329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 15:02:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_122f84f747ba42106a3eedf1d16d4368</table>
+        <value>{{b4593690-30f9-4162-b155-d2b46f20db90.item.racer_1.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>name</field>
+        <id>276c14bb47fa42106a3eedf1d16d43cf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 17:19:43</sys_created_on>
+        <sys_id>8c0cb87747be42106a3eedf1d16d432f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 17:19:43</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_122f84f747ba42106a3eedf1d16d4368</table>
+        <value>{{b4593690-30f9-4162-b155-d2b46f20db90.item.racer_1.model}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>rank</field>
+        <id>276c14bb47fa42106a3eedf1d16d43cf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 17:39:30</sys_created_on>
+        <sys_id>0680493f47be42106a3eedf1d16d43fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 17:39:30</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_122f84f747ba42106a3eedf1d16d4368</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=276c14bb47fa42106a3eedf1d16d43cf"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=276c14bb47fa42106a3eedf1d16d43cf^sys_idNOT INc40c78b347be42106a3eedf1d16d4340"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>rank</input_name>
+        <instance>276c14bb47fa42106a3eedf1d16d43cf</instance>
+        <referenced_table>sys_hub_flow_logic</referenced_table>
+        <script>{"rank":{"scriptActive":true,"script":"const count \u003d fd_data.flow_var.rank? fd_data.flow_var.rank:0;\nconst newCount \u003d count+1;\nreturn newCount"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 17:19:43</sys_created_on>
+        <sys_id>c40c78b347be42106a3eedf1d16d4340</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 17:44:02</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">43055cff47ba42106a3eedf1d16d434a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Finish Qualifiers Build Rank">122f84f747ba42106a3eedf1d16d4368</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:14:47</sys_created_on>
+        <sys_id>53a1987b47ba42106a3eedf1d16d43d5</sys_id>
+        <sys_mod_count>37</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 18:59:34</sys_updated_on>
+        <ui_id>9acca52f-cfe9-4413-a1c3-bc4c9d8e7eb0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=53a1987b47ba42106a3eedf1d16d43d5"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_122f84f747ba42106a3eedf1d16d4368^id=53a1987b47ba42106a3eedf1d16d43d5"/>
+    <sys_element_mapping action="delete_multiple" query="id=53a1987b47ba42106a3eedf1d16d43d5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>53a1987b47ba42106a3eedf1d16d43d5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:14:54</sys_created_on>
+        <sys_id>3cb110fb47ba42106a3eedf1d16d433a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:14:54</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{3303d438-089c-4248-8462-c924f531b272.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=53a1987b47ba42106a3eedf1d16d43d5"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=53a1987b47ba42106a3eedf1d16d43d5"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">d6c91cb747fa42106a3eedf1d16d43af</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Finish Qualifiers Build Rank">122f84f747ba42106a3eedf1d16d4368</flow>
+        <flow_variable/>
+        <flow_variables_assigned>ranklist</flow_variables_assigned>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>b4593690-30f9-4162-b155-d2b46f20db90</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:43:32</sys_created_on>
+        <sys_id>544818b347fa42106a3eedf1d16d430d</sys_id>
+        <sys_mod_count>70</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 18:59:34</sys_updated_on>
+        <ui_id>fad2d8eb-71f6-4936-8d58-dbcca0aafaa6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=544818b347fa42106a3eedf1d16d430d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>544818b347fa42106a3eedf1d16d430d</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 17:57:47</sys_created_on>
+        <sys_id>f1b409b347fe42106a3eedf1d16d43c5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 17:58:07</sys_updated_on>
+        <value/>
+        <variable display_value="RankList">5f075cb347fa42106a3eedf1d16d4323</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_122f84f747ba42106a3eedf1d16d4368^id=544818b347fa42106a3eedf1d16d430d"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=544818b347fa42106a3eedf1d16d430d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=544818b347fa42106a3eedf1d16d430d^sys_idNOT IN354189fb47be42106a3eedf1d16d4391,f8d8dcb347fa42106a3eedf1d16d43d7"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>arrayobj</input_name>
+        <instance>544818b347fa42106a3eedf1d16d430d</instance>
+        <referenced_table>sys_hub_flow_logic</referenced_table>
+        <script>{"arrayobj":{"scriptActive":true,"script":"const list \u003d fd_data.flow_var.ranklist? fd_data.flow_var.ranklist:[];\nconst obj \u003d {\n    name:fd_data.flow_var.name,\n    sys_id:fd_data.flow_var.competitor,\n    rank:fd_data.flow_var.rank\n}\nlist.push(obj);\nreturn{list}"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 17:42:46</sys_created_on>
+        <sys_id>354189fb47be42106a3eedf1d16d4391</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 17:55:42</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>ranklist</input_name>
+        <instance>544818b347fa42106a3eedf1d16d430d</instance>
+        <referenced_table>sys_hub_flow_logic</referenced_table>
+        <script>{"ranklist":{"scriptActive":true,"script":"const list \u003d fd_data.flow_var.ranklist? fd_data.flow_var.ranklist:[];\n\nlist.push(fd_data.flow_var.competitor);\nreturn list"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:46:02</sys_created_on>
+        <sys_id>f8d8dcb347fa42106a3eedf1d16d43d7</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-23 05:17:59</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">56c91cb747fa42106a3eedf1d16d43aa</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Finish Qualifiers Build Rank">122f84f747ba42106a3eedf1d16d4368</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:43:07</sys_created_on>
+        <sys_id>ca28943747fa42106a3eedf1d16d4334</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 18:59:34</sys_updated_on>
+        <ui_id>b4593690-30f9-4162-b155-d2b46f20db90</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ca28943747fa42106a3eedf1d16d4334"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_122f84f747ba42106a3eedf1d16d4368^id=ca28943747fa42106a3eedf1d16d4334"/>
+    <sys_element_mapping action="delete_multiple" query="id=ca28943747fa42106a3eedf1d16d4334"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>ca28943747fa42106a3eedf1d16d4334</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:43:16</sys_created_on>
+        <sys_id>5838d43747fa42106a3eedf1d16d4348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:43:16</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{56c4f0f7-839f-430f-ba7e-a3be7e545852.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ca28943747fa42106a3eedf1d16d4334"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ca28943747fa42106a3eedf1d16d4334"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=122f84f747ba42106a3eedf1d16d4368"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=122f84f747ba42106a3eedf1d16d4368^sys_idNOT IN5f075cb347fa42106a3eedf1d16d4323,6d4c18bb47fa42106a3eedf1d16d43c4,7fbafcf347be42106a3eedf1d16d4386,aa40c13f47be42106a3eedf1d16d435f,cb3785b747fe42106a3eedf1d16d43a0,f7bafcf347be42106a3eedf1d16d438a"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=6722e538-0153-4b46-8752-b8f7e5c348fb</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ranklist</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>RankList</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Finish Qualifiers Build Rank">122f84f747ba42106a3eedf1d16d4368</model>
+        <model_id>122f84f747ba42106a3eedf1d16d4368</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_122f84f747ba42106a3eedf1d16d4368</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:38:17</sys_created_on>
+        <sys_id>5f075cb347fa42106a3eedf1d16d4323</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:09:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=a4d02936-a1a1-4847-8acf-e17f3bc0b58e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>competitor</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>competitor</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Finish Qualifiers Build Rank">122f84f747ba42106a3eedf1d16d4368</model>
+        <model_id>122f84f747ba42106a3eedf1d16d4368</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_122f84f747ba42106a3eedf1d16d4368</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 15:01:06</sys_created_on>
+        <sys_id>6d4c18bb47fa42106a3eedf1d16d43c4</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:09:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=8f2266df-968b-4d3d-a5ce-3f4e170bd1b5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Name</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Finish Qualifiers Build Rank">122f84f747ba42106a3eedf1d16d4368</model>
+        <model_id>122f84f747ba42106a3eedf1d16d4368</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_122f84f747ba42106a3eedf1d16d4368</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 17:14:14</sys_created_on>
+        <sys_id>7fbafcf347be42106a3eedf1d16d4386</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:09:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=bc34fdf2-8a56-4f93-b53b-184d7e30ba83</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>arrayobj</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>arrayObj</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Finish Qualifiers Build Rank">122f84f747ba42106a3eedf1d16d4368</model>
+        <model_id>122f84f747ba42106a3eedf1d16d4368</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_122f84f747ba42106a3eedf1d16d4368</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 17:38:27</sys_created_on>
+        <sys_id>aa40c13f47be42106a3eedf1d16d435f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:09:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=1f3079f3-b267-4ab0-a14a-23405fbcf521</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>jsonobj</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>JSONobj</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Finish Qualifiers Build Rank">122f84f747ba42106a3eedf1d16d4368</model>
+        <model_id>122f84f747ba42106a3eedf1d16d4368</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_122f84f747ba42106a3eedf1d16d4368</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 18:08:47</sys_created_on>
+        <sys_id>cb3785b747fe42106a3eedf1d16d43a0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:09:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=e7040151-ec8a-462a-92ad-d55baa2a47c8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>rank</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Rank</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Finish Qualifiers Build Rank">122f84f747ba42106a3eedf1d16d4368</model>
+        <model_id>122f84f747ba42106a3eedf1d16d4368</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_122f84f747ba42106a3eedf1d16d4368</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 17:14:15</sys_created_on>
+        <sys_id>f7bafcf347be42106a3eedf1d16d438a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 18:09:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_122f84f747ba42106a3eedf1d16d4368^sys_idNOT IN43055cff47ba42106a3eedf1d16d4338,8b055cff47ba42106a3eedf1d16d433b,8f055cff47ba42106a3eedf1d16d433e"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_122f84f747ba42106a3eedf1d16d4368</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:31</sys_created_on>
+        <sys_id>43055cff47ba42106a3eedf1d16d4338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:29:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_122f84f747ba42106a3eedf1d16d4368</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:31</sys_created_on>
+        <sys_id>8b055cff47ba42106a3eedf1d16d433b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:29:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_122f84f747ba42106a3eedf1d16d4368</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:31</sys_created_on>
+        <sys_id>8f055cff47ba42106a3eedf1d16d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:29:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_122f84f747ba42106a3eedf1d16d4368"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_122f84f747ba42106a3eedf1d16d4368"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_122f84f747ba42106a3eedf1d16d4368"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>finish_qualifiers_build_rank</internal_name>
+        <label_cache>[{"name":"d8d68da5-41cc-4b15-8ebf-e6e08682f6cb.data","label":"9 - Get Top Qualifiers List➛data","reference_display":"data","type":"string","base_type":"string","usedInstances":{"2654e20a-fb49-4dc1-8014-471f9872fc49":["journal"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"5e0b026f-d239-4df4-9f19-93840f72fe7b"}},{"name":"b4593690-30f9-4162-b155-d2b46f20db90.item.racer_1.sys_id","label":"6 - For Each➛Match Record➛Racer 1➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","usedInstances":{"fca60c94-e362-420c-96b4-425c99b4c745":["competitor-0"]}},{"name":"56c4f0f7-839f-430f-ba7e-a3be7e545852.Records","label":"5 - Look Up Records➛Match Records","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"records","base_type":"records","usedInstances":{"b4593690-30f9-4162-b155-d2b46f20db90":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Tournament Record","reference":"x_407566_hot_tra_0_tournament","reference_display":"Tournament","type":"reference","base_type":"reference","usedInstances":{"bc201344-29e9-408b-8e69-1de465d145c5":["conditions"],"3303d438-089c-4248-8462-c924f531b272":["conditions"],"56c4f0f7-839f-430f-ba7e-a3be7e545852":["conditions"],"2654e20a-fb49-4dc1-8014-471f9872fc49":["record"]}},{"name":"3303d438-089c-4248-8462-c924f531b272.Records","label":"1 - Look Up Records➛Match Records","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"records","base_type":"records","usedInstances":{"9acca52f-cfe9-4413-a1c3-bc4c9d8e7eb0":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9acca52f-cfe9-4413-a1c3-bc4c9d8e7eb0.item","label":"2 - For Each➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"37292e7e-69be-4257-bda1-767954f90a29":["conditions"],"e98e6d92-a41b-4635-8445-f0cd8d69ebad":["record"],"b28a382f-0ac1-466c-9f35-cc3b59f1c7fe":["record"],"b55d39dd-19f3-4b33-9119-bd696e79b356":["match_sys_id"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"37292e7e-69be-4257-bda1-767954f90a29.Record.r1_time","label":"3 - Look Up Record➛Race Record➛R1 Time","reference":"","reference_display":"R1 Time","type":"decimal","base_type":"decimal","usedInstances":{"e98e6d92-a41b-4635-8445-f0cd8d69ebad":["fastest_time"]}},{"name":"flow_variable.ranklist","label":"Flow Variables➛RankList","reference":"","reference_display":"","type":"string","base_type":"string","usedInstances":{"fad2d8eb-71f6-4936-8d58-dbcca0aafaa6":["ranklist-0"],"d8d68da5-41cc-4b15-8ebf-e6e08682f6cb":["qlist"],"2654e20a-fb49-4dc1-8014-471f9872fc49":["q_rank_list","qlist"]}},{"name":"flow_variable.competitor","label":"Flow Variables➛competitor","reference":"","reference_display":"","type":"string","base_type":"string","usedInstances":{"fad2d8eb-71f6-4936-8d58-dbcca0aafaa6":["ranklist-0"]}},{"name":"b4593690-30f9-4162-b155-d2b46f20db90.item.racer_1.model","label":"6 - For Each➛Match Record➛Racer 1➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","usedInstances":{"fca60c94-e362-420c-96b4-425c99b4c745":["name-1"]}}]</label_cache>
+        <master>true</master>
+        <name>Finish Qualifiers Build Rank</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Finish Qualifiers Build Rank">122f84f747ba42106a3eedf1d16d4368</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5f055cff47ba42106a3eedf1d16d43b9</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 18:59:32</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=5f055cff47ba42106a3eedf1d16d43b9"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5f055cff47ba42106a3eedf1d16d43b9"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=5f055cff47ba42106a3eedf1d16d43b9^sys_idNOT INe7059cff47ba42106a3eedf1d16d430e"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Finish Qualifiers Build Rank">5f055cff47ba42106a3eedf1d16d43b9</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:34</sys_created_on>
+        <sys_id>e7059cff47ba42106a3eedf1d16d430e</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 18:59:33</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e7059cff47ba42106a3eedf1d16d430e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>e7059cff47ba42106a3eedf1d16d430e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:34</sys_created_on>
+        <sys_id>27059cff47ba42106a3eedf1d16d4310</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:29:34</sys_updated_on>
+        <value>tournament_stateCHANGESFROMqualifier^tournament_stateCHANGESTOready</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>e7059cff47ba42106a3eedf1d16d430e</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:34</sys_created_on>
+        <sys_id>63059cff47ba42106a3eedf1d16d4310</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:29:34</sys_updated_on>
+        <value>every</value>
+        <variable display_value="Run Trigger">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>e7059cff47ba42106a3eedf1d16d430e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:34</sys_created_on>
+        <sys_id>e7059cff47ba42106a3eedf1d16d4310</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:29:34</sys_updated_on>
+        <value>x_407566_hot_tra_0_tournament</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=e7059cff47ba42106a3eedf1d16d430e"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=5f055cff47ba42106a3eedf1d16d43b9"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=5f055cff47ba42106a3eedf1d16d43b9^sys_idNOT IN9f055cff47ba42106a3eedf1d16d43ba"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>5f055cff47ba42106a3eedf1d16d43b9</id>
+        <name>Finish Qualifiers Build Rank</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:33</sys_created_on>
+        <sys_id>9f055cff47ba42106a3eedf1d16d43ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:29:33</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=9f055cff47ba42106a3eedf1d16d43ba"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=5f055cff47ba42106a3eedf1d16d43b9^sys_idNOT IN27055cff47ba42106a3eedf1d16d43d4,53055cff47ba42106a3eedf1d16d43cc,93055cff47ba42106a3eedf1d16d43bc"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Finish Qualifiers Build Rank">5f055cff47ba42106a3eedf1d16d43b9</model>
+        <model_id>5f055cff47ba42106a3eedf1d16d43b9</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_5f055cff47ba42106a3eedf1d16d43b9</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:33</sys_created_on>
+        <sys_id>27055cff47ba42106a3eedf1d16d43d4</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 18:59:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=27055cff47ba42106a3eedf1d16d43d4"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>global</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">d6018d5c90c0021087de3cfccdb0d63a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Finish Qualifiers Build Rank">5f055cff47ba42106a3eedf1d16d43b9</model>
+        <model_id>5f055cff47ba42106a3eedf1d16d43b9</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_5f055cff47ba42106a3eedf1d16d43b9</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:33</sys_created_on>
+        <sys_id>53055cff47ba42106a3eedf1d16d43cc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:50:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=53055cff47ba42106a3eedf1d16d43cc"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Finish Qualifiers Build Rank">5f055cff47ba42106a3eedf1d16d43b9</model>
+        <model_id>5f055cff47ba42106a3eedf1d16d43b9</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_5f055cff47ba42106a3eedf1d16d43b9</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:33</sys_created_on>
+        <sys_id>93055cff47ba42106a3eedf1d16d43bc</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 18:59:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=93055cff47ba42106a3eedf1d16d43bc"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=5f055cff47ba42106a3eedf1d16d43b9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5f055cff47ba42106a3eedf1d16d43b9"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=5f055cff47ba42106a3eedf1d16d43b9^sys_idNOT IN76c95cb747fa42106a3eedf1d16d4382,ab059cff47ba42106a3eedf1d16d430c,d39f64b44703c6106a3eedf1d16d4385,e3055cff47ba42106a3eedf1d16d43f8,e684c1b347fe42106a3eedf1d16d43b6,ef059cff47ba42106a3eedf1d16d4303"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Finish Qualifiers Build Rank">5f055cff47ba42106a3eedf1d16d43b9</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:50:16</sys_created_on>
+        <sys_id>76c95cb747fa42106a3eedf1d16d4382</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 18:59:32</sys_updated_on>
+        <ui_id>56c4f0f7-839f-430f-ba7e-a3be7e545852</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=76c95cb747fa42106a3eedf1d16d4382"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>76c95cb747fa42106a3eedf1d16d4382</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:50:16</sys_created_on>
+        <sys_id>76c95cb747fa42106a3eedf1d16d4384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:50:16</sys_updated_on>
+        <value>x_407566_hot_tra_0_match</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>76c95cb747fa42106a3eedf1d16d4382</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:50:16</sys_created_on>
+        <sys_id>b2c95cb747fa42106a3eedf1d16d4384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:50:16</sys_updated_on>
+        <value>fastest_time</value>
+        <variable display_value="Order by">c7400a1587003300663ca1bb36cb0b55</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=76c95cb747fa42106a3eedf1d16d4382"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>76c95cb747fa42106a3eedf1d16d4382</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:50:16</sys_created_on>
+        <sys_id>7ec95cb747fa42106a3eedf1d16d4383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:50:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>tournament={{Updated_1.current}}^stage=qualifier</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sort_column</field>
+        <id>76c95cb747fa42106a3eedf1d16d4382</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:50:16</sys_created_on>
+        <sys_id>bac95cb747fa42106a3eedf1d16d4383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:50:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>76c95cb747fa42106a3eedf1d16d4382</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:50:16</sys_created_on>
+        <sys_id>32c95cb747fa42106a3eedf1d16d4384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:50:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=76c95cb747fa42106a3eedf1d16d4382"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=76c95cb747fa42106a3eedf1d16d4382"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Finish Qualifiers Build Rank">5f055cff47ba42106a3eedf1d16d43b9</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>9acca52f-cfe9-4413-a1c3-bc4c9d8e7eb0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:34</sys_created_on>
+        <sys_id>ab059cff47ba42106a3eedf1d16d430c</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 18:59:32</sys_updated_on>
+        <ui_id>e98e6d92-a41b-4635-8445-f0cd8d69ebad</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ab059cff47ba42106a3eedf1d16d430c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ab059cff47ba42106a3eedf1d16d430c</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:34</sys_created_on>
+        <sys_id>e3059cff47ba42106a3eedf1d16d430e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:29:34</sys_updated_on>
+        <value>x_407566_hot_tra_0_match</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ab059cff47ba42106a3eedf1d16d430c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>ab059cff47ba42106a3eedf1d16d430c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:34</sys_created_on>
+        <sys_id>63059cff47ba42106a3eedf1d16d430e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:29:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{9acca52f-cfe9-4413-a1c3-bc4c9d8e7eb0.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>ab059cff47ba42106a3eedf1d16d430c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:34</sys_created_on>
+        <sys_id>eb059cff47ba42106a3eedf1d16d430d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:29:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>ab059cff47ba42106a3eedf1d16d430c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:34</sys_created_on>
+        <sys_id>af059cff47ba42106a3eedf1d16d430d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:29:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>fastest_time={{37292e7e-69be-4257-bda1-767954f90a29.Record.r1_time}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ab059cff47ba42106a3eedf1d16d430c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ab059cff47ba42106a3eedf1d16d430c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Top Qualifiers List">a45754b4478f86106a3eedf1d16d4349</action_type>
+        <action_type_parent display_value="Get Top Qualifiers List">3e33d8bc474f86106a3eedf1d16d4322</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Finish Qualifiers Build Rank">5f055cff47ba42106a3eedf1d16d43b9</flow>
+        <generation_source/>
+        <order>9</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-24 18:59:31</sys_created_on>
+        <sys_id>d39f64b44703c6106a3eedf1d16d4385</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 18:59:32</sys_updated_on>
+        <ui_id>d8d68da5-41cc-4b15-8ebf-e6e08682f6cb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d39f64b44703c6106a3eedf1d16d4385"/>
+    <sys_element_mapping action="delete_multiple" query="id=d39f64b44703c6106a3eedf1d16d4385"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>qlist</field>
+        <id>d39f64b44703c6106a3eedf1d16d4385</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-24 18:59:31</sys_created_on>
+        <sys_id>139f64b44703c6106a3eedf1d16d4393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 18:59:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a45754b4478f86106a3eedf1d16d4349</table>
+        <value>{{flow_variable.ranklist}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d39f64b44703c6106a3eedf1d16d4385"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d39f64b44703c6106a3eedf1d16d4385"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Finish Qualifiers Build Rank">5f055cff47ba42106a3eedf1d16d43b9</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:33</sys_created_on>
+        <sys_id>e3055cff47ba42106a3eedf1d16d43f8</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 18:59:32</sys_updated_on>
+        <ui_id>3303d438-089c-4248-8462-c924f531b272</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e3055cff47ba42106a3eedf1d16d43f8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e3055cff47ba42106a3eedf1d16d43f8</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:33</sys_created_on>
+        <sys_id>63055cff47ba42106a3eedf1d16d43fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:29:33</sys_updated_on>
+        <value>x_407566_hot_tra_0_match</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e3055cff47ba42106a3eedf1d16d43f8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>e3055cff47ba42106a3eedf1d16d43f8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:33</sys_created_on>
+        <sys_id>2f055cff47ba42106a3eedf1d16d43f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:29:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>tournament={{Updated_1.current}}^stage=qualifier</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>e3055cff47ba42106a3eedf1d16d43f8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:33</sys_created_on>
+        <sys_id>ef055cff47ba42106a3eedf1d16d43f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:29:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e3055cff47ba42106a3eedf1d16d43f8"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e3055cff47ba42106a3eedf1d16d43f8"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Finish Qualifiers Build Rank">5f055cff47ba42106a3eedf1d16d43b9</flow>
+        <generation_source/>
+        <order>10</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 17:57:01</sys_created_on>
+        <sys_id>e684c1b347fe42106a3eedf1d16d43b6</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 18:59:32</sys_updated_on>
+        <ui_id>2654e20a-fb49-4dc1-8014-471f9872fc49</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e684c1b347fe42106a3eedf1d16d43b6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e684c1b347fe42106a3eedf1d16d43b6</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 17:57:01</sys_created_on>
+        <sys_id>2284c1b347fe42106a3eedf1d16d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 17:57:01</sys_updated_on>
+        <value>x_407566_hot_tra_0_tournament</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e684c1b347fe42106a3eedf1d16d43b6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>e684c1b347fe42106a3eedf1d16d43b6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 17:57:01</sys_created_on>
+        <sys_id>ae84c1b347fe42106a3eedf1d16d43b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 17:57:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>e684c1b347fe42106a3eedf1d16d43b6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 17:57:01</sys_created_on>
+        <sys_id>2a84c1b347fe42106a3eedf1d16d43b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 17:57:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>e684c1b347fe42106a3eedf1d16d43b6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 17:57:01</sys_created_on>
+        <sys_id>ea84c1b347fe42106a3eedf1d16d43b7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 18:59:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>qlist={{flow_variable.ranklist}}^journal={{d8d68da5-41cc-4b15-8ebf-e6e08682f6cb.data}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e684c1b347fe42106a3eedf1d16d43b6^sys_idNOT INdf9f64b44703c6106a3eedf1d16d4394"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>values</input_name>
+        <instance>e684c1b347fe42106a3eedf1d16d43b6</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"journal":{"scriptActive":true,"script":"var scriptInc \u003d new GetWheelsInfo(fd_data.flow_var.ranklist);\nvar result \u003d scriptInc.displayName(); \nvar answer \u003d JSON.parse(result)\nreturn answer"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-24 18:59:31</sys_created_on>
+        <sys_id>df9f64b44703c6106a3eedf1d16d4394</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 18:59:31</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e684c1b347fe42106a3eedf1d16d43b6"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Finish Qualifiers Build Rank">5f055cff47ba42106a3eedf1d16d43b9</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>9acca52f-cfe9-4413-a1c3-bc4c9d8e7eb0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:34</sys_created_on>
+        <sys_id>ef059cff47ba42106a3eedf1d16d4303</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 18:59:32</sys_updated_on>
+        <ui_id>37292e7e-69be-4257-bda1-767954f90a29</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ef059cff47ba42106a3eedf1d16d4303"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ef059cff47ba42106a3eedf1d16d4303</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:34</sys_created_on>
+        <sys_id>27059cff47ba42106a3eedf1d16d4306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:29:34</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Don't fail on error">ceab42a673110010d70877186bf6a74f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ef059cff47ba42106a3eedf1d16d4303</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:34</sys_created_on>
+        <sys_id>63059cff47ba42106a3eedf1d16d4306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:29:34</sys_updated_on>
+        <value>r1_time</value>
+        <variable display_value="Order by">1d09f99587003300663ca1bb36cb0bad</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ef059cff47ba42106a3eedf1d16d4303</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:34</sys_created_on>
+        <sys_id>e7059cff47ba42106a3eedf1d16d4306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:29:34</sys_updated_on>
+        <value>x_407566_hot_tra_0_race</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ef059cff47ba42106a3eedf1d16d4303"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>ef059cff47ba42106a3eedf1d16d4303</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:34</sys_created_on>
+        <sys_id>2f059cff47ba42106a3eedf1d16d4305</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:29:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>round_match={{9acca52f-cfe9-4413-a1c3-bc4c9d8e7eb0.item}}^r1_timeISNOTEMPTY</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sort_column</field>
+        <id>ef059cff47ba42106a3eedf1d16d4303</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:34</sys_created_on>
+        <sys_id>a7059cff47ba42106a3eedf1d16d4305</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:29:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>ef059cff47ba42106a3eedf1d16d4303</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:34</sys_created_on>
+        <sys_id>ef059cff47ba42106a3eedf1d16d4305</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:29:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__snc_dont_fail_on_error</field>
+        <id>ef059cff47ba42106a3eedf1d16d4303</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:34</sys_created_on>
+        <sys_id>6b059cff47ba42106a3eedf1d16d4305</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:29:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ef059cff47ba42106a3eedf1d16d4303"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ef059cff47ba42106a3eedf1d16d4303"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=5f055cff47ba42106a3eedf1d16d43b9"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=5f055cff47ba42106a3eedf1d16d43b9^sys_idNOT IN03c95cb747fa42106a3eedf1d16d43a7,6284c1b347fe42106a3eedf1d16d43dd,83c95cb747fa42106a3eedf1d16d43aa,ef055cff47ba42106a3eedf1d16d43df"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">56c91cb747fa42106a3eedf1d16d43aa</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Finish Qualifiers Build Rank">5f055cff47ba42106a3eedf1d16d43b9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:50:16</sys_created_on>
+        <sys_id>03c95cb747fa42106a3eedf1d16d43a7</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 18:59:32</sys_updated_on>
+        <ui_id>b4593690-30f9-4162-b155-d2b46f20db90</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=03c95cb747fa42106a3eedf1d16d43a7"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_5f055cff47ba42106a3eedf1d16d43b9^id=03c95cb747fa42106a3eedf1d16d43a7"/>
+    <sys_element_mapping action="delete_multiple" query="id=03c95cb747fa42106a3eedf1d16d43a7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>03c95cb747fa42106a3eedf1d16d43a7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:50:16</sys_created_on>
+        <sys_id>87c95cb747fa42106a3eedf1d16d43a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:50:16</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{56c4f0f7-839f-430f-ba7e-a3be7e545852.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=03c95cb747fa42106a3eedf1d16d43a7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=03c95cb747fa42106a3eedf1d16d43a7"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">b68cdcbb47fa42106a3eedf1d16d4326</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Finish Qualifiers Build Rank">5f055cff47ba42106a3eedf1d16d43b9</flow>
+        <flow_variable/>
+        <flow_variable/>
+        <flow_variables_assigned>competitor,name,rank</flow_variables_assigned>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>b4593690-30f9-4162-b155-d2b46f20db90</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 17:57:02</sys_created_on>
+        <sys_id>6284c1b347fe42106a3eedf1d16d43dd</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 18:59:32</sys_updated_on>
+        <ui_id>fca60c94-e362-420c-96b4-425c99b4c745</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6284c1b347fe42106a3eedf1d16d43dd"/>
+    <sys_element_mapping action="delete_multiple" query="id=6284c1b347fe42106a3eedf1d16d43dd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>competitor</field>
+        <id>6284c1b347fe42106a3eedf1d16d43dd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 17:57:02</sys_created_on>
+        <sys_id>2684c1b347fe42106a3eedf1d16d43e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 17:57:02</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_5f055cff47ba42106a3eedf1d16d43b9</table>
+        <value>{{b4593690-30f9-4162-b155-d2b46f20db90.item.racer_1.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>name</field>
+        <id>6284c1b347fe42106a3eedf1d16d43dd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 17:57:02</sys_created_on>
+        <sys_id>6284c1b347fe42106a3eedf1d16d43e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 17:57:02</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_5f055cff47ba42106a3eedf1d16d43b9</table>
+        <value>{{b4593690-30f9-4162-b155-d2b46f20db90.item.racer_1.model}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=6284c1b347fe42106a3eedf1d16d43dd"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6284c1b347fe42106a3eedf1d16d43dd^sys_idNOT IN6a84c1b347fe42106a3eedf1d16d43de"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>rank</input_name>
+        <instance>6284c1b347fe42106a3eedf1d16d43dd</instance>
+        <referenced_table>sys_hub_flow_logic</referenced_table>
+        <script>{"rank":{"scriptActive":true,"script":"const count \u003d fd_data.flow_var.rank? fd_data.flow_var.rank:0;\nconst newCount \u003d count+1;\nreturn newCount"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 17:57:02</sys_created_on>
+        <sys_id>6a84c1b347fe42106a3eedf1d16d43de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 17:57:02</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">d6c91cb747fa42106a3eedf1d16d43af</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Finish Qualifiers Build Rank">5f055cff47ba42106a3eedf1d16d43b9</flow>
+        <flow_variable/>
+        <flow_variables_assigned>ranklist</flow_variables_assigned>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>b4593690-30f9-4162-b155-d2b46f20db90</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:50:16</sys_created_on>
+        <sys_id>83c95cb747fa42106a3eedf1d16d43aa</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 18:59:32</sys_updated_on>
+        <ui_id>fad2d8eb-71f6-4936-8d58-dbcca0aafaa6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=83c95cb747fa42106a3eedf1d16d43aa"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_5f055cff47ba42106a3eedf1d16d43b9^id=83c95cb747fa42106a3eedf1d16d43aa"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=83c95cb747fa42106a3eedf1d16d43aa"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=83c95cb747fa42106a3eedf1d16d43aa^sys_idNOT IN2e84c1b347fe42106a3eedf1d16d43e5,43c95cb747fa42106a3eedf1d16d43ab"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>arrayobj</input_name>
+        <instance>83c95cb747fa42106a3eedf1d16d43aa</instance>
+        <referenced_table>sys_hub_flow_logic</referenced_table>
+        <script>{"arrayobj":{"scriptActive":true,"script":"const list \u003d fd_data.flow_var.ranklist? fd_data.flow_var.ranklist:[];\nconst obj \u003d {\n    name:fd_data.flow_var.name,\n    sys_id:fd_data.flow_var.competitor,\n    rank:fd_data.flow_var.rank\n}\nlist.push(obj);\nreturn{list}"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 17:57:02</sys_created_on>
+        <sys_id>2e84c1b347fe42106a3eedf1d16d43e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 17:57:02</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>ranklist</input_name>
+        <instance>83c95cb747fa42106a3eedf1d16d43aa</instance>
+        <referenced_table>sys_hub_flow_logic</referenced_table>
+        <script>{"ranklist":{"scriptActive":true,"script":"const list \u003d fd_data.flow_var.ranklist? fd_data.flow_var.ranklist:[];\n\nlist.push(fd_data.flow_var.competitor);\nreturn list"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:50:16</sys_created_on>
+        <sys_id>43c95cb747fa42106a3eedf1d16d43ab</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 19:01:51</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">43055cff47ba42106a3eedf1d16d434a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Finish Qualifiers Build Rank">5f055cff47ba42106a3eedf1d16d43b9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:33</sys_created_on>
+        <sys_id>ef055cff47ba42106a3eedf1d16d43df</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 18:59:32</sys_updated_on>
+        <ui_id>9acca52f-cfe9-4413-a1c3-bc4c9d8e7eb0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ef055cff47ba42106a3eedf1d16d43df"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_5f055cff47ba42106a3eedf1d16d43b9^id=ef055cff47ba42106a3eedf1d16d43df"/>
+    <sys_element_mapping action="delete_multiple" query="id=ef055cff47ba42106a3eedf1d16d43df"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>ef055cff47ba42106a3eedf1d16d43df</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:33</sys_created_on>
+        <sys_id>a3055cff47ba42106a3eedf1d16d43e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:29:33</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{3303d438-089c-4248-8462-c924f531b272.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ef055cff47ba42106a3eedf1d16d43df"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ef055cff47ba42106a3eedf1d16d43df"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=5f055cff47ba42106a3eedf1d16d43b9"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=5f055cff47ba42106a3eedf1d16d43b9^sys_idNOT IN0c6359f7473282106a3eedf1d16d43ef,2284c1b347fe42106a3eedf1d16d4383,2e84c1b347fe42106a3eedf1d16d4392,7ec95cb747fa42106a3eedf1d16d436a,a684c1b347fe42106a3eedf1d16d437c,ea84c1b347fe42106a3eedf1d16d437f"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=1f3079f3-b267-4ab0-a14a-23405fbcf521</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>jsonobj</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>JSONobj</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Finish Qualifiers Build Rank">5f055cff47ba42106a3eedf1d16d43b9</model>
+        <model_id>5f055cff47ba42106a3eedf1d16d43b9</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_5f055cff47ba42106a3eedf1d16d43b9</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 19:01:50</sys_created_on>
+        <sys_id>0c6359f7473282106a3eedf1d16d43ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 19:01:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=bc34fdf2-8a56-4f93-b53b-184d7e30ba83</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>arrayobj</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>arrayObj</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Finish Qualifiers Build Rank">5f055cff47ba42106a3eedf1d16d43b9</model>
+        <model_id>5f055cff47ba42106a3eedf1d16d43b9</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_5f055cff47ba42106a3eedf1d16d43b9</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 17:57:01</sys_created_on>
+        <sys_id>2284c1b347fe42106a3eedf1d16d4383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 17:57:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=e7040151-ec8a-462a-92ad-d55baa2a47c8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>rank</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Rank</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Finish Qualifiers Build Rank">5f055cff47ba42106a3eedf1d16d43b9</model>
+        <model_id>5f055cff47ba42106a3eedf1d16d43b9</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_5f055cff47ba42106a3eedf1d16d43b9</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 17:57:01</sys_created_on>
+        <sys_id>2e84c1b347fe42106a3eedf1d16d4392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 17:57:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=6722e538-0153-4b46-8752-b8f7e5c348fb</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ranklist</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>RankList</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Finish Qualifiers Build Rank">5f055cff47ba42106a3eedf1d16d43b9</model>
+        <model_id>5f055cff47ba42106a3eedf1d16d43b9</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_5f055cff47ba42106a3eedf1d16d43b9</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:50:16</sys_created_on>
+        <sys_id>7ec95cb747fa42106a3eedf1d16d436a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:50:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=a4d02936-a1a1-4847-8acf-e17f3bc0b58e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>competitor</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>competitor</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Finish Qualifiers Build Rank">5f055cff47ba42106a3eedf1d16d43b9</model>
+        <model_id>5f055cff47ba42106a3eedf1d16d43b9</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_5f055cff47ba42106a3eedf1d16d43b9</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 17:57:01</sys_created_on>
+        <sys_id>a684c1b347fe42106a3eedf1d16d437c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 17:57:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=8f2266df-968b-4d3d-a5ce-3f4e170bd1b5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Name</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Finish Qualifiers Build Rank">5f055cff47ba42106a3eedf1d16d43b9</model>
+        <model_id>5f055cff47ba42106a3eedf1d16d43b9</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_5f055cff47ba42106a3eedf1d16d43b9</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 17:57:01</sys_created_on>
+        <sys_id>ea84c1b347fe42106a3eedf1d16d437f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 17:57:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_5f055cff47ba42106a3eedf1d16d43b9^sys_idNOT IN9b055cff47ba42106a3eedf1d16d43d0,ab055cff47ba42106a3eedf1d16d43d8,d7055cff47ba42106a3eedf1d16d43c8"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5f055cff47ba42106a3eedf1d16d43b9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:33</sys_created_on>
+        <sys_id>9b055cff47ba42106a3eedf1d16d43d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:29:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5f055cff47ba42106a3eedf1d16d43b9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:33</sys_created_on>
+        <sys_id>ab055cff47ba42106a3eedf1d16d43d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:29:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5f055cff47ba42106a3eedf1d16d43b9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:33</sys_created_on>
+        <sys_id>d7055cff47ba42106a3eedf1d16d43c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-21 14:29:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_5f055cff47ba42106a3eedf1d16d43b9"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_5f055cff47ba42106a3eedf1d16d43b9"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_5f055cff47ba42106a3eedf1d16d43b9"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>122f84f747ba42106a3eedf1d16d4368</sys_id>
+        <latest_snapshot>5f055cff47ba42106a3eedf1d16d43b9</latest_snapshot>
+        <compiler_build>glide-washingtondc-12-20-2023__patch3-hotfix1-05-12-2024_05-16-2024_0813.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=122f84f747ba42106a3eedf1d16d4368^sys_idNOT IN73059cff47ba42106a3eedf1d16d4330"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"73059cff47ba42106a3eedf1d16d4330","name":"plan","plan_signature":null}}</plan>
+        <plan_id>122f84f747ba42106a3eedf1d16d4368</plan_id>
+        <snapshot>ab2074f44703c6106a3eedf1d16d4373</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-21 14:29:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>73059cff47ba42106a3eedf1d16d4330</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-24 18:59:33</sys_updated_on>
+        <trigger display_value="">73059cff47ba42106a3eedf1d16d432e</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=122f84f747ba42106a3eedf1d16d4368"/>
+</record_update>

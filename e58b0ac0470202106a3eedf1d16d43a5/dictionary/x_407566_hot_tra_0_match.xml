@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="1cdd8e84470202106a3eedf1d16d438e" label="Match" max_length="40" name="x_407566_hot_tra_0_match" text_index="true" type="collection">
         <element default="0" label="CRC" max_length="40" name="crc" type="integer"/>
+        <element label="Journal" max_length="40" name="journal" type="journal"/>
         <element label="Match Winner" max_length="32" name="match_winner" reference="x_407566_hot_tra_0_wheels" type="reference"/>
         <element label="Round" max_length="40" name="round" type="integer"/>
+        <element label="DER" max_length="255" name="der" type="boolean"/>
         <element display="true" label="Title" max_length="240" name="title" type="string"/>
         <element choice="3" label="Stage" max_length="40" name="stage" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Awaiting Match" sequence="0" value="awaiting_match"/>
-                <element inactive_on_update="false" label="Matched" sequence="1" value="matched"/>
-                <element inactive_on_update="false" label="Completed" sequence="2" value="completed"/>
+                <element inactive_on_update="false" label="Awaiting Match" sequence="1" value="awaiting_match"/>
+                <element inactive_on_update="false" label="Matched" sequence="2" value="matched"/>
+                <element inactive_on_update="false" label="Qualifier" sequence="0" value="qualifier"/>
+                <element inactive_on_update="false" label="Completed" sequence="3" value="completed"/>
             </choice>
         </element>
         <element label="Wins To Advance" max_length="40" name="wins_to_advance" type="integer"/>
@@ -17,7 +20,7 @@
         <element label="Racer 1" max_length="32" name="racer_1" reference="x_407566_hot_tra_0_wheels" type="reference"/>
         <element label="Racer 2" max_length="32" name="racer_2" reference="x_407566_hot_tra_0_wheels" type="reference"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element attributes="scale=5" label="Fastest Time" max_length="20" name="fastest_time" type="decimal"/>
+        <element attributes="scale=5" label="Fastest Time" max_length="20" name="fastest_time" read_only="true" type="decimal"/>
         <element label="Tournament" max_length="32" name="tournament" reference="x_407566_hot_tra_0_tournament" type="reference"/>
         <index name="index">
             <element name="match_winner"/>
