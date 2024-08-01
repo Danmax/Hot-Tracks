@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=26423000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>077a96fd473202106a3eedf1d16d431a</copied_from>
+        <copied_from_name>Upload Wheels Photo to Image DB</copied_from_name>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>copy2_of_upload_wheels_photo_to_image_db</internal_name>
+        <label_cache>[{"name":"b4f5bfad-ac3b-4524-af8a-749e25550fde.parameter","label":"4 - Look Up Attachment➛Attachment Sys ID","reference":"","reference_display":"Attachment Sys ID","type":"string","base_type":"string","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"899484fd-3691-4f9b-8240-b6afac32c91f":["image"]},"attributes":null},{"name":"e3bf5bd7-8591-4529-8cdc-fd82822b05d2.Record.file_name","label":"2 - Look Up Record➛Attachment Record➛File name","reference":"","reference_display":"File name","type":"string","base_type":"string","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"b4f5bfad-ac3b-4524-af8a-749e25550fde":["file_name"]},"attributes":null},{"name":"e3bf5bd7-8591-4529-8cdc-fd82822b05d2.Record","label":"2 - Look Up Record➛Attachment Record","reference":"sys_attachment","reference_display":"Attachment Record","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"ba5c5c1e-d782-46ea-a872-3ebcc0785a09":["attachment_record"],"b4f5bfad-ac3b-4524-af8a-749e25550fde":["source_record"]},"attributes":null},{"name":"3c2f2584-458e-428a-b75f-22f901f9a68d.record","label":"5 - Create Record➛Images Record","reference":"db_image","reference_display":"Images Record","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"ba5c5c1e-d782-46ea-a872-3ebcc0785a09":["target_record"],"899484fd-3691-4f9b-8240-b6afac32c91f":["record"]},"attributes":null},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Wheels Record","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"95f184fd-53e4-4578-a492-2bf73cf5328d":["source_record"]},"attributes":null},{"name":"Created or Updated_1.current.photo","label":"Trigger - Record Created or Updated➛Wheels Record➛Photo","reference":"","reference_display":"Photo","type":"user_image","base_type":"user_image","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"3c2f2584-458e-428a-b75f-22f901f9a68d":["image"],"e3bf5bd7-8591-4529-8cdc-fd82822b05d2":["conditions"]},"attributes":null},{"name":"Created or Updated_1.current.model","label":"Trigger - Record Created or Updated➛Wheels Record➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"3c2f2584-458e-428a-b75f-22f901f9a68d":["name","sys_name"]},"attributes":null},{"name":"Created or Updated_1.current.image_url","label":"Trigger - Record Created or Updated➛Wheels Record➛Image URL","reference":"","reference_display":"Image URL","type":"string","base_type":"string","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"8cb8a7d3-8d14-47f4-92c7-15317a7f4e16":["condition"]},"attributes":null},{"name":"e3bf5bd7-8591-4529-8cdc-fd82822b05d2.Record.chunk_size_bytes","label":"2 - Look Up Record➛Attachment Record➛Chunk size bytes","reference":"","reference_display":"Chunk size bytes","type":"integer","base_type":"integer","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"c2424dde-8bdb-479f-861a-a9954314c1a5":["log_message"]},"attributes":null}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Copy2 of Upload Wheels Photo to Image DB</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 02:49:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3fd4884a477a02106a3eedf1d16d43b9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Copy2 of Upload Wheels Photo to Image DB</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name>sys_hub_flow_3fd4884a477a02106a3eedf1d16d43b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 02:50:18</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=3fd4884a477a02106a3eedf1d16d43b9"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3fd4884a477a02106a3eedf1d16d43b9"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=3fd4884a477a02106a3eedf1d16d43b9^sys_idNOT INb3d4c84a477a02106a3eedf1d16d4318"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Copy2 of Upload Wheels Photo to Image DB">3fd4884a477a02106a3eedf1d16d43b9</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 02:49:30</sys_created_on>
+        <sys_id>b3d4c84a477a02106a3eedf1d16d4318</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:07:11</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b3d4c84a477a02106a3eedf1d16d4318"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>b3d4c84a477a02106a3eedf1d16d4318</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 02:49:30</sys_created_on>
+        <sys_id>3bd4c84a477a02106a3eedf1d16d4318</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 02:49:30</sys_updated_on>
+        <value>unique_changes</value>
+        <variable display_value="Run Trigger">2b9def50c31132002841b63b12d3ae5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>b3d4c84a477a02106a3eedf1d16d4318</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 02:49:30</sys_created_on>
+        <sys_id>bfd4c84a477a02106a3eedf1d16d4318</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 02:49:30</sys_updated_on>
+        <value>x_407566_hot_tra_0_wheels</value>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>b3d4c84a477a02106a3eedf1d16d4318</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 02:49:30</sys_created_on>
+        <sys_id>fbd4c84a477a02106a3eedf1d16d4318</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 02:49:30</sys_updated_on>
+        <value>photoVALCHANGES</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=b3d4c84a477a02106a3eedf1d16d4318"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=3fd4884a477a02106a3eedf1d16d43b9"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=3fd4884a477a02106a3eedf1d16d43b9^sys_idNOT INfbd4884a477a02106a3eedf1d16d43ba"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>3fd4884a477a02106a3eedf1d16d43b9</id>
+        <name>Copy2 of Upload Wheels Photo to Image DB</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 02:49:29</sys_created_on>
+        <sys_id>fbd4884a477a02106a3eedf1d16d43ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 02:49:29</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=fbd4884a477a02106a3eedf1d16d43ba"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=3fd4884a477a02106a3eedf1d16d43b9^sys_idNOT INbbd4884a477a02106a3eedf1d16d43d4,f7d4884a477a02106a3eedf1d16d43d1,fbd4884a477a02106a3eedf1d16d43cd"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>global</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">d6018d5c90c0021087de3cfccdb0d63a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Copy2 of Upload Wheels Photo to Image DB">3fd4884a477a02106a3eedf1d16d43b9</model>
+        <model_id>3fd4884a477a02106a3eedf1d16d43b9</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_3fd4884a477a02106a3eedf1d16d43b9</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 02:49:29</sys_created_on>
+        <sys_id>bbd4884a477a02106a3eedf1d16d43d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 02:49:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=bbd4884a477a02106a3eedf1d16d43d4"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Copy2 of Upload Wheels Photo to Image DB">3fd4884a477a02106a3eedf1d16d43b9</model>
+        <model_id>3fd4884a477a02106a3eedf1d16d43b9</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_3fd4884a477a02106a3eedf1d16d43b9</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 02:49:29</sys_created_on>
+        <sys_id>f7d4884a477a02106a3eedf1d16d43d1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:07:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f7d4884a477a02106a3eedf1d16d43d1"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Copy2 of Upload Wheels Photo to Image DB">3fd4884a477a02106a3eedf1d16d43b9</model>
+        <model_id>3fd4884a477a02106a3eedf1d16d43b9</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_3fd4884a477a02106a3eedf1d16d43b9</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 02:49:29</sys_created_on>
+        <sys_id>fbd4884a477a02106a3eedf1d16d43cd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:07:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fbd4884a477a02106a3eedf1d16d43cd"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=3fd4884a477a02106a3eedf1d16d43b9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3fd4884a477a02106a3eedf1d16d43b9"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=3fd4884a477a02106a3eedf1d16d43b9^sys_idNOT IN1be884ce477a02106a3eedf1d16d43ab,3bd4c84a477a02106a3eedf1d16d4304,b7d4884a477a02106a3eedf1d16d43fe,b7d4c84a477a02106a3eedf1d16d430b,fbd4c84a477a02106a3eedf1d16d4310"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Copy Attachment">30fe6cdb0f973300dfd3694e68767e5a</action_type>
+        <action_type_parent display_value="Copy Attachment">95849c2a9353130079b5925cf67ffb91</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Copy2 of Upload Wheels Photo to Image DB">3fd4884a477a02106a3eedf1d16d43b9</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>8cb8a7d3-8d14-47f4-92c7-15317a7f4e16</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:07:12</sys_created_on>
+        <sys_id>1be884ce477a02106a3eedf1d16d43ab</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:07:12</sys_updated_on>
+        <ui_id>54e314e9-9cef-41e7-a74e-b43ee07357b5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1be884ce477a02106a3eedf1d16d43ab"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1be884ce477a02106a3eedf1d16d43ab</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:07:12</sys_created_on>
+        <sys_id>17e884ce477a02106a3eedf1d16d43ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:07:12</sys_updated_on>
+        <value>db_image</value>
+        <variable display_value="Table">f4fe6cdb0f973300dfd3694e68767e67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1be884ce477a02106a3eedf1d16d43ab</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:07:12</sys_created_on>
+        <sys_id>53e884ce477a02106a3eedf1d16d43ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:07:12</sys_updated_on>
+        <value/>
+        <variable display_value="Target Record">b0fe6cdb0f973300dfd3694e68767e60</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1be884ce477a02106a3eedf1d16d43ab"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attachment_record</field>
+        <id>1be884ce477a02106a3eedf1d16d43ab</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:07:12</sys_created_on>
+        <sys_id>dfe884ce477a02106a3eedf1d16d43ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:07:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_30fe6cdb0f973300dfd3694e68767e5a</table>
+        <value>{{e3bf5bd7-8591-4529-8cdc-fd82822b05d2.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>1be884ce477a02106a3eedf1d16d43ab</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:07:12</sys_created_on>
+        <sys_id>1fe884ce477a02106a3eedf1d16d43ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:07:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_30fe6cdb0f973300dfd3694e68767e5a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_record</field>
+        <id>1be884ce477a02106a3eedf1d16d43ab</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:07:12</sys_created_on>
+        <sys_id>5be884ce477a02106a3eedf1d16d43ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:07:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_30fe6cdb0f973300dfd3694e68767e5a</table>
+        <value>{{3c2f2584-458e-428a-b75f-22f901f9a68d.record}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1be884ce477a02106a3eedf1d16d43ab"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1be884ce477a02106a3eedf1d16d43ab"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy2 of Upload Wheels Photo to Image DB">3fd4884a477a02106a3eedf1d16d43b9</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>8cb8a7d3-8d14-47f4-92c7-15317a7f4e16</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 02:49:29</sys_created_on>
+        <sys_id>3bd4c84a477a02106a3eedf1d16d4304</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:07:12</sys_updated_on>
+        <ui_id>c2424dde-8bdb-479f-861a-a9954314c1a5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3bd4c84a477a02106a3eedf1d16d4304"/>
+    <sys_element_mapping action="delete_multiple" query="id=3bd4c84a477a02106a3eedf1d16d4304"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>3bd4c84a477a02106a3eedf1d16d4304</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 02:49:29</sys_created_on>
+        <sys_id>f7d4c84a477a02106a3eedf1d16d4305</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 02:49:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>Wheels: {{Created or Updated_1.current.photo}}
+lookup: {{e3bf5bd7-8591-4529-8cdc-fd82822b05d2.Record.chunk_size_bytes}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3bd4c84a477a02106a3eedf1d16d4304"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3bd4c84a477a02106a3eedf1d16d4304"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy2 of Upload Wheels Photo to Image DB">3fd4884a477a02106a3eedf1d16d43b9</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id>8cb8a7d3-8d14-47f4-92c7-15317a7f4e16</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 02:49:29</sys_created_on>
+        <sys_id>b7d4884a477a02106a3eedf1d16d43fe</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:07:12</sys_updated_on>
+        <ui_id>e3bf5bd7-8591-4529-8cdc-fd82822b05d2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b7d4884a477a02106a3eedf1d16d43fe"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b7d4884a477a02106a3eedf1d16d43fe</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 02:49:29</sys_created_on>
+        <sys_id>3bd4c84a477a02106a3eedf1d16d4300</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 02:49:29</sys_updated_on>
+        <value>sys_attachment</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b7d4884a477a02106a3eedf1d16d43fe</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 02:49:29</sys_created_on>
+        <sys_id>77d4c84a477a02106a3eedf1d16d4300</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 02:49:29</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Don't fail on error">ceab42a673110010d70877186bf6a74f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b7d4884a477a02106a3eedf1d16d43fe"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>b7d4884a477a02106a3eedf1d16d43fe</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 02:49:29</sys_created_on>
+        <sys_id>33d4c84a477a02106a3eedf1d16d4300</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 02:49:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>sys_id={{Created or Updated_1.current.photo}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>b7d4884a477a02106a3eedf1d16d43fe</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 02:49:29</sys_created_on>
+        <sys_id>f3d4c84a477a02106a3eedf1d16d4300</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 02:49:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__snc_dont_fail_on_error</field>
+        <id>b7d4884a477a02106a3eedf1d16d43fe</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 02:49:29</sys_created_on>
+        <sys_id>7fd4884a477a02106a3eedf1d16d43ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 02:49:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b7d4884a477a02106a3eedf1d16d43fe"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b7d4884a477a02106a3eedf1d16d43fe"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Attachment">6ecdee36935023005e69925cf67ffb47</action_type>
+        <action_type_parent display_value="Look Up Attachment">aabdae36935023005e69925cf67ffb5e</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>6ecdee36935023005e69925cf67ffb47</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy2 of Upload Wheels Photo to Image DB">3fd4884a477a02106a3eedf1d16d43b9</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>8cb8a7d3-8d14-47f4-92c7-15317a7f4e16</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 02:49:29</sys_created_on>
+        <sys_id>b7d4c84a477a02106a3eedf1d16d430b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:07:12</sys_updated_on>
+        <ui_id>b4f5bfad-ac3b-4524-af8a-749e25550fde</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b7d4c84a477a02106a3eedf1d16d430b"/>
+    <sys_element_mapping action="delete_multiple" query="id=b7d4c84a477a02106a3eedf1d16d430b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>file_name</field>
+        <id>b7d4c84a477a02106a3eedf1d16d430b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 02:49:29</sys_created_on>
+        <sys_id>3bd4c84a477a02106a3eedf1d16d430c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 02:49:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_6ecdee36935023005e69925cf67ffb47</table>
+        <value>{{e3bf5bd7-8591-4529-8cdc-fd82822b05d2.Record.file_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_record</field>
+        <id>b7d4c84a477a02106a3eedf1d16d430b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 02:49:29</sys_created_on>
+        <sys_id>77d4c84a477a02106a3eedf1d16d430c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 02:49:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_6ecdee36935023005e69925cf67ffb47</table>
+        <value>{{e3bf5bd7-8591-4529-8cdc-fd82822b05d2.Record}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b7d4c84a477a02106a3eedf1d16d430b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b7d4c84a477a02106a3eedf1d16d430b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy2 of Upload Wheels Photo to Image DB">3fd4884a477a02106a3eedf1d16d43b9</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>8cb8a7d3-8d14-47f4-92c7-15317a7f4e16</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 02:49:29</sys_created_on>
+        <sys_id>fbd4c84a477a02106a3eedf1d16d4310</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:07:12</sys_updated_on>
+        <ui_id>3c2f2584-458e-428a-b75f-22f901f9a68d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fbd4c84a477a02106a3eedf1d16d4310"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fbd4c84a477a02106a3eedf1d16d4310</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 03:07:12</sys_created_on>
+        <sys_id>1fe884ce477a02106a3eedf1d16d439e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:07:12</sys_updated_on>
+        <value>name=hotTracks.jpg^category=Hot Tracks^sys_scope={"display":"Hot Tracks","value":"e58b0ac0470202106a3eedf1d16d43a5","table":"sys_app","sys_id":"e58b0ac0470202106a3eedf1d16d43a5"}^sys_class_name=db_image</value>
+        <variable display_value="Fields">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fbd4c84a477a02106a3eedf1d16d4310</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 02:49:29</sys_created_on>
+        <sys_id>ffd4c84a477a02106a3eedf1d16d4311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 02:49:29</sys_updated_on>
+        <value>db_image</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1^id=fbd4c84a477a02106a3eedf1d16d4310"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fbd4c84a477a02106a3eedf1d16d4310"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fbd4c84a477a02106a3eedf1d16d4310"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=3fd4884a477a02106a3eedf1d16d43b9"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=3fd4884a477a02106a3eedf1d16d43b9^sys_idNOT INf7d4884a477a02106a3eedf1d16d43e7"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">37d2aaf9477202106a3eedf1d16d43f9</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy2 of Upload Wheels Photo to Image DB">3fd4884a477a02106a3eedf1d16d43b9</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 02:49:29</sys_created_on>
+        <sys_id>f7d4884a477a02106a3eedf1d16d43e7</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 03:07:12</sys_updated_on>
+        <ui_id>8cb8a7d3-8d14-47f4-92c7-15317a7f4e16</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f7d4884a477a02106a3eedf1d16d43e7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>f7d4884a477a02106a3eedf1d16d43e7</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 02:49:29</sys_created_on>
+        <sys_id>b7d4884a477a02106a3eedf1d16d43ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 02:49:29</sys_updated_on>
+        <value>If Image URL Is Empty</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f7d4884a477a02106a3eedf1d16d43e7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>f7d4884a477a02106a3eedf1d16d43e7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 02:49:29</sys_created_on>
+        <sys_id>37d4884a477a02106a3eedf1d16d43ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 02:49:29</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Created or Updated_1.current.image_url}}ISEMPTY</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>f7d4884a477a02106a3eedf1d16d43e7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 02:49:29</sys_created_on>
+        <sys_id>73d4884a477a02106a3eedf1d16d43ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 02:49:29</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f7d4884a477a02106a3eedf1d16d43e7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f7d4884a477a02106a3eedf1d16d43e7"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=3fd4884a477a02106a3eedf1d16d43b9"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=3fd4884a477a02106a3eedf1d16d43b9"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_3fd4884a477a02106a3eedf1d16d43b9^sys_idNOT INbbd4884a477a02106a3eedf1d16d43d3,f7d4884a477a02106a3eedf1d16d43d0,fbd4884a477a02106a3eedf1d16d43e3"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_3fd4884a477a02106a3eedf1d16d43b9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 02:49:29</sys_created_on>
+        <sys_id>bbd4884a477a02106a3eedf1d16d43d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 02:49:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_3fd4884a477a02106a3eedf1d16d43b9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 02:49:29</sys_created_on>
+        <sys_id>f7d4884a477a02106a3eedf1d16d43d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 02:49:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_3fd4884a477a02106a3eedf1d16d43b9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 02:49:29</sys_created_on>
+        <sys_id>fbd4884a477a02106a3eedf1d16d43e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 02:49:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_3fd4884a477a02106a3eedf1d16d43b9"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_3fd4884a477a02106a3eedf1d16d43b9"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_3fd4884a477a02106a3eedf1d16d43b9"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=3fd4884a477a02106a3eedf1d16d43b9"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=3fd4884a477a02106a3eedf1d16d43b9"/>
+</record_update>
