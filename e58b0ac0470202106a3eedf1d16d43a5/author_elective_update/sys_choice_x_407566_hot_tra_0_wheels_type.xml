@@ -20,18 +20,18 @@
             <element>type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Drift</label>
+            <label>Drifter</label>
             <language>en</language>
             <name>x_407566_hot_tra_0_wheels</name>
-            <sequence/>
+            <sequence>0</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-06-10 02:51:04</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-10 02:51:12</sys_updated_on>
+            <sys_updated_on>2024-08-03 07:18:59</sys_updated_on>
             <value>drift</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -42,15 +42,15 @@
             <label>Track Star</label>
             <language>en</language>
             <name>x_407566_hot_tra_0_wheels</name>
-            <sequence/>
+            <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-06-10 02:48:26</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-10 02:48:39</sys_updated_on>
+            <sys_updated_on>2024-08-03 07:18:59</sys_updated_on>
             <value>track_star</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -61,15 +61,15 @@
             <label>Muscle</label>
             <language>en</language>
             <name>x_407566_hot_tra_0_wheels</name>
-            <sequence>0</sequence>
+            <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-05-23 23:36:10</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-23 23:36:10</sys_updated_on>
+            <sys_updated_on>2024-08-03 07:18:59</sys_updated_on>
             <value>muscle</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -80,15 +80,15 @@
             <label>Classic</label>
             <language>en</language>
             <name>x_407566_hot_tra_0_wheels</name>
-            <sequence>1</sequence>
+            <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-05-23 23:36:10</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-23 23:36:10</sys_updated_on>
+            <sys_updated_on>2024-08-03 07:18:59</sys_updated_on>
             <value>classic</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -99,15 +99,15 @@
             <label>Import</label>
             <language>en</language>
             <name>x_407566_hot_tra_0_wheels</name>
-            <sequence>2</sequence>
+            <sequence>4</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-05-23 23:36:10</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-23 23:36:10</sys_updated_on>
+            <sys_updated_on>2024-08-03 07:18:59</sys_updated_on>
             <value>import</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -118,15 +118,15 @@
             <label>European</label>
             <language>en</language>
             <name>x_407566_hot_tra_0_wheels</name>
-            <sequence>3</sequence>
+            <sequence>5</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-05-23 23:36:10</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-23 23:36:10</sys_updated_on>
+            <sys_updated_on>2024-08-03 07:18:59</sys_updated_on>
             <value>european</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -137,15 +137,15 @@
             <label>Funny Car</label>
             <language>en</language>
             <name>x_407566_hot_tra_0_wheels</name>
-            <sequence>4</sequence>
+            <sequence>6</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-05-23 23:36:10</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-23 23:36:10</sys_updated_on>
+            <sys_updated_on>2024-08-03 07:18:59</sys_updated_on>
             <value>funny_car</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -156,15 +156,15 @@
             <label>Emergency Service</label>
             <language>en</language>
             <name>x_407566_hot_tra_0_wheels</name>
-            <sequence>5</sequence>
+            <sequence>7</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-05-23 23:36:10</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-23 23:36:10</sys_updated_on>
+            <sys_updated_on>2024-08-03 07:18:59</sys_updated_on>
             <value>emergency_service</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -175,15 +175,15 @@
             <label>Trucks</label>
             <language>en</language>
             <name>x_407566_hot_tra_0_wheels</name>
-            <sequence>6</sequence>
+            <sequence>8</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-05-23 23:36:10</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-23 23:36:10</sys_updated_on>
+            <sys_updated_on>2024-08-03 07:18:59</sys_updated_on>
             <value>trucks</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -194,15 +194,15 @@
             <label>Exotic</label>
             <language>en</language>
             <name>x_407566_hot_tra_0_wheels</name>
-            <sequence>7</sequence>
+            <sequence>9</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-05-23 23:36:10</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-23 23:36:10</sys_updated_on>
+            <sys_updated_on>2024-08-03 07:18:59</sys_updated_on>
             <value>exotic</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -213,15 +213,15 @@
             <label>Electric</label>
             <language>en</language>
             <name>x_407566_hot_tra_0_wheels</name>
-            <sequence>8</sequence>
+            <sequence>10</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-05-23 23:36:10</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-23 23:36:10</sys_updated_on>
+            <sys_updated_on>2024-08-03 07:18:59</sys_updated_on>
             <value>electric</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -232,15 +232,15 @@
             <label>Super Car</label>
             <language>en</language>
             <name>x_407566_hot_tra_0_wheels</name>
-            <sequence>9</sequence>
+            <sequence>11</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-05-23 23:36:10</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-23 23:36:10</sys_updated_on>
+            <sys_updated_on>2024-08-03 07:18:59</sys_updated_on>
             <value>super_car</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -251,15 +251,15 @@
             <label>Mario Kart</label>
             <language>en</language>
             <name>x_407566_hot_tra_0_wheels</name>
-            <sequence>10</sequence>
+            <sequence>12</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-06-08 05:06:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-08 05:06:46</sys_updated_on>
+            <sys_updated_on>2024-08-03 07:18:59</sys_updated_on>
             <value>mario_kart</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -270,15 +270,15 @@
             <label>First Responder</label>
             <language>en</language>
             <name>x_407566_hot_tra_0_wheels</name>
-            <sequence>11</sequence>
+            <sequence>13</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-06-08 05:06:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-08 05:06:46</sys_updated_on>
+            <sys_updated_on>2024-08-03 07:18:59</sys_updated_on>
             <value>first_responder</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -289,16 +289,111 @@
             <label>Custom</label>
             <language>en</language>
             <name>x_407566_hot_tra_0_wheels</name>
-            <sequence>12</sequence>
+            <sequence>14</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-06-08 05:06:46</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-03 07:18:59</sys_updated_on>
+            <value>custom</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sedan</label>
+            <language>en</language>
+            <name>x_407566_hot_tra_0_wheels</name>
+            <sequence>15</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-03 07:18:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-08 05:06:46</sys_updated_on>
-            <value>custom</value>
+            <sys_updated_on>2024-08-03 07:18:59</sys_updated_on>
+            <value>sedan</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Luxury</label>
+            <language>en</language>
+            <name>x_407566_hot_tra_0_wheels</name>
+            <sequence>16</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-03 07:18:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-03 07:18:59</sys_updated_on>
+            <value>luxury</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Speed Demon</label>
+            <language>en</language>
+            <name>x_407566_hot_tra_0_wheels</name>
+            <sequence>17</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-03 07:18:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-03 07:18:59</sys_updated_on>
+            <value>speed_demon</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fast Precision</label>
+            <language>en</language>
+            <name>x_407566_hot_tra_0_wheels</name>
+            <sequence>18</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-03 07:18:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-03 07:18:59</sys_updated_on>
+            <value>fast_precision</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Racing</label>
+            <language>en</language>
+            <name>x_407566_hot_tra_0_wheels</name>
+            <sequence>19</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-03 07:18:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-03 07:18:59</sys_updated_on>
+            <value>racing</value>
         </sys_choice>
     </sys_choice>
 </record_update>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="type" label="Type" language="en" table="x_407566_hot_tra_0_wheels">
+    <sys_documentation element="name" label="Name" language="en" table="x_407566_hot_tra_0_wheels">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>type</element>
+            <element>name</element>
             <help/>
             <hint/>
-            <label>Type</label>
+            <label>Name</label>
             <language>en</language>
             <name>x_407566_hot_tra_0_wheels</name>
             <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-05-04 00:46:48</sys_created_on>
-            <sys_mod_count>9</sys_mod_count>
-            <sys_name>Type</sys_name>
+            <sys_created_on>2024-08-03 07:10:05</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Name</sys_name>
             <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
             <sys_policy/>
             <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-            <sys_update_name>sys_documentation_x_407566_hot_tra_0_wheels_type_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_407566_hot_tra_0_wheels_name_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-03 07:18:59</sys_updated_on>
+            <sys_updated_on>2024-08-03 07:10:06</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
