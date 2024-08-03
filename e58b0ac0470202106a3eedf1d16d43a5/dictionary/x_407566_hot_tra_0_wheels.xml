@@ -43,21 +43,26 @@
         <element default="0" label="Race Wins" max_length="40" name="race_wins" read_only="true" type="integer"/>
         <element choice="3" label="Type" max_length="40" name="type" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Mario Kart" sequence="10" value="mario_kart"/>
-                <element inactive_on_update="false" label="Custom" sequence="12" value="custom"/>
-                <element inactive_on_update="false" label="Drift" value="drift"/>
-                <element inactive_on_update="false" label="Muscle" sequence="0" value="muscle"/>
-                <element inactive_on_update="false" label="Import" sequence="2" value="import"/>
-                <element inactive_on_update="false" label="Funny Car" sequence="4" value="funny_car"/>
-                <element inactive_on_update="false" label="Trucks" sequence="6" value="trucks"/>
-                <element inactive_on_update="false" label="Electric" sequence="8" value="electric"/>
-                <element inactive_on_update="false" label="First Responder" sequence="11" value="first_responder"/>
-                <element inactive_on_update="false" label="Track Star" value="track_star"/>
-                <element inactive_on_update="false" label="Classic" sequence="1" value="classic"/>
-                <element inactive_on_update="false" label="European" sequence="3" value="european"/>
-                <element inactive_on_update="false" label="Emergency Service" sequence="5" value="emergency_service"/>
-                <element inactive_on_update="false" label="Exotic" sequence="7" value="exotic"/>
-                <element inactive_on_update="false" label="Super Car" sequence="9" value="super_car"/>
+                <element inactive_on_update="false" label="Fast Precision" sequence="18" value="fast_precision"/>
+                <element inactive_on_update="false" label="Mario Kart" sequence="12" value="mario_kart"/>
+                <element inactive_on_update="false" label="Custom" sequence="14" value="custom"/>
+                <element inactive_on_update="false" label="Drifter" sequence="0" value="drift"/>
+                <element inactive_on_update="false" label="Muscle" sequence="2" value="muscle"/>
+                <element inactive_on_update="false" label="Racing" sequence="19" value="racing"/>
+                <element inactive_on_update="false" label="Import" sequence="4" value="import"/>
+                <element inactive_on_update="false" label="Sedan" sequence="15" value="sedan"/>
+                <element inactive_on_update="false" label="Funny Car" sequence="6" value="funny_car"/>
+                <element inactive_on_update="false" label="Trucks" sequence="8" value="trucks"/>
+                <element inactive_on_update="false" label="Electric" sequence="10" value="electric"/>
+                <element inactive_on_update="false" label="Luxury" sequence="16" value="luxury"/>
+                <element inactive_on_update="false" label="First Responder" sequence="13" value="first_responder"/>
+                <element inactive_on_update="false" label="Track Star" sequence="1" value="track_star"/>
+                <element inactive_on_update="false" label="Speed Demon" sequence="17" value="speed_demon"/>
+                <element inactive_on_update="false" label="Classic" sequence="3" value="classic"/>
+                <element inactive_on_update="false" label="European" sequence="5" value="european"/>
+                <element inactive_on_update="false" label="Emergency Service" sequence="7" value="emergency_service"/>
+                <element inactive_on_update="false" label="Exotic" sequence="9" value="exotic"/>
+                <element inactive_on_update="false" label="Super Car" sequence="11" value="super_car"/>
             </choice>
         </element>
         <element label="Manufacturer Year" max_length="40" name="year" type="string"/>
