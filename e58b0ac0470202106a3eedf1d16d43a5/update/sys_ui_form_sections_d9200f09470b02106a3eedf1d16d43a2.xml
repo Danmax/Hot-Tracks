@@ -10,7 +10,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_407566_hot_tra_0_tournament" name="x_407566_hot_tra_0_tournament" sys_domain="global" view="Default view">d9200f09470b02106a3eedf1d16d43a2</sys_ui_form>
-            <sys_ui_section caption="Tournament" display_value="Tournament" name="x_407566_hot_tra_0_tournament" sys_domain="global" view="Default view">d1200f09470b02106a3eedf1d16d432c</sys_ui_section>
+            <sys_ui_section display_value="">d1200f09470b02106a3eedf1d16d432c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-06-26 00:09:28</sys_updated_on>
         </sys_ui_form_section>

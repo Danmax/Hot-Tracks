@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="e612ed8d472602106a3eedf1d16d4312" label="Race" max_length="40" name="x_407566_hot_tra_0_race" type="collection">
-        <element attributes="scale=5" label="R1 Time" max_length="20" name="r1_time" type="decimal"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
-        <element label="WL1" max_length="255" name="wl1" type="boolean"/>
-        <element attributes="scale=5" label="R2 Time" max_length="20" name="r2_time" type="decimal"/>
         <element default="0" label="Race #" max_length="255" name="race" type="integer"/>
+        <element label="Racer 1" max_length="32" name="racer_1" reference="x_407566_hot_tra_0_wheels" type="reference"/>
+        <element attributes="scale=5" label="R1 Time" max_length="20" name="r1_time" type="decimal"/>
         <element label="Round Match" max_length="32" name="round_match" reference="x_407566_hot_tra_0_match" type="reference"/>
-        <element label="Draw" max_length="40" name="draw" type="boolean"/>
+        <element choice="3" label="R2 Lane" max_length="40" name="r2_lane" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element label="Winner" max_length="32" name="winner" reference="x_407566_hot_tra_0_wheels" type="reference"/>
+        <element label="Qualifier" max_length="40" name="qualifier" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
         <element choice="3" label="R1 Lane" max_length="40" name="r1_lane" type="choice">
             <choice>
                 <element inactive_on_update="false" label="1" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="2" sequence="1" value="2"/>
             </choice>
         </element>
-        <element label="Racer 2" max_length="32" name="racer_2" reference="x_407566_hot_tra_0_wheels" type="reference"/>
-        <element label="Racer 1" max_length="32" name="racer_1" reference="x_407566_hot_tra_0_wheels" type="reference"/>
-        <element label="Winner" max_length="32" name="winner" reference="x_407566_hot_tra_0_wheels" type="reference"/>
-        <element choice="3" label="R2 Lane" max_length="40" name="r2_lane" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
-            </choice>
-        </element>
         <element label="Title" max_length="240" name="title" type="string"/>
-        <element label="Qualifier" max_length="40" name="qualifier" type="boolean"/>
+        <element label="WL1" max_length="255" name="wl1" type="boolean"/>
+        <element attributes="scale=5" label="R2 Time" max_length="20" name="r2_time" type="decimal"/>
+        <element label="Racer 2" max_length="32" name="racer_2" reference="x_407566_hot_tra_0_wheels" type="reference"/>
+        <element label="Draw" max_length="40" name="draw" type="boolean"/>
         <element label="WL2" max_length="40" name="wl2" type="boolean"/>
         <index name="index">
             <element name="racer_1"/>

@@ -41,7 +41,7 @@
         <update_guid_history>62cc510e65530210f81b1f0945b755e2:370076825</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_407566_hot_tra_0_groupmember.x_407566_hot_tra_0.admin">046187e2479b02106a3eedf1d16d4370</sys_audit_delete>
+        <sys_audit_delete display_value="">046187e2479b02106a3eedf1d16d4370</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-13 02:21:25</sys_created_on>

@@ -41,7 +41,7 @@
         <update_guid_history>57dd9ff2311a0210ccd5c16cdc5f73e1:2014837114</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Services.Add Track">ddeddff2471a02106a3eedf1d16d4394</sys_audit_delete>
+        <sys_audit_delete display_value="">ddeddff2471a02106a3eedf1d16d4394</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-25 06:01:43</sys_created_on>

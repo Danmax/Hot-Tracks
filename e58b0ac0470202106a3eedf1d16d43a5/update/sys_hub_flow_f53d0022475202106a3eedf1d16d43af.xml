@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=4997000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=6827723000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>25000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,8 +15,9 @@
         <flow_priority/>
         <generation_source/>
         <internal_name>update_driver_roles</internal_name>
-        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Driver Record","reference":"x_407566_hot_tra_0_driver","reference_display":"Driver","type":"reference","base_type":"reference","usedInstances":{"cd4583b6-88df-44c4-ae79-f2d5f09dde9e":["conditions"],"7928f9c3-7ff2-434c-988a-94e965a28d02":["user"]},"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Driver Record","reference":"x_407566_hot_tra_0_driver","reference_display":"Driver","type":"reference","base_type":"reference","usedInstances":{"cd4583b6-88df-44c4-ae79-f2d5f09dde9e":["conditions"],"7928f9c3-7ff2-434c-988a-94e965a28d02":["user"],"5f10b6a3-da6d-4aac-986b-e4ebd93f9434":["fields"]},"attributes":{}}]</label_cache>
         <master_snapshot>33ad5866479202106a3eedf1d16d4330</master_snapshot>
+        <master_snapshot_digest/>
         <name>Update Driver roles</name>
         <natlang/>
         <outputs/>
@@ -35,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f53d0022475202106a3eedf1d16d43af</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Update Driver roles</sys_name>
         <sys_overrides/>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
@@ -43,8 +44,9 @@
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name>sys_hub_flow_f53d0022475202106a3eedf1d16d43af</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-23 21:34:49</sys_updated_on>
+        <sys_updated_on>2024-08-10 20:46:55</sys_updated_on>
         <type>flow</type>
+        <version>2</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=f53d0022475202106a3eedf1d16d43af"/>
     <sys_variable_value action="delete_multiple" query="document_key=f53d0022475202106a3eedf1d16d43af"/>
@@ -80,62 +82,14 @@
         <identifier>f53d0022475202106a3eedf1d16d43af</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-23 21:34:49</sys_created_on>
-        <sys_id>4e40ec6a479202106a3eedf1d16d437b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2024-08-10 20:46:55</sys_created_on>
+        <sys_id>b6ea83b747bb0a1078457e45516d435b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-23 21:34:49</sys_updated_on>
+        <sys_updated_on>2024-08-10 20:46:55</sys_updated_on>
         <trigger display_value="">8240ec6a479202106a3eedf1d16d437b</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=f53d0022475202106a3eedf1d16d43af^sys_idNOT IN4e40ec6a479202106a3eedf1d16d437b"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=f53d0022475202106a3eedf1d16d43af^sys_idNOT IN114750aa475202106a3eedf1d16d436d"/>
-    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
-        <comment/>
-        <display_text/>
-        <flow display_value="Update Driver roles">f53d0022475202106a3eedf1d16d43af</flow>
-        <name>Created</name>
-        <remote_sys_id/>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-23 20:55:26</sys_created_on>
-        <sys_id>114750aa475202106a3eedf1d16d436d</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-23 21:34:49</sys_updated_on>
-        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
-        <trigger_inputs/>
-        <trigger_outputs/>
-        <trigger_type>record_create</trigger_type>
-    </sys_hub_trigger_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=114750aa475202106a3eedf1d16d436d"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_trigger_instance</document>
-        <document_key>114750aa475202106a3eedf1d16d436d</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-23 20:55:26</sys_created_on>
-        <sys_id>5d4750aa475202106a3eedf1d16d436e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-23 21:33:20</sys_updated_on>
-        <value>x_407566_hot_tra_0_driver</value>
-        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_trigger_instance</document>
-        <document_key>114750aa475202106a3eedf1d16d436d</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-23 20:55:26</sys_created_on>
-        <sys_id>d14750aa475202106a3eedf1d16d436e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-23 21:33:20</sys_updated_on>
-        <value>^EQ</value>
-        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
-    </sys_variable_value>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=f53d0022475202106a3eedf1d16d43af^sys_idNOT INb6ea83b747bb0a1078457e45516d435b"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=f53d0022475202106a3eedf1d16d43af"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=f53d0022475202106a3eedf1d16d43af^sys_idNOT IN7d3d0022475202106a3eedf1d16d43b1"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -155,7 +109,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -214,14 +168,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-23 21:23:27</sys_created_on>
         <sys_id>a3ad1866479202106a3eedf1d16d43fe</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-23 21:34:49</sys_updated_on>
+        <sys_updated_on>2024-08-10 20:46:49</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -239,7 +193,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -298,14 +252,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-23 21:23:26</sys_created_on>
         <sys_id>e7add022479202106a3eedf1d16d43bf</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-23 21:34:49</sys_updated_on>
+        <sys_updated_on>2024-08-10 20:46:49</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -321,73 +275,72 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e7add022479202106a3eedf1d16d43bf"/>
     <sys_hub_flow_output action="delete_multiple" query="model=f53d0022475202106a3eedf1d16d43af"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=f53d0022475202106a3eedf1d16d43af"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=f53d0022475202106a3eedf1d16d43af^sys_idNOT INecb850ee475202106a3eedf1d16d4321"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=f53d0022475202106a3eedf1d16d43af^sys_idNOT IN56ea43b747bb0a1078457e45516d43cb"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Driver roles">f53d0022475202106a3eedf1d16d43af</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-10 20:46:53</sys_created_on>
+        <sys_id>56ea43b747bb0a1078457e45516d43cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-10 20:46:53</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/+VYbW/qNhT+K1E+bRKT8gKE9Nsd9GqVunaj3fah6iwnPoZoxmGJk5Zd8d9n54WGkNBAbzfo/VIJ27XP85znPD7OwxddRMFsBtEVjwXmPtyt4iuiX+im2XcGBsbyr2VYpjHENgChJjGHpG8Pid7TGfaAyaX32GMgfwdcQMQxu18tQQ4LNYw4Xqi5BeYEizBa6RciSqCnhxGBSL8we3q2olguV6aYJer3M+obzmA4RPNQIBFhZCASBan8p55OgnjJ8Or3YumkHF/iSG4m1MZfdH8eMBIB1y8eHnu6kEGhrYi1mzy0QMH1qY9dCwzfNm3LMgxr1De9oe2ZFrExGEYD3FrcogH1C0h4FsAJyKMoZjE0EBIBJrecrTYr5pJPuWFG3nMc/CN3HxlqHQWJyod8zp+HgQ+3SxGEPB/JA8onQ5Ys+E0eqOINKE6YKHmTI0kMiMBSxaZOK46md/PwaVoe9DngGYxikoU+ZptfWEgBeYmAWHFOAybZRzkJcZhEWZjTy/HtdIL++HQ//ulyiqaXd/fTq/H95URfZ3jQ34naMY+wiAXlcNabZH8OgKlMFdTGfhQsxSdfyNQXwax7X0PN45CTIGNzR9F+ORVXI61ooJLUgp5SAYaxEYxfOaAU+5+Xv+7KOh/squlxNbhM08MhxgRwi6Y92gK6IUzRgL+KbJ+6i5Eu8u4bxnsLPK+1o/W9CAmwSTXzud5QwJeJULQ8YS5iJEKECUEVwtRSGdNrgs+xrd9R31HC5VFok7JdlWeEb5i/DmIJ9EHWdslqFoycp9fFltOEa6HMrfyj+UkkSRVaWRL0aoFnRS7oL6WWMzILoaU4QmiB4lWM5omHthhFjjtyzWGbhh1/i8GsmuTWD7r+uFZZBga+qMiS/hZXf/0cxHHAZxV6NxizZO1A3KCT8tZKBnOo8XlhfexoVrtqSWsqqJnWPi10trJSgUGubUo9oJbhKFJMw/aoaTjGAFNiG4Zv7dV2KwxRE/u72FmLmcVZPbEO1VMnu4xSaZUdIs10W9fFPpbSQeGZ4xMMreb99kHmvxFoPjzprtOv3BRhkiqvJl3vgHe3f8rCJ+k5R1i/h/2/ZlGYcFI3R7WnFnDtZYX2XcH89+dljdVrgIYR7Me7veJ8UB5yAbzopaxVzFe71p8PHmfyNjU9F/pgSG+3pa17A9f1fGxR6gwdsMxWBTeGeVrm/kpppE211eamjbJLm9R6gMX//wG+yegLMTbafD730Q39aQ4cSZARYsqyd3x9xgIC5Vznst/ZNX15VtVK/4C6vy4iVDDpyPUHpuP4jjQ7WfW0Dx42+9YAu87QHg1eg7kvWNEA/T95sypvV4Gc3MeZ05RtDEKoe+nwZoTLjj77H5yHV7mhVda0zI7CSLsJ+Q9XL+u0O5A3YfZd44zu62pX0gW03CzSPhRqLxTznS5MIv1Rjm8hVc+Mlpx/4Fd6rZjSbdYaXunHcHfkCx76o4FL7Wabp+5+W2jHeDptXke/SVudq6md6lrPaaMtbNqreoN2RNprYiq2tl9pLb9dUt7UzpYV2/rZ4phgv4lWImv/3tJPqGgBhbR6zUxCTU5o8hAtoFoRLRDNW2liDjIZTL545IGaOv3M7pfq9bqLfFNqHxp3/kLc6SrksFZ08WcE7OCGoVYye7/vNFBzXD8AxMGDgd3y7HPrH3uaAn0Fx+l0BgfbR9rkRntvwsP2re/ZeBdWUrwtiY5X/wdG/W6fqhqiONFb+/FfnvRUyjckAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=f53d0022475202106a3eedf1d16d43af^sys_idNOT IN16ea43b747bb0a1078457e45516d43cc,52ea43b747bb0a1078457e45516d43cd"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
         <action_type_parent display_value="Create or Update Record">e057d2e253b3230034c6ddeeff7b1261</action_type_parent>
         <attributes/>
         <comment/>
+        <compiled_snapshot>ab575ae253b3230034c6ddeeff7b12f1</compiled_snapshot>
         <display_text/>
         <flow display_value="Update Driver roles">f53d0022475202106a3eedf1d16d43af</flow>
         <generation_source/>
         <order>1</order>
         <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-23 21:01:40</sys_created_on>
-        <sys_id>ecb850ee475202106a3eedf1d16d4321</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_created_on>2024-08-10 20:46:53</sys_created_on>
+        <sys_id>16ea43b747bb0a1078457e45516d43cc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-04 14:11:22</sys_updated_on>
+        <sys_updated_on>2024-08-10 20:46:53</sys_updated_on>
         <ui_id>7928f9c3-7ff2-434c-988a-94e965a28d02</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=ecb850ee475202106a3eedf1d16d4321"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>ecb850ee475202106a3eedf1d16d4321</document_key>
-        <order>0</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
+        <values>H4sIAAAAAAAA/9VUy27bMBD8FYNnQdDTdnwrGhgN0CZAY+QSJQIlrmyiFKWSlBPV8L93qUcauE5qtGmBHrk73JkdLvd2R2hueCUvpDZU5nDd6gtGFgTybB57ANEsDrzA96Y0BGCFz/wpi8LAJw7hFhfM4llMIYjDLAxCzwujfMoYQFHMMj8oIsRJWgIiDc0EpN3BIVsqGhvUrU4bDSpdqxLKDBTmGNe1oO3NK5B8wwVTIMni9s4hNVVY1WBmsTtImbaGVNAMBFZaWQWTy17BqeqPXj7WkqU6jFWKWVWeQ+DRgGSApAUVGhxSUsmoqVRLFkY1GFBA2ZUU7RNiw6XBgsRiHzX/htXnnsUVgP3l0OfyTcVzuKrtI/aRTsGQrERTysterbUWCtoIM1qLEXQ2ZVBbbZZtoC6uN9XD55FoyWXXxpAUVU7F04kao3jWGNDW/YavjtjQRz8OTtp2MQgCSuRMS1rXXK7TWlVb3vGg7NJdCzy4hageUJ/ma+n2g+qia9RdYvy8C99QxS3XJyyDl/edQenXxkrsWx6aS3t/EKBzxWvzDsttYehj7/zxR8heHSX6Y2oKDoLpZ59graqmThq8w3bJOP4JWSTkQ2UmK0XzL3pyrlCt0glxkv5iB4ii4Oxs/pI6Sju4/UGcnYjf39vPNqjZvcepNMBS380bhcNg9vuff+h/p/831weU2JiBSd/36e8+FliOD384COPqGAjS7UAwrA//rdbHNPa8v71BejVvsEAOzfiHSwTJahwik/boke5Xu+XZznthy9x9Bz6LH6hwBwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
+        <action_type_parent display_value="Create or Update Record">e057d2e253b3230034c6ddeeff7b1261</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>ab575ae253b3230034c6ddeeff7b12f1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Update Driver roles">f53d0022475202106a3eedf1d16d43af</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-23 21:08:04</sys_created_on>
-        <sys_id>d22a5cee475202106a3eedf1d16d4325</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2024-08-10 20:46:53</sys_created_on>
+        <sys_id>52ea43b747bb0a1078457e45516d43cd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-23 21:34:47</sys_updated_on>
-        <value>sys_user_grmember</value>
-        <variable display_value="Table Name">27575ae253b3230034c6ddeeff7b12f4</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=ecb850ee475202106a3eedf1d16d4321"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>ecb850ee475202106a3eedf1d16d4321</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-23 21:08:04</sys_created_on>
-        <sys_id>9a2a5cee475202106a3eedf1d16d4324</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-23 21:34:47</sys_updated_on>
-        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
-        <value>group={"display":"Hot Tracks Drivers","value":"442998ee475202106a3eedf1d16d43aa","sys_id":"442998ee475202106a3eedf1d16d43aa"}^user={{Created_1.current}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>ecb850ee475202106a3eedf1d16d4321</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-23 21:08:04</sys_created_on>
-        <sys_id>522a5cee475202106a3eedf1d16d4325</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-23 21:08:04</sys_updated_on>
-        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=ecb850ee475202106a3eedf1d16d4321"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ecb850ee475202106a3eedf1d16d4321"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=f53d0022475202106a3eedf1d16d43af"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=f53d0022475202106a3eedf1d16d43af"/>
+        <sys_updated_on>2024-08-10 20:46:53</sys_updated_on>
+        <ui_id>5f10b6a3-da6d-4aac-986b-e4ebd93f9434</ui_id>
+        <values>H4sIAAAAAAAA/9VUTW/bMAz9K4XOhuHEdtzlNqwIUGBrgLXopW4F2aITAbLkSXLaLMh/H+WPrsiyLti6ATuKfOR7pEje7QgrndDqUlnHVAnXW3vJyZxwDiyJiyzJiiJikyg7T9IMkjSdzHgSJzEJiPC4aZZmKYNpGhfxNI6iOClnGAtVlRWTaZUgTrEaEOlYIYF2j4BsmGy90W4tbS0YujI11AUY9HFhG8m2t69AyrWQ3IAi87v7gDTMYFaHnvnuwOW2DVDJCpCY6cYrOLvqFZyq/mjwsZI81aFNG+5VRQGBJweKA5JWTFoISM0UZ06bLZk706LBAONLJbfPiLVQDhMSj32y4itmP488rgKsr4TeV661KGHZ+E/sLZ2CwallW6urXq1vLVSslW5sLVqws5RD47V5toG6ul7rx88j0UKorozBKXXJ5POLOWdE0TqwvvutuDnSht76ceikLxeNIKFGTlqzphFqRRujN6LjQdl1uJL4CCupH1GfFSsV9oMaYtdYuED7RWe+ZUZ4rk+YBoP3XYPol9ZL7EseiqN9fxBgSyMa9x7TbWCoYx/88SIUr44S+z41lQDJ7YslWBndNnmLMXyXj+Ofk3lOlkbimOizC9iA1FifzUmQ94EdAHj6Lp3OKlSXlbNDdVHawf0GCX4ifv/gl21Qs/uAU+mA00lYtgaHwe33P27of6f/N88H1FiYg7O+7tP/fUywGD/+cBDG0zEQ0M1AMJyPyVudj1kaRX/7gvRq3uCAHDbjHx4RJGtwiBzt0SPdr27Li5v3kytz/w1yy23VcAcAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=f53d0022475202106a3eedf1d16d43af"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=f53d0022475202106a3eedf1d16d43af"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=f53d0022475202106a3eedf1d16d43af"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=f53d0022475202106a3eedf1d16d43af"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_f53d0022475202106a3eedf1d16d43af^sys_idNOT IN67ad5866479202106a3eedf1d16d4300,6fad1866479202106a3eedf1d16d43fc"/>
@@ -454,7 +407,7 @@
         <description/>
         <flow_priority/>
         <internal_name>update_driver_roles</internal_name>
-        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Driver Record","reference":"x_407566_hot_tra_0_driver","reference_display":"Driver","type":"reference","base_type":"reference","usedInstances":{"cd4583b6-88df-44c4-ae79-f2d5f09dde9e":["conditions"],"7928f9c3-7ff2-434c-988a-94e965a28d02":["user"]},"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Driver Record","reference":"x_407566_hot_tra_0_driver","reference_display":"Driver","type":"reference","base_type":"reference","usedInstances":{"cd4583b6-88df-44c4-ae79-f2d5f09dde9e":["conditions"],"7928f9c3-7ff2-434c-988a-94e965a28d02":["user"],"5f10b6a3-da6d-4aac-986b-e4ebd93f9434":["fields"]},"attributes":{}}]</label_cache>
         <master>true</master>
         <name>Update Driver roles</name>
         <natlang/>
@@ -471,7 +424,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>33ad5866479202106a3eedf1d16d4330</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -479,59 +432,12 @@
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-23 21:34:48</sys_updated_on>
+        <sys_updated_on>2024-08-10 20:46:55</sys_updated_on>
         <type>flow</type>
+        <version>2</version>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=33ad5866479202106a3eedf1d16d4330"/>
     <sys_variable_value action="delete_multiple" query="document_key=33ad5866479202106a3eedf1d16d4330"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=33ad5866479202106a3eedf1d16d4330^sys_idNOT INfbad5866479202106a3eedf1d16d4355"/>
-    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
-        <comment/>
-        <display_text/>
-        <flow display_value="Update Driver roles">33ad5866479202106a3eedf1d16d4330</flow>
-        <name>Created</name>
-        <remote_sys_id/>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-23 21:23:28</sys_created_on>
-        <sys_id>fbad5866479202106a3eedf1d16d4355</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-23 21:34:49</sys_updated_on>
-        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
-        <trigger_inputs/>
-        <trigger_outputs/>
-        <trigger_type>record_create</trigger_type>
-    </sys_hub_trigger_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=fbad5866479202106a3eedf1d16d4355"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_trigger_instance</document>
-        <document_key>fbad5866479202106a3eedf1d16d4355</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-23 21:23:28</sys_created_on>
-        <sys_id>3bad5866479202106a3eedf1d16d4356</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-23 21:34:48</sys_updated_on>
-        <value>x_407566_hot_tra_0_driver</value>
-        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_trigger_instance</document>
-        <document_key>fbad5866479202106a3eedf1d16d4355</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-23 21:23:28</sys_created_on>
-        <sys_id>77ad5866479202106a3eedf1d16d4356</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-23 21:34:48</sys_updated_on>
-        <value>^EQ</value>
-        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
-    </sys_variable_value>
     <sys_hub_flow_stage action="delete_multiple" query="flow=33ad5866479202106a3eedf1d16d4330"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=33ad5866479202106a3eedf1d16d4330^sys_idNOT IN37ad5866479202106a3eedf1d16d4331"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -610,14 +516,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-23 21:23:28</sys_created_on>
         <sys_id>3bad5866479202106a3eedf1d16d4344</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-23 21:34:48</sys_updated_on>
+        <sys_updated_on>2024-08-10 20:46:54</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -694,14 +600,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-23 21:23:27</sys_created_on>
         <sys_id>7bad5866479202106a3eedf1d16d4332</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-23 21:34:48</sys_updated_on>
+        <sys_updated_on>2024-08-10 20:46:54</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -717,73 +623,72 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7bad5866479202106a3eedf1d16d4332"/>
     <sys_hub_flow_output action="delete_multiple" query="model=33ad5866479202106a3eedf1d16d4330"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=33ad5866479202106a3eedf1d16d4330"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=33ad5866479202106a3eedf1d16d4330^sys_idNOT INbfad5866479202106a3eedf1d16d4353"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=33ad5866479202106a3eedf1d16d4330^sys_idNOT IN76ea83b747bb0a1078457e45516d433b"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Driver roles">33ad5866479202106a3eedf1d16d4330</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-10 20:46:54</sys_created_on>
+        <sys_id>76ea83b747bb0a1078457e45516d433b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-10 20:46:54</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/+VYbW/qNhT+K1E+bRKT8gKE9Nsd9GqVunaj3fah6iwnPoZoxmGJk5Zd8d9n54WGkNBAbzfo/VIJ27XP85znPD7OwxddRMFsBtEVjwXmPtyt4iuiX+im2XcGBsbyr2VYpjHENgChJjGHpG8Pid7TGfaAyaX32GMgfwdcQMQxu18tQQ4LNYw4Xqi5BeYEizBa6RciSqCnhxGBSL8we3q2olguV6aYJer3M+obzmA4RPNQIBFhZCASBan8p55OgnjJ8Or3YumkHF/iSG4m1MZfdH8eMBIB1y8eHnu6kEGhrYi1mzy0QMH1qY9dCwzfNm3LMgxr1De9oe2ZFrExGEYD3FrcogH1C0h4FsAJyKMoZjE0EBIBJrecrTYr5pJPuWFG3nMc/CN3HxlqHQWJyod8zp+HgQ+3SxGEPB/JA8onQ5Ys+E0eqOINKE6YKHmTI0kMiMBSxaZOK46md/PwaVoe9DngGYxikoU+ZptfWEgBeYmAWHFOAybZRzkJcZhEWZjTy/HtdIL++HQ//ulyiqaXd/fTq/H95URfZ3jQ34naMY+wiAXlcNabZH8OgKlMFdTGfhQsxSdfyNQXwax7X0PN45CTIGNzR9F+ORVXI61ooJLUgp5SAYaxEYxfOaAU+5+Xv+7KOh/squlxNbhM08MhxgRwi6Y92gK6IUzRgL+KbJ+6i5Eu8u4bxnsLPK+1o/W9CAmwSTXzud5QwJeJULQ8YS5iJEKECUEVwtRSGdNrgs+xrd9R31HC5VFok7JdlWeEb5i/DmIJ9EHWdslqFoycp9fFltOEa6HMrfyj+UkkSRVaWRL0aoFnRS7oL6WWMzILoaU4QmiB4lWM5omHthhFjjtyzWGbhh1/i8GsmuTWD7r+uFZZBga+qMiS/hZXf/0cxHHAZxV6NxizZO1A3KCT8tZKBnOo8XlhfexoVrtqSWsqqJnWPi10trJSgUGubUo9oJbhKFJMw/aoaTjGAFNiG4Zv7dV2KwxRE/u72FmLmcVZPbEO1VMnu4xSaZUdIs10W9fFPpbSQeGZ4xMMreb99kHmvxFoPjzprtOv3BRhkiqvJl3vgHe3f8rCJ+k5R1i/h/2/ZlGYcFI3R7WnFnDtZYX2XcH89+dljdVrgIYR7Me7veJ8UB5yAbzopaxVzFe71p8PHmfyNjU9F/pgSG+3pa17A9f1fGxR6gwdsMxWBTeGeVrm/kpppE211eamjbJLm9R6gMX//wG+yegLMTbafD730Q39aQ4cSZARYsqyd3x9xgIC5Vznst/ZNX15VtVK/4C6vy4iVDDpyPUHpuP4jjQ7WfW0Dx42+9YAu87QHg1eg7kvWNEA/T95sypvV4Gc3MeZ05RtDEKoe+nwZoTLjj77H5yHV7mhVda0zI7CSLsJ+Q9XL+u0O5A3YfZd44zu62pX0gW03CzSPhRqLxTznS5MIv1Rjm8hVc+Mlpx/4Fd6rZjSbdYaXunHcHfkCx76o4FL7Wabp+5+W2jHeDptXke/SVudq6md6lrPaaMtbNqreoN2RNprYiq2tl9pLb9dUt7UzpYV2/rZ4phgv4lWImv/3tJPqGgBhbR6zUxCTU5o8hAtoFoRLRDNW2liDjIZTL545IGaOv3M7pfq9bqLfFNqHxp3/kLc6SrksFZ08WcE7OCGoVYye7/vNFBzXD8AxMGDgd3y7HPrH3uaAn0Fx+l0BgfbR9rkRntvwsP2re/ZeBdWUrwtiY5X/wdG/W6fqhqiONFb+/FfnvRUyjckAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=33ad5866479202106a3eedf1d16d4330^sys_idNOT IN3aea83b747bb0a1078457e45516d433c,f6ea83b747bb0a1078457e45516d4347"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
         <action_type_parent display_value="Create or Update Record">e057d2e253b3230034c6ddeeff7b1261</action_type_parent>
         <attributes/>
         <comment/>
+        <compiled_snapshot>ab575ae253b3230034c6ddeeff7b12f1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Update Driver roles">33ad5866479202106a3eedf1d16d4330</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-10 20:46:54</sys_created_on>
+        <sys_id>3aea83b747bb0a1078457e45516d433c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-10 20:46:54</sys_updated_on>
+        <ui_id>5f10b6a3-da6d-4aac-986b-e4ebd93f9434</ui_id>
+        <values>H4sIAAAAAAAA/9VU30/bMBD+V5Cfoyptkob1baJCQtpAGogXyqJLfGktOU5mO4Wu6v++c5wU1HUMNDSJR999d/fdD393WwaFFbW6UMaCKvB6Yy44mzHOEeIoT+M0z0MYh+lpnKQYJ8l4yuMojljAhMNN0iRNACdJlEeTKAyjuJhSLJZlmo8nZUw4BRUS0kIuMeseAVuDbJ3RbEzWGtTZUldY5ajJx4VpJGxuX4AUKyG5RsVmd/cBa0BTVkue2fbA9VqOEnKUBL1xJE8uPcljxO2mOWr7cixBrbkjFQYMHy0qjsSmBGkwYBUoDrbWGzazuiWDRuBXSm72iJVQlhIyh3004ieVPQ0drkRqr0Dv2z+7wnM/Ou8q52DhmrIXttU9vFjVokDjh8OxhFbas+c2D7hq3E34kK7VPrqWbaUu/VjYPsGwKbLQojKOjevVse9bKa9X9cO3gem5UN1YeqesC5D7F1irRd5ax2fLWnFzZN7eOkzcjY+MKLGimlkFTSPUMmt0vRZdHaJdjZaSHqNS1g/Ez4ilGvm7H9EWYHRO9nlnvgUtXK2vlIaCd4G7vzMJxjy1TTPPfrSOtB9C327mJ+ZCCi0a+5kKrLHvbBf880/LX7xieDrYUqDk5tkvW+q6bRYtxfDtYvhfCzZbsCst6RDrkzmuUdbUsVmwYOEDOwDy5FMymZbELi2mh+zCpIO7Lyr4K/G77+4392y2Z3T3Fnk2HhWtpvOwu93vEvDh+L9Rn/6+2UGfzofVHq560CWsaDYWM7/6A23qnSe3vbPXp/F76dM0CcOPJlG+u3dQqMPJ/0eVomIN3aTNPHoo93bxeiazf5Cx+19RV5NIMggAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
+        <action_type_parent display_value="Create or Update Record">e057d2e253b3230034c6ddeeff7b1261</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>ab575ae253b3230034c6ddeeff7b12f1</compiled_snapshot>
         <display_text/>
         <flow display_value="Update Driver roles">33ad5866479202106a3eedf1d16d4330</flow>
         <generation_source/>
         <order>1</order>
         <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-23 21:23:28</sys_created_on>
-        <sys_id>bfad5866479202106a3eedf1d16d4353</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_created_on>2024-08-10 20:46:55</sys_created_on>
+        <sys_id>f6ea83b747bb0a1078457e45516d4347</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-23 21:34:48</sys_updated_on>
+        <sys_updated_on>2024-08-10 20:46:55</sys_updated_on>
         <ui_id>7928f9c3-7ff2-434c-988a-94e965a28d02</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=bfad5866479202106a3eedf1d16d4353"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>bfad5866479202106a3eedf1d16d4353</document_key>
-        <order>0</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-23 21:23:28</sys_created_on>
-        <sys_id>f7ad5866479202106a3eedf1d16d4355</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-23 21:23:28</sys_updated_on>
-        <value>sys_user_grmember</value>
-        <variable display_value="Table Name">27575ae253b3230034c6ddeeff7b12f4</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=bfad5866479202106a3eedf1d16d4353"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>bfad5866479202106a3eedf1d16d4353</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-23 21:23:28</sys_created_on>
-        <sys_id>b3ad5866479202106a3eedf1d16d4355</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-23 21:23:28</sys_updated_on>
-        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
-        <value>group={"display":"Hot Tracks Drivers","value":"442998ee475202106a3eedf1d16d43aa","sys_id":"442998ee475202106a3eedf1d16d43aa"}^user={{Created_1.current}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>bfad5866479202106a3eedf1d16d4353</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-23 21:23:28</sys_created_on>
-        <sys_id>77ad5866479202106a3eedf1d16d4355</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-23 21:23:28</sys_updated_on>
-        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=bfad5866479202106a3eedf1d16d4353"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=bfad5866479202106a3eedf1d16d4353"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=33ad5866479202106a3eedf1d16d4330"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=33ad5866479202106a3eedf1d16d4330"/>
+        <values>H4sIAAAAAAAA/9VUbU/bMBD+K5U/R1WSvtJvExUa0gbSQHyhLLrEl9aa42S2U+iq/ved46SgrjDQ0CQ++u65u+de/NxuGWRWlOpcGQsqw6uNOedsxjBLp6MQcTgZxWEchWMYIPI84tGYDwdxxAImHC6ejCYjwHg0SAfxIAwHw2zMOWKeT9IozoeEU1AgIS2kEpPmEbA1yNoZzcYktUGdLHWBRYqafFyYSsLm5gVIthKSa1RsdnsXsAo0ZbXkmW0PXK/lKCFFSdBrR7J34UkeI2431VHbl2MJSs0dqTBg+GBRcSQ2OUiDAStAcbCl3rCZ1TUZNAK/VHKzR6yEspSQOeyDEb+o7DR0uBypvQy9b/9sCs/96Lwrn4OFK8qe2Vq38GxVigyNHw7HHGppT5/aPOCycjfhQ5pW2+hS1oW68GNh+wTdpshCi0o4Vq5Xx75tJb9alfffOqZnQjVjaZ2yzEDuX2CtFmltHZ8tq8X1kXl7azdxNz4yosSCaiYFVJVQy6TS5Vo0dYh20V9KevRzWd4TPyOWqu/vvk9bgP4Z2eeN+Qa0cLW+UhoK3gXu/k4lGPPYNs08+Vk70n4IbbuJn5gLybSo7CcqsMa2s13wzz8tffGK4fFgc4GSmye/bKnLulrUFMO3i+5/LdhswT6XtnetIfthenNNbLVZsGDhAxvAcBifnEyfYwfQwN0XFfyV+N1395tbNttTunuLPIn6Wa3pPOxu96cEfDj+b9Snv2+206ezbrWHq+50CQuajcXEr/5Am1pn76Z1tvoUvZc+jUdh+NEkynf3Dgp1OPn/qFJUrKKbtIlHd+XeLl5PZPYZGbv7DTwCvEgyCAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=33ad5866479202106a3eedf1d16d4330"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=33ad5866479202106a3eedf1d16d4330"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=33ad5866479202106a3eedf1d16d4330"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=33ad5866479202106a3eedf1d16d4330"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_33ad5866479202106a3eedf1d16d4330^sys_idNOT IN3fad5866479202106a3eedf1d16d4348,ffad5866479202106a3eedf1d16d4340"/>
@@ -839,24 +744,24 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>f53d0022475202106a3eedf1d16d43af</sys_id>
         <latest_snapshot>33ad5866479202106a3eedf1d16d4330</latest_snapshot>
-        <compiler_build>glide-washingtondc-12-20-2023__patch3-hotfix1-05-12-2024_05-16-2024_0813.zip</compiler_build>
+        <compiler_build>glide-xanadu-07-02-2024__patch0-07-16-2024_07-27-2024_1019.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=f53d0022475202106a3eedf1d16d43af^sys_idNOT INb7ad5866479202106a3eedf1d16d4361"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"b7ad5866479202106a3eedf1d16d4361","name":"plan","plan_signature":null}}</plan>
         <plan_id>f53d0022475202106a3eedf1d16d43af</plan_id>
-        <snapshot>afddecda476202106a3eedf1d16d4339</snapshot>
+        <snapshot>33ad5866479202106a3eedf1d16d4330</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-23 21:23:28</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b7ad5866479202106a3eedf1d16d4361</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-23 21:34:49</sys_updated_on>
+        <sys_updated_on>2024-08-10 20:46:55</sys_updated_on>
         <trigger display_value="">8240ec6a479202106a3eedf1d16d437b</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=f53d0022475202106a3eedf1d16d43af"/>

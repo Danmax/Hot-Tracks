@@ -20,6 +20,7 @@
         <label_cache>[{"name":"{{action.competitors}}","label":"action➛Competitors","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.competitors.name}}","label":"action➛Competitors➛name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.list}}","label":"action➛list","type":"action","ref":"","reference_display":"","base_type":"variables","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiUniqueId":"3a79b9e9-8f8f-4f77-9cce-b7429d059050"}},{"name":"{{step[63d0955c-940e-4e69-bde9-e0d8e683003c].matches}}","label":"step➛Script step➛matches","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
+        <master_snapshot_digest/>
         <name>Create Matches</name>
         <natlang/>
         <outputs/>
@@ -186,18 +187,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=dfe84300474602106a3eedf1d16d4363"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>dfe84300474602106a3eedf1d16d4363</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-04 05:11:07</sys_created_on>
-        <sys_id>9fe84300474602106a3eedf1d16d4374</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-04 05:11:07</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>list</field>
         <id>dfe84300474602106a3eedf1d16d4363</id>
         <sys_created_by>admin</sys_created_by>
@@ -208,18 +197,6 @@
         <sys_updated_on>2024-05-04 05:11:07</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_dfe84300474602106a3eedf1d16d4363</table>
         <value>{{action.competitors}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>dfe84300474602106a3eedf1d16d4363</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-04 05:11:07</sys_created_on>
-        <sys_id>53e84300474602106a3eedf1d16d4375</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-04 05:11:07</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_dfe84300474602106a3eedf1d16d4363^id=dfe84300474602106a3eedf1d16d4363"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=dfe84300474602106a3eedf1d16d4363"/>
@@ -407,11 +384,11 @@
         <sys_created_on>2024-05-04 05:11:07</sys_created_on>
         <sys_id>17e84300474602106a3eedf1d16d4371</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>matches</sys_name>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_dfe84300474602106a3eedf1d16d4363_matches_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-04 05:11:07</sys_updated_on>
         <url/>
@@ -790,11 +767,11 @@
         <sys_created_on>2024-05-04 05:11:07</sys_created_on>
         <sys_id>9fe84300474602106a3eedf1d16d4361</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Competitors</sys_name>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_f360cb00470602106a3eedf1d16d431d_competitors_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-04 05:11:07</sys_updated_on>
         <url/>
@@ -815,11 +792,11 @@
         <sys_created_on>2024-05-04 05:11:07</sys_created_on>
         <sys_id>63e84300474602106a3eedf1d16d437c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>matches</sys_name>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f360cb00470602106a3eedf1d16d431d_variable_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-04 05:11:07</sys_updated_on>
         <url/>
@@ -838,11 +815,11 @@
         <sys_created_on>2024-05-04 05:11:07</sys_created_on>
         <sys_id>e3e84300474602106a3eedf1d16d438e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f360cb00470602106a3eedf1d16d431d___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-04 05:11:07</sys_updated_on>
         <url/>
@@ -861,11 +838,11 @@
         <sys_created_on>2024-05-04 05:11:08</sys_created_on>
         <sys_id>e3e84300474602106a3eedf1d16d4392</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_f360cb00470602106a3eedf1d16d431d___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-04 05:11:08</sys_updated_on>
         <url/>

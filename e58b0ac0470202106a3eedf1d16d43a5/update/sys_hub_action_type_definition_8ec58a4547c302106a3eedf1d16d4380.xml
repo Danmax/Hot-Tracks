@@ -18,6 +18,7 @@
         <internal_name>randomize_matches</internal_name>
         <label_cache>[{"name":"{{action.competitors}}","label":"action➛competitors","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[015d3bc3-ea65-41df-b095-436a32c8f334].data}}","label":"step➛Script step➛data","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
         <master_snapshot>32cb4a01470702106a3eedf1d16d43e4</master_snapshot>
+        <master_snapshot_digest/>
         <name>Randomize Matches</name>
         <natlang/>
         <outputs/>
@@ -30,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8ec58a4547c302106a3eedf1d16d4380</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Randomize Matches</sys_name>
         <sys_overrides/>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
@@ -38,7 +39,7 @@
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_8ec58a4547c302106a3eedf1d16d4380</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-25 20:20:44</sys_updated_on>
+        <sys_updated_on>2024-08-01 22:23:51</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -192,18 +193,6 @@ var competitors = inputs.competitors&#13;
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=decb4a01470702106a3eedf1d16d4397"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>decb4a01470702106a3eedf1d16d4397</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-06-25 20:20:43</sys_created_on>
-        <sys_id>eacb4a01470702106a3eedf1d16d43a8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-25 20:20:43</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>competitors</field>
         <id>decb4a01470702106a3eedf1d16d4397</id>
         <sys_created_by>admin</sys_created_by>
@@ -214,18 +203,6 @@ var competitors = inputs.competitors&#13;
         <sys_updated_on>2024-06-25 20:20:43</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_decb4a01470702106a3eedf1d16d4397</table>
         <value>{{action.competitors}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>decb4a01470702106a3eedf1d16d4397</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-06-25 20:20:43</sys_created_on>
-        <sys_id>aecb4a01470702106a3eedf1d16d43a8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-25 20:20:43</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_decb4a01470702106a3eedf1d16d4397^id=decb4a01470702106a3eedf1d16d4397"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=decb4a01470702106a3eedf1d16d4397"/>
@@ -413,11 +390,11 @@ var competitors = inputs.competitors&#13;
         <sys_created_on>2024-06-25 20:20:43</sys_created_on>
         <sys_id>a2cb4a01470702106a3eedf1d16d43a5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>data</sys_name>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_decb4a01470702106a3eedf1d16d4397_data_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-25 20:20:43</sys_updated_on>
         <url/>
@@ -796,11 +773,11 @@ var competitors = inputs.competitors&#13;
         <sys_created_on>2024-06-25 20:20:42</sys_created_on>
         <sys_id>decb4a01470702106a3eedf1d16d4395</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>competitors</sys_name>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_8ec58a4547c302106a3eedf1d16d4380_competitors_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-25 20:20:42</sys_updated_on>
         <url/>
@@ -821,11 +798,11 @@ var competitors = inputs.competitors&#13;
         <sys_created_on>2024-06-25 20:20:43</sys_created_on>
         <sys_id>2ecb4a01470702106a3eedf1d16d43c0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>data</sys_name>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_8ec58a4547c302106a3eedf1d16d4380_data_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-25 20:20:43</sys_updated_on>
         <url/>
@@ -844,11 +821,11 @@ var competitors = inputs.competitors&#13;
         <sys_created_on>2024-06-25 20:20:43</sys_created_on>
         <sys_id>6ecb4a01470702106a3eedf1d16d43c6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_8ec58a4547c302106a3eedf1d16d4380___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-25 20:20:43</sys_updated_on>
         <url/>
@@ -867,11 +844,11 @@ var competitors = inputs.competitors&#13;
         <sys_created_on>2024-06-25 20:20:43</sys_created_on>
         <sys_id>aacb4a01470702106a3eedf1d16d43bc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_8ec58a4547c302106a3eedf1d16d4380___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-25 20:20:43</sys_updated_on>
         <url/>
@@ -1084,18 +1061,6 @@ var competitors = inputs.competitors&#13;
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=7acb4a01470702106a3eedf1d16d43ed"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>7acb4a01470702106a3eedf1d16d43ed</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-06-25 20:20:44</sys_created_on>
-        <sys_id>72cb8a01470702106a3eedf1d16d4308</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-25 20:20:44</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>competitors</field>
         <id>7acb4a01470702106a3eedf1d16d43ed</id>
         <sys_created_by>admin</sys_created_by>
@@ -1106,18 +1071,6 @@ var competitors = inputs.competitors&#13;
         <sys_updated_on>2024-06-25 20:20:44</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_7acb4a01470702106a3eedf1d16d43ed</table>
         <value>{{action.competitors}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>7acb4a01470702106a3eedf1d16d43ed</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-06-25 20:20:44</sys_created_on>
-        <sys_id>36cb8a01470702106a3eedf1d16d4308</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-25 20:20:44</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_7acb4a01470702106a3eedf1d16d43ed^id=7acb4a01470702106a3eedf1d16d43ed"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=7acb4a01470702106a3eedf1d16d43ed"/>
@@ -1305,11 +1258,11 @@ var competitors = inputs.competitors&#13;
         <sys_created_on>2024-06-25 20:20:44</sys_created_on>
         <sys_id>7acb8a01470702106a3eedf1d16d4304</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>data</sys_name>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_7acb4a01470702106a3eedf1d16d43ed_data_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-25 20:20:44</sys_updated_on>
         <url/>
@@ -1688,11 +1641,11 @@ var competitors = inputs.competitors&#13;
         <sys_created_on>2024-06-25 20:20:44</sys_created_on>
         <sys_id>f6cb4a01470702106a3eedf1d16d43eb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>competitors</sys_name>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_32cb4a01470702106a3eedf1d16d43e4_competitors_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-25 20:20:44</sys_updated_on>
         <url/>
@@ -1713,11 +1666,11 @@ var competitors = inputs.competitors&#13;
         <sys_created_on>2024-06-25 20:20:44</sys_created_on>
         <sys_id>7acb8a01470702106a3eedf1d16d430f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_32cb4a01470702106a3eedf1d16d43e4___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-25 20:20:44</sys_updated_on>
         <url/>
@@ -1736,11 +1689,11 @@ var competitors = inputs.competitors&#13;
         <sys_created_on>2024-06-25 20:20:44</sys_created_on>
         <sys_id>bacb8a01470702106a3eedf1d16d4313</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>data</sys_name>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_32cb4a01470702106a3eedf1d16d43e4_data_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-25 20:20:44</sys_updated_on>
         <url/>
@@ -1759,11 +1712,11 @@ var competitors = inputs.competitors&#13;
         <sys_created_on>2024-06-25 20:20:44</sys_created_on>
         <sys_id>bacb8a01470702106a3eedf1d16d4319</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_32cb4a01470702106a3eedf1d16d43e4___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-25 20:20:44</sys_updated_on>
         <url/>
@@ -1773,6 +1726,6 @@ var competitors = inputs.competitors&#13;
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>8ec58a4547c302106a3eedf1d16d4380</sys_id>
         <latest_snapshot>32cb4a01470702106a3eedf1d16d43e4</latest_snapshot>
-        <compiler_build>glide-washingtondc-12-20-2023__patch3-hotfix1-05-12-2024_05-16-2024_0813.zip</compiler_build>
+        <compiler_build>glide-xanadu-07-02-2024__patch0-07-16-2024_07-27-2024_1019.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

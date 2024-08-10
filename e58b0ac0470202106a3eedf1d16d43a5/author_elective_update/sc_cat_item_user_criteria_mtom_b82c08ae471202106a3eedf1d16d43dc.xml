@@ -41,7 +41,7 @@
         <update_guid_history>b82c08aec8120210b356538de44403f9:1503782281</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Add Driver.SNC External">bb2c88ae471202106a3eedf1d16d4345</sys_audit_delete>
+        <sys_audit_delete display_value="">bb2c88ae471202106a3eedf1d16d4345</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-23 20:07:00</sys_created_on>

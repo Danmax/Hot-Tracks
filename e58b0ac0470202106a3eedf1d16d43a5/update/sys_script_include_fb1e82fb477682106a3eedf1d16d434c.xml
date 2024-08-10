@@ -6,6 +6,7 @@
         <caller_access/>
         <client_callable>true</client_callable>
         <description/>
+        <mobile_callable>false</mobile_callable>
         <name>GetWheelsInfo</name>
         <script><![CDATA[var GetWheelsInfo = Class.create();
 GetWheelsInfo.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {

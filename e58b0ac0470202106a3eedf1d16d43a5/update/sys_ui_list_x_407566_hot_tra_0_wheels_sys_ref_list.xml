@@ -3,32 +3,92 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_407566_hot_tra_0_wheels" element="NULL" name="x_407566_hot_tra_0_wheels" parent="NULL" relationship="NULL" sys_domain="global" view="db1ab0509000021087de3cfccdb0d629">c956b48a472642106a3eedf1d16d4355</list_id>
+            <list_id display_value="x_407566_hot_tra_0_wheels" element="NULL" name="x_407566_hot_tra_0_wheels" parent="NULL" relationship="NULL" sys_domain="global" view="c2858353d12302104f34ba60d8b7c189">9c27febf473b0a1078457e45516d438d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-03 20:09:52</sys_created_on>
-            <sys_id>8556b48a472642106a3eedf1d16d4357</sys_id>
+            <sys_created_on>2024-08-10 19:20:27</sys_created_on>
+            <sys_id>d027febf473b0a1078457e45516d4390</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-03 20:09:52</sys_updated_on>
+            <sys_updated_on>2024-08-10 19:20:27</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>model</element>
-            <list_id display_value="x_407566_hot_tra_0_wheels" element="NULL" name="x_407566_hot_tra_0_wheels" parent="NULL" relationship="NULL" sys_domain="global" view="db1ab0509000021087de3cfccdb0d629">c956b48a472642106a3eedf1d16d4355</list_id>
+            <list_id display_value="x_407566_hot_tra_0_wheels" element="NULL" name="x_407566_hot_tra_0_wheels" parent="NULL" relationship="NULL" sys_domain="global" view="c2858353d12302104f34ba60d8b7c189">9c27febf473b0a1078457e45516d438d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-03 20:09:52</sys_created_on>
-            <sys_id>cd56b48a472642106a3eedf1d16d4357</sys_id>
+            <sys_created_on>2024-08-10 19:20:27</sys_created_on>
+            <sys_id>d827febf473b0a1078457e45516d4390</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-03 20:09:52</sys_updated_on>
+            <sys_updated_on>2024-08-10 19:20:27</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="x_407566_hot_tra_0_wheels" element="NULL" name="x_407566_hot_tra_0_wheels" parent="NULL" relationship="NULL" sys_domain="global" view="c2858353d12302104f34ba60d8b7c189">9c27febf473b0a1078457e45516d438d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-10 19:20:27</sys_created_on>
+            <sys_id>dc27febf473b0a1078457e45516d4390</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-10 19:20:27</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>qr_number</element>
+            <list_id display_value="x_407566_hot_tra_0_wheels" element="NULL" name="x_407566_hot_tra_0_wheels" parent="NULL" relationship="NULL" sys_domain="global" view="c2858353d12302104f34ba60d8b7c189">9c27febf473b0a1078457e45516d438d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-10 19:20:27</sys_created_on>
+            <sys_id>d027febf473b0a1078457e45516d4391</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-10 19:20:27</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>qualifier_rank</element>
+            <list_id display_value="x_407566_hot_tra_0_wheels" element="NULL" name="x_407566_hot_tra_0_wheels" parent="NULL" relationship="NULL" sys_domain="global" view="c2858353d12302104f34ba60d8b7c189">9c27febf473b0a1078457e45516d438d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-10 19:20:27</sys_created_on>
+            <sys_id>d427febf473b0a1078457e45516d4391</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-10 19:20:27</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>fastest_time</element>
+            <list_id display_value="x_407566_hot_tra_0_wheels" element="NULL" name="x_407566_hot_tra_0_wheels" parent="NULL" relationship="NULL" sys_domain="global" view="c2858353d12302104f34ba60d8b7c189">9c27febf473b0a1078457e45516d438d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-10 19:20:27</sys_created_on>
+            <sys_id>d827febf473b0a1078457e45516d4391</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-10 19:20:27</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -42,10 +102,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-03 20:09:52</sys_created_on>
+            <sys_created_on>2024-08-10 19:20:27</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>c956b48a472642106a3eedf1d16d4355</sys_id>
+            <sys_id>9c27febf473b0a1078457e45516d438d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_407566_hot_tra_0_wheels</sys_name>
             <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
@@ -53,9 +113,9 @@
             <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
             <sys_update_name>sys_ui_list_x_407566_hot_tra_0_wheels_sys_ref_list</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-03 20:09:52</sys_updated_on>
+            <sys_updated_on>2024-08-10 19:20:27</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">db1ab0509000021087de3cfccdb0d629</view>
+            <view display_value="Reference List" name="sys_ref_list">c2858353d12302104f34ba60d8b7c189</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

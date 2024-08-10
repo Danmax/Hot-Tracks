@@ -29,19 +29,19 @@
         <source>64e27701472202106a3eedf1d16d43f7</source>
         <source_table>sys_upgrade_history</source_table>
         <state>previous</state>
-        <sys_created_by/>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-01 07:19:44</sys_created_on>
         <sys_id>0c9cc2ec477282106a3eedf1d16d43e8</sys_id>
-        <sys_mod_count/>
+        <sys_mod_count>0</sys_mod_count>
         <sys_recorded_at>18fd2ab2a800000000</sys_recorded_at>
-        <sys_updated_by/>
-        <sys_updated_on/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-01 22:24:44</sys_updated_on>
         <type>Access Roles</type>
         <update_guid>c89cc2ec5b72821058e11c088d56b7e8</update_guid>
         <update_guid_history>c89cc2ec5b72821058e11c088d56b7e8:299345300</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_407566_hot_tra_0_race.snc_internal">c09cc2ec477282106a3eedf1d16d43e9</sys_audit_delete>
+        <sys_audit_delete display_value="">c09cc2ec477282106a3eedf1d16d43e9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-11 20:51:27</sys_created_on>
