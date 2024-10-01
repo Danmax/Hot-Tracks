@@ -8,6 +8,7 @@
         <description/>
         <mobile_callable>false</mobile_callable>
         <name>GetWheelsModel</name>
+        <sandbox_callable>true</sandbox_callable>
         <script><![CDATA[var GetWheelsModel = Class.create();
 GetWheelsModel.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 

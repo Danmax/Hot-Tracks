@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="sys_class_name" table="x_407566_hot_tra_0_team">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="data_stream_connection_alias" table="sys_data_source">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>encode_utf8=false</attributes>
         <audit>false</audit>
-        <calculation/>
+        <calculation><![CDATA[new sn_impex.FlowActionConnectionUtility().forFlowAction(current.data_stream_action)]]></calculation>
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Class</column_label>
+        <column_label>Data stream connection alias</column_label>
         <comments/>
         <create_roles/>
-        <default_value>javascript:current.getTableName();</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -19,23 +19,23 @@
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
-        <dynamic_default_value display_value="Get Current Table Name">b5cb83a85f220100a9ad2572f2b4773c</dynamic_default_value>
+        <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>sys_class_name</element>
+        <element>data_stream_connection_alias</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">sys_class_name</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
-        <max_length>80</max_length>
-        <name>x_407566_hot_tra_0_team</name>
+        <max_length>32</max_length>
+        <name>sys_data_source</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="sys_alias">sys_alias</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -46,22 +46,22 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-11 04:35:11</sys_created_on>
-        <sys_name>Class</sys_name>
+        <sys_created_on>2024-08-28 16:34:20</sys_created_on>
+        <sys_name>Data stream connection alias</sys_name>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_update_name>sys_dictionary_x_407566_hot_tra_0_team_sys_class_name</sys_update_name>
+        <sys_update_name>sys_dictionary_sys_data_source_data_stream_connection_alias</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-11 04:35:11</sys_updated_on>
+        <sys_updated_on>2024-08-28 16:34:20</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>true</use_dynamic_default>
+        <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type/>
+        <virtual>true</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
