@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter">
+    <sys_sg_ui_parameter action="INSERT_OR_UPDATE">
+        <button display_value="New Button (Wheels)">7203723c47085e10d6acf855516d4358</button>
+        <button_parent_table>x_407566_hot_tra_0_wheels</button_parent_table>
+        <carried>false</carried>
+        <constant/>
+        <default_value/>
+        <default_value_type>source_field</default_value_type>
+        <field_name>car_number</field_name>
+        <input_source>user</input_source>
+        <input_style>inline</input_style>
+        <input_type>text</input_type>
+        <mandatory>false</mandatory>
+        <max_entries>1</max_entries>
+        <multi_entry>false</multi_entry>
+        <multi_select>false</multi_select>
+        <name>Car Number</name>
+        <order/>
+        <parameter_type>button</parameter_type>
+        <placeholder/>
+        <screen/>
+        <search_type>starts_with</search_type>
+        <source_field/>
+        <sys_class_name>sys_sg_ui_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-13 21:36:32</sys_created_on>
+        <sys_id>7e03723c47085e10d6acf855516d4358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Car Number</sys_name>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name>sys_sg_ui_parameter_7e03723c47085e10d6acf855516d4358</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-13 21:36:32</sys_updated_on>
+        <table_name>x_407566_hot_tra_0_wheels</table_name>
+        <virtual_field_value>false</virtual_field_value>
+    </sys_sg_ui_parameter>
+    <sys_translated_text action="delete_multiple" query="documentkey=7e03723c47085e10d6acf855516d4358"/>
+</record_update>

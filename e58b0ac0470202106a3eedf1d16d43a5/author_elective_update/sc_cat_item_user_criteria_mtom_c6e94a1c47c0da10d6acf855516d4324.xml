@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Add Wheels">b17870aa471602106a3eedf1d16d437c</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-12 05:19:51</sys_created_on>
+        <sys_id>c6e94a1c47c0da10d6acf855516d4324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add Wheels.Any User</sys_name>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_c6e94a1c47c0da10d6acf855516d4324</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-12 05:19:51</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</application>
+        <file_path/>
+        <instance_id>4e9fffb8eb730250e483f459bad0cd92</instance_id>
+        <instance_name>empdmxan24</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_c6e94a1c47c0da10d6acf855516d4324</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Add Wheels">b17870aa471602106a3eedf1d16d437c</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-12 05:19:51</sys_created_on><sys_id>c6e94a1c47c0da10d6acf855516d4324</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Add Wheels.Any User</sys_name><sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package><sys_policy/><sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_c6e94a1c47c0da10d6acf855516d4324</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-12 05:19:51</sys_updated_on><user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>1193373619</payload_hash>
+        <record_name>Add Wheels.Any User</record_name>
+        <reverted_from/>
+        <source>189bf48147f7021078457e45516d4326</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-12 05:19:51</sys_created_on>
+        <sys_id>5ee94a1c47c0da10d6acf855516d4329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19145074b2b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-12 05:19:51</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>5ee94a1c98c0da10550810b4e12a8028</update_guid>
+        <update_guid_history>5ee94a1c98c0da10550810b4e12a8028:1193373619</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Add Wheels.Any User">c3e94a1c47c0da10d6acf855516d435b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-12 05:19:55</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>5262e62f7a434a059fa78f92983439a1</sys_id>
+        <sys_metadata>c6e94a1c47c0da10d6acf855516d4324</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add Wheels.Any User</sys_name>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope_delete display_value="">5360a778b1d14ee69fe48f4dc1dd5bf1</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_c6e94a1c47c0da10d6acf855516d4324</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_c6e94a1c47c0da10d6acf855516d4324">5ee94a1c47c0da10d6acf855516d4329</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-12 05:19:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
