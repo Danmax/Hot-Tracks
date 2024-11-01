@@ -2515,14 +2515,14 @@ Create new match with list of winning list.</description>
     <sys_hub_flow action="UPDATE">
         <sys_id>79eaf6af473bc61078457e45516d43f2</sys_id>
         <latest_snapshot>c28e32e3477bc61078457e45516d434d</latest_snapshot>
-        <compiler_build>glide-xanadu-07-02-2024__patch0-07-16-2024_07-27-2024_1019.zip</compiler_build>
+        <compiler_build>glide-xanadu-07-02-2024__patch1-08-24-2024_09-01-2024_1853.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=79eaf6af473bc61078457e45516d43f2^sys_idNOT IN5e8e32e3477bc61078457e45516d43c1"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"5e8e32e3477bc61078457e45516d43c1","name":"plan","plan_signature":null}}</plan>
         <plan_id>79eaf6af473bc61078457e45516d43f2</plan_id>
-        <snapshot>8a22dcec470cda10d6acf855516d433d</snapshot>
+        <snapshot>74c1190347cd1e10d6acf855516d435e</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-10 01:14:20</sys_created_on>
         <sys_domain>global</sys_domain>

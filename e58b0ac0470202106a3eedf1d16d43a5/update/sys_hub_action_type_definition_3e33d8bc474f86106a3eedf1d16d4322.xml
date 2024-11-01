@@ -1728,6 +1728,6 @@ var ranks=[];&#13;
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>3e33d8bc474f86106a3eedf1d16d4322</sys_id>
         <latest_snapshot>a45754b4478f86106a3eedf1d16d4349</latest_snapshot>
-        <compiler_build>glide-washingtondc-12-20-2023__patch3-hotfix1-05-12-2024_05-16-2024_0813.zip</compiler_build>
+        <compiler_build>glide-xanadu-07-02-2024__patch1-08-24-2024_09-01-2024_1853.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

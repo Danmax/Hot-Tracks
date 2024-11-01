@@ -6,20 +6,20 @@
         <effective_weight>1</effective_weight>
         <more_info_visited>false</more_info_visited>
         <previous_status>0</previous_status>
-        <progress>10</progress>
-        <related_log_entry display_value="2024-08-28 09:30:02">1fbcfaa19390d210a1ff3ef86cba103c</related_log_entry>
+        <progress>87.5</progress>
+        <related_log_entry display_value="2024-10-29 00:08:03">7fae04a547e91a50d6acf855516d43d6</related_log_entry>
         <status>1</status>
         <sys_class_name>gsw_status_of_content</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-28 16:24:44</sys_created_on>
         <sys_id>e58b36619390d210a1ff3ef86cba10dd</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_name>1</sys_name>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name>gsw_status_of_content_e58b36619390d210a1ff3ef86cba10dd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-28 16:30:02</sys_updated_on>
+        <sys_updated_on>2024-10-29 07:08:03</sys_updated_on>
     </gsw_status_of_content>
 </record_update>

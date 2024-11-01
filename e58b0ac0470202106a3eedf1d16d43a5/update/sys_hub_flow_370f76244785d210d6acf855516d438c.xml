@@ -1,0 +1,1881 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=350278000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-xanadu-07-02-2024__patch0-07-16-2024_07-27-2024_1019.zip</compiler_build>
+        <copied_from>bc36953f473282106a3eedf1d16d43d8</copied_from>
+        <copied_from_name>Start Tournament with Seed Optio</copied_from_name>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>copy_of_start_tournament_with_seed_option</internal_name>
+        <label_cache>[{"name":"Updated_1.current.qlist","label":"Trigger - Record Updated➛Tournament Record➛QList","reference":"","reference_display":"QList","type":"string","base_type":"string","parent_table_name":"x_407566_hot_tra_0_tournament","column_name":"qlist","usedInstances":{"9dcf0445-cc49-480a-b853-0a14055207f7":["condition"]}},{"name":"Updated_1.current.q_rank_list","label":"Trigger - Record Updated➛Tournament Record➛Q Rank List","reference":"","reference_display":"Q Rank List","type":"data_structure","base_type":"data_structure","parent_table_name":"x_407566_hot_tra_0_tournament","column_name":"q_rank_list","usedInstances":{"ceef67b5-ff94-43b4-9ad7-8e0d335feee2":["condition"],"24b8684b-ece8-414f-a05c-9a68184b7fe9":["qualifierslist-7"]}},{"name":"Updated_1.current.match_structure","label":"Trigger - Record Updated➛Tournament Record➛Match Structure","reference":"","reference_display":"Match Structure","type":"choice","base_type":"choice","parent_table_name":"x_407566_hot_tra_0_tournament","column_name":"match_structure","choices":[{"label":"Random","image":"","used":false,"reference":false,"missing":false,"rawLabel":"Random","selected":false,"value":"random","parameters":{"name":"x_407566_hot_tra_0_tournament"}},{"label":"Seeded","image":"","used":false,"reference":false,"missing":false,"rawLabel":"Seeded","selected":false,"value":"seeded","parameters":{"name":"x_407566_hot_tra_0_tournament"}},{"label":"Custom","image":"","used":false,"reference":false,"missing":false,"rawLabel":"Custom","selected":false,"value":"custom","parameters":{"name":"x_407566_hot_tra_0_tournament"}}],"usedInstances":{"ceef67b5-ff94-43b4-9ad7-8e0d335feee2":["condition"],"9dcf0445-cc49-480a-b853-0a14055207f7":["condition"]}},{"name":"c6f7e792-57a0-426f-92bf-6479512caad4.record.racer_2.model","label":"9 - Create or Update Record➛Match Record➛Racer 2➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","parent_table_name":"x_407566_hot_tra_0_wheels","column_name":"model","usedInstances":{"f49b19ae-ac48-41dc-99ee-a8cb64781dd9":["title"],"66d03f18-a279-4513-ac8d-05b84e47f9d0":["title"]}},{"name":"c6f7e792-57a0-426f-92bf-6479512caad4.record.racer_1.model","label":"9 - Create or Update Record➛Match Record➛Racer 1➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","parent_table_name":"x_407566_hot_tra_0_wheels","column_name":"model","usedInstances":{"f49b19ae-ac48-41dc-99ee-a8cb64781dd9":["title"],"66d03f18-a279-4513-ac8d-05b84e47f9d0":["title"]}},{"name":"c6f7e792-57a0-426f-92bf-6479512caad4.record.round","label":"9 - Create or Update Record➛Match Record➛Round","reference":"","reference_display":"Round","type":"integer","base_type":"integer","parent_table_name":"x_407566_hot_tra_0_match","column_name":"round","usedInstances":{"05b97e59-9a70-403e-a637-5484cee418ba":["title"],"f49b19ae-ac48-41dc-99ee-a8cb64781dd9":["title"],"66d03f18-a279-4513-ac8d-05b84e47f9d0":["title"]}},{"name":"c6f7e792-57a0-426f-92bf-6479512caad4.record","label":"9 - Create or Update Record➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"05b97e59-9a70-403e-a637-5484cee418ba":["title"],"66d03f18-a279-4513-ac8d-05b84e47f9d0":["record"]},"attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛Tournament Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","usedInstances":{"4f520088-6763-4ab3-bda3-b4ea1dc8f79e":["torunament_id"]}},{"name":"flow_variable.competitors","label":"Flow Variables➛Competitors","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"7cd07643-b729-451c-8bcf-ad3fbe453158":["null"],"367c0770-229b-4b2f-82c9-722b9fc9366e":["competitors"],"3e8af9ee-e2d4-4333-8169-c110d571998c":["log_message"],"15c73736-73a7-4082-9214-26217ac31e0e":["competitors"],"f8873d84-044a-4dd3-8701-0163ef59a3d4":["competitors"],"4f520088-6763-4ab3-bda3-b4ea1dc8f79e":["competitors"],"5232582c-82a8-45cd-a2ab-2af2998081c2":["competitors"],"b4a70cf5-36ab-403c-ba38-bfce5c5f570a":["competitors"],"d1abaa05-67ea-42ac-89b7-f8c46fa6aff1":["competitors"],"94bd2e2e-515e-483c-9917-7068cc91bf32":["competitors"],"726d220e-d7f9-4f58-a0bb-69859b0244f3":["competitors"],"76b122cb-9383-4ce0-bde7-3de1e543af41":["competitors"],"10a23aa2-339f-42e3-9663-ed595e0c722c":["competitors"],"c6f7e792-57a0-426f-92bf-6479512caad4":["racer_1"],"068e3d9b-eb5b-45d1-98ea-399b2fbc2ad4":["competitors"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a0a65a38-3048-48cf-b64f-af302bbfb5e4"}},{"name":"Updated_1.current.competitors","label":"Trigger - Record Updated➛Tournament Record➛Competitors","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"glide_list","base_type":"glide_list","usedInstances":{"5ad5db7d-44b8-4aeb-ae1a-557d45b0e8d9":["competitors"],"24b8684b-ece8-414f-a05c-9a68184b7fe9":["competitors-0","competitors-1"]}},{"name":"13e13b16-c9a8-4966-8009-794b50441029.item","label":"4 - For Each➛Item","reference":"","reference_display":"Item","type":"document_id","base_type":"document_id","usedInstances":{"8ee9d6d2-e145-4a0a-88e6-9e86d39eb491":["log_message"],"6c699561-beb0-4553-ac3b-626706308c2f":["racer_1"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Tournament Record","reference":"x_407566_hot_tra_0_tournament","reference_display":"Tournament","type":"reference","base_type":"reference","usedInstances":{"6c699561-beb0-4553-ac3b-626706308c2f":["tournament"],"c6f7e792-57a0-426f-92bf-6479512caad4":["racer_1","tournament"],"1b381dc9-b55a-478d-a4f2-309b25413011":["fields"]},"attributes":{}},{"name":"Updated_1.current.wins_to_advance","label":"Trigger - Record Updated➛Tournament Record➛Wins to Advance","reference":"","reference_display":"Wins to Advance","type":"integer","base_type":"integer","parent_table_name":"x_407566_hot_tra_0_tournament","column_name":"wins_to_advance","usedInstances":{"6c699561-beb0-4553-ac3b-626706308c2f":["wins_to_advance"],"c6f7e792-57a0-426f-92bf-6479512caad4":["wins_to_advance"],"1b381dc9-b55a-478d-a4f2-309b25413011":["fields"]}},{"name":"flow_variable.cars","label":"Flow Variables➛Cars","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"24b8684b-ece8-414f-a05c-9a68184b7fe9":["matches-2"],"4228a67a-f366-471a-a24b-38aaab2bce7a":["carcount-1"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"d98bb56d-703a-4918-b79e-2306c81cd975"}},{"name":"flow_variable.matchcount","label":"Flow Variables➛matchCount","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"0fe99a12-843e-426c-bf47-afbf50b1ba14":["condition"],"49d63f8d-da4f-4162-8e9d-a8c2e64f281f":["log_message"],"ecd7cdbc-f194-4bcb-b9ac-d99984bc07b5":["matchcount-0"],"4228a67a-f366-471a-a24b-38aaab2bce7a":["matchcount-0"],"ae4e8a70-61b5-470b-a1dd-2ba722665cb4":["log_message"],"f00b9bfb-5653-4bcd-bf6b-8c8ae3d091cd":["log_message"],"57d54868-06a2-4875-af4e-5054bd48ed17":["log_message"],"05b97e59-9a70-403e-a637-5484cee418ba":["title"],"f49b19ae-ac48-41dc-99ee-a8cb64781dd9":["title"],"66d03f18-a279-4513-ac8d-05b84e47f9d0":["title"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"3c64ed82-9418-4b10-bbf2-d70805b59477"}},{"name":"flow_variable.matches","label":"Flow Variables➛Matches","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"0fe99a12-843e-426c-bf47-afbf50b1ba14":["condition"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"1b6c2367-6ddf-4a5c-afe2-08d6c9a4999d","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"flow_variable.round","label":"Flow Variables➛Round","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"c6f7e792-57a0-426f-92bf-6479512caad4":["round"],"1b381dc9-b55a-478d-a4f2-309b25413011":["fields"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"e9337b7e-04c4-4f0f-a1f5-e069ed5ac480"}},{"name":"flow_variable.carcount","label":"Flow Variables➛carCount","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"ae4e8a70-61b5-470b-a1dd-2ba722665cb4":["log_message"],"f00b9bfb-5653-4bcd-bf6b-8c8ae3d091cd":["log_message"],"57d54868-06a2-4875-af4e-5054bd48ed17":["log_message"],"4228a67a-f366-471a-a24b-38aaab2bce7a":["carcount-1"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"f2e1aae0-f156-412f-8947-e1020a9539a5"}},{"name":"flow_variable.officiallist","label":"Flow Variables➛OfficialList","type":"string","base_type":"string","usedInstances":{},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"671c6948-5554-49da-b287-bad342a99211"}},{"name":"flow_variable.qualifiedseed","label":"Flow Variables➛QualifiedSeed","type":"string","base_type":"string","usedInstances":{"6dbffad4-8e1a-4f00-88f5-c9bbd683a9d3":["officiallist-0"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"9f73dc07-253c-4235-8d0f-b0734c7ff13e"}},{"name":"flow_variable.comparray","label":"Flow Variables➛CompArray","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"d9a33d5a-29f8-41fe-8424-81b1318ddfcb":["officiallist-0"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"1d3d6bb5-41ad-45aa-aff8-ac1d580ad762"}},{"name":"flow_variable.qualifierslist","label":"Flow Variables➛QualifiersList","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"5dc62628-791d-4d19-b7a6-1ea460fc21aa":["qlist"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"7e1f76ca-5a12-42ff-9415-512cf1d959f2"}},{"name":"5dc62628-791d-4d19-b7a6-1ea460fc21aa.data","label":"3 - Set Qualifier Branch Matches➛data","reference_display":"data","type":"string","base_type":"string","usedInstances":{"6dbffad4-8e1a-4f00-88f5-c9bbd683a9d3":["officiallist-0"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"350875ec-895f-49b3-a4b5-4c679fe08437"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Copy of Start Tournament with Seed Option</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>370f76244785d210d6acf855516d438c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Copy of Start Tournament with Seed Option</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name>sys_hub_flow_370f76244785d210d6acf855516d438c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:22</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=370f76244785d210d6acf855516d438c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=370f76244785d210d6acf855516d438c"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=370f76244785d210d6acf855516d438c"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=370f76244785d210d6acf855516d438c^sys_idNOT IN3b0f76244785d210d6acf855516d438f"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>370f76244785d210d6acf855516d438c</id>
+        <name>Copy of Start Tournament with Seed Option</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:19</sys_created_on>
+        <sys_id>3b0f76244785d210d6acf855516d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:19</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=3b0f76244785d210d6acf855516d438f"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=370f76244785d210d6acf855516d438c^sys_idNOT INd01f76244785d210d6acf855516d43e0,d41f76244785d210d6acf855516d43e3,dc1f76244785d210d6acf855516d43db"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Copy of Start Tournament with Seed Option">370f76244785d210d6acf855516d438c</model>
+        <model_id>370f76244785d210d6acf855516d438c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_370f76244785d210d6acf855516d438c</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:21</sys_created_on>
+        <sys_id>d01f76244785d210d6acf855516d43e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d01f76244785d210d6acf855516d43e0"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Copy of Start Tournament with Seed Option">370f76244785d210d6acf855516d438c</model>
+        <model_id>370f76244785d210d6acf855516d438c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_370f76244785d210d6acf855516d438c</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:22</sys_created_on>
+        <sys_id>d41f76244785d210d6acf855516d43e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d41f76244785d210d6acf855516d43e3"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Copy of Start Tournament with Seed Option">370f76244785d210d6acf855516d438c</model>
+        <model_id>370f76244785d210d6acf855516d438c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_370f76244785d210d6acf855516d438c</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:21</sys_created_on>
+        <sys_id>dc1f76244785d210d6acf855516d43db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=dc1f76244785d210d6acf855516d43db"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=370f76244785d210d6acf855516d438c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=370f76244785d210d6acf855516d438c"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=370f76244785d210d6acf855516d438c^sys_idNOT IN981fb6244785d210d6acf855516d430c"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Copy of Start Tournament with Seed Option">370f76244785d210d6acf855516d438c</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:22</sys_created_on>
+        <sys_id>981fb6244785d210d6acf855516d430c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:22</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/+VaUXOjNhD+KwxP7UzaAWNjO31K7aSXmVxyY/uu07mmGoGEzRwWPhDk3Ez+e1cIMMZgGye5np2XJEhC2u/T7rcrhc+PKg/c6ZQG1yzkmNl0vAyviXquarphko7htLtGq9fSNRMblBJHJ7pJ2oapqWeqhy3qwdAJtjwKzy7jNGDYmywXFJq5aEYMz0XfHDOCuR8s1XMeRPRM9QNCA/VcP1OTEelwGBljLxLP31Bb63ZME818jniAkYa4HwViNOMwjrjhwsPLT+nwSbFvgQP4k4sFHnOzblz2BQZCtz1zPRJQpp5/vgezBVydEKy3qGYbutFqaVqr19Yt07D0FjEwxb0KuCW7eQVq0XZTfE25lR0r9PQbp4xQsMHBXkgrmAooJnfMW+YjZoBIApnjb6H7Lyzb08Q4hwIom8q+/DFZeCjZkl3OEHM8htltHgU048R3bRpKSgh1cOTxQbFNDrhbcNdn8hWJXL7te9Gc3UpG1HyCbHOgJQopInQhsArrUyjOeOY/jDJLr1yW0JJ2er6NvfwJc/BUK+LCnkfVcT3YVSTZDmHvE9ijy8HdaIj+vJgM3l2O0OhyPBldDyaXQ/XpTA2X4cDDYbiyEihCXyOxhrQ5tQ5JgE+5j1251BNOwl2ebHVoB+6CX9jcjWlq39PZS0TSwGfETQjeiCY76wqLphb8r+A3KWOZk2la7qx2YYEs0FZRhcBwTv+ONM0gLkOLwJ8GNAz/sf35ggJ4Pwivx7d3k8v3HyZ/bYbg4RM1j1fL6mNCcU28mt0aUito4BX8FuN2UOwoUrotctOWfUK3rWnHFrxSlw6O3blPqDcsurAMHOSyRcQFzRm1yF/QQFAK76mfLm4G7y5u/7gc/5b+vhrdvc/+ntzBew+Y8RDSBMKEoMKOiiUAS3MRkCw9vWLIBxGDpVDuTJuBn2xdvsk3bgiUfQYFzPYnMUY4Ruaxo4gpPngd/FDsKIDt4UqmEs71HE9T5M6HLOySbUljI8YBQnMERKFZZKG1vUGWZfY71KxLk501BhOBEQ6oqvdPwl+oR21eCBjnY1h8eu+GocumBXpzjMn2bUDM0UHgKRmDEmp4XFjv99TvTW+JS15Q0uRtvtBcdU2b6G2ra2pdQYiuGZaja12tgx1iaFrf2OrXtRB4ydHX1DdrfBXlfTndfcyBb2O8vFkZKOHrXhPXjtfjIp2n9VQl/z+OaaUsZDRKQ7mDy+bh/n7+wqUnJrHQenJ4Vnn1hOJ4/gOo2AHJxML2l2ngR4yU5VbMqbhMWY1Qfkr34ufjEttiYnH8gG7Huz7ieFA2SSkrf8miF7PlZjKRjc3TRpvapGu2TQ2yhQGJwur0+5aNW47TNbtUI7XeW2ni6aWLHaEVV8VmnT5Xum1c5e0Nksb/b+CzUkfqzJWJQ/a9vRTxMKMMAewAeSIJbGSKqecSmvXtLSQbs8arQ2RJTA5SEsPpkU6n27W7IJ6gJE6bWlhvtzq43zUNau4Cuc1UXgG8qC03sum7XAGI9CFs26IxH2X3D3Ad8FaiJaSciwTbvKpicOBJ3sHSvEKpIXxDSXTRD5Rbn/1yvRqnjCmk9OSW6ogKj2J5tQ9o4cjKSaG2fD7bKCcB6e/QvoZUnKBq9vyELzBKwRSvs1ZxgXEIdwdUqT2j3yGOUZ1buq3tklCP77Tq1T31Kq5Vvqq6cF89iCtlJa8Ty5XmAW5TcsZ0amNHjfx2SXlWXZ5FfO2NziHGvtHiJKlkn1OhCGsp8p1i4hr6CnQosIjiOkpqLSWKtVT4jML2eHCYgwUVsfqRZaxiwt5EngffSeOWh9+NOgWalfT0cUTAGpcgpZDZevVVQU3zCsN2+hbpGzWn10796bW+zCh1n1at0Vh+4io125pbm81bnrMyuxZcZN2l9iwmThj1q93iVVjxtuoAQcBEznJA9veZXTqf20f8sUDE3K8RRfYMs6n8ECDDdQUuQrE9U+QQRQ45XqTYe8DLUC3XLRDeQkHS/4NCA2gJkwniSIHSmAbLjZ0UjUq0gHx1ZHu4vVQpfBObWhjyADBOlwVxzRgp1SkVvBxQp+j9TssgPaCib2xSodfqTr3ZzQqTHd/F7ihMCjalXHB3TpMkl38Tpswxt2c0PFOAsOTDgSQHukHIk9G/fo+bFLv44UWqwVV5u1a24jrFq8rUu6QhLotKnrnLpqz7V9kj09faO+9MTh/+s+qdlJHqgidl72WLnJerae7/Awaxz8dZMAAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=370f76244785d210d6acf855516d438c^sys_idNOT IN181f76244785d210d6acf855516d43f0,541f76244785d210d6acf855516d43f2,541f76244785d210d6acf855516d43f3,5c1f76244785d210d6acf855516d43f1,5c1f76244785d210d6acf855516d43f2"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Set Qualifier Branch Matches">db1934344743c6106a3eedf1d16d4316</action_type>
+        <action_type_parent display_value="Set Qualifier Branch Matches">4645f8bc4703c6106a3eedf1d16d4308</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>db1934344743c6106a3eedf1d16d4316</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Start Tournament with Seed Option">370f76244785d210d6acf855516d438c</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>9dcf0445-cc49-480a-b853-0a14055207f7</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:22</sys_created_on>
+        <sys_id>181f76244785d210d6acf855516d43f0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:22</sys_updated_on>
+        <ui_id>5dc62628-791d-4d19-b7a6-1ea460fc21aa</ui_id>
+        <values>H4sIAAAAAAAA/41SXWvjMBD8L3pOjH1WfU7eSkOh0LvCpdeXUsxaWicCWXYkOa3P5L/fynbSckehjzP7NTu7zwMD4VVj7ozzYARue3cn2ZrFK76qeMr5d56KLIkzSBFllcgkkzzNE7ZgKuQdtHKegIEaP8Aj6C7gYah081ocwSooNUaHDrSqFFoXEk8nSpXKtRr6p69XtGBpmkfL1gMTe6WlRcPWzy+zpqsyWaWfak+AWmgoUX8u3/dtgM5bZXYzvp9LtmeysTJISBYM3zwaiTS7Au1wwWowEnxj+wtjEeSD0e/EXhlP3VhIfnPqD83L4zgOmRXSPgKn6AU+Bjs2k1lTqNqAB5LTCd/ZOV3sGyXQTW5IrKDT/uYjNyU8tOHoU4kPjefqRne1+TmZwS4NzrchpnNYSGzDukH/vEy13Tevv85Kb5UZnZmDuhGgLwg8+Vd2PugZWKce/7F6Yv4zGzXWNLGooW2JKVrbHNU4hUTX0U4TiMbPkejUzkTTW0d0Bohuid+M9NP8Vj+oDRWHcb+NOnQ4Pn2aobiSOV+KPCuXnOffllBCvKTFMl6VccmTnJ0WzPXuRoNz70bRlYrwqWfbZoOKyeNQIqxq/TWJOuLsxenlL5VAP8R+AwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
+        <action_type_parent display_value="Create or Update Record">e057d2e253b3230034c6ddeeff7b1261</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>ab575ae253b3230034c6ddeeff7b12f1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Start Tournament with Seed Option">370f76244785d210d6acf855516d438c</flow>
+        <generation_source/>
+        <order>9</order>
+        <parent_ui_id>0fe99a12-843e-426c-bf47-afbf50b1ba14</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:22</sys_created_on>
+        <sys_id>541f76244785d210d6acf855516d43f2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:22</sys_updated_on>
+        <ui_id>c6f7e792-57a0-426f-92bf-6479512caad4</ui_id>
+        <values>H4sIAAAAAAAA/91U204bMRD9lchPRU1Xe8kFhacKhITUggSUFwKWsx4nlhzv1vYmpFH+veP1bqCBgKqiSu1TsjNnZs4cz8ztmrDcyUKfaeuYzuFqZc84GZFekg14PxO9YZYepkk8YBkAFwlPBryX9VPSJdLjHJsooJrNAS31z45twVTljQ+0Fw/7gwGdFY46w2hM58zlM4RwaUvFVjdvI0tmMKsDQ0Zrks+k4gY0Gd3eNWzSYX/YZ5D2s0mWZnGc9fIB5wBCDCdJKnqYQrEJKIRee5Kd8/3E3ap80fblpQSF4Z5U3CXw4EBzQDaCKQtdMmeaM1eYFRk5U6HBAOMXWq22iJnUDhMSj32w8geWPYw9TgC2l0PwbT/rwidBs+ASJ8yxK8yeu8o08HxWyBxsEIeDYJVyx09tAXBR+tcPIXWrTXShqrk+D7KQbYL2idBSWaAcSt+rZ9+0Iq5mxfKyZXoqdS1L41RFztT2izln5KRyns+aVPL6Bb2DtVXcy4dGUDDHmjgUZSn1lJamWMi6DtKeR1OFH5FQxRL5WTnVUZjwCF+BRadoP6nNN8xIX+srpsHgTZfYlT1WzNrHtlFz+r3ypIMITbs0KOZDciNL9xkLLKDpbNP9050SEhS3j2O5/W53ybAcDE3HFU44F/xTYAH83hSV5sG8XtcSLJouo9q12dwjpSkESL1VGOWKyvhS2rWh30oUCzhNorwy+JQOA5dSW+oKyvjCN7UXGu0AMTTwTZ7xfb77/1Fnb96qyau3ij25Vaf7BqK9UTBHER3QMCA7d6pxdm4aZ3Orkve6VYN+HP9r5yp09w7Xalf5v3ixsFhpwTga0G253z9kT07us5MWhAo233mzoP7va0A8VaZTY9NOWI6O4LTup13eqBBC5pIpJa07Guux9jE5LrPbG5IzEwAfOwmGTG0ktSg+jMmlL9VJO6qYjsnBoydQuK2D7g5CCabtEsFNjV8QmNMADqVuQEdks9nc/QQBHJpHJQkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Start Tournament with Seed Option">370f76244785d210d6acf855516d438c</flow>
+        <generation_source/>
+        <order>12</order>
+        <parent_ui_id>0fe99a12-843e-426c-bf47-afbf50b1ba14</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:22</sys_created_on>
+        <sys_id>541f76244785d210d6acf855516d43f3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:22</sys_updated_on>
+        <ui_id>ae4e8a70-61b5-470b-a1dd-2ba722665cb4</ui_id>
+        <values>H4sIAAAAAAAA/+VUTW/bMAz9K4XOSWDHcdrmNiQrUKAfwDJ0h64IGIlOBMiyJ8lpsyD/fZStJF6/tmC9DdCFj08iH0XyfsOAO1noS20daI7Ttb0UbMSi82Qo0iQbnCb9s34cDSFBFFks4qEYJCmyDpOep4rFTOEKFQEacnwGrUBVHpM6K8gU0pYK1ncBvWzQEgzddGjYaMP4UiphULPR/UOIkc55POd8mCZxFCV05pTHeRydI0/PTsUpPaFgTvFG7OrtVNy69BBfFpJjsK/CtfEOLIzwaUQdhk8OtUCKn4Gy2GE5aAGuMOs9YhDErVYHYCm1o9eYJz9Z+ZPiDSLPy5AUcWx8e/MrzBVOmpI0rmwCDqbOVNxVJtCbhC3VY7OX2e2e3BQaT7rdVo1b6W87B24o8rOfCMy4zfwGRku9aJEfCTmQ+23yZ2MK06JisAM32dLvCcygUm58vIL4rxX0j1GQHKFg4BU0xb8t/YgQJfZ9438tfE2hqlzfNL3G9nrvnjV9g05e7f3K4kxg6VvN905opGy6LB6/7PrkQuo6o+BUBQe1t8A5I+eV8/XdMFSY00OzHMqSCjErTbGS9WVKNu8tFBm9TBWPFNTKhe4109+jzobeBeGTGr4DI73Ma3qGLm87zK7tWIG1B7HUxrMflc+kkR40zOpC1Ve4kaX7RAFWGNL15f/3fZOjtbDA38f8AO7+MwfHl+Oi0m50stnUoldBV6/2ce/bbr/rMZg3eBxMYL3cXh/+/p/2YD95bw9i2tqD1++XKOxCS61TT0t7F0534G4UP2wX9tP045bha+vl5cAeNa//3zg+/AJQdHJeAAgAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Randomize Matches">32cb4a01470702106a3eedf1d16d43e4</action_type>
+        <action_type_parent display_value="Randomize Matches">8ec58a4547c302106a3eedf1d16d4380</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>32cb4a01470702106a3eedf1d16d43e4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Start Tournament with Seed Option">370f76244785d210d6acf855516d438c</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>46433c5c-0e75-45bc-8342-66efa823614e</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:22</sys_created_on>
+        <sys_id>5c1f76244785d210d6acf855516d43f1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:22</sys_updated_on>
+        <ui_id>068e3d9b-eb5b-45d1-98ea-399b2fbc2ad4</ui_id>
+        <values>H4sIAAAAAAAA/41TXU/jMBD8L35uo6QNCdc3RIWEBId05XhBKNrYm9aS4wR/FHpR//ut47SgQyfxuOPZ3dnZ9fPAgDvZ6VttHWiOm4O9FWzFLtKM54s8y8u0TBdZWsASUTSZyAqRLwHZjMnA413bo5OuM5YgDS1+AfegfECHoVHdW7UHI6FWmHxiHY/EE9L2Cg5P36T3YKibQ8NWA+M7qYRBzVbPL5OyEnmdQ/qfCbCkEgpqVN8bwh36AFpnpN5O8d2UvjmBnRFBTjZj+O5QCyQdDSiLM9aCFkC1DmfEIIgHrT6AndSOqrFAfrfyD/W7TNM0MBuk2TjG13P4GHxZR9fiU7MGByTHc+fNROe7TnK00RmBDXjlrj9jkfDQhzOIKS4UnrI75Vv9M1rCzgVOSyLEW6wE9mHcoH8aptnsurdfJ6U3Uo/OTI+q46DOETjyr/Yu6BmYl4//WB2RL2ajwpY6Vi30PSFVb7q9HLuE1SVbRUEynpBAK7c6iYee0BoguSF8PcJP033dUxlKDu1+a/nqcfwGPwTCkhfNfHHJi3neFPUcGl7OL4pljlDzlBcLdpwxe7DXCqz9MIq2VL36MGa0bTKoih6HFG5k765I1B4nL44vfwF+iggxkAMAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Start Tournament with Seed Option">370f76244785d210d6acf855516d438c</flow>
+        <generation_source/>
+        <order>11</order>
+        <parent_ui_id>0fe99a12-843e-426c-bf47-afbf50b1ba14</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:22</sys_created_on>
+        <sys_id>5c1f76244785d210d6acf855516d43f2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:22</sys_updated_on>
+        <ui_id>66d03f18-a279-4513-ac8d-05b84e47f9d0</ui_id>
+        <values>H4sIAAAAAAAA/+VVyW7bMBD9FYNnW9Du5VbECBAgCxAXvqSBMCJHMQGKUinKiWv430tJtKI2TYK06SGtbrNy3tM88mZPgGpeyDNZaZAUV7vqjJEFCedBzKIgC6eBP/M9N4YAkWUe82IWBtGMjAlv8hTSQjFjSchxaG9B1I1jv6dxNsXp3J9EU3AnoR9nk7mfZpM4nM4jz6cALHS6usPBVDJelQJ2a9vAeEpQprtGRRZ7QjdcMIWSLG5u7RAhMtebezENvCDwXdefhV4aB6nnswAQPdNCQIrCpF4/N6/elY3NClrnKHXCj85zW7m0kdHZ0kRMUTOO544JPmiUDM0gGYgKxyQHyUAXakcWWtXGoRDYlRS7PmPDpe6g5fBQ8W/m5NBt8jI0yKiF3ZufIRW47GjpQtkSNKxMd6prZdPppuAUq44XhhnUQp8MfV3CVdn8765EN41tdSHqXF52rJC+weAv1BUmDMsGazN9By1bbYr76+Ogp1y2tFiYoqAgegu0VjytdTPOnqDAluccypLLu6RUxZa3xWaU3LkTxnAyUdybMyt+J51uTx3DLDinxr9s3WtQvAFxYdqY4sOYVLvqREBVPUIxPCZf62aSDpiFkLQstBQk7TY0xVTxUn8yR23RDn4Y/6lGBkf0e/eD76iVhyR0p1EcJ5tCJ1pB4hp6NN08FcULma+JJY1eEgudD8TS7t0zM1u9PPGdD2tHl13AqiV6N7XMPppaLJQPL5e/JpJWA9XjsvX2URyaa4FfatcN2PWbHhVHFbU0T8vFft8StLUcOK1iqAnqw2H0xpZAUSWekxcMhaler36rgX9s8FTh/zrc164p13/xTcfBNXXKUbBfrc7xjsLcMKsx6Vbpp3vKBkdrG+xf9ne7rLzYbb8PdmX9Nw/87Xc6Eya1BgsAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=370f76244785d210d6acf855516d438c"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=370f76244785d210d6acf855516d438c^sys_idNOT IN141f76244785d210d6acf855516d43ef,181f76244785d210d6acf855516d43ed,1c1f76244785d210d6acf855516d43eb,541f76244785d210d6acf855516d43ea,901f76244785d210d6acf855516d43f0,941f76244785d210d6acf855516d43ee,981f76244785d210d6acf855516d43ec"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">1c1f76244785d210d6acf855516d43ee</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Copy of Start Tournament with Seed Option">370f76244785d210d6acf855516d438c</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Do the following until">eaeb040687210300e6c2c88fc0e3ec89</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:22</sys_created_on>
+        <sys_id>141f76244785d210d6acf855516d43ef</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:22</sys_updated_on>
+        <ui_id>0fe99a12-843e-426c-bf47-afbf50b1ba14</ui_id>
+        <values>H4sIAAAAAAAA/+1VXWvbMBT9K0PPIfgjX+StJBQC6QpL6ctWzI0kJ2Ky5FlyUs/4v+9e20kKTelG+zi/xDr365xrHVIzW/q89O7B3jindobNvz8NmDKE4XvNUm2Pa7tTfGWcB8PlpnIrweYsCOOJGMfpaBpHsygMJhBLKdJQhBMxikdjhm0oj1sjlFfWJAYyiWj7cwU/gC4pcAee76VDRCiXa6geXwVyKLDGy4LNa8b3SotCnqjTzK2AiG8DpBbEYRwEkzDi0TRO8ZnAdBxgCw1bqTF1caLxZd0ib/PzVU6484Uyu/687rtsTqAtBLEKg2DA5LOXRkgklIJ2csAyMAK8LaozUkgQ90ZfgL0yHvsxSn526jdOjMZjSkwlauSyC56PD7DVctntqQulS/CAfEruy6JP53uruHTdhoRModR+8RLrEu5z0tuVeGrcV1tdZuZrtxZ2bnD6LIiUTiZC5qSW6Pda0s3eHr+dmN4q066mD2rLQZ9P4HGB29ITn5pJLTNslGSQ57jWJC/sQbXFyCUb7jQehnQxcShd2iFwIj7E5cLwFvFlCz9CoUjFHbbB4mbAXOUWGpy7aMFFJr9KYtIp6zUk3RqohBcq9zc44CB7us3gM21x5ca9MENdtzoPvZRhRh7gtjS+aX6UQRCLqxnSNc1rA32s2XumE9MwnqVvmW7Gr5nuuvh/cVr0ntPQCX9rtIB6/Xfah52GF8IlnXF6be3wT3TgEzmkm3neNVcOqbWfaXX6/6JAhTeMfHqBjrb4SaIuWPMHGm3O3QkHAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">101f76244785d210d6acf855516d43ed</block>
+        <comment/>
+        <connected_to>9dcf0445-cc49-480a-b853-0a14055207f7</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Copy of Start Tournament with Seed Option">370f76244785d210d6acf855516d438c</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:22</sys_created_on>
+        <sys_id>181f76244785d210d6acf855516d43ed</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:22</sys_updated_on>
+        <ui_id>46433c5c-0e75-45bc-8342-66efa823614e</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">141f76244785d210d6acf855516d43eb</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Copy of Start Tournament with Seed Option">370f76244785d210d6acf855516d438c</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:22</sys_created_on>
+        <sys_id>1c1f76244785d210d6acf855516d43eb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:22</sys_updated_on>
+        <ui_id>9dcf0445-cc49-480a-b853-0a14055207f7</ui_id>
+        <values>H4sIAAAAAAAA/+1V22obMRT8laBns+zFdhK/haQBQy5t7QZKmy5nJa0tqpU2uiR1zf57j/ZiB+qQFtK3PtkaHZ0zM9KwW6K9q72zS31mrVgpMvtyPyJCBQz/b0kp9dOVXgk6V9aBonyxsXNGZqTI4vKUZcX4+Dg9SZN4ChnnrExYMmXjLM0Itgl1VCsmnNAqV1BxRNufA/gjSB82PniQohTc2KMFdsQdJmwtYXP3YkENBns4bshsS+haSGb4ICVwKGMok1Oa0CydZmkcpyfjpJhmRZKyDDgErhIKLrH0fKB1dNUiL/N1mzrg1hmhVv36qu+yGEBtWGCVxCPCfziuGPKdlSAtH5EKFAOnzWaHGA7sVsk9sBbKYTsSin9Y8RMHppNJKCw5SqS829wtl1BIftHZ1W2VF+AA6XjqvOnL6VoLym1nEOMleOnOn2NdwW0d5HZHXGjcn9bSV+qmc4XsGgy3g4i3PGe8DmoD/V5LuVjrp48D00uhWmf6TakpyN0KHPpXeBf4bAmXvMJGeQV1ja7mtdGPoj2MXKpoJXERhXeKQ8MbjoAG4hGaC9El4hctfAdGBBXX2AYPdzQLsILm7XvHdmgTJ82I2I09l2DtXiQ6nD/4QLGT3IvLO3/CEWpE7c5w8iPvdTSjt4zPgZf4LDTb7aca9XKWJxH1Bi12UQWOrnM73H3TfPVxnDGLczj7dujEgxTWNc18cXO7fHf9fvn59/D9u0GvhfgUJuUkiSeHQzyeHgrxYdP+JrnpK8kNT+YPgxvH8f/kvklyhc27vPXa2uFvGNz7EKxu5s5rKixSa69pPnwew8YGH1iI9x560uZ7ELXHml/pDuBYaAcAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">d41f76244785d210d6acf855516d43e9</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Copy of Start Tournament with Seed Option">370f76244785d210d6acf855516d438c</flow>
+        <flow_variables_assigned>cars,competitors,matches,matchcount,comparray,carcount,round,qualifierslist</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:22</sys_created_on>
+        <sys_id>541f76244785d210d6acf855516d43ea</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:22</sys_updated_on>
+        <ui_id>24b8684b-ece8-414f-a05c-9a68184b7fe9</ui_id>
+        <values>H4sIAAAAAAAA/+1c62/bNhD/VwR9clbTpd5S+qloUSBDH0PTFRgSI6D4sNnJkqtHW8/w/76jHrZsL262uIM3018iHnnH4493x6N0yNLMqnJelcWH7HlRyElqXt6Mh6ZMFQ2el6ZIsq+vs4mkV2lRkpTy60VxxcxL07Ucn3mOcAPHDm0L+8ThnAmLWT5zHcczQYwaR0lewHNKZnzT+kKSSjXhkclinpDFxw1lTnIYXPLcvFyadCoTlvNOMSUxoI4f3TszD0BEQmKe3Dd5uZirlkxLPoFJGsLrluNqTc1yplTAQ5N/K3nKOMwtSFLwoTkjKSNlli/WlJwT9i5NNoQpiG+WMyPfCvkHzOhiNU5wWA1tl7pufiBxwl82UDRd4iUpyXWZV7Ss8nY4nWaS8qLBgnFBqqR80ac1A97NS5mlDUupBLfcWVLN0rcNFuZaQA/5quB3jM/VYpX27VLE9TT7+r7T9JVMa1zaziSjJFm3SFnmMq5Kpc/SrOSHXagb0j7YPOEzmPNuRuZzmU7u5nn2RdbzgNqz0SSBxkjZIuin7HREqFrjCLaBjF4B/WVN/khyqRb8BsS08/2ays8Vr02WRWEcez5DAXYIciMrRHEQcWQ72KehRVkUeOZqaBaL4kVCimIDFezT3edKLbQBroXorkFZsdBczsvnoNQXYIFd4x2tNmJlePD30CjwidyAtc55KcG0CuO2wthhhmB39SIB2AlgNaJVDvtQjnpDn92mipnxRNZ+07HemsNbs+1UKjzPc7LoOnv8IzA7WQ7W/BfAc5vmHAwv3TCOEp5Oyultaq5Wq+ExIsNGg56PbhEfFSfi8JAemPTjxPdVaaNGAfuQTnaCxnVHPHrMCDE+26ixhno7aKzB/ldiBsHE94gTIge7IXJDKlDsuwIR4WA7jkXscffHxIye9T0kdKhVdb59MwYP7hMeFkTWPt+MzRqkBxfPjuXxM1LSKe+52IbQefpyCbqWOUkLkeWzSyosNwxJiPzYjpEbYB+FDqHIpcxjjLp2yOPV6h+FB+EeTCN4Lzwc0FsnE2eaTFixT23HD5DPmEAu8SjEBG4jHDKfRsSNoogdJTDUaBzP/WhWwXZsW3JH65wQ7zsUfoBHOeFBj3J3PeqQKtqvztSvHOq7nIU2ilzIz93YwgiOWRuxAIfYi73IDYIT8yt1ihKVIm/njh3pUUmsc/iUwjtJ7AE1dAJ7lgmsxRzmw7UXuRZhyPUIgXNKhIhQi3khJizw7R+WwDa298ibb40AjOlnq7epIYUx6FEujCUQ29/Tp8a1utMa5ZRviW62xAA7zQySGrV+RiYMWP2dZMVGgtIpJ5Rv1Nm/MKsOOxg2f5pLc1+BaSVEwmsVWknNdJDcsmyWLIyqULq8ksWU5+g3AuZjFC0TSSZZLsvpbCMS8mFjoNSSnUaN1PZebiDDetb1cQPDM0JboHTL+tTxvyHlVKGb5YP6sVFscGH8ZAyk8cSwLtSi+uw3zZQ3cjxsZ7/5NB6vrx1r0rpXjsc9EasdiH4hco1ywcFi01KSJFnsbAOvoxJn77f246YveR8cvAaDbgOl6E/aQfYeQMqq6rX/Je/ecPXb0W80r4rpYB+oWup4F9GVwSGE/H2xe3LuQbm90e0Ia5lbpm58O/bn63dvR42jSLEY7LCqiY/2BojkOzlgj/LIZDTGBw/OePst8f1q6ET0TBNRYXOLEI6RsDwfTk9boBCST8QtbGMCphWR47wtPl4imoPNso0Vd83Ok6x9T7Ie8qKEHnyPynqedI8C2ofO1Id45DhBHHCEXeoiV2CBiCU8xLEfceYR6ob4xHxITSqFhJMukUXvSNijP+4b5sFvE1b/VcmDFdIXvLO84AXcEoFPCfKIZSPXFkK9OvGQZ9kUDCryIvFjLng7Bvi9Wx7NwCMNNfR7XyU+q0HrjxG1cEg4x8rlGiB0aYI+KP9fB6UuTdClCbo04T8TNU7i4NelCbo0QZcmnFJYOJFkQpcm6NIE7Ve6NMHUpQk6gT3hBFaXJujShM1Plybo0gRdmqBLE0752DyRRFSXJujSBO1DujRBlyboC94pX/DOqDSBcSoLAKi2qqvu/yeojgU4hfL5Delrlv+uoN3QVn8C3QDLF4lBAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">981f76244785d210d6acf855516d43ef</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Copy of Start Tournament with Seed Option">370f76244785d210d6acf855516d438c</flow>
+        <flow_variables_assigned>matchcount,carcount</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>10</order>
+        <outputs_assigned/>
+        <parent_ui_id>0fe99a12-843e-426c-bf47-afbf50b1ba14</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:22</sys_created_on>
+        <sys_id>901f76244785d210d6acf855516d43f0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:22</sys_updated_on>
+        <ui_id>4228a67a-f366-471a-a24b-38aaab2bce7a</ui_id>
+        <values>H4sIAAAAAAAA/+1X22obMRD9l322zF60N7+FhIAhbaBJ81KCmdXFFtVKG0mbxDX+90rejW1SEkoJpVC/rY40M2eO5iB2E+nedb2zt/rMWrFU0ezb/SQSKmD+exNxqZ+u9FKQubIOFGE3azun0Syq6qygecZxmaVVmsQFZIxRntCkoDjDdeTThHMtOLIiulfOIwpa9hp7BNkHcLPhdOEMKMu1aWdQQVISTFCR8xLhtC5RHTcEpRATXjVxmhDYbn08FbaTsL4b03ikA+PrOGai2SYiKyGpYS+dBUpZlRX1m9QZ9ikkNEz+Dnu37gImlGNLX3AArsbo+R7VhgY68SRiz44pyjwPDtKyiU+nKDht1nvEMKDXSh6AlU8/tNbCsxU/fEUch3Oc+c7I2PZ+eQuNZBeDLMMWvwAHN870xPVmPE5WWhBmB10o49BLd36MDQeuOye0GkJcSDxGa9m36vOgSLRPcHQLvWULyrrQbGA/tsJvVvrpywvTS6F2uoybUhOQ+xU4Z0TTu8BnE/Xi9rXUA/Sr2Eyy1tdctNB1Qi0XndGPYlfH026nS+kX0zDYnl8Y+imQ0OPUXwNMLz1+sYPvwIjQ8CefZqz3VYmHnu3mPyMFZrRKUY2TCuEmiVHT8BTRMq7ivMlrXJbRdhLZtT2XYO1BKn9Pi4c+NDoIN0q0GFQOIcSIzp15Uo9sVGM7+QArEjCvRvkIecOGFQDFRYFRUZcJwjnNUVPyDGVZWedxgmnJqj+0YRO/a8PmyIbvMj9Z8D+1IE9ZAsBixJO8QDhJOaq87RBL4jQGP1o15B9owftgkoHP6W08vY0nY57extPbeLLgv2nBv/82UkaE9Tx31zt/+YMMG2s/l8GZB+hJm++hwwO2/QkOK8AJiw4AAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">9c1f76244785d210d6acf855516d43ed</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Copy of Start Tournament with Seed Option">370f76244785d210d6acf855516d438c</flow>
+        <flow_variables_assigned>officiallist</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <parent_ui_id>46433c5c-0e75-45bc-8342-66efa823614e</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:22</sys_created_on>
+        <sys_id>941f76244785d210d6acf855516d43ee</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:22</sys_updated_on>
+        <ui_id>d9a33d5a-29f8-41fe-8424-81b1318ddfcb</ui_id>
+        <values>H4sIAAAAAAAA/+1VTW/bMAz9LzonRpxv91Y0KBCgW4El62UoDFqiE2Gy5OojqRfkv4+KnWRYMaDHHXIzHyny8ZGED8wEXwfv1ubeObnR7O7Ha49JHTH6PrBSmf2T2Ui+1M6D5rhq3FKwOzYaYTnJZsV4NhvOh+lgCiNEUaYinYrxKM0YpYlxpiwll6CUdJ4wDRV+RHegQoQPh1gv34GVUChMuKlqsBaa45GihHS1gublU8H0SaU8WnZ3YHwrlbB4bi/ywmJaZpN/8Z+PKIWCAtVnW/BNHVHnrdSbzn7qEqzOoLEiEhr0GL571AKJSQnKYY9VoAV4Y5sLYhHEs1ZXYCu1p2wsBr87+YvqzQeDQYwskbrj2Hov5jrqsmhVa13lAjwQncB9sF043xrJ0bXaCCwhKP/wJ9YGPNdeGt0+8TFx99qoUOmvrSbskuA8JEKCw1xgHduN/LtmytXW7L+dmT5KfVKmcyrDQV0s8KRfEXzkc2BBrv+SukU+iI0KK6qYV1DXhOS1NTt5qkKkq2SjyEhOKyQw7n4CPHaY0BggeSR8cYJfuv36QmnocSz3Xcu3gKczmM5SPs3G8/5kMhn3x5mAfjGcz/oFiNF4CFk2TFN27DHXuAcFzl2FoinlbyG22crWCZS3Gscn3Mra3xOpHXZaHF/jrbR8bvd5u8/bff5/9ymQS0c8T8Ndnv+k0dHQZsZDvUJ7Y3/GDq/Y8Te1VgfBkwcAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">901f76244785d210d6acf855516d43ec</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Copy of Start Tournament with Seed Option">370f76244785d210d6acf855516d438c</flow>
+        <flow_variables_assigned>officiallist</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id>9dcf0445-cc49-480a-b853-0a14055207f7</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:22</sys_created_on>
+        <sys_id>981f76244785d210d6acf855516d43ec</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:22</sys_updated_on>
+        <ui_id>6dbffad4-8e1a-4f00-88f5-c9bbd683a9d3</ui_id>
+        <values>H4sIAAAAAAAA/+1VTY/aMBD9Lz4TREI+yN5Wi1ZC2nalQvdSrdDEHoNVY2djB5Yi/nvHJEDV7aHqrRK3+Hlm/N6zn3JgtvV1693C3junVobdfXsdMGUCRt8HJrXdPdmV4jPjPBiO872bCXbHMlnJuKxkWoyTSRKPchgjChmLOBfpOK4YjQl1VkrFFWitnCfMwAY/olvQbYAPh0zwPMmTSVSUsYhSEZdRVUAexQhpPpI8iQGGAjwcj9QnlKs17F/+sb2Ghuh4bNjdgfG10qLBswWBO1a5LLOiSoviDxonYxqhoUL9tzL9vg6o840yq3791A+Yn0HbiEBoNGD47tEIJCYStMMB24Ah7rbZX5AGQTwbfQXWyniaxkLxu1M/6LzJaDQKlRJJHcdu97JcQKVx2vnYbckp+UN0Wu7bpi/na6s4us4bgRJa7R9+xbqC59ora7oWHwb33Va3G/O584RdBpyvjZDW4VJgHeQG/r0YOV/b3Zcz00dlTs70m9py0JcVePKvan3gc2CtWvxmdYd8MBs1bujE5QbqmpBl3ditOp1CpDfDlabFMGSA2IV8DIEHhacnNHwkfHqCX6BRQe4nGkPN4bivRr21eIpKXsQ8L9NJlGVZGqWlgKhKJkVUgRinCZRlEsfsOGBu7x40OHc1im5p+dYGmZ1tvUHLzuPQwhtV+3sitcXei+NryFPH55bhW4ZvGf4/MyyQK0c8T5c7O/+Rw8aeXmYI8xXa2eZ7UHjFjj8BpTjwTdsHAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=370f76244785d210d6acf855516d438c^sys_idNOT IN101fb6244785d210d6acf855516d4312,141fb6244785d210d6acf855516d4311,141fb6244785d210d6acf855516d4312,181fb6244785d210d6acf855516d4311,1c1fb6244785d210d6acf855516d4311,901fb6244785d210d6acf855516d4312,941fb6244785d210d6acf855516d4311,981fb6244785d210d6acf855516d4311,9c1fb6244785d210d6acf855516d4310,9c1fb6244785d210d6acf855516d4311"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>370f76244785d210d6acf855516d438c</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>256d422f-f195-42ad-b492-7d4129964afa</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:22</sys_created_on>
+        <sys_id>101fb6244785d210d6acf855516d4312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:22</sys_updated_on>
+        <transform_compositions>[{"id":"06190ffa23a220103a3339e1d7bf65f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"2","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="add">50980bfa23a220103a3339e1d7bf6510</transform_definition_id>
+        <ui_id>673e18e7-e31d-4703-a4a7-393980ce73e1</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>370f76244785d210d6acf855516d438c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.carcount}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:22</sys_created_on>
+        <sys_id>141fb6244785d210d6acf855516d4311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:22</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>8aad4664-6971-45d5-b7f3-33795014d7e8</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>370f76244785d210d6acf855516d438c</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>a8a17c4c-65f7-4297-90bc-2a0cf8b021ca</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:22</sys_created_on>
+        <sys_id>141fb6244785d210d6acf855516d4312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:22</sys_updated_on>
+        <transform_compositions>[{"id":"06190ffa23a220103a3339e1d7bf65f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"1","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="add">50980bfa23a220103a3339e1d7bf6510</transform_definition_id>
+        <ui_id>f6836f54-1f12-4711-be72-32422bae4855</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>370f76244785d210d6acf855516d438c</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>b6396f86-6e31-4da3-acf2-91cf9682e695</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:22</sys_created_on>
+        <sys_id>181fb6244785d210d6acf855516d4311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:22</sys_updated_on>
+        <transform_compositions>[{"id":"06190ffa23a220103a3339e1d7bf65f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"1","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="add">50980bfa23a220103a3339e1d7bf6510</transform_definition_id>
+        <ui_id>0d3c6bbc-2be2-4019-b915-5655b150cd75</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>370f76244785d210d6acf855516d438c</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>cf1488a8-6b2b-4706-83ac-4cd5ddc428eb</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:22</sys_created_on>
+        <sys_id>1c1fb6244785d210d6acf855516d4311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:22</sys_updated_on>
+        <transform_compositions>[{"id":"ec7a7362c303201027d44077d840dd87","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"2","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="divide">295abf22c303201027d44077d840dd54</transform_definition_id>
+        <ui_id>30a92192-354c-4e26-8d3e-e0e53a78206a</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>370f76244785d210d6acf855516d438c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.cars}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:22</sys_created_on>
+        <sys_id>901fb6244785d210d6acf855516d4312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:22</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>256d422f-f195-42ad-b492-7d4129964afa</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>370f76244785d210d6acf855516d438c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.cars}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:22</sys_created_on>
+        <sys_id>941fb6244785d210d6acf855516d4311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:22</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>cf1488a8-6b2b-4706-83ac-4cd5ddc428eb</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>370f76244785d210d6acf855516d438c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.matchcount}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:22</sys_created_on>
+        <sys_id>981fb6244785d210d6acf855516d4311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:22</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>a8a17c4c-65f7-4297-90bc-2a0cf8b021ca</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>370f76244785d210d6acf855516d438c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.matchcount}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:22</sys_created_on>
+        <sys_id>9c1fb6244785d210d6acf855516d4310</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:22</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b6396f86-6e31-4da3-acf2-91cf9682e695</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>370f76244785d210d6acf855516d438c</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>8aad4664-6971-45d5-b7f3-33795014d7e8</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:22</sys_created_on>
+        <sys_id>9c1fb6244785d210d6acf855516d4311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:22</sys_updated_on>
+        <transform_compositions>[{"id":"06190ffa23a220103a3339e1d7bf65f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"2","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="add">50980bfa23a220103a3339e1d7bf6510</transform_definition_id>
+        <ui_id>48bbcc13-1c84-4059-8994-6150aeceac29</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=370f76244785d210d6acf855516d438c^sys_idNOT IN37d38b684785d210d6acf855516d43c2,3b0f76244785d210d6acf855516d4396,401f76244785d210d6acf855516d43d3,441f76244785d210d6acf855516d43d6,4c1f76244785d210d6acf855516d43cf,801f76244785d210d6acf855516d43b3,801f76244785d210d6acf855516d43c0,841f76244785d210d6acf855516d43b6,881f76244785d210d6acf855516d43ac,881f76244785d210d6acf855516d43b9,8c1f76244785d210d6acf855516d43af,8c1f76244785d210d6acf855516d43bc"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=85c5fdc8-2f39-4098-b6e7-4d50f7b341f9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>listbuilder</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>listBuilder</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Copy of Start Tournament with Seed Option">370f76244785d210d6acf855516d438c</model>
+        <model_id>370f76244785d210d6acf855516d438c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_370f76244785d210d6acf855516d438c</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 21:14:21</sys_created_on>
+        <sys_id>37d38b684785d210d6acf855516d43c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 21:14:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=1d3d6bb5-41ad-45aa-aff8-ac1d580ad762</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>comparray</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>CompArray</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of Start Tournament with Seed Option">370f76244785d210d6acf855516d438c</model>
+        <model_id>370f76244785d210d6acf855516d438c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_370f76244785d210d6acf855516d438c</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:20</sys_created_on>
+        <sys_id>3b0f76244785d210d6acf855516d4396</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=1b6c2367-6ddf-4a5c-afe2-08d6c9a4999d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>matches</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Matches</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of Start Tournament with Seed Option">370f76244785d210d6acf855516d438c</model>
+        <model_id>370f76244785d210d6acf855516d438c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_370f76244785d210d6acf855516d438c</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:21</sys_created_on>
+        <sys_id>401f76244785d210d6acf855516d43d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=e9337b7e-04c4-4f0f-a1f5-e069ed5ac480</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>round</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Round</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of Start Tournament with Seed Option">370f76244785d210d6acf855516d438c</model>
+        <model_id>370f76244785d210d6acf855516d438c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_370f76244785d210d6acf855516d438c</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:21</sys_created_on>
+        <sys_id>441f76244785d210d6acf855516d43d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=671c6948-5554-49da-b287-bad342a99211</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>officiallist</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>OfficialList</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of Start Tournament with Seed Option">370f76244785d210d6acf855516d438c</model>
+        <model_id>370f76244785d210d6acf855516d438c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_370f76244785d210d6acf855516d438c</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:21</sys_created_on>
+        <sys_id>4c1f76244785d210d6acf855516d43cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=7e1f76ca-5a12-42ff-9415-512cf1d959f2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>qualifierslist</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>QualifiersList</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of Start Tournament with Seed Option">370f76244785d210d6acf855516d438c</model>
+        <model_id>370f76244785d210d6acf855516d438c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_370f76244785d210d6acf855516d438c</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:21</sys_created_on>
+        <sys_id>801f76244785d210d6acf855516d43b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=a0a65a38-3048-48cf-b64f-af302bbfb5e4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>competitors</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Competitors</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of Start Tournament with Seed Option">370f76244785d210d6acf855516d438c</model>
+        <model_id>370f76244785d210d6acf855516d438c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_370f76244785d210d6acf855516d438c</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:21</sys_created_on>
+        <sys_id>801f76244785d210d6acf855516d43c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=9f73dc07-253c-4235-8d0f-b0734c7ff13e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>qualifiedseed</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>QualifiedSeed</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of Start Tournament with Seed Option">370f76244785d210d6acf855516d438c</model>
+        <model_id>370f76244785d210d6acf855516d438c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_370f76244785d210d6acf855516d438c</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:21</sys_created_on>
+        <sys_id>841f76244785d210d6acf855516d43b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=564ddb4c-9472-463f-82be-f3873855b6fa</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>match</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Match</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of Start Tournament with Seed Option">370f76244785d210d6acf855516d438c</model>
+        <model_id>370f76244785d210d6acf855516d438c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_370f76244785d210d6acf855516d438c</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:21</sys_created_on>
+        <sys_id>881f76244785d210d6acf855516d43ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=d98bb56d-703a-4918-b79e-2306c81cd975</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>cars</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Cars</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of Start Tournament with Seed Option">370f76244785d210d6acf855516d438c</model>
+        <model_id>370f76244785d210d6acf855516d438c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_370f76244785d210d6acf855516d438c</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:21</sys_created_on>
+        <sys_id>881f76244785d210d6acf855516d43b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=3c64ed82-9418-4b10-bbf2-d70805b59477</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>matchcount</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>matchCount</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of Start Tournament with Seed Option">370f76244785d210d6acf855516d438c</model>
+        <model_id>370f76244785d210d6acf855516d438c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_370f76244785d210d6acf855516d438c</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:21</sys_created_on>
+        <sys_id>8c1f76244785d210d6acf855516d43af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=f2e1aae0-f156-412f-8947-e1020a9539a5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>carcount</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>carCount</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of Start Tournament with Seed Option">370f76244785d210d6acf855516d438c</model>
+        <model_id>370f76244785d210d6acf855516d438c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_370f76244785d210d6acf855516d438c</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:21</sys_created_on>
+        <sys_id>8c1f76244785d210d6acf855516d43bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_370f76244785d210d6acf855516d438c^sys_idNOT IN101f76244785d210d6acf855516d43e6,d01f76244785d210d6acf855516d43df,d41f76244785d210d6acf855516d43e2"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_370f76244785d210d6acf855516d438c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:22</sys_created_on>
+        <sys_id>101f76244785d210d6acf855516d43e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:22</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_370f76244785d210d6acf855516d438c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:21</sys_created_on>
+        <sys_id>d01f76244785d210d6acf855516d43df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:21</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_370f76244785d210d6acf855516d438c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-01 20:53:22</sys_created_on>
+        <sys_id>d41f76244785d210d6acf855516d43e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-01 20:53:22</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_370f76244785d210d6acf855516d438c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_370f76244785d210d6acf855516d438c"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_370f76244785d210d6acf855516d438c"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=370f76244785d210d6acf855516d438c"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=370f76244785d210d6acf855516d438c"/>
+</record_update>

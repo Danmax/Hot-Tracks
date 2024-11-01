@@ -10,6 +10,7 @@
         </element>
         <element label="Racer 1" max_length="32" name="racer_1" reference="x_407566_hot_tra_0_wheels" type="reference"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="R2 Weight" max_length="38" name="r2_weight" type="string"/>
         <element label="Journal" max_length="40" name="journal" type="journal"/>
         <element label="Match Winner" max_length="32" name="match_winner" reference="x_407566_hot_tra_0_wheels" type="reference"/>
         <element attributes="scale=5" label="Fastest Time" max_length="20" name="fastest_time" read_only="true" type="decimal"/>
@@ -20,6 +21,7 @@
         <element label="Tournament" max_length="32" name="tournament" reference="x_407566_hot_tra_0_tournament" type="reference"/>
         <element default="0" label="R2 Wins" max_length="40" name="r2_wins" type="integer"/>
         <element label="Finals" max_length="255" name="finals" type="boolean"/>
+        <element label="R1 Weight" max_length="38" name="r1_weight" type="string"/>
         <element label="DER" max_length="255" name="der" type="boolean"/>
         <element display="true" label="Title" max_length="240" name="title" type="string"/>
         <element default="0" label="R1 Wins" max_length="40" name="r1_wins" type="integer"/>

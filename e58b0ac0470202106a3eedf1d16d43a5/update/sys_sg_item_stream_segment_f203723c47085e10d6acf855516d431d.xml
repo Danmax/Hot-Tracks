@@ -5,7 +5,7 @@
         <max_offline_rows>500</max_offline_rows>
         <name>Wheels Item Stream Segment</name>
         <order>0</order>
-        <screen display_value="Wheels">7a03723c47085e10d6acf855516d4319</screen>
+        <screen display_value="My Garage">7a03723c47085e10d6acf855516d4319</screen>
         <sys_class_name>sys_sg_item_stream_segment</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-13 21:36:32</sys_created_on>

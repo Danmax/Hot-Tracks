@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="DELETE">
+        <button display_value="Edit Button (Wheels)">b603723c47085e10d6acf855516d438d</button>
+        <item_parameter display_value="Wheels estimated_value">fa03723c47085e10d6acf855516d4387</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-13 21:36:33</sys_created_on>
+        <sys_id>4303723c47085e10d6acf855516d43c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fa03723c47085e10d6acf855516d4387</sys_name>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_4303723c47085e10d6acf855516d43c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-13 21:36:33</sys_updated_on>
+        <ui_parameter display_value="Estimated Value">c303723c47085e10d6acf855516d4392</ui_parameter>
+    </sys_sg_action_param_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</application>
+        <file_path/>
+        <instance_id>4e9fffb8eb730250e483f459bad0cd92</instance_id>
+        <instance_name>empdmxan24</instance_name>
+        <name>sys_sg_action_param_map_4303723c47085e10d6acf855516d43c4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map"><sys_sg_action_param_map action="INSERT_OR_UPDATE"><button display_value="Edit Button (Wheels)">b603723c47085e10d6acf855516d438d</button><item_parameter display_value="Wheels estimated_value">fa03723c47085e10d6acf855516d4387</item_parameter><sys_class_name>sys_sg_action_param_map</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-13 21:36:33</sys_created_on><sys_id>4303723c47085e10d6acf855516d43c4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>fa03723c47085e10d6acf855516d4387</sys_name><sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package><sys_policy/><sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope><sys_update_name>sys_sg_action_param_map_4303723c47085e10d6acf855516d43c4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-13 21:36:33</sys_updated_on><ui_parameter display_value="Estimated Value">c303723c47085e10d6acf855516d4392</ui_parameter></sys_sg_action_param_map></record_update>]]></payload>
+        <payload_hash>-1040036080</payload_hash>
+        <record_name>fa03723c47085e10d6acf855516d4387</record_name>
+        <reverted_from/>
+        <source>189bf48147f7021078457e45516d4326</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-13 21:36:34</sys_created_on>
+        <sys_id>9303f23c47085e10d6acf855516d430c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1914dabde560000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-13 21:36:34</sys_updated_on>
+        <type>Action parameters mapping</type>
+        <update_guid>d703f23cbb085e107fa145b1e5c7690b</update_guid>
+        <update_guid_history>d703f23cbb085e107fa145b1e5c7690b:-1040036080</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-14 17:45:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_action_param_map">sys_sg_action_param_map</sys_db_object>
+        <sys_id>09ddbf3be7264b789869914a02e67751</sys_id>
+        <sys_metadata>4303723c47085e10d6acf855516d43c4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fa03723c47085e10d6acf855516d4387</sys_name>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope_delete display_value="">5360a778b1d14ee69fe48f4dc1dd5bf1</sys_scope_delete>
+        <sys_update_name>sys_sg_action_param_map_4303723c47085e10d6acf855516d43c4</sys_update_name>
+        <sys_update_version display_value="sys_sg_action_param_map_4303723c47085e10d6acf855516d43c4">9303f23c47085e10d6acf855516d430c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-14 17:45:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

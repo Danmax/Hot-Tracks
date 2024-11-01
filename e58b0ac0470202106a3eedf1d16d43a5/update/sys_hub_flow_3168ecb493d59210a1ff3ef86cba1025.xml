@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Sync Wheels Competitors</description>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>sync_wheels_competitors</internal_name>
+        <label_cache>[{"name":"subflow.tournament","label":"Input➛Tournament","type":"string","base_type":"string","usedInstances":{"638c27b8-e262-4728-a535-e7ac51185cc1":["conditions"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"3cbf848e-57b8-4b38-9cc6-dd2e6dce1942"}},{"name":"638c27b8-e262-4728-a535-e7ac51185cc1.Records","label":"1 - Look Up Records➛m2m_Tournaments_Wheels Records","reference":"x_407566_hot_tra_0_wheels_in_tournament","reference_display":"m2m_Tournaments_Wheels Records","type":"records","base_type":"records","usedInstances":{"b279b3ad-aee6-46da-961c-2ca1957378d5":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Sync Wheels Competitors</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-14 14:49:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3168ecb493d59210a1ff3ef86cba1025</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Sync Wheels Competitors</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name>sys_hub_flow_3168ecb493d59210a1ff3ef86cba1025</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 13:35:59</sys_updated_on>
+        <type>subflow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=3168ecb493d59210a1ff3ef86cba1025"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3168ecb493d59210a1ff3ef86cba1025"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=3168ecb493d59210a1ff3ef86cba1025"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=3168ecb493d59210a1ff3ef86cba1025^sys_idNOT INbd68ecb493d59210a1ff3ef86cba1028"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>3168ecb493d59210a1ff3ef86cba1025</id>
+        <name>Sync Wheels Competitors</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-14 14:49:18</sys_created_on>
+        <sys_id>bd68ecb493d59210a1ff3ef86cba1028</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-14 14:49:18</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=bd68ecb493d59210a1ff3ef86cba1028"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=3168ecb493d59210a1ff3ef86cba1025^sys_idNOT IN1bcaead993dd1610a1ff3ef86cba1025,5bcaead993dd1610a1ff3ef86cba101d"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=3cbf848e-57b8-4b38-9cc6-dd2e6dce1942</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>tournament</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Tournament</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Sync Wheels Competitors">3168ecb493d59210a1ff3ef86cba1025</model>
+        <model_id>3168ecb493d59210a1ff3ef86cba1025</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_3168ecb493d59210a1ff3ef86cba1025</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 13:35:58</sys_created_on>
+        <sys_id>1bcaead993dd1610a1ff3ef86cba1025</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 13:35:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1bcaead993dd1610a1ff3ef86cba1025"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=39d05b79-da96-4dc7-acbb-587f5a3d1254</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wheel_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Wheel ID</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Sync Wheels Competitors">3168ecb493d59210a1ff3ef86cba1025</model>
+        <model_id>3168ecb493d59210a1ff3ef86cba1025</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_3168ecb493d59210a1ff3ef86cba1025</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 13:35:58</sys_created_on>
+        <sys_id>5bcaead993dd1610a1ff3ef86cba101d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 13:35:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5bcaead993dd1610a1ff3ef86cba101d"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=3168ecb493d59210a1ff3ef86cba1025"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3168ecb493d59210a1ff3ef86cba1025"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=3168ecb493d59210a1ff3ef86cba1025"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=3168ecb493d59210a1ff3ef86cba1025^sys_idNOT IN9bcaead993dd1610a1ff3ef86cba1037"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Sync Wheels Competitors">3168ecb493d59210a1ff3ef86cba1025</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 13:35:58</sys_created_on>
+        <sys_id>9bcaead993dd1610a1ff3ef86cba1037</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 13:35:58</sys_updated_on>
+        <ui_id>638c27b8-e262-4728-a535-e7ac51185cc1</ui_id>
+        <values>H4sIAAAAAAAA/9VXS0/jMBD+K1XOUZWQtrC9IRDSHgAJEBcWWU7iNNa6dtZ2+qDqf99xnEdpQwmlu4KjZzwz38x8M3GeVg6NnbFzlgw8D/vDs1PPCwLPG42CCPthGIyi0AsHoeM6HE8J3NQ4ZASOM8xyc16ggXc6HI1QKjTSEiMPzVNCmEKUIy1yaey4BouYqozh5eOHDaOUslgS7oyfnl0nwxIUmkhnvNpS6WVGEMMhYeD/wQDt3RjUbuckXxnvJm0CVEfErWshY4PFcx2y0ITHBEIlmCniOlPMY6yFXNYSSXB8y1kjSCmkOHYcc3mh6Au4P/PMvYRAWhGxuigVNCK3maaCW4lFZJWC5VN+Y5GaOpME50xXdQZJrgiKSWbAmWhl6OQ+FfO7KtAV5UUepZKJCLP6hLWWNMw1UabohBHTGTTFWUb5BGVSzGhhDFim/QmDQz9hYg5BFZ3wPo4M8D7UAvevQH5ZiB+xpCaLa3ADxgCIMmgrstVVwIAi/RmKWK4KhcRcWV/OuqgR+pMblDbrMj9kSwQXVCRpps/BYEbKVNZuJ8IPvab3keAxNTHVftY3lP2Vg894tVJ5aKrQbzTrdac56OzqsMm42MyoazVajdtKVM7IK1k5I/7RZgTg/usp0TL/ekPyHu1twu9wPzrd2+1h01glpEa2chvk3+XwwVS8ooTFr5Z0B3CV8a1hVS9cvoW3ZGJiYmxt65Pvs60/ycMkRrYAlDPKi68XOIQwX5ig3v519GOr4UWfG3oWMqyiXZrinha9l8P3ZtHXiqgdQFaG94Co92BRtgCvNmblvuRocDSOBidvcBQY8rSqYdblaalk9coxParuv5j7ePs+sGXDwF8/1xy/OCym/9GYJybm1hAGH5rCTQpZzeUbTDry0+o/T6trAqZgWsZDdirRnMYTopvo1a1Y6Dlmv9v05ajVw1Kk9+ln2mDvkI38ZqCA7EgSBa3afKf58E7Y3QO+a8WHrYGfXJNJUbyuECvLa7zo3dUYW4GXu4DWMUpOD474dDrqB6uqcOuYVIX+Fj8gh3L1+S+1xm8zRQ8AAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=3168ecb493d59210a1ff3ef86cba1025"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=3168ecb493d59210a1ff3ef86cba1025^sys_idNOT IN9bcaead993dd1610a1ff3ef86cba1039,dbcaead993dd1610a1ff3ef86cba103a"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">9fcaead993dd1610a1ff3ef86cba1038</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Sync Wheels Competitors">3168ecb493d59210a1ff3ef86cba1025</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 13:35:58</sys_created_on>
+        <sys_id>9bcaead993dd1610a1ff3ef86cba1039</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 13:35:58</sys_updated_on>
+        <ui_id>b279b3ad-aee6-46da-961c-2ca1957378d5</ui_id>
+        <values>H4sIAAAAAAAA/51SS2/bMAz+Lzonhh+N4+RWYCjQw1agK3oZCoOW6ESYLGmSnNQz/N9HxU469DTsFPMj+T0Yjcz0wfbBv5h77+VBs/2PtxWTOmL0PTIp2J5lO9HusnTHi7ws8jTNq7usKYsmy0UBKEq2Yho6pEkZsPNUnkD1sR7Hsqh4vm2qNeZlvr7b5tUaNsVmjVvgmyyrNpxnyTNy44SfJloV0lsFw+v/M/CjVMLhEsaCI28BHduPn1phsFgraFCR0MJA+/+a+br5uIT+dIPITqW78dJPdJGnK4bvAbVAEmpBeVyxDrSAYNzA9sH1BDgE8aTVcJs4Sh2IjsXZdy9/E3eWpnGwRUrEcW7yo5Ecn2yQRs9IgEZdm0b1nf42+4y3xhZ6Fa63JqT3WAu00VyUW7Tb70dzfr4KPUh9CbI0leGgbhWE4GTTB/Tx3qiwI6K6A2ulPtTWmZO8LJOXLjkoKpJWmTOJxveXAI/GE7oFJA+Ef7nAr+BkTPGVaGh5uqSuf/VRd86xOK7n0DTguZM23BPdCRdz01t8mDOTn1+AQC49Cb5E7PH67GNjoH9T8r+hs3E/o9UPbPoD9PWfi0ADAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">1bcaead993dd1610a1ff3ef86cba103a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Sync Wheels Competitors">3168ecb493d59210a1ff3ef86cba1025</flow>
+        <flow_variables_assigned/>
+        <generation_source>flowRecommendation</generation_source>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id>b279b3ad-aee6-46da-961c-2ca1957378d5</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 13:35:59</sys_created_on>
+        <sys_id>dbcaead993dd1610a1ff3ef86cba103a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 13:35:59</sys_updated_on>
+        <ui_id>a966e9e4-822e-4d32-ae52-697c0a6f0db7</ui_id>
+        <values>H4sIAAAAAAAA/+VUTYvbMBD9K0VnY/yxDt3clpaFQtuF7rKXspixNE5EZUmV5GTTkP/ekT+Spc3S0EMvvVlvNPPeGz28Z6YPtg/+wdx4L1eaLb8+JUzqiNH3nknBlqzNoM2vec7LYlEWWVa8vcqbRdnkhSgBoWQJ09Ah3eRGCxmk0fUAJGwDqo8F+hTSWwW7xxPC11IJhxOrBUc9AR1b7n8phZ3FWkGDihrvg5N6Re2Xapsb383i3nwckNdVRz7C/cxknIiy8ixh+BxQCyTqFpTHhHWgBQTjdkfEIYg7rU7AWuowOu7g2csfNLuoqnixRfLIj+swkuOdjUpGJECj5qJRfac/j4LjNrGFXoUX2+w91gJtVBfpJu72fm22X2aiW6kHJ1NRGQ7qeIJAfps+oI8vgAo7GlR3YC1tobbObOTQTFq6dKXokLbKbIk0RicFHoWntAxIbwl/P8CP4GR08YnGUPMoswEveT3EjMYFRxYOwzrq730UNBqcrNTjNuiC507acEM8G5xUH5Ipo9dQtVWeVedzcLU489r/Ip4XyPotnuelvpLJ4g+ZjMu9MJJZlv2nmZS+HrM1eRvI/zqSTzFXI4MfAyKQS09CHiL2Yf67xsKOXlryl9DWuG/Rwgk7/ASzLFimpwUAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=3168ecb493d59210a1ff3ef86cba1025"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=3168ecb493d59210a1ff3ef86cba1025"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_3168ecb493d59210a1ff3ef86cba1025^sys_idNOT IN57caead993dd1610a1ff3ef86cba1024,9fcaead993dd1610a1ff3ef86cba1033"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>wheel_id</element>
+        <help/>
+        <hint/>
+        <label>Wheel ID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_3168ecb493d59210a1ff3ef86cba1025</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 13:35:58</sys_created_on>
+        <sys_id>57caead993dd1610a1ff3ef86cba1024</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 13:35:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>tournament</element>
+        <help/>
+        <hint/>
+        <label>Tournament</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_3168ecb493d59210a1ff3ef86cba1025</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-16 13:35:58</sys_created_on>
+        <sys_id>9fcaead993dd1610a1ff3ef86cba1033</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-16 13:35:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_3168ecb493d59210a1ff3ef86cba1025"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_3168ecb493d59210a1ff3ef86cba1025"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_3168ecb493d59210a1ff3ef86cba1025"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=3168ecb493d59210a1ff3ef86cba1025"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=3168ecb493d59210a1ff3ef86cba1025"/>
+</record_update>

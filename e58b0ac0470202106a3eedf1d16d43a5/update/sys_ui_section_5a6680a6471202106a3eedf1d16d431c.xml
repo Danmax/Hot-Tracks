@@ -4,125 +4,167 @@
             <element>racer_1</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-10 03:20:16</sys_created_on>
-            <sys_id>c75b93a347fbc61078457e45516d437e</sys_id>
+            <sys_created_on>2024-10-20 03:02:08</sys_created_on>
+            <sys_id>ad10816647599a10d6acf855516d436f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Race" display_value="Race" name="x_407566_hot_tra_0_match" sys_domain="global" view="Default view">5a6680a6471202106a3eedf1d16d431c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-10 03:20:16</sys_updated_on>
+            <sys_updated_on>2024-10-20 03:02:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>r1_weight</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-20 03:02:08</sys_created_on>
+            <sys_id>a510816647599a10d6acf855516d4370</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Race" display_value="Race" name="x_407566_hot_tra_0_match" sys_domain="global" view="Default view">5a6680a6471202106a3eedf1d16d431c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-20 03:02:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>r1_wins</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-10 03:20:16</sys_created_on>
-            <sys_id>c35b93a347fbc61078457e45516d437f</sys_id>
+            <sys_created_on>2024-10-20 03:02:08</sys_created_on>
+            <sys_id>ad10816647599a10d6acf855516d4370</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Race" display_value="Race" name="x_407566_hot_tra_0_match" sys_domain="global" view="Default view">5a6680a6471202106a3eedf1d16d431c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-10 03:20:16</sys_updated_on>
+            <sys_updated_on>2024-10-20 03:02:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>der</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-10 03:20:16</sys_created_on>
-            <sys_id>4b5b93a347fbc61078457e45516d437f</sys_id>
+            <sys_created_on>2024-10-20 03:02:08</sys_created_on>
+            <sys_id>a510816647599a10d6acf855516d4371</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Race" display_value="Race" name="x_407566_hot_tra_0_match" sys_domain="global" view="Default view">5a6680a6471202106a3eedf1d16d431c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-10 03:20:16</sys_updated_on>
+            <sys_updated_on>2024-10-20 03:02:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>journal</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-10 03:20:16</sys_created_on>
-            <sys_id>cf5b93a347fbc61078457e45516d437f</sys_id>
+            <sys_created_on>2024-10-20 03:02:08</sys_created_on>
+            <sys_id>ad10816647599a10d6acf855516d4371</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Race" display_value="Race" name="x_407566_hot_tra_0_match" sys_domain="global" view="Default view">5a6680a6471202106a3eedf1d16d431c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-10 03:20:16</sys_updated_on>
+            <sys_updated_on>2024-10-20 03:02:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-10 03:20:16</sys_created_on>
-            <sys_id>475b93a347fbc61078457e45516d4380</sys_id>
+            <sys_created_on>2024-10-20 03:02:08</sys_created_on>
+            <sys_id>a510816647599a10d6acf855516d4372</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Race" display_value="Race" name="x_407566_hot_tra_0_match" sys_domain="global" view="Default view">5a6680a6471202106a3eedf1d16d431c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-10 03:20:16</sys_updated_on>
+            <sys_updated_on>2024-10-20 03:02:08</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>racer_2</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-10 03:20:16</sys_created_on>
-            <sys_id>cb5b93a347fbc61078457e45516d4380</sys_id>
+            <sys_created_on>2024-10-20 03:02:08</sys_created_on>
+            <sys_id>ad10816647599a10d6acf855516d4372</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Race" display_value="Race" name="x_407566_hot_tra_0_match" sys_domain="global" view="Default view">5a6680a6471202106a3eedf1d16d431c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-10 03:20:16</sys_updated_on>
+            <sys_updated_on>2024-10-20 03:02:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>racer_2.weight</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-20 03:02:08</sys_created_on>
+            <sys_id>a510816647599a10d6acf855516d4373</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Race" display_value="Race" name="x_407566_hot_tra_0_match" sys_domain="global" view="Default view">5a6680a6471202106a3eedf1d16d431c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-20 03:02:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>r2_weight</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-20 03:02:08</sys_created_on>
+            <sys_id>ad10816647599a10d6acf855516d4373</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Race" display_value="Race" name="x_407566_hot_tra_0_match" sys_domain="global" view="Default view">5a6680a6471202106a3eedf1d16d431c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-20 03:02:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>r2_wins</element>
-            <position>6</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-10 03:20:16</sys_created_on>
-            <sys_id>8f5bd3a347fbc61078457e45516d4309</sys_id>
+            <sys_created_on>2024-10-20 03:02:08</sys_created_on>
+            <sys_id>a510816647599a10d6acf855516d4374</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Race" display_value="Race" name="x_407566_hot_tra_0_match" sys_domain="global" view="Default view">5a6680a6471202106a3eedf1d16d431c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-10 03:20:16</sys_updated_on>
+            <sys_updated_on>2024-10-20 03:02:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>finals</element>
-            <position>7</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-10 03:20:16</sys_created_on>
-            <sys_id>075bd3a347fbc61078457e45516d430a</sys_id>
+            <sys_created_on>2024-10-20 03:02:08</sys_created_on>
+            <sys_id>ad10816647599a10d6acf855516d4374</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Race" display_value="Race" name="x_407566_hot_tra_0_match" sys_domain="global" view="Default view">5a6680a6471202106a3eedf1d16d431c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-10 03:20:16</sys_updated_on>
+            <sys_updated_on>2024-10-20 03:02:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>crc</element>
-            <position>8</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-10 03:20:16</sys_created_on>
-            <sys_id>8b5bd3a347fbc61078457e45516d430a</sys_id>
+            <sys_created_on>2024-10-20 03:02:08</sys_created_on>
+            <sys_id>a510816647599a10d6acf855516d4375</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Race" display_value="Race" name="x_407566_hot_tra_0_match" sys_domain="global" view="Default view">5a6680a6471202106a3eedf1d16d431c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-10 03:20:16</sys_updated_on>
+            <sys_updated_on>2024-10-20 03:02:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

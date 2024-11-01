@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_parameter_section_m2m">
+    <sys_sg_parameter_section_m2m action="DELETE">
+        <active>true</active>
+        <description/>
+        <label>Add Participants</label>
+        <name>add_participants</name>
+        <order>100</order>
+        <page/>
+        <parameter_screen display_value="Add To Tournament">60fda0e047dd5210d6acf855516d4303</parameter_screen>
+        <parameter_section display_value="scan_qr_competitor">b1fbcdf893599210a1ff3ef86cba1018</parameter_section>
+        <sys_class_name>sys_sg_parameter_section_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-14 17:24:39</sys_created_on>
+        <sys_id>35fb013c93599210a1ff3ef86cba1031</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>add_participants</sys_name>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name>sys_sg_parameter_section_m2m_35fb013c93599210a1ff3ef86cba1031</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-14 17:24:39</sys_updated_on>
+    </sys_sg_parameter_section_m2m>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</application>
+        <file_path/>
+        <instance_id>4e9fffb8eb730250e483f459bad0cd92</instance_id>
+        <instance_name>empdmxan24</instance_name>
+        <name>sys_sg_parameter_section_m2m_35fb013c93599210a1ff3ef86cba1031</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_parameter_section_m2m"><sys_sg_parameter_section_m2m action="INSERT_OR_UPDATE"><active>true</active><description/><label>Add Participants</label><name>add_participants</name><order>100</order><page/><parameter_screen display_value="Add To Tournament">60fda0e047dd5210d6acf855516d4303</parameter_screen><parameter_section display_value="scan_qr_competitor">b1fbcdf893599210a1ff3ef86cba1018</parameter_section><sys_class_name>sys_sg_parameter_section_m2m</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-14 17:24:39</sys_created_on><sys_id>35fb013c93599210a1ff3ef86cba1031</sys_id><sys_mod_count>0</sys_mod_count><sys_name>add_participants</sys_name><sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package><sys_policy/><sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope><sys_update_name>sys_sg_parameter_section_m2m_35fb013c93599210a1ff3ef86cba1031</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-14 17:24:39</sys_updated_on></sys_sg_parameter_section_m2m></record_update>]]></payload>
+        <payload_hash>-1279302220</payload_hash>
+        <record_name>add_participants</record_name>
+        <reverted_from/>
+        <source>189bf48147f7021078457e45516d4326</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-14 18:07:53</sys_created_on>
+        <sys_id>8fd59db493999210a1ff3ef86cba102a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1928c37172c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-14 18:07:53</sys_updated_on>
+        <type>Input Form Sections Mapping</type>
+        <update_guid>b9fb013c0f599210ca176077fdcb1833</update_guid>
+        <update_guid_history>b9fb013c0f599210ca176077fdcb1833:-53611540,b9fb013c0f599210ca176077fdcb1833:-53611540</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-14 18:07:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_parameter_section_m2m">sys_sg_parameter_section_m2m</sys_db_object>
+        <sys_id>801e780362bf43e897f8c207bf004a40</sys_id>
+        <sys_metadata>35fb013c93599210a1ff3ef86cba1031</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>add_participants</sys_name>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope_delete display_value="">5360a778b1d14ee69fe48f4dc1dd5bf1</sys_scope_delete>
+        <sys_update_name>sys_sg_parameter_section_m2m_35fb013c93599210a1ff3ef86cba1031</sys_update_name>
+        <sys_update_version display_value="sys_sg_parameter_section_m2m_35fb013c93599210a1ff3ef86cba1031">8fd59db493999210a1ff3ef86cba102a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-14 18:07:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>Re-sort Order List</action_name>
+        <active>false</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+(function() {
+	
+	try {
+		var inputs = {};
+		inputs['raceid'] = current.sys_id ;
+
+		// Start Asynchronously: Uncomment to run in background. Code snippet will not have access to outputs.
+		// sn_fd.FlowAPI.getRunner().subflow('x_407566_hot_tra_0.genai_race').inBackground().withInputs(inputs).run();
+				
+		// Execute Synchronously: Run in foreground. Code snippet has access to outputs.
+		var result = sn_fd.FlowAPI.getRunner().subflow('x_407566_hot_tra_0.genai_race').inForeground().withInputs(inputs).run();
+		var outputs = result.getOutputs();
+
+		// Current subflow has no outputs defined.		
+	} catch (ex) {
+		var message = ex.getMessage();
+		gs.error(message);
+	}
+	
+})();
+}]]></client_script_v2>
+        <comments/>
+        <condition>!current.winner&amp;&amp;!current.qualifier</condition>
+        <form_action>false</form_action>
+        <form_button>false</form_button>
+        <form_button_v2>true</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>true</list_action>
+        <list_banner_button>true</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages>Re-sort Order List</messages>
+        <name>Re-sort Order List</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[(function executeAction() {
+    // Retrieve the Tournament ID from the current record
+    var tournamentId = current.getValue('x_407566_hot_tra_0_tournament');
+    
+    // Get the sorting criteria from the URL parameter
+    var sortingCriteria = gs.getProperty('sysparm_sort') || 'name'; // Default to sorting by name
+
+    // Determine the sorting field based on the sorting criteria
+    var sortField = 'x_407566_hot_tra_0_wheels';
+    if (sortingCriteria === 'u_order') {
+        sortField = 'u_order';
+    } else if (sortingCriteria === 'u_rank') {
+        sortField = 'u_rank';
+    }
+
+    // Set up GlideAggregate to fetch and sort records
+    var agg = new GlideAggregate('x_407566_hot_tra_0_wheels_in_tournament');
+    agg.addQuery('x_407566_hot_tra_0_tournament', tournamentId);
+    agg.orderBy(sortField);
+    agg.query();
+
+    // Initialize an order counter
+    var orderCounter = 1;
+
+    // Loop through records, update the u_order based on the rank sorting
+    while (agg.next()) {
+        var record = new GlideRecord('x_407566_hot_tra_0_wheels_in_tournament');
+        if (record.get(agg.sys_id)) {  // Fetch the record using the sys_id from the sorted list
+            record.setValue('u_order', orderCounter);
+            record.update();
+
+            // Display updated output for debugging (optional)
+            gs.addInfoMessage('Updated Wheel ID: ' + record.getValue('x_407566_hot_tra_0_wheels') +
+                              ', New Order: ' + orderCounter +
+                              ', Rank: ' + record.getValue('u_rank'));
+        }
+
+        // Increment the order counter for the next record
+        orderCounter++;
+    }
+
+    // Redirect back to the current record
+    action.setRedirectURL(current);
+})();
+]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-31 16:12:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>106e189e47edda50d6acf855516d43f7</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Re-sort Order List</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name>sys_ui_action_106e189e47edda50d6acf855516d43f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-31 16:44:43</sys_updated_on>
+        <table>x_407566_hot_tra_0_wheels_in_tournament</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>106e189e47edda50d6acf855516d43f7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-31 16:14:11</sys_created_on>
+        <sys_id>d7de949e47edda50d6acf855516d43d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-31 16:14:11</sys_updated_on>
+        <table>sys_ui_action</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
