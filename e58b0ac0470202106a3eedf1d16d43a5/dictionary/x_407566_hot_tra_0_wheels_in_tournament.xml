@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3f351ea447c1d210d6acf855516d43c8" label="m2m_Tournaments_Wheels" max_length="40" name="x_407566_hot_tra_0_wheels_in_tournament" type="collection">
+        <element attributes="encode_utf8=false" label="Tournaments" max_length="32" name="x_407566_hot_tra_0_tournament" reference="x_407566_hot_tra_0_tournament" type="reference"/>
+        <element attributes="encode_utf8=false" label="Wheels" max_length="32" name="x_407566_hot_tra_0_wheels" reference="x_407566_hot_tra_0_wheels" type="reference"/>
+        <index name="index">
+            <element name="x_407566_hot_tra_0_tournament"/>
+        </index>
+        <index name="index2">
+            <element name="x_407566_hot_tra_0_wheels"/>
+        </index>
+    </element>
+</database>

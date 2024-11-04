@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_browser_screen">
+    <sys_sg_browser_screen action="DELETE">
+        <available_offline>false</available_offline>
+        <check_acl>false</check_acl>
+        <description/>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <external_browser>false</external_browser>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="Star">f957685c475d1210d6acf855516d4348</icon>
+        <name>Thriving Solutions</name>
+        <relative_url>false</relative_url>
+        <roles_override/>
+        <sys_class_name>sys_sg_browser_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-13 01:27:41</sys_created_on>
+        <sys_id>f557685c475d1210d6acf855516d4349</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Thriving Solutions</sys_name>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name>sys_sg_browser_screen_f557685c475d1210d6acf855516d4349</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-13 01:28:32</sys_updated_on>
+        <url>http://thrivingsolutionsllc.com</url>
+    </sys_sg_browser_screen>
+    <sys_translated_text action="DELETE" query="documentkey=f557685c475d1210d6acf855516d4349"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</application>
+        <file_path/>
+        <instance_id>4e9fffb8eb730250e483f459bad0cd92</instance_id>
+        <instance_name>empdmxan24</instance_name>
+        <name>sys_sg_browser_screen_f557685c475d1210d6acf855516d4349</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_browser_screen"><sys_sg_browser_screen action="INSERT_OR_UPDATE"><available_offline>false</available_offline><check_acl>false</check_acl><description/><dynamic_prefetch_count/><empty_state/><external_browser>false</external_browser><fetch_type>not_required</fetch_type><filter/><hide_filters>false</hide_filters><hide_screen_name>false</hide_screen_name><icon display_value="Star">f957685c475d1210d6acf855516d4348</icon><name>Thriving Solutions</name><relative_url>false</relative_url><roles_override/><sys_class_name>sys_sg_browser_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-13 01:27:41</sys_created_on><sys_id>f557685c475d1210d6acf855516d4349</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Thriving Solutions</sys_name><sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package><sys_policy/><sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope><sys_update_name>sys_sg_browser_screen_f557685c475d1210d6acf855516d4349</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-13 01:28:32</sys_updated_on><url>http://thrivingsolutionsllc.com</url></sys_sg_browser_screen><sys_translated_text action="delete_multiple" query="documentkey=f557685c475d1210d6acf855516d4349"/></record_update>]]></payload>
+        <payload_hash>-407761143</payload_hash>
+        <record_name>Thriving Solutions</record_name>
+        <reverted_from/>
+        <source>189bf48147f7021078457e45516d4326</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-13 01:28:32</sys_created_on>
+        <sys_id>9687609c475d1210d6acf855516d438b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192837dccd80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-13 01:28:32</sys_updated_on>
+        <type>Mobile web screen</type>
+        <update_guid>1e87609c595d12100616187de36e578a</update_guid>
+        <update_guid_history>1e87609c595d12100616187de36e578a:-407761143,6657e85cc15d1210f445ca127338122c:-682733763</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-14 17:55:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_browser_screen">sys_sg_browser_screen</sys_db_object>
+        <sys_id>b89b9d5d963743a89b8e3bfedd470840</sys_id>
+        <sys_metadata>f557685c475d1210d6acf855516d4349</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Thriving Solutions</sys_name>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope_delete display_value="">5360a778b1d14ee69fe48f4dc1dd5bf1</sys_scope_delete>
+        <sys_update_name>sys_sg_browser_screen_f557685c475d1210d6acf855516d4349</sys_update_name>
+        <sys_update_version display_value="sys_sg_browser_screen_f557685c475d1210d6acf855516d4349">9687609c475d1210d6acf855516d438b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-14 17:55:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

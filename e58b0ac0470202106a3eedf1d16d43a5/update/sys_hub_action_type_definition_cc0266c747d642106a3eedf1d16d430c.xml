@@ -18,6 +18,7 @@
         <internal_name>create_match_records</internal_name>
         <label_cache>[{"name":"{{action.tournament}}","label":"action➛Tournament","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiUniqueId":"a53c09a7-d742-4e96-82bc-2751c99c7d57"}},{"name":"{{action.test2}}","label":"action➛test2","type":"action","ref":"","reference_display":"Tournament","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.tournament.sys_id}}","label":"action➛Tournament➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"x_407566_hot_tra_0_tournament","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.tournament.competitors}}","label":"action➛Tournament➛Competitors","type":"action","ref":"x_407566_hot_tra_0_wheels","reference_display":"Competitors","base_type":"glide_list","parent_table_name":"x_407566_hot_tra_0_tournament","column_name":"competitors","choices":null,"attributes":{}},{"name":"{{action.competitors}}","label":"action➛Competitors","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.String","co_type_name":"","child_label":"Cars","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"Cars","child_uiUniqueId":"a9ff2853-4461-4a7a-a70a-1d394c75e89c","uiUniqueId":"4f8c4314-9937-4813-8ecd-572631f37f0b"}},{"name":"{{action.competitors.Cars}}","label":"action➛Competitors➛Cars","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.torunamentid}}","label":"action➛TorunamentId","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.torunament_id}}","label":"action➛Torunament Id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[723766e9-d133-4c88-b2f8-3f42358f5283].result}}","label":"step➛Create Matches➛Result","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","child_name":"result_child0","uiUniqueId":"cdc83a48-6a74-49d5-b030-c6cdaaab1675","uiTypeLabel":"Array.Object","co_type_name":"","child_label":"Result_child0","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"array.object","child_type":"object","child_uiUniqueId":"d85520df-0f73-4706-92c7-39583e9ac0f6"}}]</label_cache>
         <master_snapshot>42fcccd7471282106a3eedf1d16d43ed</master_snapshot>
+        <master_snapshot_digest/>
         <name>Create Match Records</name>
         <natlang/>
         <outputs/>
@@ -30,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cc0266c747d642106a3eedf1d16d430c</sys_id>
-        <sys_mod_count>117</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Create Match Records</sys_name>
         <sys_overrides/>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
@@ -38,7 +39,7 @@
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_cc0266c747d642106a3eedf1d16d430c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-29 20:19:28</sys_updated_on>
+        <sys_updated_on>2024-08-01 21:16:14</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -197,18 +198,6 @@ var matches= new CompetitorsUtil(inputs.competitors);&#13;
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=f5fcccd7471282106a3eedf1d16d43a7"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>f5fcccd7471282106a3eedf1d16d43a7</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-26 04:05:51</sys_created_on>
-        <sys_id>75fcccd7471282106a3eedf1d16d43c3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-26 04:05:51</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>competitors</field>
         <id>f5fcccd7471282106a3eedf1d16d43a7</id>
         <sys_created_by>admin</sys_created_by>
@@ -219,18 +208,6 @@ var matches= new CompetitorsUtil(inputs.competitors);&#13;
         <sys_updated_on>2024-05-26 04:05:51</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_f5fcccd7471282106a3eedf1d16d43a7</table>
         <value>{{action.competitors}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>f5fcccd7471282106a3eedf1d16d43a7</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-26 04:05:51</sys_created_on>
-        <sys_id>39fcccd7471282106a3eedf1d16d43c3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-26 04:05:51</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>TournamentId</field>
@@ -430,11 +407,11 @@ var matches= new CompetitorsUtil(inputs.competitors);&#13;
         <sys_created_on>2024-05-29 18:39:27</sys_created_on>
         <sys_id>c4b1321847aa42106a3eedf1d16d43d8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Result</sys_name>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_f5fcccd7471282106a3eedf1d16d43a7_result_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-29 18:39:27</sys_updated_on>
         <url/>
@@ -897,11 +874,11 @@ var matches= new CompetitorsUtil(inputs.competitors);&#13;
         <sys_created_on>2024-05-29 03:22:27</sys_created_on>
         <sys_id>5fcf9b04476a02106a3eedf1d16d43d6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Torunament Id</sys_name>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_cc0266c747d642106a3eedf1d16d430c_torunament_id_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-29 03:22:27</sys_updated_on>
         <url/>
@@ -920,11 +897,11 @@ var matches= new CompetitorsUtil(inputs.competitors);&#13;
         <sys_created_on>2024-05-26 04:05:51</sys_created_on>
         <sys_id>f1fcccd7471282106a3eedf1d16d43a5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Competitors</sys_name>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_cc0266c747d642106a3eedf1d16d430c_competitors_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-26 04:05:51</sys_updated_on>
         <url/>
@@ -945,11 +922,11 @@ var matches= new CompetitorsUtil(inputs.competitors);&#13;
         <sys_created_on>2024-05-26 04:05:51</sys_created_on>
         <sys_id>39fcccd7471282106a3eedf1d16d43ca</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_cc0266c747d642106a3eedf1d16d430c___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-26 04:05:51</sys_updated_on>
         <url/>
@@ -968,11 +945,11 @@ var matches= new CompetitorsUtil(inputs.competitors);&#13;
         <sys_created_on>2024-05-29 20:15:26</sys_created_on>
         <sys_id>caa74b54472e42106a3eedf1d16d43d3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>result</sys_name>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_cc0266c747d642106a3eedf1d16d430c_result_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-29 20:15:26</sys_updated_on>
         <url/>
@@ -991,11 +968,11 @@ var matches= new CompetitorsUtil(inputs.competitors);&#13;
         <sys_created_on>2024-05-26 04:05:51</sys_created_on>
         <sys_id>f1fcccd7471282106a3eedf1d16d43d0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_cc0266c747d642106a3eedf1d16d430c___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-26 04:05:51</sys_updated_on>
         <url/>
@@ -1213,18 +1190,6 @@ var matches= new CompetitorsUtil(inputs.competitors);&#13;
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=8afcccd7471282106a3eedf1d16d43fa"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>8afcccd7471282106a3eedf1d16d43fa</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-26 04:05:52</sys_created_on>
-        <sys_id>0afc001b471282106a3eedf1d16d4308</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-26 04:05:52</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>competitors</field>
         <id>8afcccd7471282106a3eedf1d16d43fa</id>
         <sys_created_by>admin</sys_created_by>
@@ -1235,18 +1200,6 @@ var matches= new CompetitorsUtil(inputs.competitors);&#13;
         <sys_updated_on>2024-05-26 04:05:52</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_8afcccd7471282106a3eedf1d16d43fa</table>
         <value>{{action.competitors}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>8afcccd7471282106a3eedf1d16d43fa</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-26 04:05:52</sys_created_on>
-        <sys_id>cafc001b471282106a3eedf1d16d4308</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-26 04:05:52</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>TournamentId</field>
@@ -1446,11 +1399,11 @@ var matches= new CompetitorsUtil(inputs.competitors);&#13;
         <sys_created_on>2024-05-29 18:39:29</sys_created_on>
         <sys_id>10b1721847aa42106a3eedf1d16d436c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Result</sys_name>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_8afcccd7471282106a3eedf1d16d43fa_result_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-29 18:39:29</sys_updated_on>
         <url/>
@@ -1913,11 +1866,11 @@ var matches= new CompetitorsUtil(inputs.competitors);&#13;
         <sys_created_on>2024-05-26 04:05:52</sys_created_on>
         <sys_id>46fcccd7471282106a3eedf1d16d43f8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Competitors</sys_name>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_42fcccd7471282106a3eedf1d16d43ed_competitors_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-26 04:05:52</sys_updated_on>
         <url/>
@@ -1936,11 +1889,11 @@ var matches= new CompetitorsUtil(inputs.competitors);&#13;
         <sys_created_on>2024-05-29 03:22:29</sys_created_on>
         <sys_id>b3cfdb04476a02106a3eedf1d16d4367</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Torunament Id</sys_name>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_42fcccd7471282106a3eedf1d16d43ed_torunament_id_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-29 03:22:29</sys_updated_on>
         <url/>
@@ -1961,11 +1914,11 @@ var matches= new CompetitorsUtil(inputs.competitors);&#13;
         <sys_created_on>2024-05-26 04:05:52</sys_created_on>
         <sys_id>8efc001b471282106a3eedf1d16d4321</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_42fcccd7471282106a3eedf1d16d43ed___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-26 04:05:52</sys_updated_on>
         <url/>
@@ -1984,11 +1937,11 @@ var matches= new CompetitorsUtil(inputs.competitors);&#13;
         <sys_created_on>2024-05-26 04:05:52</sys_created_on>
         <sys_id>c2fc001b471282106a3eedf1d16d431c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_42fcccd7471282106a3eedf1d16d43ed___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-26 04:05:52</sys_updated_on>
         <url/>
@@ -2007,11 +1960,11 @@ var matches= new CompetitorsUtil(inputs.competitors);&#13;
         <sys_created_on>2024-05-29 20:15:28</sys_created_on>
         <sys_id>daa78b54472e42106a3eedf1d16d4349</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>result</sys_name>
         <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_42fcccd7471282106a3eedf1d16d43ed_result_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-29 20:15:28</sys_updated_on>
         <url/>

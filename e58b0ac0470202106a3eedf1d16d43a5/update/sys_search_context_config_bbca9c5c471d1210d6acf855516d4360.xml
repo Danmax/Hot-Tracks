@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_context_config">
+    <sys_search_context_config action="INSERT_OR_UPDATE">
+        <collapse_attachment>true</collapse_attachment>
+        <document_match_count>3</document_match_count>
+        <document_match_threshold>0.65</document_match_threshold>
+        <enable_exact_match>true</enable_exact_match>
+        <enable_semantic_search>false</enable_semantic_search>
+        <evam_definition/>
+        <genius_results_limit>1</genius_results_limit>
+        <hit_highlighting>false</hit_highlighting>
+        <log_signals_server_side>false</log_signals_server_side>
+        <name>Search For Wheels</name>
+        <search_engine>ai_search</search_engine>
+        <search_profile display_value="Search For Wheels">585a545c471d1210d6acf855516d437b</search_profile>
+        <search_results_limit>10</search_results_limit>
+        <semantic_groupby>none</semantic_groupby>
+        <semantic_search_mode>keyword</semantic_search_mode>
+        <semantic_type>standard</semantic_type>
+        <show_tab_counts>true</show_tab_counts>
+        <spell_check>true</spell_check>
+        <suggestions_to_show_limit>10</suggestions_to_show_limit>
+        <sys_class_name>sys_search_context_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-13 00:33:51</sys_created_on>
+        <sys_id>bbca9c5c471d1210d6acf855516d4360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Search For Wheels</sys_name>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name>sys_search_context_config_bbca9c5c471d1210d6acf855516d4360</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-13 00:33:51</sys_updated_on>
+        <ts_index_group/>
+        <view/>
+    </sys_search_context_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=bbca9c5c471d1210d6acf855516d4360"/>
+</record_update>

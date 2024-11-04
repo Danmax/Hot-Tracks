@@ -24,6 +24,7 @@
         <ignore_price>true</ignore_price>
         <image/>
         <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
         <mandatory_attachment>false</mandatory_attachment>
         <meta/>
         <mobile_hide_price>false</mobile_hide_price>
@@ -100,6 +101,7 @@
         <taxonomy_topic display_value="Technology services">06d3df67c3053010069aec4b7d40dd70</taxonomy_topic>
         <template/>
         <template_manager_roles/>
+        <turn_off_nowassist_conversation>false</turn_off_nowassist_conversation>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
@@ -129,4 +131,15 @@
         <table>sc_cat_item_producer</table>
         <type>calculated</type>
     </fx_price>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>36970ce6471202106a3eedf1d16d4352</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-20 20:59:27</sys_created_on>
+        <sys_id>62a674b247d9da10d6acf855516d43a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-20 20:59:27</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>

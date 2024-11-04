@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=5183000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Simulate Race Subflow</description>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>genai_race</internal_name>
+        <label_cache>[{"name":"276d5e84-cf5f-4d3d-912b-bc935ba9d802.Record.r1_lane","label":"1 - Look Up Record➛x_407566_hot_tra_0_race Record➛R1 Lane","reference":"","reference_display":"R1 Lane","type":"choice","base_type":"choice","parent_table_name":"x_407566_hot_tra_0_race","column_name":"r1_lane","choices":[{"used":false,"label":"1","image":"","reference":false,"selected":false,"missing":false,"rawLabel":"1","value":"1","parameters":{"name":"x_407566_hot_tra_0_race","dependent_values":[""]}},{"used":false,"label":"2","image":"","reference":false,"selected":false,"missing":false,"rawLabel":"2","value":"2","parameters":{"name":"x_407566_hot_tra_0_race","dependent_values":[""]}}],"usedInstances":{"5625be16-a21e-4603-b0e9-04e2aa5600de":["condition"]}},{"name":"276d5e84-cf5f-4d3d-912b-bc935ba9d802.Record","label":"1 - Look Up Record➛x_407566_hot_tra_0_race Record","reference":"x_407566_hot_tra_0_race","reference_display":"Race","type":"reference","base_type":"reference","usedInstances":{"6ddd2a5b-072c-414f-8943-4f4ac1ee3336":["record"],"d5c23699-02c3-4f9e-9035-ccc7615fa3b7":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"276d5e84-cf5f-4d3d-912b-bc935ba9d802.Record.racer_2","label":"1 - Look Up Record➛x_407566_hot_tra_0_race Record➛Racer 2","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","parent_table_name":"x_407566_hot_tra_0_race","column_name":"racer_2","usedInstances":{"8e2fbddb-f116-4fc4-8f43-0f14b032eb7d":["conditions"]}},{"name":"276d5e84-cf5f-4d3d-912b-bc935ba9d802.Record.racer_1","label":"1 - Look Up Record➛x_407566_hot_tra_0_race Record➛Racer 1","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","parent_table_name":"x_407566_hot_tra_0_race","column_name":"racer_1","usedInstances":{"89625cb1-b931-4b0f-a2b4-32d523b3935a":["conditions"]}},{"name":"subflow.raceid","label":"Input➛RaceID","type":"string","base_type":"string","usedInstances":{"276d5e84-cf5f-4d3d-912b-bc935ba9d802":["conditions"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"4de48cf4-bbfc-468f-a074-6be2d7ede19a"}}]</label_cache>
+        <master_snapshot>0992954347cd1e10d6acf855516d43c9</master_snapshot>
+        <master_snapshot_digest/>
+        <name>GenAI Race</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 07:08:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>25eec14f478d1e10d6acf855516d439f</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>GenAI Race</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name>sys_hub_flow_25eec14f478d1e10d6acf855516d439f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 08:34:35</sys_updated_on>
+        <type>subflow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=25eec14f478d1e10d6acf855516d439f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=25eec14f478d1e10d6acf855516d439f"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=25eec14f478d1e10d6acf855516d439f"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=25eec14f478d1e10d6acf855516d439f^sys_idNOT IN25eec14f478d1e10d6acf855516d43a0"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>25eec14f478d1e10d6acf855516d439f</id>
+        <name>GenAI Race</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 07:08:07</sys_created_on>
+        <sys_id>25eec14f478d1e10d6acf855516d43a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 07:08:07</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=25eec14f478d1e10d6acf855516d43a0"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=25eec14f478d1e10d6acf855516d439f^sys_idNOT IN2c41d18f478d1e10d6acf855516d43eb"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=4de48cf4-bbfc-468f-a074-6be2d7ede19a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>raceid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>RaceID</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="GenAI Race">25eec14f478d1e10d6acf855516d439f</model>
+        <model_id>25eec14f478d1e10d6acf855516d439f</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_25eec14f478d1e10d6acf855516d439f</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 07:18:25</sys_created_on>
+        <sys_id>2c41d18f478d1e10d6acf855516d43eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 07:18:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2c41d18f478d1e10d6acf855516d43eb"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=25eec14f478d1e10d6acf855516d439f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=25eec14f478d1e10d6acf855516d439f"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=25eec14f478d1e10d6acf855516d439f"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=25eec14f478d1e10d6acf855516d439f^sys_idNOT IN30415dcf478d1e10d6acf855516d4347,30415dcf478d1e10d6acf855516d4348,38415dcf478d1e10d6acf855516d4347,63fc1dcb47cd1e10d6acf855516d43e9,7c415dcf478d1e10d6acf855516d4345"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="GenAI Race">25eec14f478d1e10d6acf855516d439f</flow>
+        <generation_source>flowRecommendation</generation_source>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 07:18:26</sys_created_on>
+        <sys_id>30415dcf478d1e10d6acf855516d4347</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 08:35:25</sys_updated_on>
+        <ui_id>89625cb1-b931-4b0f-a2b4-32d523b3935a</ui_id>
+        <values>H4sIAAAAAAAA/+VY32/iOBD+V6I8A5cQINC3U1Gllfa2Utvbl92V5dhOsc7YWdvpL8T/fuM4AQQUiA6kVvdoe2x/M/N940l+LEJOw6uQTqJJPpkMx2kUJUkUjUYJwXGWJSOSRRkehJ1Q4jkDS4szwWD4hEXpxi9oEKXD0QjNlEVWYxSh5xljwoAN5aYQ+PX7CaZkxgXVTIZXP351wgJruM0yHV4ttpZOhStwxgSYPtR4t+Db12I1RNWan/u6uS345heUpg5K1AnZi2WSMsCQY2FYJ5xjSbFV+nU1oxmmt1KsJ2ZcWjgxdMYvhr/BvePI2eUMvCLMr62G1c1THzm/lE+xxfdWl8SWujYnM8UJMz4mlOW4FPZ6c84b3BaWK+m3eNf9biXKufzmQxKuDmgSBTOlYYiywjnr0Neu5Pcz9XzXIL3hsopLvSgUwWI1wtZqnpXW4VmETLA5HITmuCi4fESFVk+82gxY5r1HAYNeLtQzXGr4o+xh4oD3ILa4dwPz02r6O9bcefEXHAObARAXwBLk02hUqatwPiEiSlMtaCyNPytcdkLzaq4FNmbtOYQd/S4dbh+H2mPkg+a2EM0L+ycc8cRq55adRjXDgzScrGlHlKTcoTAb0gE0iNOfJWymi0U/HdEhGw+6JB/m3QFNaHcS97NuRibJEA6j46jfu2MEyNjTmIBz8XK5K7LzHNpSjsfj0MjxejMQ+4JTC3Nn7uu+A2phxmcT5iCKPps04fKPp8z2WvMhOCK4mB4kGl1zyihtkY/lhuJ25dKa6ydAaLh+69gZZK/voaqpnnMm6L436MYtbL1B/f/vG/QhiQ6AKPIZ5FJwWTUVAPRSChgepF8Wb3GtotjGi+PmsCG7OsCBVcFbazWcAKdRwz3cHTx4PHsgNnW/osx2zW8maxEkZxNB0j+fCBYrV1fB3BP3ppd0GW3s35w93rYHGm5siJf7RNbqzrjtnf3lroiTVireJJxfmb7DuzM3nO+osnPJMjCDrfV9yGsYPXP6yOz69saKKvuMxT/71mthoiZRlXsXaF7jg99Q2UbzynM0h8zxAnpsXfWKBmHNUK5KSVHdXa+J5DKZc21sbbxbbO4Y6EcGCsQZ2BkLKutgZd3yQT7uRxPKL3nQOFLfZgJwJKgcCVaOtHO7TeEanLFRvUThusFcVBmBj6diI6VMa6XfKV5HknmAFSdWthNBxWcF9d9L3z4Z7C2BR7B+ii/x85cnwnA26ONRmsRxFMURTaNxmsbjUZaPcDrI1zpFyEgCFRVOzoEqcDxqqNHkOdqtQb6sti02J6BqKDhV0n2F91MbOFiQ36CBdRx4XVQypQTDcquqPMBb8cdNjb/m6/BDVpZP8W+q5A/b0fZTe+N9qf6h5H9L/rtkXxzNxizqj2NKuuM0TruDnI66E4qHXTzJhmlCGRnk52wJfv0Ll78pJAcWAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="GenAI Race">25eec14f478d1e10d6acf855516d439f</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 07:18:26</sys_created_on>
+        <sys_id>30415dcf478d1e10d6acf855516d4348</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 08:35:25</sys_updated_on>
+        <ui_id>6ddd2a5b-072c-414f-8943-4f4ac1ee3336</ui_id>
+        <values>H4sIAAAAAAAA/+VVW2/aMBj9K5GfYIMoF6DAnqYipEm9SO3Ul9JFTvylWHKczHEoDPHf9yU2lNHL2qkvaDzF383nnHyH3K4JZ2RMesA8f+QPktAPw8DzgmHPjwdh7AcspAA+6RBJM8BKBUmuGJ4XVFR1YL0OTgasD8NeN0n7abfHQtYd+UHcjZNR2I/piA29wL1q+jYb7GS8LARd3dgBGEnmXDAFkoxv7zqkoArv0qDIeH2QeitYQWMQWHq1RXuIXq+K+szypMpA6ohvg2e2c2IzzrcJZrCphuN7HQJLDZIBAkmpKKFDMioZ1blakbFWFQYUUHYpxWpXMedSG6IZXZb8F97c8+q6FJBZYkXYHb/TWMDEiGRS6YRqeo3TE12pnWY5T6A0ujBIaSX06X7MFFwWmufStOh6sO3ORZXJC6MK2Q3YeydVCRGDouZaozfU0ut5/nC1BTrlspHF0hR5QsXuRLVWPK50DWdNQECjc0aLgsv7qFD5gjfNCCVz7wUe3FTkD3hnye+lS5Mat4vKUneK8UkTvqGK1yTOcQw2bzqkXJWngpblIxXUMfpZ1UgMMUshalRoJIiabaibE8UL/RWvWoAFvulYS8T917YsGT0u1d7MR1sso5530h8MonmuI61o5EWKJvB0/V8ufJ8r3oB364pmwV7Ab43xJHa23+tcmIS1Rf/DbDE8NltYKkfvi7+5wQte/c/d26bGAOWeE5QfaZ7BrPK8kKWsa64B9kMFzyeeeuRfRrzPPW/gt3XPlINg5TOEt9aBDLFriIwAB/axSefGJndflg/zkD/wmt+ROek/+MAYiiZWY7bbWz++VkgEaEdWWQzKMZvunFM9dxVuR5612s4np9Vz+wPP6Tq+G4zCtvPZPHyZyQVVTpqrDNUCdvHHEPRECUid6paZ7up8ypfAWmG7ja0zqQDXQR72zyTSLukC2O5tIlXr0eMj8xydzebuN8ZvvKUbCwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="GenAI Race">25eec14f478d1e10d6acf855516d439f</flow>
+        <generation_source>flowRecommendation</generation_source>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 07:18:26</sys_created_on>
+        <sys_id>38415dcf478d1e10d6acf855516d4347</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 08:35:25</sys_updated_on>
+        <ui_id>8e2fbddb-f116-4fc4-8f43-0f14b032eb7d</ui_id>
+        <values>H4sIAAAAAAAA/+VY32/iOBD+V6I8A5cQINC3U1Gllfa2Utvbl92V5dhOsc7YWdvpL8T/fuM4AQQUiA6kVvdoe2x/M/N940l+LEJOw6uQTqJJPpkMx2kUJUkUjUYJwXGWJSOSRRkehJ1Q4jkDS4szwWD4hEXpxi9oEKXD0QjNlEVWYxSh5xljwoAN5aYQ+PX7CaZkxgXVTIZXP351wgJruM0yHV4ttpZOhStwxgSYPtR4t+Db12I1RNWan/u6uS345heUpg5K1AnZi2WSMsCQY2FYJ5xjSbFV+nU1oxmmt1KsJ2ZcWjgxdMYvhr/BvePI2eUMvCLMr62G1c1THzm/lE+xxfdWl8SWujYnM8UJMz4mlOW4FPZ6c84b3BaWK+m3eNf9biXKufzmQxKuDmgSBTOlYYiywjnr0Neu5Pcz9XzXIL3hsopLvSgUwWI1wtZqnpXW4VmETLA5HITmuCi4fESFVk+82gxY5r1HAYNeLtQzXGr4o+xh4oD3ILa4dwPz02r6O9bcefEXHAObARAXwBLk02hUqatwPiEiSlMtaCyNPytcdkLzaq4FNmbtOYQd/S4dbh+H2mPkg+a2EM0L+ycc8cRq55adRjXDgzScrGlHlKTcoTAb0gE0iNOfJWymi0U/HdEhGw+6JB/m3QFNaHcS97NuRibJEA6j46jfu2MEyNjTmIBz/eVyV2TnObSlHI/HoZHj9WYg9gWnFubO3Nd9B9TCjM8mzEEUfTZpwuUfT5ntteZDcERwMT1INLrmlFHaIh/LDcXtyqU110+A0HD91rEzyF7fQ1VTPedM0H1v0I1b2HqD+v/fN+hDEh0AUeQzyKXgsmoqAOilFDA8SL8s3uJaRbGNF8fNYUN2dYADq4K31mo4AU6jhnu4O3jwePZAbOp+RZntmt9M1iJIziaCpH8+ESxWrq6CuSfuTS/pMtrYvzl7vG0PNNzYEC/3iazVnXHbO/vLXREnrVS8STi/Mn2Hd2duON9RZeeSZWAGW+v7kNcweub0kdn17Y0VVfYZi3/2rdfCRE2iKvcu0LzGB7+hso3mledoDpnjBfTYuuoVDcKaoVyVkqK6u14TyWUy59rY2ni32Nwx0I8MFIgzsDMWVNbByrrlg3zcjyaUX/KgcaS+zQTgSFA5Eqwcaed2m8I1OGOjeonCdYO5qDICH0/FRkqZ1kq/U7yOJPMAK06sbCeCis8K6r+Xvn0y2FsCj2D9FF/i5y9PhOFs0MejNInjKIojmkbjNI3Hoywf4XSQr3WKkJEEKiqcnANV4HjUUKPJc7Rbg3xZbVtsTkDVUHCqpPsK76c2cLAgv0ED6zjwuqhkSgmG5VZVeYC34o+bGn/N1+GHrCyf4t9UyR+2o+2n9sb7Uv1Dyf+W/HfJvjiajVnUH8eUdMdpnHYHOR11JxQPu3iSDdOEMjLIz9kS/PoXTsMFZAcWAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="GenAI Race">25eec14f478d1e10d6acf855516d439f</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>5625be16-a21e-4603-b0e9-04e2aa5600de</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 08:09:41</sys_created_on>
+        <sys_id>63fc1dcb47cd1e10d6acf855516d43e9</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 08:35:25</sys_updated_on>
+        <ui_id>d5c23699-02c3-4f9e-9035-ccc7615fa3b7</ui_id>
+        <values>H4sIAAAAAAAA/+VVXU/bMBT9K5Gf2ygfbWm7h2miQprEQIKJF8IiJ76hlhwnc5xCV/W/7zp2Q0WBwYQmoeWluZ8+5/qe5npDOCNzMgIWhLNwksdhHEdBEE1HYTaJszBiMQUIyYBIWgJmKsgrxdBeUdEax2YTHU3YGKajYV6Mi+GIxWw4C6NsmOWzeJzRGZsGkX/R1W23WMl4Uwu6vnIN0JMvuWAKJJlf3wxITRWepUGR+eZR6LVgBc1AYOrFDu1j9HpdG5tVeVuC1CnfOU9d5cJFvK8LjGCRgRMGAwL3GiQDBFJQ0cCAlFQyqiu1JnOtWnQooOxcinWfseRSW6IlvW/4Lzx5FJi8ApBZ7obQm99pJmBhh2RDxYJqeondc92qfmYVz6Gxc2FQ0Fbo432fTTivNa+kLdGmsauuRFvKMzsV0jfYu5O2gZRBbbga9JZacbms7i52QE+47MbiaIoqp6K3qNaKZ602cDYEBHRzLmldc3mb1qpa8a4YoZT+rUDDL0R1h2c2/Fb6NDe4fZws9U/Qv+jcV1RxQ+IbtsHi7YA06+ZY0KZ5oIJzTH+2Bokl5iik3RS6EaTdNpjiXPFaf8GjVuCAbwdOEtn4pS3LZw9LtdfzQRb36Sg4Gk8m6bLSqVY0DVJFczhc/+cT36aKV+DdqaJbsGfwO2Ec+E73a70zG3CyGL+bLKYfTRaOyofXxZ/UEEQv/ufubVMngGZPCSpMBZWQtEEQs4IN7THAfqjo6cChRv6mxdvU8wp+O/WccBCseYLwTjpQInYNqR3AI/m4oHflgv2X5d00FE6C7vlgSvoPPjCWovUZzG6tzetLiUSA9kxiqDy76V7B0g54R2hFlW/DifTwUYCXiG+u5LOXkDAh3hx/o4R8SmQiEXdDV8D660CsTkv/AE3k0IQdmkMs2+3Nb/qre/iZCgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="GenAI Race">25eec14f478d1e10d6acf855516d439f</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 07:18:26</sys_created_on>
+        <sys_id>7c415dcf478d1e10d6acf855516d4345</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 08:35:25</sys_updated_on>
+        <ui_id>276d5e84-cf5f-4d3d-912b-bc935ba9d802</ui_id>
+        <values>H4sIAAAAAAAA/+VY227bOBD9FUHPjlfyTXbeFjEMFOg2QJPtS1sQlEjFRGlSJancDP/7DkVJFmzFtrA2kKCPHA7JMzPnDCl9X/uM+Nc+mQWzdDYbT6MgGA6DYDIZJjiM4+EkiYMYj/yeL/CKgqfBMacwfMQ8t+NnNAqi8WSCltIgozAKkMKJ9SBMZxy/fDvqmCwZJ4oK//r7z56fYQUnGar86/XO1KlQOY4pB9f7EusOdPOS1UNUzDnb5+Yy74ubkIpYKEHPp8+GCkIBQ4q5pj1/hQXBRqqX2qIoJreCbw1LJgzs6FvnZ81e4dxpYP1SClEl1M3Vw+Lkucubm0rn2OA7o/LE5Kp0T5aSJVS7nBCa4pybm6bNOdxmhknhlrjQ3WrJ85X44lLi1xtUZQJLrikiNLPBWvRlKOndUj59rZAumCjyUk5ymWBej7AxisW5sXjWPuV0BRuhFc4yJh5QpuQjKxYDllX/gcOgn3L5BIdq9iD6OLHA+5Bb3F+AfV6Yv2HFbBT/wDawGAAxDixBroxa5qpI5yNKeK6LCYWFdnv5m56vX/QNx1pvI4e0o9+5xe3yUEaMXNLskkSxzPwNWzzSMrhNr1LM+CANZ1vaJVIQZlHohmwADWLkRw6LyXqt89gmoG8Fwchms6+eo/4dRXQcfSWimyb8tpBKOe3ZPrdtUMopPJucRkHw0QQFh78/PXVXiEvBEZmE5CDRyJZTWiqDXC4bOtlXQmeunwCh4vqtZacXv7yFqqR6yignbTfHwk7s3ByDP/fmeJdEB0AEuQoywZkongIA9FIKGB+kXxzucK2gWOOesDask30dYM9I77WzGk6AU6nhDs727h2eFohV3y8os9vzK2MpguHZRDAcnE8E6zrUOpktea9egLailf+r9ce7/kDDxoJw0yayTmeGXc8cbPZFPOyk4ibh3Mz8Dd6d+Zn4hip7l2wDS1hanoechtETIw/UbE+vvIg0T5j/apsvhYmqQhXhXeDJGR788okbT06WohVUjmXwMlY0AXJohBVFqcwFQeWbeEskW8mUKW1K5/1m85WCfoQnQZyeWVKv8PZq744X8vE4qlR+Sr0qkPI07UEgXhGIVwfSLewujWt0xofqJRrXAjNeVAQ+ebJGSalSUr3RvI4U8wArTuxsJ4IKzwrq/7e+Nhm0tsAjWD/E9/P521NCcTwa4Ek0DMMgCAMSBdMoCqeTOJ3gaJRudYqQFgl0VNg5BarA9qiiRlXncL8HlQ23W685AVTFwLkU9vt6EBnPooLyehWq47jLnhJLySkWO03lHpD/tShuhZqu43fZWD7ED6Wc3e9m25la832p50PO/hXsd04/WZpNaTCYhiS5mkZhdDVKyeRqRvD4Cs/icTQkNBml53wR/PwPvnH4YbgVAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=25eec14f478d1e10d6acf855516d439f"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=25eec14f478d1e10d6acf855516d439f^sys_idNOT INa7fc1dcb47cd1e10d6acf855516d43e7,ebfc1dcb47cd1e10d6acf855516d43e8"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">6bfc1dcb47cd1e10d6acf855516d43e6</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="GenAI Race">25eec14f478d1e10d6acf855516d439f</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 08:09:41</sys_created_on>
+        <sys_id>a7fc1dcb47cd1e10d6acf855516d43e7</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 08:34:30</sys_updated_on>
+        <ui_id>5625be16-a21e-4603-b0e9-04e2aa5600de</ui_id>
+        <values>H4sIAAAAAAAA/+VUXWvbMBT9K8PPjvFHnCV5K9sKhXUdTSmUUcy1dJ2IyZInyUmzkP++K3+0ZU3Z2Pa2N+tc6Z5z7j34EOjWNa2zN/rMWrFWwfLLfRgI5TH6PgQKagyWAdOKCye0KjogDLYgW1/on735CAotwVzYRsL+9nSVbYTkBgeWBgz1cmiC5eGnkts3WEgoUVKTlTNCrem54HSqYqiSBUtYls6yNI7T+TQpZ1mZpDwDhIzujQ/fjaJJgEfCV914PsLtyKQN97KSOAzwwaHiSNQVSIthUIPi4LTZPyIGgV8p+QRshHLULvCXH6z4Tr3TPPcXKySPDPsi22jB8KrxSnrEQSnHopZtrT71gv1ksYJWunGyhLQWC46NV+fpBu5qtdG765HoXKjOyVCUmoF8PIEjv2XraDe0AZRYU6OihqahKRSN0VvRPSYtdbSWdIgqqXdE6rcaAfPCIxoGROeEv+/gWzDCu7ikNvS4l1mCFazoYkXtnCELx24cxbfWC+oNDlaKfhp0wTIjGndGPFscVB/Dl5l8FsfDIX074znOpxNW5dVkyjM+WSRpOSnZIstLWPB5nEbXyGjFkUkoZAqPx4vVh8vPN3cvA/zX/f5F5BeQV3kS56cjP52divyJsL+e8/QXOfcL+82Yx3H8n+Zc2KLP6+CtI//jmN/7TPcMtg8IRyYsCbnx2MX4h/aFPW1asOfQTpuv3sITdvwBhxU0ZesFAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">e3fc1dcb47cd1e10d6acf855516d43e8</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="GenAI Race">25eec14f478d1e10d6acf855516d439f</flow>
+        <flow_variables_assigned>lane1r</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id>5625be16-a21e-4603-b0e9-04e2aa5600de</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 08:09:41</sys_created_on>
+        <sys_id>ebfc1dcb47cd1e10d6acf855516d43e8</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 08:34:30</sys_updated_on>
+        <ui_id>bebc2466-7366-4143-83d4-99def49094b0</ui_id>
+        <values>H4sIAAAAAAAA/+1VTW/bMAz9K4FOG5B4TpzvnToUAQq0K5BlvSxFIEt0IkyWXFlKmgX57yNtp+2yYrfd4pP0SJHvPYnwgdngi+DLhb0qS7U2bPrjsc2UIQzXB2Z4DmzKNDfQdazNtlwHAmJcS1UWmu8f3kBio7R00NQpuMPjHhybHs5Cfl/ASvMUNJ5cuACfZlyXgCWURKSXZKIrRdofCdmFbiyHXGTjwWDQHcp+AtTqdPiWqM0ROKdKLXCfWquBGwSsk0QlbjN49mAkYKeMurZZzo3k3rr9C+KAy3ujX4GNMh7LMUp+LtUvrJ30KC8DVCWgjomNVQLuC68sKmUJ8eCpPkWtDrn5WhMlByHjQfuTg1ljQQNf/+1vKGEloSDyxKahln3b2N38RGSmTKWzCWoruH7Zce+dSoOHku4kqMW5STV0+97NgIYc265yXhTKrFeFs1tVtUJhebTWuIkybXdIkR5TxAXZEKGzPJohfl3BD9wpsuQOy4CrWn436inADd38uBf3Jz2RdtJ0nHT6w9GkkyZp2klG4yzjSdYfTobsWPm+egqkrDay8WRV2U4JpXCq8FdIYYsKPQo5YaS8eSW4+lcey4KpNLTW4Of4Rmz+pXbqw8fWYWla+GnwLRPyFFxrGeI4ka077jeRq7Ixrc5y4IMzfyRCkx5Hg89Lc1wadjweH2nEan/qAazG4Z3XfRnEyyBeBvG/DqIEoUrsuSCTbk7/RArs8Ykr8RbaWfeTHH/Fjr8BsAlvr10HAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=25eec14f478d1e10d6acf855516d439f"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=25eec14f478d1e10d6acf855516d439f^sys_idNOT IN23fc1dcb47cd1e10d6acf855516d43e0,27fc1dcb47cd1e10d6acf855516d43d9"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=820492cb-bb83-4679-b3bb-378ffa3f4696</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>false</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>lane1r</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Lane1R</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="GenAI Race">25eec14f478d1e10d6acf855516d439f</model>
+        <model_id>25eec14f478d1e10d6acf855516d439f</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_25eec14f478d1e10d6acf855516d439f</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 08:09:41</sys_created_on>
+        <sys_id>23fc1dcb47cd1e10d6acf855516d43e0</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 08:34:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=8fef12d5-289a-4432-9873-22128ca671ee</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>false</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>assign_lanes</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Assign Lanes</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="GenAI Race">25eec14f478d1e10d6acf855516d439f</model>
+        <model_id>25eec14f478d1e10d6acf855516d439f</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_25eec14f478d1e10d6acf855516d439f</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 08:09:40</sys_created_on>
+        <sys_id>27fc1dcb47cd1e10d6acf855516d43d9</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 08:34:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_25eec14f478d1e10d6acf855516d439f^sys_idNOT INf8415dcf478d1e10d6acf855516d4341"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>raceid</element>
+        <help/>
+        <hint/>
+        <label>RaceID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_25eec14f478d1e10d6acf855516d439f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 07:18:26</sys_created_on>
+        <sys_id>f8415dcf478d1e10d6acf855516d4341</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 07:18:26</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_25eec14f478d1e10d6acf855516d439f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_25eec14f478d1e10d6acf855516d439f"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_25eec14f478d1e10d6acf855516d439f"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Simulate Race Subflow</description>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>genai_race</internal_name>
+        <label_cache>[{"name":"276d5e84-cf5f-4d3d-912b-bc935ba9d802.Record.r1_lane","label":"1 - Look Up Record➛x_407566_hot_tra_0_race Record➛R1 Lane","reference":"","reference_display":"R1 Lane","type":"choice","base_type":"choice","parent_table_name":"x_407566_hot_tra_0_race","column_name":"r1_lane","choices":[{"used":false,"label":"1","image":"","reference":false,"selected":false,"missing":false,"rawLabel":"1","value":"1","parameters":{"name":"x_407566_hot_tra_0_race","dependent_values":[""]}},{"used":false,"label":"2","image":"","reference":false,"selected":false,"missing":false,"rawLabel":"2","value":"2","parameters":{"name":"x_407566_hot_tra_0_race","dependent_values":[""]}}],"usedInstances":{"5625be16-a21e-4603-b0e9-04e2aa5600de":["condition"]}},{"name":"276d5e84-cf5f-4d3d-912b-bc935ba9d802.Record","label":"1 - Look Up Record➛x_407566_hot_tra_0_race Record","reference":"x_407566_hot_tra_0_race","reference_display":"Race","type":"reference","base_type":"reference","usedInstances":{"6ddd2a5b-072c-414f-8943-4f4ac1ee3336":["record"],"d5c23699-02c3-4f9e-9035-ccc7615fa3b7":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"276d5e84-cf5f-4d3d-912b-bc935ba9d802.Record.racer_2","label":"1 - Look Up Record➛x_407566_hot_tra_0_race Record➛Racer 2","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","parent_table_name":"x_407566_hot_tra_0_race","column_name":"racer_2","usedInstances":{"8e2fbddb-f116-4fc4-8f43-0f14b032eb7d":["conditions"]}},{"name":"276d5e84-cf5f-4d3d-912b-bc935ba9d802.Record.racer_1","label":"1 - Look Up Record➛x_407566_hot_tra_0_race Record➛Racer 1","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","parent_table_name":"x_407566_hot_tra_0_race","column_name":"racer_1","usedInstances":{"89625cb1-b931-4b0f-a2b4-32d523b3935a":["conditions"]}},{"name":"subflow.raceid","label":"Input➛RaceID","type":"string","base_type":"string","usedInstances":{"276d5e84-cf5f-4d3d-912b-bc935ba9d802":["conditions"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"4de48cf4-bbfc-468f-a074-6be2d7ede19a"}}]</label_cache>
+        <master>true</master>
+        <name>GenAI Race</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="GenAI Race">25eec14f478d1e10d6acf855516d439f</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 07:24:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0992954347cd1e10d6acf855516d43c9</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 08:34:34</sys_updated_on>
+        <type>subflow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=0992954347cd1e10d6acf855516d43c9"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0992954347cd1e10d6acf855516d43c9"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=0992954347cd1e10d6acf855516d43c9"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=0992954347cd1e10d6acf855516d43c9^sys_idNOT INc192954347cd1e10d6acf855516d43ca"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>0992954347cd1e10d6acf855516d43c9</id>
+        <name>GenAI Race</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 07:24:11</sys_created_on>
+        <sys_id>c192954347cd1e10d6acf855516d43ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 07:24:11</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=c192954347cd1e10d6acf855516d43ca"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=0992954347cd1e10d6acf855516d43c9^sys_idNOT INc192954347cd1e10d6acf855516d43cb"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=4de48cf4-bbfc-468f-a074-6be2d7ede19a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>raceid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>RaceID</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="GenAI Race">0992954347cd1e10d6acf855516d43c9</model>
+        <model_id>0992954347cd1e10d6acf855516d43c9</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_0992954347cd1e10d6acf855516d43c9</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 07:24:11</sys_created_on>
+        <sys_id>c192954347cd1e10d6acf855516d43cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 07:24:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c192954347cd1e10d6acf855516d43cb"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=0992954347cd1e10d6acf855516d43c9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0992954347cd1e10d6acf855516d43c9"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=0992954347cd1e10d6acf855516d43c9"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=0992954347cd1e10d6acf855516d43c9^sys_idNOT IN0592954347cd1e10d6acf855516d43f8,4592954347cd1e10d6acf855516d43f6,4592954347cd1e10d6acf855516d43f7,4d92954347cd1e10d6acf855516d43f6,840d5dcb47cd1e10d6acf855516d4342"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="GenAI Race">0992954347cd1e10d6acf855516d43c9</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 07:24:11</sys_created_on>
+        <sys_id>0592954347cd1e10d6acf855516d43f8</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 08:13:49</sys_updated_on>
+        <ui_id>6ddd2a5b-072c-414f-8943-4f4ac1ee3336</ui_id>
+        <values>H4sIAAAAAAAA/+VVW2/aMBj9K5GfYIMoF6DAnqYipEm9SO3Ul9JFTvylWHKczHEoDPHf9yU2lNHL2qkvaDzF383nnHyH3K4JZ2RMesA8f+QPktAPw8DzgmHPjwdh7AcspAA+6RBJM8BKBUmuGJ4XVFR1YL0OTgasD8NeN0n7abfHQtYd+UHcjZNR2I/piA29wL1q+jYb7GS8LARd3dgBGEnmXDAFkoxv7zqkoArv0qDIeH2QeitYQWMQWHq1RXuIXq+K+szypMpA6ohvg2e2c2IzzrcJZrCphuN7HQJLDZIBAkmpKKFDMioZ1blakbFWFQYUUHYpxWpXMedSG6IZXZb8F97c8+q6FJBZYkXYHb/TWMDEiGRS6YRqeo3TE12pnWY5T6A0ujBIaSX06X7MFFwWmufStOh6sO3ORZXJC6MK2Q3YeydVCRGDouZaozfU0ut5/nC1BTrlspHF0hR5QsXuRLVWPK50DWdNQECjc0aLgsv7qFD5gjfNCCVz7wUe3FTkD3hnye+lS5Mat4vKUneK8UkTvqGK1yTOcQw2bzqkXJWngpblIxXUMfpZ1UgMMUshalRoJIiabaibE8UL/RWvWoAFvulYS8T917YsGT0u1d7MR1sso5530h8MonmuI61o5EWKJvB0/V8ufJ8r3oB364pmwV7Ab43xJHa23+tcmIS1Rf/DbDE8NltYKkfvi7+5wQte/c/d26bGAOWeE5QfaZ7BrPK8kKWsa64B9kMFzyeeeuRfRrzPPW/gt3XPlINg5TOEt9aBDLFriIwAB/axSefGJndflg/zkD/wmt+ROek/+MAYiiZWY7bbWz++VkgEaEdWWQzKMZvunFM9dxVuR5612s4np9Vz+wPP6Tq+G4zCtvPZPHyZyQVVTpqrDNUCdvHHEPRECUid6paZ7up8ypfAWmG7ja0zqQDXQR72zyTSLukC2O5tIlXr0eMj8xydzebuN8ZvvKUbCwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="GenAI Race">0992954347cd1e10d6acf855516d43c9</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 07:24:11</sys_created_on>
+        <sys_id>4592954347cd1e10d6acf855516d43f6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 07:24:11</sys_updated_on>
+        <ui_id>276d5e84-cf5f-4d3d-912b-bc935ba9d802</ui_id>
+        <values>H4sIAAAAAAAA/+VY227bOBD9FUHPjlfyTXbeFjEMFOg2QJPtS1sQlEjFRGlSJancDP/7DkVJFmzFtrA2kKCPHA7JMzPnDCl9X/uM+Nc+mQWzdDYbT6MgGA6DYDIZJjiM4+EkiYMYj/yeL/CKgqfBMacwfMQ8t+NnNAqi8WSCltIgozAKkMKJ9SBMZxy/fDvqmCwZJ4oK//r7z56fYQUnGar86/XO1KlQOY4pB9f7EusOdPOS1UNUzDnb5+Yy74ubkIpYKEHPp8+GCkIBQ4q5pj1/hQXBRqqX2qIoJreCbw1LJgzs6FvnZ81e4dxpYP1SClEl1M3Vw+Lkucubm0rn2OA7o/LE5Kp0T5aSJVS7nBCa4pybm6bNOdxmhknhlrjQ3WrJ85X44lLi1xtUZQJLrikiNLPBWvRlKOndUj59rZAumCjyUk5ymWBej7AxisW5sXjWPuV0BRuhFc4yJh5QpuQjKxYDllX/gcOgn3L5BIdq9iD6OLHA+5Bb3F+AfV6Yv2HFbBT/wDawGAAxDixBroxa5qpI5yNKeK6LCYWFdnv5m56vX/QNx1pvI4e0o9+5xe3yUEaMXNLskkSxzPwNWzzSMrhNr1LM+CANZ1vaJVIQZlHohmwADWLkRw6LyXqt89gmoG8Fwchms6+eo/4dRXQcfSWimyb8tpBKOe3ZPrdtUMopPJucRkHw0QQFh78/PXVXiEvBEZmE5CDRyJZTWiqDXC4bOtlXQmeunwCh4vqtZacXv7yFqqR6yignbTfHwk7s3ByDP/fmeJdEB0AEuQoywZkongIA9FIKGB+kXxzucK2gWOOesDask30dYM9I77WzGk6AU6nhDs727h2eFohV3y8os9vzK2MpguHZRDAcnE8E6zrUOpktea9egLailf+r9ce7/kDDxoJw0yayTmeGXc8cbPZFPOyk4ibh3Mz8Dd6d+Zn4hip7l2wDS1hanoechtETIw/UbE+vvIg0T5j/apsvhYmqQhXhXeDJGR788okbT06WohVUjmXwMlY0AXJohBVFqcwFQeWbeEskW8mUKW1K5/1m85WCfoQnQZyeWVKv8PZq744X8vE4qlR+Sr0qkPI07UEgXhGIVwfSLewujWt0xofqJRrXAjNeVAQ+ebJGSalSUr3RvI4U8wArTuxsJ4IKzwrq/7e+Nhm0tsAjWD/E9/P521NCcTwa4Ek0DMMgCAMSBdMoCqeTOJ3gaJRudYqQFgl0VNg5BarA9qiiRlXncL8HlQ23W685AVTFwLkU9vt6EBnPooLyehWq47jLnhJLySkWO03lHpD/tShuhZqu43fZWD7ED6Wc3e9m25la832p50PO/hXsd04/WZpNaTCYhiS5mkZhdDVKyeRqRvD4Cs/icTQkNBml53wR/PwPvnH4YbgVAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="GenAI Race">0992954347cd1e10d6acf855516d43c9</flow>
+        <generation_source>flowRecommendation</generation_source>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 07:24:11</sys_created_on>
+        <sys_id>4592954347cd1e10d6acf855516d43f7</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 08:09:43</sys_updated_on>
+        <ui_id>8e2fbddb-f116-4fc4-8f43-0f14b032eb7d</ui_id>
+        <values>H4sIAAAAAAAA/+VY32/iOBD+V6I8A5cQINC3U1Gllfa2Utvbl92V5dhOsc7YWdvpL8T/fuM4AQQUiA6kVvdoe2x/M/N940l+LEJOw6uQTqJJPpkMx2kUJUkUjUYJwXGWJSOSRRkehJ1Q4jkDS4szwWD4hEXpxi9oEKXD0QjNlEVWYxSh5xljwoAN5aYQ+PX7CaZkxgXVTIZXP351wgJruM0yHV4ttpZOhStwxgSYPtR4t+Db12I1RNWan/u6uS345heUpg5K1AnZi2WSMsCQY2FYJ5xjSbFV+nU1oxmmt1KsJ2ZcWjgxdMYvhr/BvePI2eUMvCLMr62G1c1THzm/lE+xxfdWl8SWujYnM8UJMz4mlOW4FPZ6c84b3BaWK+m3eNf9biXKufzmQxKuDmgSBTOlYYiywjnr0Neu5Pcz9XzXIL3hsopLvSgUwWI1wtZqnpXW4VmETLA5HITmuCi4fESFVk+82gxY5r1HAYNeLtQzXGr4o+xh4oD3ILa4dwPz02r6O9bcefEXHAObARAXwBLk02hUqatwPiEiSlMtaCyNPytcdkLzaq4FNmbtOYQd/S4dbh+H2mPkg+a2EM0L+ycc8cRq55adRjXDgzScrGlHlKTcoTAb0gE0iNOfJWymi0U/HdEhGw+6JB/m3QFNaHcS97NuRibJEA6j46jfu2MEyNjTmIBz/eVyV2TnObSlHI/HoZHj9WYg9gWnFubO3Nd9B9TCjM8mzEEUfTZpwuUfT5ntteZDcERwMT1INLrmlFHaIh/LDcXtyqU110+A0HD91rEzyF7fQ1VTPedM0H1v0I1b2HqD+v/fN+hDEh0AUeQzyKXgsmoqAOilFDA8SL8s3uJaRbGNF8fNYUN2dYADq4K31mo4AU6jhnu4O3jwePZAbOp+RZntmt9M1iJIziaCpH8+ESxWrq6CuSfuTS/pMtrYvzl7vG0PNNzYEC/3iazVnXHbO/vLXREnrVS8STi/Mn2Hd2duON9RZeeSZWAGW+v7kNcweub0kdn17Y0VVfYZi3/2rdfCRE2iKvcu0LzGB7+hso3mledoDpnjBfTYuuoVDcKaoVyVkqK6u14TyWUy59rY2ni32Nwx0I8MFIgzsDMWVNbByrrlg3zcjyaUX/KgcaS+zQTgSFA5Eqwcaed2m8I1OGOjeonCdYO5qDICH0/FRkqZ1kq/U7yOJPMAK06sbCeCis8K6r+Xvn0y2FsCj2D9FF/i5y9PhOFs0MejNInjKIojmkbjNI3Hoywf4XSQr3WKkJEEKiqcnANV4HjUUKPJc7Rbg3xZbVtsTkDVUHCqpPsK76c2cLAgv0ED6zjwuqhkSgmG5VZVeYC34o+bGn/N1+GHrCyf4t9UyR+2o+2n9sb7Uv1Dyf+W/HfJvjiajVnUH8eUdMdpnHYHOR11JxQPu3iSDdOEMjLIz9kS/PoXTsMFZAcWAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="GenAI Race">0992954347cd1e10d6acf855516d43c9</flow>
+        <generation_source>flowRecommendation</generation_source>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 07:24:11</sys_created_on>
+        <sys_id>4d92954347cd1e10d6acf855516d43f6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 08:09:43</sys_updated_on>
+        <ui_id>89625cb1-b931-4b0f-a2b4-32d523b3935a</ui_id>
+        <values>H4sIAAAAAAAA/+VY32/iOBD+V6I8A5cQINC3U1Gllfa2Utvbl92V5dhOsc7YWdvpL8T/fuM4AQQUiA6kVvdoe2x/M/N940l+LEJOw6uQTqJJPpkMx2kUJUkUjUYJwXGWJSOSRRkehJ1Q4jkDS4szwWD4hEXpxi9oEKXD0QjNlEVWYxSh5xljwoAN5aYQ+PX7CaZkxgXVTIZXP351wgJruM0yHV4ttpZOhStwxgSYPtR4t+Db12I1RNWan/u6uS345heUpg5K1AnZi2WSMsCQY2FYJ5xjSbFV+nU1oxmmt1KsJ2ZcWjgxdMYvhr/BvePI2eUMvCLMr62G1c1THzm/lE+xxfdWl8SWujYnM8UJMz4mlOW4FPZ6c84b3BaWK+m3eNf9biXKufzmQxKuDmgSBTOlYYiywjnr0Neu5Pcz9XzXIL3hsopLvSgUwWI1wtZqnpXW4VmETLA5HITmuCi4fESFVk+82gxY5r1HAYNeLtQzXGr4o+xh4oD3ILa4dwPz02r6O9bcefEXHAObARAXwBLk02hUqatwPiEiSlMtaCyNPytcdkLzaq4FNmbtOYQd/S4dbh+H2mPkg+a2EM0L+ycc8cRq55adRjXDgzScrGlHlKTcoTAb0gE0iNOfJWymi0U/HdEhGw+6JB/m3QFNaHcS97NuRibJEA6j46jfu2MEyNjTmIBz8XK5K7LzHNpSjsfj0MjxejMQ+4JTC3Nn7uu+A2phxmcT5iCKPps04fKPp8z2WvMhOCK4mB4kGl1zyihtkY/lhuJ25dKa6ydAaLh+69gZZK/voaqpnnMm6L436MYtbL1B/f/vG/QhiQ6AKPIZ5FJwWTUVAPRSChgepF8Wb3GtotjGi+PmsCG7OsCBVcFbazWcAKdRwz3cHTx4PHsgNnW/osx2zW8maxEkZxNB0j+fCBYrV1fB3BP3ppd0GW3s35w93rYHGm5siJf7RNbqzrjtnf3lroiTVireJJxfmb7DuzM3nO+osnPJMjCDrfV9yGsYPXP6yOz69saKKvuMxT/71mthoiZRlXsXaF7jg99Q2UbzynM0h8zxAnpsXfWKBmHNUK5KSVHdXa+J5DKZc21sbbxbbO4Y6EcGCsQZ2BkLKutgZd3yQT7uRxPKL3nQOFLfZgJwJKgcCVaOtHO7TeEanLFRvUThusFcVBmBj6diI6VMa6XfKV5HknmAFSdWthNBxWcF9d9L3z4Z7C2BR7B+ii/x85cnwnA26ONRmsRxFMURTaNxmsbjUZaPcDrI1zpFyEgCFRVOzoEqcDxqqNHkOdqtQb6sti02J6BqKDhV0n2F91MbOFiQ36CBdRx4XVQypQTDcquqPMBb8cdNjb/m6/BDVpZP8W+q5A/b0fZTe+N9qf6h5H9L/rtkXxzNxizqj2NKuuM0TruDnI66E4qHXTzJhmlCGRnk52wJfv0Ll78pJAcWAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="GenAI Race">0992954347cd1e10d6acf855516d43c9</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>5625be16-a21e-4603-b0e9-04e2aa5600de</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 08:09:43</sys_created_on>
+        <sys_id>840d5dcb47cd1e10d6acf855516d4342</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 08:34:34</sys_updated_on>
+        <ui_id>d5c23699-02c3-4f9e-9035-ccc7615fa3b7</ui_id>
+        <values>H4sIAAAAAAAA/+VVXU/bMBT9K5Gf2ygfbWm7h2miQprEQIKJF8IiJ76hlhwnc5xCV/W/7zp2Q0WBwYQmoeWluZ8+5/qe5npDOCNzMgIWhLNwksdhHEdBEE1HYTaJszBiMQUIyYBIWgJmKsgrxdBeUdEax2YTHU3YGKajYV6Mi+GIxWw4C6NsmOWzeJzRGZsGkX/R1W23WMl4Uwu6vnIN0JMvuWAKJJlf3wxITRWepUGR+eZR6LVgBc1AYOrFDu1j9HpdG5tVeVuC1CnfOU9d5cJFvK8LjGCRgRMGAwL3GiQDBFJQ0cCAlFQyqiu1JnOtWnQooOxcinWfseRSW6IlvW/4Lzx5FJi8ApBZ7obQm99pJmBhh2RDxYJqeondc92qfmYVz6Gxc2FQ0Fbo432fTTivNa+kLdGmsauuRFvKMzsV0jfYu5O2gZRBbbga9JZacbms7i52QE+47MbiaIoqp6K3qNaKZ602cDYEBHRzLmldc3mb1qpa8a4YoZT+rUDDL0R1h2c2/Fb6NDe4fZws9U/Qv+jcV1RxQ+IbtsHi7YA06+ZY0KZ5oIJzTH+2Bokl5iik3RS6EaTdNpjiXPFaf8GjVuCAbwdOEtn4pS3LZw9LtdfzQRb36Sg4Gk8m6bLSqVY0DVJFczhc/+cT36aKV+DdqaJbsGfwO2Ec+E73a70zG3CyGL+bLKYfTRaOyofXxZ/UEEQv/ufubVMngGZPCSpMBZWQtEEQs4IN7THAfqjo6cChRv6mxdvU8wp+O/WccBCseYLwTjpQInYNqR3AI/m4oHflgv2X5d00FE6C7vlgSvoPPjCWovUZzG6tzetLiUSA9kxiqDy76V7B0g54R2hFlW/DifTwUYCXiG+u5LOXkDAh3hx/o4R8SmQiEXdDV8D660CsTkv/AE3k0IQdmkMs2+3Nb/qre/iZCgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=0992954347cd1e10d6acf855516d43c9"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=0992954347cd1e10d6acf855516d43c9^sys_idNOT IN040d5dcb47cd1e10d6acf855516d4344,880d5dcb47cd1e10d6acf855516d4345"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">6bfc1dcb47cd1e10d6acf855516d43e6</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="GenAI Race">0992954347cd1e10d6acf855516d43c9</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 08:09:43</sys_created_on>
+        <sys_id>040d5dcb47cd1e10d6acf855516d4344</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 08:34:34</sys_updated_on>
+        <ui_id>5625be16-a21e-4603-b0e9-04e2aa5600de</ui_id>
+        <values>H4sIAAAAAAAA/+1V72vbMBD9V4Y+O8Y/4izJt5KsUGjX0YRCGcWcJbkRUyRPkptmIf/7TpaTljVjK+vHfbPe6e7ePd3DO6Jb17TOLvWZteJBkenX+4gI5TH83hEFa06mhGrFhBNalR0QkUeQrQ+EtA+XoLhFmAnbSNjeno7SlZDM8L5LAwZrOW7IdPdLSDBMrhOo0wlNaZ6N8ixJsvEwrUZ5lWYsBw45FpRQcYlXZwd62Moj0W95u23jceuMUA/9+bKvsjiA2jDPKk0iwp8cV4wjnxqk5RFZg2LgtNkeEcOBXSv5DKyEcliO+MtPVvzAhllR+Is1xxEpD8HjcQmV5POgXAjVc3CAdFrqWtNfpystKLdBIMZraKWbvcTChevGjxtSnC/cZ2vZrtXnoAo5Fjg8FCKt5SXjjZ/W0+9nqRcrvbk5MD0XqlOmD0pNQR5P4FC/qnWez45wyddYqFxD06CqZWP0o+iSkcs6fpB4iGupN9jUL0kM1BOPUVyIzxGfd/AtGOGnuMIymBxoVmAFLbstxXIoEyf7iNitnUmw9nlIVLj83nqKYeR+uDLo41OoEY07w86PvJ9jH71e+hf7vttlH0es4OPhgNZFPRiynA0maVYNKjrJiwombJxk8Q2nuESxSUuJu7/fXyw+XX1Z3r12yD/Xe5unJlDURZoUpz01HJ3y1Ak3vdFI2R+M5F/wL32UJMl/I72LkYQtw/r3s3XN39FH9940oedRayosUuue6eLwj/GBLS6YoC+hjTbf/FDP2P4nw6wJIK0GAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">e3fc1dcb47cd1e10d6acf855516d43e8</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="GenAI Race">0992954347cd1e10d6acf855516d43c9</flow>
+        <flow_variables_assigned>lane1r</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id>5625be16-a21e-4603-b0e9-04e2aa5600de</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 08:09:43</sys_created_on>
+        <sys_id>880d5dcb47cd1e10d6acf855516d4345</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 08:34:34</sys_updated_on>
+        <ui_id>bebc2466-7366-4143-83d4-99def49094b0</ui_id>
+        <values>H4sIAAAAAAAA/+1V207jMBD9lcpPu1KbTZu2lO4TS4WEBIsEXV62qJrYk9Zaxw6+AKXqv+84CeUitB+wap7sM8dzOTOjbJkJvgrezc2Jc3Kl2fT3XZdJHTE6b5kUbMpYl2kokU4KNPYt3R9AhQikdBbSVQo2ty1UgHJIMF9LJSy2Piuw5MKjZdPtB1MdY5AVvC94Pjzioo/9VIyBF5PRaNQfi2GGMY6CHBVRL2IS158k5TdVvOfGKATdAhftq7kN+O2szc1YETNJuwyfPGqBlEKdd5eVoAV4Yzd7xCKIK61egbXUvpGlhCcnnyloNoi8Aqkojo1tf51DrnDWiNSYihl4uPE2cB9sS+drIzm6RhKBBQTlT99iDeGq8tKQcCyL9UXP7XOjQql/NoqwvYePTWnh2fuWRXWDw6XAKooRq2tLLW7W5vH6pZIzqWvdWqMyHNT+Bt5bmQcf892yIOcfu9FAn/YDFZYUdllCVUm9WlbWPMg6FBVWJitFl6RQ5pFSjHOaAI8yJNQpSM4In9XwLVgZJbkkN2jrkL+0vA94HkdsMkiHxwOe9/J8kvWG46PjXp7leS87mhQFZMVwfDxmuy5zG3eqwLlXMamVy/sQa22kbVVa1o2on3ArK39CST3QE2osvmBRi3ZA6fQvHiuCrqvqrNBf0xSa8kej3Zevne1Cd+hT6Ds6lDnaziKkaSY6l+DXia3ZRGtYFmms9DsitvQ0GX1f6N1Cs91udxf3uFHssO2HbT9s+/++7QK5dBSzntHzl798NGxouyR/Cz0a+yf24BXb/QVC7HAjLwgAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=0992954347cd1e10d6acf855516d43c9"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=0992954347cd1e10d6acf855516d43c9^sys_idNOT IN400d5dcb47cd1e10d6acf855516d4339,cc0d5dcb47cd1e10d6acf855516d433c"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=820492cb-bb83-4679-b3bb-378ffa3f4696</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>lane1r</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Lane1R</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="GenAI Race">0992954347cd1e10d6acf855516d43c9</model>
+        <model_id>0992954347cd1e10d6acf855516d43c9</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_0992954347cd1e10d6acf855516d43c9</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 08:09:43</sys_created_on>
+        <sys_id>400d5dcb47cd1e10d6acf855516d4339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 08:09:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=8fef12d5-289a-4432-9873-22128ca671ee</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>assign_lanes</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Assign Lanes</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="GenAI Race">0992954347cd1e10d6acf855516d43c9</model>
+        <model_id>0992954347cd1e10d6acf855516d43c9</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_0992954347cd1e10d6acf855516d43c9</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 08:09:43</sys_created_on>
+        <sys_id>cc0d5dcb47cd1e10d6acf855516d433c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 08:09:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_0992954347cd1e10d6acf855516d43c9^sys_idNOT IN4992954347cd1e10d6acf855516d43f0"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>raceid</element>
+        <help/>
+        <hint/>
+        <label>RaceID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_0992954347cd1e10d6acf855516d43c9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 07:24:11</sys_created_on>
+        <sys_id>4992954347cd1e10d6acf855516d43f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 07:24:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_0992954347cd1e10d6acf855516d43c9"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_0992954347cd1e10d6acf855516d43c9"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_0992954347cd1e10d6acf855516d43c9"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>25eec14f478d1e10d6acf855516d439f</sys_id>
+        <latest_snapshot>0992954347cd1e10d6acf855516d43c9</latest_snapshot>
+        <compiler_build>glide-xanadu-07-02-2024__patch1-08-24-2024_09-01-2024_1853.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=25eec14f478d1e10d6acf855516d439f"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=25eec14f478d1e10d6acf855516d439f^sys_idNOT INdd92d54347cd1e10d6acf855516d4307"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"dd92d54347cd1e10d6acf855516d4307","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="GenAI Race">25eec14f478d1e10d6acf855516d439f</plan_id>
+        <snapshot>10e2218347015e10d6acf855516d4393</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-09 07:24:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dd92d54347cd1e10d6acf855516d4307</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-09 08:34:35</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>

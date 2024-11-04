@@ -41,7 +41,7 @@
         <update_guid_history>ecd7802a0912021024933e5d9533d714:1555290237</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Service Catalog.Add Driver">4408842a471202106a3eedf1d16d43b9</sys_audit_delete>
+        <sys_audit_delete display_value="">4408842a471202106a3eedf1d16d43b9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-23 19:48:44</sys_created_on>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_source">
+    <ais_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_407566_hot_tra_0_wheels">qr_numberISNOTEMPTY<item endquery="false" field="qr_number" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+        </condition>
+        <datasource display_value="">x_407566_hot_tra_0_wheels</datasource>
+        <has_dynamic_filters>false</has_dynamic_filters>
+        <name>Wheels</name>
+        <sys_class_name>ais_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-13 00:32:23</sys_created_on>
+        <sys_id>8f7a585c471d1210d6acf855516d4316</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Wheels</sys_name>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name>ais_search_source_8f7a585c471d1210d6acf855516d4316</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-13 00:32:23</sys_updated_on>
+    </ais_search_source>
+</record_update>

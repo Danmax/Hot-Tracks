@@ -4,139 +4,125 @@
             <element>title</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-05-29 16:31:21</sys_created_on>
-            <sys_id>eb541edc47e642106a3eedf1d16d43cc</sys_id>
+            <sys_created_on>2024-10-31 15:43:26</sys_created_on>
+            <sys_id>b0d750d647edda50d6acf855516d4317</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_407566_hot_tra_0_tournament" sys_domain="global" view="04541adcb9e64210e8832e461c864cfd">17541edc47e642106a3eedf1d16d43ca</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-29 16:31:21</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>track</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-05-29 16:31:21</sys_created_on>
-            <sys_id>23541edc47e642106a3eedf1d16d43cf</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_407566_hot_tra_0_tournament" sys_domain="global" view="04541adcb9e64210e8832e461c864cfd">17541edc47e642106a3eedf1d16d43ca</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-29 16:31:21</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>start_date</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-05-29 16:31:21</sys_created_on>
-            <sys_id>2b541edc47e642106a3eedf1d16d43cd</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_407566_hot_tra_0_tournament" sys_domain="global" view="04541adcb9e64210e8832e461c864cfd">17541edc47e642106a3eedf1d16d43ca</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-29 16:31:21</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>cars</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-05-29 16:31:21</sys_created_on>
-            <sys_id>a7541edc47e642106a3eedf1d16d43cf</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_407566_hot_tra_0_tournament" sys_domain="global" view="04541adcb9e64210e8832e461c864cfd">17541edc47e642106a3eedf1d16d43ca</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-29 16:31:21</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>competitors</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-05-29 16:31:21</sys_created_on>
-            <sys_id>af541edc47e642106a3eedf1d16d43cd</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_407566_hot_tra_0_tournament" sys_domain="global" view="04541adcb9e64210e8832e461c864cfd">17541edc47e642106a3eedf1d16d43ca</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-29 16:31:21</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-05-29 16:31:21</sys_created_on>
-            <sys_id>2f541edc47e642106a3eedf1d16d43cf</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_407566_hot_tra_0_tournament" sys_domain="global" view="04541adcb9e64210e8832e461c864cfd">17541edc47e642106a3eedf1d16d43ca</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-29 16:31:21</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>image</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-05-29 16:31:21</sys_created_on>
-            <sys_id>27541edc47e642106a3eedf1d16d43ce</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_407566_hot_tra_0_tournament" sys_domain="global" view="04541adcb9e64210e8832e461c864cfd">17541edc47e642106a3eedf1d16d43ca</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-29 16:31:21</sys_updated_on>
+            <sys_updated_on>2024-10-31 15:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>tournament_state</element>
-            <position>7</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-05-29 16:31:21</sys_created_on>
-            <sys_id>a3541edc47e642106a3eedf1d16d43d0</sys_id>
+            <sys_created_on>2024-10-31 15:43:26</sys_created_on>
+            <sys_id>b8d750d647edda50d6acf855516d4317</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_407566_hot_tra_0_tournament" sys_domain="global" view="04541adcb9e64210e8832e461c864cfd">17541edc47e642106a3eedf1d16d43ca</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-29 16:31:21</sys_updated_on>
+            <sys_updated_on>2024-10-31 15:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>double_elimination</element>
-            <position>8</position>
+            <element>match_structure</element>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-05-29 16:31:21</sys_created_on>
-            <sys_id>ab541edc47e642106a3eedf1d16d43ce</sys_id>
+            <sys_created_on>2024-10-31 15:43:26</sys_created_on>
+            <sys_id>b0d750d647edda50d6acf855516d4318</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_407566_hot_tra_0_tournament" sys_domain="global" view="04541adcb9e64210e8832e461c864cfd">17541edc47e642106a3eedf1d16d43ca</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-29 16:31:21</sys_updated_on>
+            <sys_updated_on>2024-10-31 15:43:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>track</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-31 15:43:26</sys_created_on>
+            <sys_id>b8d750d647edda50d6acf855516d4318</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_407566_hot_tra_0_tournament" sys_domain="global" view="04541adcb9e64210e8832e461c864cfd">17541edc47e642106a3eedf1d16d43ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-31 15:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>wins_to_advance</element>
-            <position>9</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-05-29 16:31:21</sys_created_on>
-            <sys_id>2b541edc47e642106a3eedf1d16d43d0</sys_id>
+            <sys_created_on>2024-10-31 15:43:26</sys_created_on>
+            <sys_id>b0d750d647edda50d6acf855516d4319</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_407566_hot_tra_0_tournament" sys_domain="global" view="04541adcb9e64210e8832e461c864cfd">17541edc47e642106a3eedf1d16d43ca</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-05-29 16:31:21</sys_updated_on>
+            <sys_updated_on>2024-10-31 15:43:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>start_date</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-31 15:43:26</sys_created_on>
+            <sys_id>b4d750d647edda50d6acf855516d434b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_407566_hot_tra_0_tournament" sys_domain="global" view="04541adcb9e64210e8832e461c864cfd">17541edc47e642106a3eedf1d16d43ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-31 15:43:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cars</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-31 15:43:26</sys_created_on>
+            <sys_id>bcd750d647edda50d6acf855516d434b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_407566_hot_tra_0_tournament" sys_domain="global" view="04541adcb9e64210e8832e461c864cfd">17541edc47e642106a3eedf1d16d43ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-31 15:43:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-31 15:43:26</sys_created_on>
+            <sys_id>b4d750d647edda50d6acf855516d434c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_407566_hot_tra_0_tournament" sys_domain="global" view="04541adcb9e64210e8832e461c864cfd">17541edc47e642106a3eedf1d16d43ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-31 15:43:26</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>image</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-31 15:43:26</sys_created_on>
+            <sys_id>bcd750d647edda50d6acf855516d434c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_407566_hot_tra_0_tournament" sys_domain="global" view="04541adcb9e64210e8832e461c864cfd">17541edc47e642106a3eedf1d16d43ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-31 15:43:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

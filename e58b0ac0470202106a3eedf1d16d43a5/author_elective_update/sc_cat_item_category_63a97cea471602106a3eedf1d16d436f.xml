@@ -41,7 +41,7 @@
         <update_guid_history>a7a97cea8d160210e48f84bda8efcf72:2127560531</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Services.Add Wheels">350a742e471602106a3eedf1d16d4380</sys_audit_delete>
+        <sys_audit_delete display_value="">350a742e471602106a3eedf1d16d4380</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-23 23:27:18</sys_created_on>

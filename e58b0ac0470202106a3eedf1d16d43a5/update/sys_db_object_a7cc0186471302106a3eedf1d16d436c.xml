@@ -13,7 +13,7 @@
         <label>Team</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_407566_hot_tra_0_team</name>
-        <number_ref display_value="TEAM">40dc4186471302106a3eedf1d16d431f</number_ref>
+        <number_ref display_value="">40dc4186471302106a3eedf1d16d431f</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="torunament_id" label="Torunament Id" language="en" table="var__m_sys_hub_action_input_cc0266c747d642106a3eedf1d16d430c">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>torunament_id</element>
+            <help/>
+            <hint/>
+            <label>Torunament Id</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_cc0266c747d642106a3eedf1d16d430c</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-29 03:22:27</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Torunament Id</sys_name>
+            <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_cc0266c747d642106a3eedf1d16d430c_torunament_id_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-29 03:22:27</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

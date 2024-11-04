@@ -41,7 +41,7 @@
         <update_guid_history>1ca106bece1202105ac28f0f60be37e4:-1120106124</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Service Catalog.Create Tournament">55b186be471202106a3eedf1d16d43fe</sys_audit_delete>
+        <sys_audit_delete display_value="">55b186be471202106a3eedf1d16d43fe</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-24 23:18:57</sys_created_on>

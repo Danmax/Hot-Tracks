@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_list_screen">
+    <sys_sg_list_screen action="DELETE">
+        <available_offline>false</available_offline>
+        <description/>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="Store">a157285c475d1210d6acf855516d4348</icon>
+        <name>My Garage</name>
+        <parameter_screen/>
+        <roles_override/>
+        <sys_class_name>sys_sg_list_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-13 01:27:40</sys_created_on>
+        <sys_id>ed57285c475d1210d6acf855516d4348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Garage</sys_name>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name>sys_sg_list_screen_ed57285c475d1210d6acf855516d4348</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-13 01:27:40</sys_updated_on>
+    </sys_sg_list_screen>
+    <sys_translated_text action="DELETE" query="documentkey=ed57285c475d1210d6acf855516d4348"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</application>
+        <file_path/>
+        <instance_id>4e9fffb8eb730250e483f459bad0cd92</instance_id>
+        <instance_name>empdmxan24</instance_name>
+        <name>sys_sg_list_screen_ed57285c475d1210d6acf855516d4348</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_list_screen"><sys_sg_list_screen action="INSERT_OR_UPDATE"><available_offline>false</available_offline><description/><dynamic_prefetch_count/><empty_state/><fetch_type>not_required</fetch_type><filter/><hide_filters>false</hide_filters><hide_screen_name>false</hide_screen_name><icon display_value="Store">a157285c475d1210d6acf855516d4348</icon><name>My Garage</name><parameter_screen/><roles_override/><sys_class_name>sys_sg_list_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-13 01:27:40</sys_created_on><sys_id>ed57285c475d1210d6acf855516d4348</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My Garage</sys_name><sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package><sys_policy/><sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope><sys_update_name>sys_sg_list_screen_ed57285c475d1210d6acf855516d4348</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-13 01:27:40</sys_updated_on></sys_sg_list_screen><sys_translated_text action="delete_multiple" query="documentkey=ed57285c475d1210d6acf855516d4348"/></record_update>]]></payload>
+        <payload_hash>1522263906</payload_hash>
+        <record_name>My Garage</record_name>
+        <reverted_from/>
+        <source>189bf48147f7021078457e45516d4326</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-13 01:27:43</sys_created_on>
+        <sys_id>d257a85c475d1210d6acf855516d43cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192837d0da00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-13 01:27:43</sys_updated_on>
+        <type>List screen</type>
+        <update_guid>1a57a85c5f5d1210a0ed71d3b1d4e4ca</update_guid>
+        <update_guid_history>1a57a85c5f5d1210a0ed71d3b1d4e4ca:1522263906</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-14 17:55:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_list_screen">sys_sg_list_screen</sys_db_object>
+        <sys_id>3a4fff42c04f4514a60e91a35fee4810</sys_id>
+        <sys_metadata>ed57285c475d1210d6acf855516d4348</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Garage</sys_name>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope_delete display_value="">5360a778b1d14ee69fe48f4dc1dd5bf1</sys_scope_delete>
+        <sys_update_name>sys_sg_list_screen_ed57285c475d1210d6acf855516d4348</sys_update_name>
+        <sys_update_version display_value="sys_sg_list_screen_ed57285c475d1210d6acf855516d4348">d257a85c475d1210d6acf855516d43cb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-14 17:55:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

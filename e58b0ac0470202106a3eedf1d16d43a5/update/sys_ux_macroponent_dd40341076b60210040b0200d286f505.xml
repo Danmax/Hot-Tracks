@@ -724,10 +724,12 @@
   "readEvaluationMode" : "EXPLICIT"
 } ]</data>
         <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
         <dispatched_events>5d40f01030b602109fefe0c9b0e5f1eb,5140f010e0b60210b00f4e13b9bda7eb,1140f010dfb6021003ba8949050a12ec,dd40f01043b60210925502027c7ffae9</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
+        <form_factors/>
         <handled_events/>
         <interactions/>
         <interfaces/>
@@ -775,6 +777,7 @@
         <root_component_config>{ }</root_component_config>
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
+        <state_persistence_config/>
         <state_properties>[ {
   "name" : "taskApproveSysId",
   "label" : "taskApproveSysId",

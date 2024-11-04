@@ -10,7 +10,7 @@
         <element default="0" label="Rank Points" max_length="255" name="rank_points" read_only="true" type="integer"/>
         <element label="Description" max_length="540" name="description" type="string"/>
         <element label="Name" max_length="240" name="name" type="string"/>
-        <element label="QR Number" max_length="40" name="qr_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,barcode=true" label="QR Number" max_length="40" name="qr_number" type="string"/>
         <element label="Scale" max_length="40" name="scale" type="string"/>
         <element label="Serial #" max_length="40" name="serial" type="string"/>
         <element label="Video" max_length="40" name="video" type="video"/>
@@ -26,6 +26,7 @@
         <element default="0" label="Match Wins" max_length="40" name="match_wins" read_only="true" type="integer"/>
         <element label="Estimated Value" max_length="40" name="estimated_value" type="currency"/>
         <element label="Make" max_length="40" name="make" type="string"/>
+        <element label="Toy #" max_length="16" name="toy" type="string"/>
         <element label="Last Sold for" max_length="40" name="last_sold_for" type="string"/>
         <element label="Model Year" max_length="40" name="model_year" type="string"/>
         <element choice="3" default="active" label="State" max_length="40" name="state" type="choice">
@@ -43,26 +44,38 @@
         <element default="0" label="Race Wins" max_length="40" name="race_wins" read_only="true" type="integer"/>
         <element choice="3" label="Type" max_length="40" name="type" type="choice">
             <choice>
+                <element inactive_on_update="false" label="Dragster" sequence="20" value="dragster"/>
+                <element inactive_on_update="false" label="Show Stopper" sequence="24" value="show_stopper"/>
+                <element inactive_on_update="false" label="Low Rider" sequence="28" value="low_rider"/>
                 <element inactive_on_update="false" label="Fast Precision" sequence="18" value="fast_precision"/>
                 <element inactive_on_update="false" label="Mario Kart" sequence="12" value="mario_kart"/>
                 <element inactive_on_update="false" label="Custom" sequence="14" value="custom"/>
+                <element inactive_on_update="false" label="Get Away Car" sequence="25" value="get_away_car"/>
                 <element inactive_on_update="false" label="Drifter" sequence="0" value="drift"/>
+                <element inactive_on_update="false" label="Convertible" sequence="29" value="convertible"/>
                 <element inactive_on_update="false" label="Muscle" sequence="2" value="muscle"/>
                 <element inactive_on_update="false" label="Racing" sequence="19" value="racing"/>
                 <element inactive_on_update="false" label="Import" sequence="4" value="import"/>
                 <element inactive_on_update="false" label="Sedan" sequence="15" value="sedan"/>
+                <element inactive_on_update="false" label="Transporter" sequence="21" value="transporter"/>
                 <element inactive_on_update="false" label="Funny Car" sequence="6" value="funny_car"/>
                 <element inactive_on_update="false" label="Trucks" sequence="8" value="trucks"/>
                 <element inactive_on_update="false" label="Electric" sequence="10" value="electric"/>
+                <element inactive_on_update="false" label="Food Truck" sequence="31" value="food_truck"/>
+                <element inactive_on_update="false" label="Ricer" sequence="26" value="ricer"/>
                 <element inactive_on_update="false" label="Luxury" sequence="16" value="luxury"/>
+                <element inactive_on_update="false" label="Fast and Furious" sequence="22" value="fast_and_furious"/>
                 <element inactive_on_update="false" label="First Responder" sequence="13" value="first_responder"/>
+                <element inactive_on_update="false" label="Corvette" sequence="27" value="corvette"/>
                 <element inactive_on_update="false" label="Track Star" sequence="1" value="track_star"/>
                 <element inactive_on_update="false" label="Speed Demon" sequence="17" value="speed_demon"/>
                 <element inactive_on_update="false" label="Classic" sequence="3" value="classic"/>
                 <element inactive_on_update="false" label="European" sequence="5" value="european"/>
+                <element inactive_on_update="false" label="Sunday Driver" sequence="23" value="sunday_driver"/>
                 <element inactive_on_update="false" label="Emergency Service" sequence="7" value="emergency_service"/>
                 <element inactive_on_update="false" label="Exotic" sequence="9" value="exotic"/>
                 <element inactive_on_update="false" label="Super Car" sequence="11" value="super_car"/>
+                <element inactive_on_update="false" label="Rally" sequence="30" value="rally"/>
             </choice>
         </element>
         <element label="Manufacturer Year" max_length="40" name="year" type="string"/>

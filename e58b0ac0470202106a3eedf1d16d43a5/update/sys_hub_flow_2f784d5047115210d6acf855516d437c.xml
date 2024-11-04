@@ -1,0 +1,1470 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=399947000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>update_competitors_wheels</internal_name>
+        <label_cache>[{"name":"flow_variable.old_list","label":"Flow Variables➛Old List","type":"string","base_type":"string","usedInstances":{"94076694-aa6f-48cf-bb2d-771526759f37":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"79b13725-2dd4-4469-bfde-6bfa3b93d3a9"}},{"name":"Created or Updated_1.current.x_407566_hot_tra_0_tournament","label":"Trigger - Record Created or Updated➛m2m_Tournaments_Wheels Record➛Tournaments","reference":"x_407566_hot_tra_0_tournament","reference_display":"Tournament","type":"reference","base_type":"reference","parent_table_name":"x_407566_hot_tra_0_wheels_in_tournament","column_name":"x_407566_hot_tra_0_tournament","usedInstances":{"ddc35b1a-bb41-4974-a06e-179061155e58":["record"],"033a5818-8cb5-4ab0-a980-12e1c6e09473":["conditions"]}},{"name":"Created or Updated_1.current.x_407566_hot_tra_0_tournament.competitors","label":"Trigger - Record Created or Updated➛m2m_Tournaments_Wheels Record➛Tournaments➛Competitors","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"choice","base_type":"choice","parent_table_name":"x_407566_hot_tra_0_tournament","column_name":"competitors","usedInstances":{"a53309f4-1379-43b2-91e5-a45d5ce3a73a":["old_list-0"]}},{"name":"Created or Updated_1.current.x_407566_hot_tra_0_wheels.sys_id","label":"Trigger - Record Created or Updated➛m2m_Tournaments_Wheels Record➛Wheels➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_407566_hot_tra_0_wheels","column_name":"sys_id","usedInstances":{"94076694-aa6f-48cf-bb2d-771526759f37":["condition"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛m2m_Tournaments_Wheels Record","reference":"x_407566_hot_tra_0_wheels_in_tournament","reference_display":"m2m_Tournaments_Wheels","type":"reference","base_type":"reference","usedInstances":{"a53309f4-1379-43b2-91e5-a45d5ce3a73a":["old_list-0"]},"attributes":{}}]</label_cache>
+        <master_snapshot>0fea303d93199610a1ff3ef86cba1025</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Update Competitors Wheels</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>d7ea303d93199610a1ff3ef86cba107c</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-13 03:52:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2f784d5047115210d6acf855516d437c</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Update Competitors Wheels</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name>sys_hub_flow_2f784d5047115210d6acf855516d437c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 18:58:21</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=2f784d5047115210d6acf855516d437c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2f784d5047115210d6acf855516d437c"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_407566_hot_tra_0_wheels_in_tournament">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 18:44:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d7ea303d93199610a1ff3ef86cba107c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 18:44:08</sys_updated_on>
+        <table>x_407566_hot_tra_0_wheels_in_tournament</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>2f784d5047115210d6acf855516d437c</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 18:58:21</sys_created_on>
+        <sys_id>672e38fd93199610a1ff3ef86cba10c2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 18:58:21</sys_updated_on>
+        <trigger display_value="">d7ea303d93199610a1ff3ef86cba107c</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=2f784d5047115210d6acf855516d437c^sys_idNOT IN672e38fd93199610a1ff3ef86cba10c2"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=2f784d5047115210d6acf855516d437c"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=2f784d5047115210d6acf855516d437c^sys_idNOT INe7784d5047115210d6acf855516d4380"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>2f784d5047115210d6acf855516d437c</id>
+        <name>Update Competitors Wheels</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-13 03:52:32</sys_created_on>
+        <sys_id>e7784d5047115210d6acf855516d4380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-13 03:52:32</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=e7784d5047115210d6acf855516d4380"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=2f784d5047115210d6acf855516d437c^sys_idNOT IN084cb72d93159610a1ff3ef86cba1098,904cb72d93159610a1ff3ef86cba10a0,d04cb36d93159610a1ff3ef86cba10fa"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Update Competitors Wheels">2f784d5047115210d6acf855516d437c</model>
+        <model_id>2f784d5047115210d6acf855516d437c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_2f784d5047115210d6acf855516d437c</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 14:10:19</sys_created_on>
+        <sys_id>084cb72d93159610a1ff3ef86cba1098</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 14:10:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=084cb72d93159610a1ff3ef86cba1098"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Update Competitors Wheels">2f784d5047115210d6acf855516d437c</model>
+        <model_id>2f784d5047115210d6acf855516d437c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_2f784d5047115210d6acf855516d437c</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 14:10:19</sys_created_on>
+        <sys_id>904cb72d93159610a1ff3ef86cba10a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 14:10:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=904cb72d93159610a1ff3ef86cba10a0"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Update Competitors Wheels">2f784d5047115210d6acf855516d437c</model>
+        <model_id>2f784d5047115210d6acf855516d437c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_2f784d5047115210d6acf855516d437c</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 14:10:19</sys_created_on>
+        <sys_id>d04cb36d93159610a1ff3ef86cba10fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 14:10:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d04cb36d93159610a1ff3ef86cba10fa"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=2f784d5047115210d6acf855516d437c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2f784d5047115210d6acf855516d437c"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=2f784d5047115210d6acf855516d437c^sys_idNOT INd04cb36d93159610a1ff3ef86cba10ff"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Competitors Wheels">2f784d5047115210d6acf855516d437c</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 14:10:19</sys_created_on>
+        <sys_id>d04cb36d93159610a1ff3ef86cba10ff</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 14:35:05</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=2f784d5047115210d6acf855516d437c^sys_idNOT IN13e140f193559610a1ff3ef86cba102b,faeafcf993199610a1ff3ef86cba10e9"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Update Competitors Wheels">2f784d5047115210d6acf855516d437c</flow>
+        <generation_source>flowRecommendation</generation_source>
+        <order>5</order>
+        <parent_ui_id>94076694-aa6f-48cf-bb2d-771526759f37</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 14:35:06</sys_created_on>
+        <sys_id>13e140f193559610a1ff3ef86cba102b</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-17 18:59:08</sys_updated_on>
+        <ui_id>ddc35b1a-bb41-4974-a06e-179061155e58</ui_id>
+        <values>H4sIAAAAAAAA/+VWXU/bMBT9K5GfQMqipC0FuqeJCmkSAwk2Xiiy3PimteQ6me0Uuir/fdex01bACki8oPWl9f3yOSf3tL1bE8HJiAyAp9lpNsz7Wb/fS9PeySCbDvvTrMf7DCAjMVFsAVipIS81x/OSydoF1uszDcwCj0od/aq4+0izJK+1BmWTRzpIj4+GQzovLbWa0ZTastZumrJNg4O4MJVkq9swDyP5XEiO3WR0dx+TimkstqDJaP0k9Vbskk1BYul1B/4pGbuq3JmXee1wUdEFL0LnOGSi72PMYJODk6UxgUcLigMCKZg0EJMFU6hBqVdkZHWNAVSHXym52lTMhbKe6II9GvEHbx6krq4AZJYHETbHn2wqYexF8qlizCy7wem5rfVGs1LkYLwuHApWS3u2G/MFV5UVpfIt1g0O3aWsF+rSq0I2A3aeSW2AcqgcV4feUytu5uXDdQf0XKhWlkBTljmTmxOzVotpbR2cNQEJrc4LVlVCzWily6VomxHKIplJPCSFLB/wTiNmKmG5w52gsiw5x/i4Dd8yLRyJHzgGm5uYmJU5k8yYLRXUkf6uHRJPLFCgrQqtBLTdBteca1HZb3jVEgLwJg4OmR7t27L8dLtUOzO3Ltlrg+cmeK38fQ55A/bOIe2y/YNLMMmz2MVub3TpE8EiRx9mkZPPZpFA5dN75DVnpL29378729Sawey4AnlUYAWugpnUadrnBf/irwL+3BSvVL/PE29A3XniXIDk5gUanSFggTAtUE/riSlCMroNyc1vx4c5Ixum7euT+eM/+AnxFH2s3cPtBrvjvmIiwUal5BfC2Mive1Rw2qJvWS2ZTjBPJRZM1EThOdIsB2268tCd4GMX9sAFe8exfzv8OlG+OKlqMz/oJqPAsxnoZEvqpT9wD3MAaRIUCv8oHeIkwCVS4XZUyLAl8M2Db5rm/i9bR717aAoAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Update Competitors Wheels">2f784d5047115210d6acf855516d437c</flow>
+        <generation_source>flowRecommendation</generation_source>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 18:44:06</sys_created_on>
+        <sys_id>faeafcf993199610a1ff3ef86cba10e9</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-17 18:59:08</sys_updated_on>
+        <ui_id>033a5818-8cb5-4ab0-a980-12e1c6e09473</ui_id>
+        <values>H4sIAAAAAAAA/+VYXW/aPBT+K1GuKUv4CvTuVRHSpG2V1m43eyfLiZ1izdiZ7bSliP++4ziBCFIgGkitdod9ju3nnPM8xw4/Vj4j/rVPJsEknUyG4ygI+v0gGI36CQ7juD9K4iDGA7/jC7yg4GlwzCkMHzHP7fgZDYJoOBqhuTTIKIwCZGSurLcw4EeYzjhefj/RPZkzThQV/vWPnx0/wwoMhir/erVjOhU2xzHl4Hpf4t4JwyyzzRAVNjf3qb7M++IMUhELJej49NlQQShgSDHXtOMvsCDYSLXczCiKya3g24k5gwivfd86P2v2AueOA+uXUogqoc62GRYnT132nCmdYoPvjMoTk6vSPZlLllDtckJoinNubupzzuE2M0wKt8SF7lZLni/EF5cSf7NBVSyYyTVFhGY2WIu+DCW9m8unrxXSGRNFXkojlwnmmxE2RrE4NxbPyqec2kKjBc4yJh5QpuQjKxYDlkX3gcOgm3L5BIdq9iC6OLHAu5Bb3J3B/LSY/o4Vs1F8hm1gMQBiHFiCXBk1EKpI5yNKeK4Lg8JCu738dcfXS33DsdbbyCHt6Hducbs8lBEjlzS7JFEsM//BFo+0DG7dqdQzPEjDyZZ2iRSEWRS6JiFAgxj5P4fFZLW6AeIYSjypvG8ZsT9R2E1yBak23YPyWa/39XbWvVuK83hWKnHe1NPSlKpSpntzn5o2KGUank2mgyB4b0KFw9+eTtsrz6XgiPxCcpBoZMspLZVBLpc1/e2rpjXXT4BQcf3WstOLl6+hKqmeMspJ0400s4adG6n3795Ib5LoAIggV0EmOBPFEwOAXkoBw4P0i8MdrhUUq90/dg7rZF8H2DPSe2mthhPgVGq4g7O9e4enAWLV9wvK7Pb8arIUQf9sIuj3zieC1SbUTTIb8l69LG1FK/8X6493/YGGtQXhuklkrc4M257ZW++LuN9KxXXCOcv0Fd6d+fn5iio7l2wDc1hanoechtETIw/UbE+vvIg0T5j/arKXwkRVoYrwLvCUDQ9+UcW1pyxL0QIqxzJ4cSuaADk0woqiVOaCoPKtvSWSrWTKlDal836z+UpBP8KTIE7PzKlXeHsb75YX8vE4qlR+TL0qkPI07UEgXhGItwmkXdhtGtfgjA/VSzSuGWa8qAh8SmW1klKlpHqleR0p5gFWnNjZTgQVnhXU37e+Jhk0tsAjWN/Fd/n521NCcTzo4VHUD8MgCAMSBeMoCsejOB3haJBudYqQFgl0VNg5BarA9qiiRlXnYL8HubbattmcgKqi4FQK+zHei4xnYUF9vQrWceBlU4ml5BSLna5yD3fFh1mJv+Tr8E12lnfxT1XO7nez7aYa832p90POvgn2O6cfLc3GNOiNQ5JcjaMwuhqkZHQ1IXh4hSfxMOoTmgzScz4Jfv4B/nhIPB0WAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=2f784d5047115210d6acf855516d437c"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=2f784d5047115210d6acf855516d437c^sys_idNOT IN3b7df8bd93199610a1ff3ef86cba1049,544cf36d93159610a1ff3ef86cba1001,d7e140f193559610a1ff3ef86cba1028"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">337df8bd93199610a1ff3ef86cba1049</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Update Competitors Wheels">2f784d5047115210d6acf855516d437c</flow>
+        <flow_variables_assigned>old_list</flow_variables_assigned>
+        <generation_source>flowRecommendation</generation_source>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id>94076694-aa6f-48cf-bb2d-771526759f37</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 18:55:22</sys_created_on>
+        <sys_id>3b7df8bd93199610a1ff3ef86cba1049</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 18:58:19</sys_updated_on>
+        <ui_id>6efcfb64-435c-47bc-a4ae-31ab3163767a</ui_id>
+        <values>H4sIAAAAAAAA/+1VTY/aMBD9K8inRYIoIXyF20rVSlttF6nQvZRV5MQTsOrYWceGpYj/vuOYwIpWvfTKCfuNZ+a9x4xyIMqaypp6qe7rmq8lmf187REuHYbnA5G0BDIjSrBU8NqQHtlSYR2ER8brStD9ywXJN1wwDac6FdWYbkCT2eEqZPYVpIJmIDBxYTSXa0znDG/hBKLpMIuSeDRKxlFIo6KIoZiO84xGYQz4rk2cC9Z58rT+JOpaIFK3xZVmjknYI/BuQDLAZgUVNfRISSWjRun9GdFA2VyKC7Dh0niNJX2v+W8sPQ3D0L0sAGXlZwcUz2FeGa6kRwzNRBtUwpby2VN1BkJBrTCfDLQ1pAwqR8/1OzUvFhu1+942euCyUXIKCpVTcb5Rg3oza6B2plu+vHLBI0/XzoOAEjumJa0qRNJKqy1vuiDpMlgLvASFUDtk5wYloLlTGKBtNHhA/EsDv1DNndxvWAaTXbsfkr9ZeHT/7CTJongyGPUHjA37w+E46WcFg/44K2icJTGLaUKOjaXpm3WivEknO1LvKD6oc80rc48UtijOaAst5kSfZwDP/3pJVnJLdcdJ6KxsGMasU7C0UdQoxWDQ1lrJBjfKO3bXDXD0ublzeYNJz/90V3IlNRirZefrYv4ceNd5sb9z2V1yPB5f3QZ5k/yGNTP/1wG+bdpt026b9j+bxiDnNZq3dE49tl81F9jjFPP8M7RT+pcjc8GOHwDb+14fBwAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">984cf36d93159610a1ff3ef86cba1000</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Update Competitors Wheels">2f784d5047115210d6acf855516d437c</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 14:10:19</sys_created_on>
+        <sys_id>544cf36d93159610a1ff3ef86cba1001</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 18:58:19</sys_updated_on>
+        <ui_id>94076694-aa6f-48cf-bb2d-771526759f37</ui_id>
+        <values>H4sIAAAAAAAA/+VUTW/UMBD9K1HOqyjJbhbaW1WoVLF0JbqUA6osx55sLBw72M5+EOW/M85HW9GtihDiwi1+M5733ngmbagbVzfObvSFtWKrwvOv97NQKI/hdxsqWkF4HjKtuHBCK9IDs3BHZeMDogi+lADSBkq7QKhgJazDOBe2lvR490oaK4XkBkbemhqs7sCE5+0vIXesgUiag8Rqt84ItcXrguOpiGmRnLGEzdPlPI3j9O0iyZfzPEn5nAKdY9508XKyEax6ZPaiP8+HuJ2YtOFeVhLPQjg4UByQuqDSwiysqOLUaXN8QAxQvlbyESiFclgu9MkHK35g7TTLfGIB6JHBEGSlFgzWtVcyII7mcgpq2VTqZhDsWwwFbaSbWoxIY4FwqL06TzdyF7el3n+aiK6E6p2MQakZlQ8n6tBv3jiw/gVAQoWFSEXrGrtAaqN3or+MWqpoK/EQFVLvkdQPT0SZFx5hM2h0hfi7Hr6jRngXH7EMXh5k5tQKRvpBw3LOoIWubwf53nhBg8HRChm6gQmWGVG7C+TZwai6mz2f0icD2ra9wt0oItKSE4nD13U3602wuv7wvm0v8b0c8ECb4HPN/SdJItYYbJiLDmQRv8mWS1JqR5yhJCb7fpQje7RE8K57Pu7/hvRvLM8ZzYosibPTy7NYnlqeE2vz8sakr2yMf/rfXJg4jv/TjRGWDJM/euvJ/3hh7v12DAx2GBAOTFgUsvHY9fT394EjvrRgT6G9Nt+8hUes+wmi2gYgRwYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">dfe140f193559610a1ff3ef86cba1027</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Update Competitors Wheels">2f784d5047115210d6acf855516d437c</flow>
+        <flow_variables_assigned>old_list</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 14:35:06</sys_created_on>
+        <sys_id>d7e140f193559610a1ff3ef86cba1028</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 18:58:19</sys_updated_on>
+        <ui_id>a53309f4-1379-43b2-91e5-a45d5ce3a73a</ui_id>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8FYNnW5AiW37cghYBAqQ10Di5FAFBkSubKEUyJOVHDf17l5blFG5PBXrzTZxd7s7McqEjMU2wTfArc++9XGuy+P42JFJHDL+PRLMayIIYJaiSPpAh2TLVROh4/OSABRAD4wYvVsRPmiW8cQ50SPZ0nE4nRUE3JtDgGE1pMI2L9TDKTW0hyGCcb1ssKqS3ih1e/0dtvpFK4L1Om2UO0wI4sjhehcLBAlWsBIUUnoOTeo3XpcBTOoVsNi6zeT6ZzIssZVlV5VDNCl6yLM0B8/qLSyUGT51Vf5oXWyDi++LGicgkHRLYB9ACsFnFlIchqZlG3cYdLghaIpZafQAbqQNWIzF57+VPLD1L0zRmVoCyOHRRvjGSw9IGaXSHBFaqPmhUU+uvHdU4CqhYo0I/CkQaD1SAjfRiv3Pz6nljdt/6Rg9Sn5Scg8pwpi4nFlBv2QTw0fRGrq5c6JCna+dBQRworZm1iFDrzFaeuiDpOlkrPCSVMjtkFx9vwnhUmKBtLHlA/PMJfmVORrlfsAxeju1etHxv4DFOdjovs3x6NxndCTEejcfFfFRWAkZFWbG8nOciZ3PSniyl700U1Zl0toN2jmKC507acI8UtnBR3oGoum3f4up0TLrVOj2sv76S24rdVuy2Yv+0YgK49MhwFek89v+xGDjgU5H8d2hn3I+o7QNrfwEGAibhEQcAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=2f784d5047115210d6acf855516d437c"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=2f784d5047115210d6acf855516d437c^sys_idNOT IN07e184b193559610a1ff3ef86cba103e,c7e140f193559610a1ff3ef86cba1024"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=79b13725-2dd4-4469-bfde-6bfa3b93d3a9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>old_list</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Old List</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update Competitors Wheels">2f784d5047115210d6acf855516d437c</model>
+        <model_id>2f784d5047115210d6acf855516d437c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_2f784d5047115210d6acf855516d437c</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 14:35:05</sys_created_on>
+        <sys_id>07e184b193559610a1ff3ef86cba103e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 14:35:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=f71d1920-6a06-44e1-8dbf-18d94448ade5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>new_list</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>New List</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update Competitors Wheels">2f784d5047115210d6acf855516d437c</model>
+        <model_id>2f784d5047115210d6acf855516d437c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_2f784d5047115210d6acf855516d437c</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 14:35:06</sys_created_on>
+        <sys_id>c7e140f193559610a1ff3ef86cba1024</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 14:35:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_2f784d5047115210d6acf855516d437c^sys_idNOT IN184cb36d93159610a1ff3ef86cba10f9,904cb36d93159610a1ff3ef86cba10fc,dc4cb72d93159610a1ff3ef86cba109e"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_2f784d5047115210d6acf855516d437c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 14:10:19</sys_created_on>
+        <sys_id>184cb36d93159610a1ff3ef86cba10f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 14:10:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_2f784d5047115210d6acf855516d437c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 14:10:19</sys_created_on>
+        <sys_id>904cb36d93159610a1ff3ef86cba10fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 14:10:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_2f784d5047115210d6acf855516d437c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 14:10:19</sys_created_on>
+        <sys_id>dc4cb72d93159610a1ff3ef86cba109e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 14:10:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_2f784d5047115210d6acf855516d437c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_2f784d5047115210d6acf855516d437c"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_2f784d5047115210d6acf855516d437c"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>update_competitors_wheels</internal_name>
+        <label_cache>[{"name":"flow_variable.old_list","label":"Flow Variables➛Old List","type":"string","base_type":"string","usedInstances":{"94076694-aa6f-48cf-bb2d-771526759f37":["condition"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"79b13725-2dd4-4469-bfde-6bfa3b93d3a9"}},{"name":"Created or Updated_1.current.x_407566_hot_tra_0_tournament","label":"Trigger - Record Created or Updated➛m2m_Tournaments_Wheels Record➛Tournaments","reference":"x_407566_hot_tra_0_tournament","reference_display":"Tournament","type":"reference","base_type":"reference","parent_table_name":"x_407566_hot_tra_0_wheels_in_tournament","column_name":"x_407566_hot_tra_0_tournament","usedInstances":{"ddc35b1a-bb41-4974-a06e-179061155e58":["record"],"033a5818-8cb5-4ab0-a980-12e1c6e09473":["conditions"]}},{"name":"Created or Updated_1.current.x_407566_hot_tra_0_tournament.competitors","label":"Trigger - Record Created or Updated➛m2m_Tournaments_Wheels Record➛Tournaments➛Competitors","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"choice","base_type":"choice","parent_table_name":"x_407566_hot_tra_0_tournament","column_name":"competitors","usedInstances":{"a53309f4-1379-43b2-91e5-a45d5ce3a73a":["old_list-0"]}},{"name":"Created or Updated_1.current.x_407566_hot_tra_0_wheels.sys_id","label":"Trigger - Record Created or Updated➛m2m_Tournaments_Wheels Record➛Wheels➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_407566_hot_tra_0_wheels","column_name":"sys_id","usedInstances":{"94076694-aa6f-48cf-bb2d-771526759f37":["condition"]}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛m2m_Tournaments_Wheels Record","reference":"x_407566_hot_tra_0_wheels_in_tournament","reference_display":"m2m_Tournaments_Wheels","type":"reference","base_type":"reference","usedInstances":{"a53309f4-1379-43b2-91e5-a45d5ce3a73a":["old_list-0"]},"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Update Competitors Wheels</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Update Competitors Wheels">2f784d5047115210d6acf855516d437c</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 18:44:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0fea303d93199610a1ff3ef86cba1025</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 18:58:21</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=0fea303d93199610a1ff3ef86cba1025"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0fea303d93199610a1ff3ef86cba1025"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=0fea303d93199610a1ff3ef86cba1025"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=0fea303d93199610a1ff3ef86cba1025^sys_idNOT IN83ea303d93199610a1ff3ef86cba1026"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>0fea303d93199610a1ff3ef86cba1025</id>
+        <name>Update Competitors Wheels</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 18:44:07</sys_created_on>
+        <sys_id>83ea303d93199610a1ff3ef86cba1026</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 18:44:07</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=83ea303d93199610a1ff3ef86cba1026"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=0fea303d93199610a1ff3ef86cba1025^sys_idNOT IN03ea303d93199610a1ff3ef86cba1046,47ea303d93199610a1ff3ef86cba1027,4bea303d93199610a1ff3ef86cba104c"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Update Competitors Wheels">0fea303d93199610a1ff3ef86cba1025</model>
+        <model_id>0fea303d93199610a1ff3ef86cba1025</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_0fea303d93199610a1ff3ef86cba1025</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 18:44:08</sys_created_on>
+        <sys_id>03ea303d93199610a1ff3ef86cba1046</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 18:55:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=03ea303d93199610a1ff3ef86cba1046"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Update Competitors Wheels">0fea303d93199610a1ff3ef86cba1025</model>
+        <model_id>0fea303d93199610a1ff3ef86cba1025</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_0fea303d93199610a1ff3ef86cba1025</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 18:44:07</sys_created_on>
+        <sys_id>47ea303d93199610a1ff3ef86cba1027</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 18:58:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=47ea303d93199610a1ff3ef86cba1027"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Update Competitors Wheels">0fea303d93199610a1ff3ef86cba1025</model>
+        <model_id>0fea303d93199610a1ff3ef86cba1025</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_0fea303d93199610a1ff3ef86cba1025</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 18:44:08</sys_created_on>
+        <sys_id>4bea303d93199610a1ff3ef86cba104c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 18:58:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4bea303d93199610a1ff3ef86cba104c"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=0fea303d93199610a1ff3ef86cba1025"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0fea303d93199610a1ff3ef86cba1025"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=0fea303d93199610a1ff3ef86cba1025^sys_idNOT IN9fea303d93199610a1ff3ef86cba106e"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Competitors Wheels">0fea303d93199610a1ff3ef86cba1025</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 18:44:08</sys_created_on>
+        <sys_id>9fea303d93199610a1ff3ef86cba106e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 18:44:08</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=0fea303d93199610a1ff3ef86cba1025^sys_idNOT IN1bea303d93199610a1ff3ef86cba106d,d7ea303d93199610a1ff3ef86cba106e"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Update Competitors Wheels">0fea303d93199610a1ff3ef86cba1025</flow>
+        <generation_source>flowRecommendation</generation_source>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 18:44:08</sys_created_on>
+        <sys_id>1bea303d93199610a1ff3ef86cba106d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 18:55:33</sys_updated_on>
+        <ui_id>033a5818-8cb5-4ab0-a980-12e1c6e09473</ui_id>
+        <values>H4sIAAAAAAAA/+VYXW/aPBT+K1GuKUv4CvTuVRHSpG2V1m43eyfLiZ1izdiZ7bSliP++4ziBCFIgGkitdod9ju3nnPM8xw4/Vj4j/rVPJsEknUyG4ygI+v0gGI36CQ7juD9K4iDGA7/jC7yg4GlwzCkMHzHP7fgZDYJoOBqhuTTIKIwCZGSurLcw4EeYzjhefj/RPZkzThQV/vWPnx0/wwoMhir/erVjOhU2xzHl4Hpf4t4JwyyzzRAVNjf3qb7M++IMUhELJej49NlQQShgSDHXtOMvsCDYSLXczCiKya3g24k5gwivfd86P2v2AueOA+uXUogqoc62GRYnT132nCmdYoPvjMoTk6vSPZlLllDtckJoinNubupzzuE2M0wKt8SF7lZLni/EF5cSf7NBVSyYyTVFhGY2WIu+DCW9m8unrxXSGRNFXkojlwnmmxE2RrE4NxbPyqec2kKjBc4yJh5QpuQjKxYDlkX3gcOgm3L5BIdq9iC6OLHAu5Bb3J3B/LSY/o4Vs1F8hm1gMQBiHFiCXBk1EKpI5yNKeK4Lg8JCu738dcfXS33DsdbbyCHt6Hducbs8lBEjlzS7JFEsM//BFo+0DG7dqdQzPEjDyZZ2iRSEWRS6JiFAgxj5P4fFZLW6AeIYSjypvG8ZsT9R2E1yBak23YPyWa/39XbWvVuK83hWKnHe1NPSlKpSpntzn5o2KGUank2mgyB4b0KFw9+eTtsrz6XgiPxCcpBoZMspLZVBLpc1/e2rpjXXT4BQcf3WstOLl6+hKqmeMspJ0400s4adG6n3795Ib5LoAIggV0EmOBPFEwOAXkoBw4P0i8MdrhUUq90/dg7rZF8H2DPSe2mthhPgVGq4g7O9e4enAWLV9wvK7Pb8arIUQf9sIuj3zieC1SbUTTIb8l69LG1FK/8X6493/YGGtQXhuklkrc4M257ZW++LuN9KxXXCOcv0Fd6d+fn5iio7l2wDc1hanoechtETIw/UbE+vvIg0T5j/arKXwkRVoYrwLvCUDQ9+UcW1pyxL0QIqxzJ4cSuaADk0woqiVOaCoPKtvSWSrWTKlDal836z+UpBP8KTIE7PzKlXeHsb75YX8vE4qlR+TL0qkPI07UEgXhGItwmkXdhtGtfgjA/VSzSuGWa8qAh8SmW1klKlpHqleR0p5gFWnNjZTgQVnhXU37e+Jhk0tsAjWN/Fd/n521NCcTzo4VHUD8MgCAMSBeMoCsejOB3haJBudYqQFgl0VNg5BarA9qiiRlXnYL8HubbattmcgKqi4FQK+zHei4xnYUF9vQrWceBlU4ml5BSLna5yD3fFh1mJv+Tr8E12lnfxT1XO7nez7aYa832p90POvgn2O6cfLc3GNOiNQ5JcjaMwuhqkZHQ1IXh4hSfxMOoTmgzScz4Jfv4B/nhIPB0WAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Update Competitors Wheels">0fea303d93199610a1ff3ef86cba1025</flow>
+        <generation_source>flowRecommendation</generation_source>
+        <order>5</order>
+        <parent_ui_id>94076694-aa6f-48cf-bb2d-771526759f37</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 18:44:08</sys_created_on>
+        <sys_id>d7ea303d93199610a1ff3ef86cba106e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 18:55:33</sys_updated_on>
+        <ui_id>ddc35b1a-bb41-4974-a06e-179061155e58</ui_id>
+        <values>H4sIAAAAAAAA/+VWXU/bMBT9K5GfQMqipC0FuqeJCmkSAwk2Xiiy3PimteQ6me0Uuir/fdex01bACki8oPWl9f3yOSf3tL1bE8HJiAyAp9lpNsz7Wb/fS9PeySCbDvvTrMf7DCAjMVFsAVipIS81x/OSydoF1uszDcwCj0od/aq4+0izJK+1BmWTRzpIj4+GQzovLbWa0ZTastZumrJNg4O4MJVkq9swDyP5XEiO3WR0dx+TimkstqDJaP0k9Vbskk1BYul1B/4pGbuq3JmXee1wUdEFL0LnOGSi72PMYJODk6UxgUcLigMCKZg0EJMFU6hBqVdkZHWNAVSHXym52lTMhbKe6II9GvEHbx6krq4AZJYHETbHn2wqYexF8qlizCy7wem5rfVGs1LkYLwuHApWS3u2G/MFV5UVpfIt1g0O3aWsF+rSq0I2A3aeSW2AcqgcV4feUytu5uXDdQf0XKhWlkBTljmTmxOzVotpbR2cNQEJrc4LVlVCzWily6VomxHKIplJPCSFLB/wTiNmKmG5w52gsiw5x/i4Dd8yLRyJHzgGm5uYmJU5k8yYLRXUkf6uHRJPLFCgrQqtBLTdBteca1HZb3jVEgLwJg4OmR7t27L8dLtUOzO3Ltlrg+cmeK38fQ55A/bOIe2y/YNLMMmz2MVub3TpE8EiRx9mkZPPZpFA5dN75DVnpL29378729Sawey4AnlUYAWugpnUadrnBf/irwL+3BSvVL/PE29A3XniXIDk5gUanSFggTAtUE/riSlCMroNyc1vx4c5Ixum7euT+eM/+AnxFH2s3cPtBrvjvmIiwUal5BfC2Mive1Rw2qJvWS2ZTjBPJRZM1EThOdIsB2268tCd4GMX9sAFe8exfzv8OlG+OKlqMz/oJqPAsxnoZEvqpT9wD3MAaRIUCv8oHeIkwCVS4XZUyLAl8M2Db5rm/i9bR717aAoAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=0fea303d93199610a1ff3ef86cba1025"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=0fea303d93199610a1ff3ef86cba1025^sys_idNOT IN128d3cbd93199610a1ff3ef86cba106b,57ea303d93199610a1ff3ef86cba106b,d3ea303d93199610a1ff3ef86cba106c"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">337df8bd93199610a1ff3ef86cba1049</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Update Competitors Wheels">0fea303d93199610a1ff3ef86cba1025</flow>
+        <flow_variables_assigned>old_list</flow_variables_assigned>
+        <generation_source>flowRecommendation</generation_source>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id>94076694-aa6f-48cf-bb2d-771526759f37</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 18:55:33</sys_created_on>
+        <sys_id>128d3cbd93199610a1ff3ef86cba106b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 18:58:21</sys_updated_on>
+        <ui_id>6efcfb64-435c-47bc-a4ae-31ab3163767a</ui_id>
+        <values>H4sIAAAAAAAA/+1VTU/jMBD9K5VPILVR2pR+cENUSKxYKi0sly2KJvEYrHXsYDuFbtX/vuM4bRFIe1+JU+w3nvF7zzPKlpnG14139+bCOfmk2fmvxz6TOmC03jLJ2TljfaahQloZxXMlnSdkDarBGOTS1Qo2D0ekfJaKW+zq1WAp3aNl59sPobZ+OsXhbFwM59nZ2XwyTGEoRIZiNikLGKYZUkEFBSo6ulS8dxMJfKbkN3VAnLdSP3X7my7xbg8aywORtM/wzaPmSAwEKId9VoHm4I3dHBCLwJdaHYFnqX2UWMGbk3/ovlmapuGkQFJVdgYctvdQKFxEg2JILMAD0WlK39iDX0aW6KInHAU0yl++x+KBZe2l0THFh8JdtlFNpW+jH+xQ4N17NA5zjnWQG/h3YsTds3n9sWd6JXXrTBdUpgR12IEn/4rGBz5b1sj7D1ZH5JPZqLCiG/MK6pqQvLZmLdtbiHSVPCnaJEKZV2IX+i+BMihM6BkguSJ80cIPYGWQ+53KUHK47qeWLw1eh/aZzothNh2dDUacjwfj8WQ+KATHwaQQkBXzjGcwZ7s+cxt3qcC5o1H0SvlLE2RG2zqD8uhxSCmtrP0FkVpTCr0Z7rFgw6H1aP2vk2yl12B7QVRv1aRpxnuC563GVjsFk32tlW5xb6KHJ6cJtY70JyFvNO3Hz+lKr7RF6h/d+3a3vE3iO0ixOQnZp2y32z2GEY22fY3y1yh/jfJ/PcocS+nIzrYHr/f/5xDY0PDI8j30auzvQOaI7f4CURxzKekHAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">dfe140f193559610a1ff3ef86cba1027</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Update Competitors Wheels">0fea303d93199610a1ff3ef86cba1025</flow>
+        <flow_variables_assigned>old_list</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 18:44:08</sys_created_on>
+        <sys_id>57ea303d93199610a1ff3ef86cba106b</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 18:58:21</sys_updated_on>
+        <ui_id>a53309f4-1379-43b2-91e5-a45d5ce3a73a</ui_id>
+        <values>H4sIAAAAAAAA/+1Vy07jMBT9lcrrNkpIH7Q7VISExAzS8NiMUHRj31BrHDv4AXSq/vtc12mLYM1ipO7icx8+51xfZcNM8F3w7t5cOCefNVv8fhoyqSNG3xsmBVswNmQaWqQvo0SlpPOEvIIKEdpslhbBoxgYO3joRPysiowHa1H77L0a57PJdFqtjK+8hSqvvAk29qMoN22HXnpj3XZLTYV0nYL143f05iupBNUljR1YSvNo2WLzKbTTnM+wOB/XxbycTObTIoeiaUpszqe8hiIvkRoqqFFR6q0Sg5tkyleb/LqLiPNW6uf+fNMX3u1BY0Ukkg8ZvnvUAolBA8rhkLWgSbax6wNCjohbrY7ASmqfptTCu5N/6b7zPM9jZoOkimOKHo73UCu8TFanUHMJHohO4D7YPp2vjOTokicCGwjKLz9iKeG289LoVOJj477aqNDqn8kPdmiwnywhwWElsItyI/9eTHO3Mm+/9kyvpN450weV4aAOJ/DkXx185LNhQd5/sjohX8xGhfF9VC10HSFVZ82r3N1CpNvsWdEha5R5I3ZxJzLgUWFGY4DsivDLHfwIVka5P6gNFcfrHrR8CXgdn89sXhfl7GwyOhNiPBqPp/NR3QgcTesGynpeihLmbDtkbu2WCpw7GkVTql5ClJls6w2qksexhFvZ+Qsi9YoHLxJIPmy3T3E3E7fTDp92+LTD/+cOC+TSEefdoK/3f+QYWNMLlfwj9Gbsn6j2iG3/AWBze//bBwAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">984cf36d93159610a1ff3ef86cba1000</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Update Competitors Wheels">0fea303d93199610a1ff3ef86cba1025</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 18:44:08</sys_created_on>
+        <sys_id>d3ea303d93199610a1ff3ef86cba106c</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 18:58:21</sys_updated_on>
+        <ui_id>94076694-aa6f-48cf-bb2d-771526759f37</ui_id>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8FYFnQZD8auNbYDdAUDcGGjc9FAGxJimbKE2qJOVHBf17l5JsB42LNEDQU2/m7HJ3ZsSBK2JKX5TeLcy1c3KlyfjbY0ykDhj+roiGjSBjwozm0kujaQPEZAuqDAWZR1/XQigXaeMjqaOZdB7rXLpCweHhhTa2lopb0e0twOJ0LywZV7+VJMcpeQp5dsUy1u+N+r007b0fZMtRf5n1eB8E9HGggqVQ2Do5Eo5mDRL/UYk/FAF33kq96s6zbsr9ETSWB1ZZGhOx90JzgXxyUE7EZAOagzf2cEKsAD7X6gyspfY4joTmvZM/cWFvOAyNuUCJTLTF03EBSyWmrYVtKZ+CB6RTMl/arp2tjWTCtQZxkUOp/OQp1jbMiyC3veLD4O62UeVG37WukNOA4xdDpHSCclEEtYF+pyW/X5vd5yPTG6kbZ7qiMgzU6QQe/VuWPvCpiFBig4PoBooCXaWFNVvZXEYum2Sl8JDkyuxwaXiLCbBAPEFzIblBfNrAD2BlUPEJx+DlluYSnGS0ebc4Dm0SpI6JO7iJAufOItFh+qMMFFvJnTja+hOuMCsLf42bt6LTUcfPY/AkAVXVcN52tBKjOFX4uuv6br6IZrcfP1TVBF+EFzwyNvpS8PCTZgkrLVrokz0dpO+GoxFdG0+9BZrSXZOVBPlTyev6eZ7+zdLXpfMKhvkwS4eX0zkYXUrnhVy+MpK9FyIZ3sJfJjJN0/+RfJNISkfbIHXamuVvmMjHEL9258lrJh1Saz7T7fH/KxQO+MAkewrtjP0eRJ2x+hcgBxUiCQcAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=0fea303d93199610a1ff3ef86cba1025"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=0fea303d93199610a1ff3ef86cba1025^sys_idNOT IN5bea303d93199610a1ff3ef86cba1064,dbea303d93199610a1ff3ef86cba1067"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=79b13725-2dd4-4469-bfde-6bfa3b93d3a9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>old_list</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Old List</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update Competitors Wheels">0fea303d93199610a1ff3ef86cba1025</model>
+        <model_id>0fea303d93199610a1ff3ef86cba1025</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_0fea303d93199610a1ff3ef86cba1025</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 18:44:08</sys_created_on>
+        <sys_id>5bea303d93199610a1ff3ef86cba1064</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 18:44:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=f71d1920-6a06-44e1-8dbf-18d94448ade5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>new_list</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>New List</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update Competitors Wheels">0fea303d93199610a1ff3ef86cba1025</model>
+        <model_id>0fea303d93199610a1ff3ef86cba1025</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_0fea303d93199610a1ff3ef86cba1025</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 18:44:08</sys_created_on>
+        <sys_id>dbea303d93199610a1ff3ef86cba1067</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 18:44:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_0fea303d93199610a1ff3ef86cba1025^sys_idNOT IN07ea303d93199610a1ff3ef86cba1037,07ea303d93199610a1ff3ef86cba104a,8bea303d93199610a1ff3ef86cba1050"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_0fea303d93199610a1ff3ef86cba1025</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 18:44:08</sys_created_on>
+        <sys_id>07ea303d93199610a1ff3ef86cba1037</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 18:44:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_0fea303d93199610a1ff3ef86cba1025</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 18:44:08</sys_created_on>
+        <sys_id>07ea303d93199610a1ff3ef86cba104a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 18:44:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_0fea303d93199610a1ff3ef86cba1025</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 18:44:08</sys_created_on>
+        <sys_id>8bea303d93199610a1ff3ef86cba1050</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 18:44:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_0fea303d93199610a1ff3ef86cba1025"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_0fea303d93199610a1ff3ef86cba1025"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_0fea303d93199610a1ff3ef86cba1025"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>2f784d5047115210d6acf855516d437c</sys_id>
+        <latest_snapshot>0fea303d93199610a1ff3ef86cba1025</latest_snapshot>
+        <compiler_build>glide-xanadu-07-02-2024__patch1-08-24-2024_09-01-2024_1853.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=2f784d5047115210d6acf855516d437c^sys_idNOT IN9bea303d93199610a1ff3ef86cba107e"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerUniqueChange</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"9bea303d93199610a1ff3ef86cba107e","name":"plan","plan_signature":null}}</plan>
+        <plan_id>2f784d5047115210d6acf855516d437c</plan_id>
+        <snapshot>325e3cfd93199610a1ff3ef86cba1043</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-17 18:44:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9bea303d93199610a1ff3ef86cba107e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-17 18:58:21</sys_updated_on>
+        <trigger display_value="">d7ea303d93199610a1ff3ef86cba107c</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=2f784d5047115210d6acf855516d437c"/>
+</record_update>
