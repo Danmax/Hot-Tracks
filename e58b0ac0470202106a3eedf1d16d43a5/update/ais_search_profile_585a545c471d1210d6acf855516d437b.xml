@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile">
     <ais_search_profile action="INSERT_OR_UPDATE">
         <active>true</active>
-        <description>This is default AI Search profile for Hot Tracks</description>
+        <description>Search For Wheels by QR</description>
         <exclude_from_evaluation>false</exclude_from_evaluation>
         <genius_result_assembly/>
-        <label>hot-tracks Search Profile</label>
-        <name>x_407566_hot_tra_0_ffuizfpi_search_profile</name>
-        <publish_id>b03f8720-3a14-4018-a74f-632973d0a069</publish_id>
+        <label>Search For Wheels</label>
+        <name>x_407566_hot_tra_0_search_for_wheels</name>
+        <publish_id>2ed47a9b-126a-4b70-8da4-39b14923284b</publish_id>
         <qna_model_id>bert-qa-model-1.1.6</qna_model_id>
         <state>PUBLISHED</state>
         <sys_class_name>ais_search_profile</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-05-29 16:31:08</sys_created_on>
-        <sys_id>4c545adcd9e642106387a00e1dd59506</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>hot-tracks Search Profile</sys_name>
+        <sys_created_on>2024-10-13 00:31:16</sys_created_on>
+        <sys_id>585a545c471d1210d6acf855516d437b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Search For Wheels</sys_name>
         <sys_package display_value="Hot Tracks Tournament Tracker" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_update_name>ais_search_profile_4c545adcd9e642106387a00e1dd59506</sys_update_name>
+        <sys_update_name>ais_search_profile_585a545c471d1210d6acf855516d437b</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-08-02 04:00:01</sys_updated_on>
+        <sys_updated_on>2024-10-13 00:37:45</sys_updated_on>
     </ais_search_profile>
 </record_update>
