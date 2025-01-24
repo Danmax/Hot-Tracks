@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>r1_time</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Calculate Speed R1</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+
+if (!r1Speed || !r2Speed ) {
+    // Retrieve field values
+    var trackLength = g_form.getValue('track_length') || 185; // Default to 185 if not set
+    var r1Time = g_form.getValue('r1_time');
+    var r2Time = g_form.getValue('r2_time');
+    
+    // Define constants
+    const SCALE_FACTOR = 64;  // Scale factor for 1:64 scale
+    const SECONDS_PER_HOUR = 3600;
+    const INCHES_PER_MILE = 63360;
+
+    // Initialize variables for calculated speeds
+    var r1Speed = null;
+    var r2Speed = null;
+
+    // Calculate speed for R1 if r1_time exists
+    if (r1Time) {
+        r1Speed = (trackLength / r1Time) * (SECONDS_PER_HOUR / INCHES_PER_MILE) * SCALE_FACTOR;
+        g_form.setValue('r1sSpeed',"R1 Speed " + (r1Speed ? r1Speed.toFixed(2) : "N/A") + " mph, "
+    }
+
+    // Calculate speed for R2 if r2_time exists
+    if (r2Time) {
+        r2Speed = (trackLength / r2Time) * (SECONDS_PER_HOUR / INCHES_PER_MILE) * SCALE_FACTOR;
+        g_form.setValue('r2Speed',(r2Speed ? r2Speed.toFixed(2) : "N/A") + " mph";
+    }
+
+    // Concatenate the speed values into a display field, e.g., Speed_Display
+    var speedDisplay = "R1 Speed (1:1): " + (r1Speed ? r1Speed.toFixed(2) : "N/A") + " mph, " +
+                       "R2 Speed (1:1): " + (r2Speed ? r2Speed.toFixed(2) : "N/A") + " mph";
+    g_form.setValue('title', speedDisplay); // Update display field
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-02 04:48:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1a14543a47619e50d6acf855516d4391</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Calculate Speed R1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hot Tracks Tournament Tracker" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name>sys_script_client_1a14543a47619e50d6acf855516d4391</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-04 01:29:35</sys_updated_on>
+        <table>x_407566_hot_tra_0_race</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
