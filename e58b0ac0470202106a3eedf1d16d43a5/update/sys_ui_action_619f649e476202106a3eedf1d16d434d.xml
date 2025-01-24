@@ -11,7 +11,7 @@ Condition should be:&#13;
 1. Cars in Tournament should match the Cars set to compete.&#13;
 2. State should be Ready&#13;
 </comments>
-        <condition>current.tournament_state == 'ready'</condition>
+        <condition>(wins_to_advance != null ) &amp;&amp; (current.tournament_state == 'draft' || current.tournament_state == 'qualifier' )</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -34,7 +34,7 @@ Condition should be:&#13;
         <name>Start Tournament</name>
         <onclick/>
         <order>100</order>
-        <script><![CDATA[	current.tournament_state = "in_progress";
+        <script><![CDATA[	current.tournament_state = "ready";
     current.update();
     action.setRedirectURL(current);
 ]]></script>
@@ -48,17 +48,28 @@ Condition should be:&#13;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>619f649e476202106a3eedf1d16d434d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Start Tournament</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_package display_value="Hot Tracks Tournament Tracker" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name>sys_ui_action_619f649e476202106a3eedf1d16d434d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-25 20:42:37</sys_updated_on>
+        <sys_updated_on>2024-12-18 00:18:42</sys_updated_on>
         <table>x_407566_hot_tra_0_tournament</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
     </sys_ui_action>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>619f649e476202106a3eedf1d16d434d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-17 23:53:12</sys_created_on>
+        <sys_id>5daa44e5476e9e10d6acf855516d4385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-17 23:53:12</sys_updated_on>
+        <table>sys_ui_action</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>

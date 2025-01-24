@@ -3,7 +3,7 @@
         <active>true</active>
         <button display_value="Jump to User Profile">875b724687103300a785940307cb0b4b</button>
         <color_theme/>
-        <description/>
+        <description>Hot Tracks Tournament Tracker</description>
         <disable_offline>false</disable_offline>
         <field_name/>
         <icon/>
@@ -17,14 +17,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-13 01:50:17</sys_created_on>
         <sys_id>308c20d0479d1210d6acf855516d43dc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Welcome</sys_name>
-        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_package display_value="Hot Tracks Tournament Tracker" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name>sys_sg_button_instance_308c20d0479d1210d6acf855516d43dc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-13 01:50:17</sys_updated_on>
+        <sys_updated_on>2024-11-30 14:05:31</sys_updated_on>
         <table/>
     </sys_sg_button_instance>
     <sys_translated_text action="delete_multiple" query="documentkey=308c20d0479d1210d6acf855516d43dc"/>
