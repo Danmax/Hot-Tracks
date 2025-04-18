@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=15861389000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=19127839000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>25000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,7 +15,7 @@
         <flow_priority/>
         <generation_source/>
         <internal_name>create_qualifier_matches_1</internal_name>
-        <label_cache>[{"name":"a25fc57b-c70d-4a2b-8921-824476d6bbb2.record.racer_1","label":"3 - Create Record➛Match Record➛Racer 1","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","parent_table_name":"x_407566_hot_tra_0_match","column_name":"racer_1","usedInstances":{"319f14c8-1099-449e-80af-e8341821e001":["racer_1"],"0093a420-badb-4ef8-a42a-1170fc8a0cd9":["racer_1"]}},{"name":"flow_variable.carcount","label":"Flow Variables➛carCount","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"ae4e8a70-61b5-470b-a1dd-2ba722665cb4":["log_message"],"f00b9bfb-5653-4bcd-bf6b-8c8ae3d091cd":["log_message"],"57d54868-06a2-4875-af4e-5054bd48ed17":["log_message"],"4228a67a-f366-471a-a24b-38aaab2bce7a":["carcount-1"],"a25fc57b-c70d-4a2b-8921-824476d6bbb2":["title"],"319f14c8-1099-449e-80af-e8341821e001":["title"],"0093a420-badb-4ef8-a42a-1170fc8a0cd9":["title"],"f361a04e-66f8-42ee-950e-def23f58be04":["carcount-0"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"f2e1aae0-f156-412f-8947-e1020a9539a5"}},{"name":"flow_variable.round","label":"Flow Variables➛Round","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"c6f7e792-57a0-426f-92bf-6479512caad4":["round"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"e9337b7e-04c4-4f0f-a1f5-e069ed5ac480"}},{"name":"flow_variable.matches","label":"Flow Variables➛Matches","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"0fe99a12-843e-426c-bf47-afbf50b1ba14":["condition"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"1b6c2367-6ddf-4a5c-afe2-08d6c9a4999d","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"flow_variable.matchcount","label":"Flow Variables➛matchCount","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"0fe99a12-843e-426c-bf47-afbf50b1ba14":["condition"],"49d63f8d-da4f-4162-8e9d-a8c2e64f281f":["log_message"],"ecd7cdbc-f194-4bcb-b9ac-d99984bc07b5":["matchcount-0"],"4228a67a-f366-471a-a24b-38aaab2bce7a":["matchcount-0"],"ae4e8a70-61b5-470b-a1dd-2ba722665cb4":["log_message"],"f00b9bfb-5653-4bcd-bf6b-8c8ae3d091cd":["log_message"],"57d54868-06a2-4875-af4e-5054bd48ed17":["log_message"],"05b97e59-9a70-403e-a637-5484cee418ba":["title"],"f49b19ae-ac48-41dc-99ee-a8cb64781dd9":["title"],"66d03f18-a279-4513-ac8d-05b84e47f9d0":["title"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"3c64ed82-9418-4b10-bbf2-d70805b59477"}},{"name":"flow_variable.cars","label":"Flow Variables➛Cars","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"24b8684b-ece8-414f-a05c-9a68184b7fe9":["matches-2"],"4228a67a-f366-471a-a24b-38aaab2bce7a":["carcount-1"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"d98bb56d-703a-4918-b79e-2306c81cd975"}},{"name":"Updated_1.current.wins_to_advance","label":"Trigger - Record Updated➛Tournament Record➛Wins to Advance","reference":"","reference_display":"Wins to Advance","type":"integer","base_type":"integer","parent_table_name":"x_407566_hot_tra_0_tournament","column_name":"wins_to_advance","usedInstances":{"6c699561-beb0-4553-ac3b-626706308c2f":["wins_to_advance"],"c6f7e792-57a0-426f-92bf-6479512caad4":["wins_to_advance"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Tournament Record","reference":"x_407566_hot_tra_0_tournament","reference_display":"Tournament","type":"reference","base_type":"reference","usedInstances":{"6c699561-beb0-4553-ac3b-626706308c2f":["tournament"],"c6f7e792-57a0-426f-92bf-6479512caad4":["racer_1","tournament"],"a25fc57b-c70d-4a2b-8921-824476d6bbb2":["tournament"]},"attributes":{}},{"name":"13e13b16-c9a8-4966-8009-794b50441029.item","label":"4 - For Each➛Item","reference":"","reference_display":"Item","type":"document_id","base_type":"document_id","usedInstances":{"8ee9d6d2-e145-4a0a-88e6-9e86d39eb491":["log_message"],"6c699561-beb0-4553-ac3b-626706308c2f":["racer_1"]}},{"name":"Updated_1.current.competitors","label":"Trigger - Record Updated➛Tournament Record➛Competitors","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"glide_list","base_type":"glide_list","parent_table_name":"x_407566_hot_tra_0_tournament","column_name":"competitors","usedInstances":{"5ad5db7d-44b8-4aeb-ae1a-557d45b0e8d9":["competitors"],"24b8684b-ece8-414f-a05c-9a68184b7fe9":["competitors-0","competitors-1"],"d59d6666-939c-467f-a2ef-9fdbf0f3cb10":["items"]}},{"name":"flow_variable.competitors","label":"Flow Variables➛Competitors","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"7cd07643-b729-451c-8bcf-ad3fbe453158":["null"],"367c0770-229b-4b2f-82c9-722b9fc9366e":["competitors"],"3e8af9ee-e2d4-4333-8169-c110d571998c":["log_message"],"15c73736-73a7-4082-9214-26217ac31e0e":["competitors"],"f8873d84-044a-4dd3-8701-0163ef59a3d4":["competitors"],"4f520088-6763-4ab3-bda3-b4ea1dc8f79e":["competitors"],"5232582c-82a8-45cd-a2ab-2af2998081c2":["competitors"],"b4a70cf5-36ab-403c-ba38-bfce5c5f570a":["competitors"],"d1abaa05-67ea-42ac-89b7-f8c46fa6aff1":["competitors"],"94bd2e2e-515e-483c-9917-7068cc91bf32":["competitors"],"726d220e-d7f9-4f58-a0bb-69859b0244f3":["competitors"],"76b122cb-9383-4ce0-bde7-3de1e543af41":["competitors"],"10a23aa2-339f-42e3-9663-ed595e0c722c":["competitors"],"c6f7e792-57a0-426f-92bf-6479512caad4":["racer_1"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a0a65a38-3048-48cf-b64f-af302bbfb5e4"}},{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛Tournament Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","usedInstances":{"4f520088-6763-4ab3-bda3-b4ea1dc8f79e":["torunament_id"]}},{"name":"c6f7e792-57a0-426f-92bf-6479512caad4.record","label":"7 - Create or Update Record➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"05b97e59-9a70-403e-a637-5484cee418ba":["title"],"66d03f18-a279-4513-ac8d-05b84e47f9d0":["record"]},"attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c6f7e792-57a0-426f-92bf-6479512caad4.record.round","label":"7 - Create or Update Record➛Match Record➛Round","reference":"","reference_display":"Round","type":"integer","base_type":"integer","parent_table_name":"x_407566_hot_tra_0_match","column_name":"round","usedInstances":{"05b97e59-9a70-403e-a637-5484cee418ba":["title"],"f49b19ae-ac48-41dc-99ee-a8cb64781dd9":["title"],"66d03f18-a279-4513-ac8d-05b84e47f9d0":["title"]}},{"name":"c6f7e792-57a0-426f-92bf-6479512caad4.record.racer_1.model","label":"7 - Create or Update Record➛Match Record➛Racer 1➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","parent_table_name":"x_407566_hot_tra_0_wheels","column_name":"model","usedInstances":{"f49b19ae-ac48-41dc-99ee-a8cb64781dd9":["title"],"66d03f18-a279-4513-ac8d-05b84e47f9d0":["title"]}},{"name":"c6f7e792-57a0-426f-92bf-6479512caad4.record.racer_2.model","label":"7 - Create or Update Record➛Match Record➛Racer 2➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","parent_table_name":"x_407566_hot_tra_0_wheels","column_name":"model","usedInstances":{"f49b19ae-ac48-41dc-99ee-a8cb64781dd9":["title"],"66d03f18-a279-4513-ac8d-05b84e47f9d0":["title"]}},{"name":"d59d6666-939c-467f-a2ef-9fdbf0f3cb10.item","label":"2 - For Each➛Wheels Record","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"a25fc57b-c70d-4a2b-8921-824476d6bbb2":["racer_1"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"d59d6666-939c-467f-a2ef-9fdbf0f3cb10.item.title","label":"2 - For Each➛Wheels Record➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_407566_hot_tra_0_wheels","column_name":"title","usedInstances":{"a25fc57b-c70d-4a2b-8921-824476d6bbb2":["title"]}},{"name":"a25fc57b-c70d-4a2b-8921-824476d6bbb2.record","label":"3 - Create Record➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"319f14c8-1099-449e-80af-e8341821e001":["round_match"],"0093a420-badb-4ef8-a42a-1170fc8a0cd9":["values"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a25fc57b-c70d-4a2b-8921-824476d6bbb2.record.title","label":"3 - Create Record➛Match Record➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_407566_hot_tra_0_match","column_name":"title","usedInstances":{"319f14c8-1099-449e-80af-e8341821e001":["title"],"0093a420-badb-4ef8-a42a-1170fc8a0cd9":["values"]}}]</label_cache>
+        <label_cache>[{"name":"a25fc57b-c70d-4a2b-8921-824476d6bbb2.record.racer_1","label":"9 - Create Record➛Match Record➛Racer 1","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","parent_table_name":"x_407566_hot_tra_0_match","column_name":"racer_1","usedInstances":{"319f14c8-1099-449e-80af-e8341821e001":["racer_1"],"0093a420-badb-4ef8-a42a-1170fc8a0cd9":["racer_1"]}},{"name":"flow_variable.carcount","label":"Flow Variables➛carCount","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"ae4e8a70-61b5-470b-a1dd-2ba722665cb4":["log_message"],"f00b9bfb-5653-4bcd-bf6b-8c8ae3d091cd":["log_message"],"57d54868-06a2-4875-af4e-5054bd48ed17":["log_message"],"4228a67a-f366-471a-a24b-38aaab2bce7a":["carcount-1"],"a25fc57b-c70d-4a2b-8921-824476d6bbb2":["title"],"319f14c8-1099-449e-80af-e8341821e001":["title"],"0093a420-badb-4ef8-a42a-1170fc8a0cd9":["title"],"f361a04e-66f8-42ee-950e-def23f58be04":["carcount-0"],"197bbfff-6203-4203-820e-6db01fb30f9c":["title"],"66d255de-6802-4547-bc10-b93d594f5769":["title"],"f8e74da2-c843-4431-8aca-8c20d14447dd":["values"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"f2e1aae0-f156-412f-8947-e1020a9539a5"}},{"name":"flow_variable.round","label":"Flow Variables➛Round","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"c6f7e792-57a0-426f-92bf-6479512caad4":["round"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"e9337b7e-04c4-4f0f-a1f5-e069ed5ac480"}},{"name":"flow_variable.matches","label":"Flow Variables➛Matches","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"0fe99a12-843e-426c-bf47-afbf50b1ba14":["condition"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"1b6c2367-6ddf-4a5c-afe2-08d6c9a4999d","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"flow_variable.matchcount","label":"Flow Variables➛matchCount","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"0fe99a12-843e-426c-bf47-afbf50b1ba14":["condition"],"49d63f8d-da4f-4162-8e9d-a8c2e64f281f":["log_message"],"ecd7cdbc-f194-4bcb-b9ac-d99984bc07b5":["matchcount-0"],"4228a67a-f366-471a-a24b-38aaab2bce7a":["matchcount-0"],"ae4e8a70-61b5-470b-a1dd-2ba722665cb4":["log_message"],"f00b9bfb-5653-4bcd-bf6b-8c8ae3d091cd":["log_message"],"57d54868-06a2-4875-af4e-5054bd48ed17":["log_message"],"05b97e59-9a70-403e-a637-5484cee418ba":["title"],"f49b19ae-ac48-41dc-99ee-a8cb64781dd9":["title"],"66d03f18-a279-4513-ac8d-05b84e47f9d0":["title"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"3c64ed82-9418-4b10-bbf2-d70805b59477"}},{"name":"flow_variable.cars","label":"Flow Variables➛Cars","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"24b8684b-ece8-414f-a05c-9a68184b7fe9":["matches-2"],"4228a67a-f366-471a-a24b-38aaab2bce7a":["carcount-1"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"d98bb56d-703a-4918-b79e-2306c81cd975"}},{"name":"Updated_1.current.wins_to_advance","label":"Trigger - Record Updated➛Tournament Record➛Wins to Advance","reference":"","reference_display":"Wins to Advance","type":"integer","base_type":"integer","parent_table_name":"x_407566_hot_tra_0_tournament","column_name":"wins_to_advance","usedInstances":{"6c699561-beb0-4553-ac3b-626706308c2f":["wins_to_advance"],"c6f7e792-57a0-426f-92bf-6479512caad4":["wins_to_advance"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Tournament Record","reference":"x_407566_hot_tra_0_tournament","reference_display":"Tournament","type":"reference","base_type":"reference","usedInstances":{"6c699561-beb0-4553-ac3b-626706308c2f":["tournament"],"c6f7e792-57a0-426f-92bf-6479512caad4":["racer_1","tournament"],"a25fc57b-c70d-4a2b-8921-824476d6bbb2":["tournament"],"197bbfff-6203-4203-820e-6db01fb30f9c":["tournament"]},"attributes":{}},{"name":"13e13b16-c9a8-4966-8009-794b50441029.item","label":"4 - For Each➛Item","reference":"","reference_display":"Item","type":"document_id","base_type":"document_id","usedInstances":{"8ee9d6d2-e145-4a0a-88e6-9e86d39eb491":["log_message"],"6c699561-beb0-4553-ac3b-626706308c2f":["racer_1"]}},{"name":"Updated_1.current.competitors","label":"Trigger - Record Updated➛Tournament Record➛Competitors","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"glide_list","base_type":"glide_list","parent_table_name":"x_407566_hot_tra_0_tournament","column_name":"competitors","usedInstances":{"5ad5db7d-44b8-4aeb-ae1a-557d45b0e8d9":["competitors"],"24b8684b-ece8-414f-a05c-9a68184b7fe9":["competitors-0","competitors-1"],"d59d6666-939c-467f-a2ef-9fdbf0f3cb10":["items"]}},{"name":"flow_variable.competitors","label":"Flow Variables➛Competitors","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"7cd07643-b729-451c-8bcf-ad3fbe453158":["null"],"367c0770-229b-4b2f-82c9-722b9fc9366e":["competitors"],"3e8af9ee-e2d4-4333-8169-c110d571998c":["log_message"],"15c73736-73a7-4082-9214-26217ac31e0e":["competitors"],"f8873d84-044a-4dd3-8701-0163ef59a3d4":["competitors"],"4f520088-6763-4ab3-bda3-b4ea1dc8f79e":["competitors"],"5232582c-82a8-45cd-a2ab-2af2998081c2":["competitors"],"b4a70cf5-36ab-403c-ba38-bfce5c5f570a":["competitors"],"d1abaa05-67ea-42ac-89b7-f8c46fa6aff1":["competitors"],"94bd2e2e-515e-483c-9917-7068cc91bf32":["competitors"],"726d220e-d7f9-4f58-a0bb-69859b0244f3":["competitors"],"76b122cb-9383-4ce0-bde7-3de1e543af41":["competitors"],"10a23aa2-339f-42e3-9663-ed595e0c722c":["competitors"],"c6f7e792-57a0-426f-92bf-6479512caad4":["racer_1"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a0a65a38-3048-48cf-b64f-af302bbfb5e4"}},{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛Tournament Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_407566_hot_tra_0_tournament","column_name":"sys_id","usedInstances":{"4f520088-6763-4ab3-bda3-b4ea1dc8f79e":["torunament_id"],"6dc9fc51-cd98-4641-a8cc-426f2d8bea3a":["conditions"]}},{"name":"c6f7e792-57a0-426f-92bf-6479512caad4.record","label":"7 - Create or Update Record➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"05b97e59-9a70-403e-a637-5484cee418ba":["title"],"66d03f18-a279-4513-ac8d-05b84e47f9d0":["record"]},"attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c6f7e792-57a0-426f-92bf-6479512caad4.record.round","label":"7 - Create or Update Record➛Match Record➛Round","reference":"","reference_display":"Round","type":"integer","base_type":"integer","parent_table_name":"x_407566_hot_tra_0_match","column_name":"round","usedInstances":{"05b97e59-9a70-403e-a637-5484cee418ba":["title"],"f49b19ae-ac48-41dc-99ee-a8cb64781dd9":["title"],"66d03f18-a279-4513-ac8d-05b84e47f9d0":["title"]}},{"name":"c6f7e792-57a0-426f-92bf-6479512caad4.record.racer_1.model","label":"7 - Create or Update Record➛Match Record➛Racer 1➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","parent_table_name":"x_407566_hot_tra_0_wheels","column_name":"model","usedInstances":{"f49b19ae-ac48-41dc-99ee-a8cb64781dd9":["title"],"66d03f18-a279-4513-ac8d-05b84e47f9d0":["title"]}},{"name":"c6f7e792-57a0-426f-92bf-6479512caad4.record.racer_2.model","label":"7 - Create or Update Record➛Match Record➛Racer 2➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","parent_table_name":"x_407566_hot_tra_0_wheels","column_name":"model","usedInstances":{"f49b19ae-ac48-41dc-99ee-a8cb64781dd9":["title"],"66d03f18-a279-4513-ac8d-05b84e47f9d0":["title"]}},{"name":"a25fc57b-c70d-4a2b-8921-824476d6bbb2.record","label":"9 - Create Record➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"319f14c8-1099-449e-80af-e8341821e001":["round_match"],"0093a420-badb-4ef8-a42a-1170fc8a0cd9":["values"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a25fc57b-c70d-4a2b-8921-824476d6bbb2.record.title","label":"9 - Create Record➛Match Record➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_407566_hot_tra_0_match","column_name":"title","usedInstances":{"319f14c8-1099-449e-80af-e8341821e001":["title"],"0093a420-badb-4ef8-a42a-1170fc8a0cd9":["values"]}},{"name":"6dc9fc51-cd98-4641-a8cc-426f2d8bea3a.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","usedInstances":{"04c9c606-b318-4af3-a6fd-f0c2790d8f68":["carcount-0"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6dc9fc51-cd98-4641-a8cc-426f2d8bea3a.Records","label":"1 - Look Up Records➛m2m_Tournaments_Wheels Records","reference":"x_407566_hot_tra_0_wheels_in_tournament","reference_display":"m2m_Tournaments_Wheels","type":"records","base_type":"records","usedInstances":{"ef26760b-b35a-4588-a303-c7678bc02d58":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ef26760b-b35a-4588-a303-c7678bc02d58.item.x_407566_hot_tra_0_wheels","label":"3 - For Each➛m2m_Tournaments_Wheels Record➛Wheels","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","parent_table_name":"x_407566_hot_tra_0_wheels_in_tournament","column_name":"x_407566_hot_tra_0_wheels","usedInstances":{"197bbfff-6203-4203-820e-6db01fb30f9c":["racer_1"]}},{"name":"ef26760b-b35a-4588-a303-c7678bc02d58.item.x_407566_hot_tra_0_wheels.title","label":"3 - For Each➛m2m_Tournaments_Wheels Record➛Wheels➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_407566_hot_tra_0_wheels","column_name":"title","usedInstances":{"197bbfff-6203-4203-820e-6db01fb30f9c":["title"]}},{"name":"197bbfff-6203-4203-820e-6db01fb30f9c.record.racer_1","label":"4 - Create Record➛Match Record➛Racer 1","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","parent_table_name":"x_407566_hot_tra_0_match","column_name":"racer_1","usedInstances":{"66d255de-6802-4547-bc10-b93d594f5769":["racer_1"],"f8e74da2-c843-4431-8aca-8c20d14447dd":["values"]}},{"name":"197bbfff-6203-4203-820e-6db01fb30f9c.record.title","label":"4 - Create Record➛Match Record➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_407566_hot_tra_0_match","column_name":"title","usedInstances":{"66d255de-6802-4547-bc10-b93d594f5769":["title"],"f8e74da2-c843-4431-8aca-8c20d14447dd":["values"]}},{"name":"197bbfff-6203-4203-820e-6db01fb30f9c.record","label":"4 - Create Record➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"66d255de-6802-4547-bc10-b93d594f5769":["round_match"],"f8e74da2-c843-4431-8aca-8c20d14447dd":["round_match"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master_snapshot>bb8600fb477a42106a3eedf1d16d4359</master_snapshot>
         <master_snapshot_digest/>
         <name>Create Qualifier Matches</name>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>09234c77477a42106a3eedf1d16d43fb</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>Create Qualifier Matches</sys_name>
         <sys_overrides/>
         <sys_package display_value="Hot Tracks Tournament Tracker" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name>sys_hub_flow_09234c77477a42106a3eedf1d16d43fb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-22 02:07:49</sys_updated_on>
+        <sys_updated_on>2025-01-28 21:28:39</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -59,6 +59,7 @@
         <on_delete>false</on_delete>
         <on_insert>false</on_insert>
         <on_update>true</on_update>
+        <published_version/>
         <run_flow_in>background</run_flow_in>
         <run_on_extended>false</run_on_extended>
         <run_when_setting>both</run_when_setting>
@@ -76,6 +77,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-12-17 03:46:57</sys_updated_on>
         <table>x_407566_hot_tra_0_tournament</table>
+        <trigger_definition/>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -83,14 +85,14 @@
         <identifier>09234c77477a42106a3eedf1d16d43fb</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-22 02:07:49</sys_created_on>
-        <sys_id>dcdf0d3a47a25650d6acf855516d436a</sys_id>
+        <sys_created_on>2025-01-28 21:28:39</sys_created_on>
+        <sys_id>255c333247531e50d6acf855516d43fc</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-22 02:07:49</sys_updated_on>
+        <sys_updated_on>2025-01-28 21:28:39</sys_updated_on>
         <trigger display_value="">eb86ffcd47e65e10d6acf855516d43bc</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=09234c77477a42106a3eedf1d16d43fb^sys_idNOT INdcdf0d3a47a25650d6acf855516d436a"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=09234c77477a42106a3eedf1d16d43fb^sys_idNOT IN255c333247531e50d6acf855516d43fc"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=09234c77477a42106a3eedf1d16d43fb"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=09234c77477a42106a3eedf1d16d43fb^sys_idNOT IN05234c77477a42106a3eedf1d16d43fc"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -389,6 +391,7 @@
         <display_text/>
         <flow display_value="Create Qualifier Matches">09234c77477a42106a3eedf1d16d43fb</flow>
         <name>Updated</name>
+        <published_version/>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-14 01:52:00</sys_created_on>
@@ -402,7 +405,7 @@
         <trigger_outputs/>
         <trigger_type>record_update</trigger_type>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=09234c77477a42106a3eedf1d16d43fb^sys_idNOT IN727ff38893269610a23593cbe9373c82,767ff38893269610a23593cbe9373c80,7a7ff38893269610a23593cbe9373c81"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=09234c77477a42106a3eedf1d16d43fb^sys_idNOT IN65c6373a47131e50d6acf855516d433a,6dc6373a47131e50d6acf855516d4339,6dc6373a47131e50d6acf855516d433a,e1c6373a47131e50d6acf855516d4334"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
@@ -413,39 +416,17 @@
         <flow display_value="Create Qualifier Matches">09234c77477a42106a3eedf1d16d43fb</flow>
         <generation_source/>
         <order>5</order>
-        <parent_ui_id>d59d6666-939c-467f-a2ef-9fdbf0f3cb10</parent_ui_id>
+        <parent_ui_id>ef26760b-b35a-4588-a303-c7678bc02d58</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-14 01:52:01</sys_created_on>
-        <sys_id>727ff38893269610a23593cbe9373c82</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_created_on>2025-01-28 21:04:21</sys_created_on>
+        <sys_id>65c6373a47131e50d6acf855516d433a</sys_id>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-22 02:07:46</sys_updated_on>
-        <ui_id>0093a420-badb-4ef8-a42a-1170fc8a0cd9</ui_id>
-        <values>H4sIAAAAAAAA/+1VwU7cMBD9FZTzbmQ72WR3b5UqJA4FFSouFCzHnhBLjpM6zsJ2tf/ecZIFSotEaXuo1Jzi8fjNm+eXydUuEtLrxp7Yzgsr4WLbnahoHa3YciHTvEjzXKSMkkwkAKqkimYqTVYsmkU65GUUyGJFM5nQJGGEsGVKiywpKFOJAEgxz4oaMNOLwgAfFrNoI0wfgvc8Jfkiy3jVeO6d4IQ7IUOG0l1rxPZySjwfo7LSRjmw0frqeha1wiGcBxetd8+2/LYFbkQBBg9/CqWPTsfSr6X93eEX2ghVnscapwIhMovg3oNVgPVKYTqYRbWwSvjGbaO1dz0GHAh1Zs32IaPS1iNgFHLvO/0V0Zck5JWArUkY92TVaAlnbbi4MTIwmDYb09f2dGQbhIRS9MYfhMRI3wFX0AZuodpUuryomrvzQ6FjbYc2pk3TSGEeVsJ7p4veQxeEBwM1AvFatK22t7x1zUYPh5FLHd8aXMSlae6waKdvbTw6LkYpRHyM8fdD+FI4Hbr4gDB4eD90zb/0oe7Yx8SYj01jQiedbv07hNvARG4/+21HKyCrF61Bi0crDCbunrg5kNWlBve5JyRR4Y5vHEUbWhgj7Ca4++G96a1C2bysxtBuJ9iilIu8mMucqHkqWDFfrhidL1ma5pnKiqJgsQOJJtvvb7z2ZkL7uNsNEm8mFWMpnER8v9+fs6NfAo4HWIQPXB2nb+AWT0cRBC/BTxwvZAWqN/hB/PB5/1fu1cq9cQRCjXp7OBoVf73XDwDHGozqfmL+wwycCvDNVGCag/RPzUGakeH5y9NwJPSPDcMnP6AXxuL1N3oByZzqBwAA</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
-        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
-        <attributes/>
-        <comment/>
-        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
-        <display_text/>
-        <flow display_value="Create Qualifier Matches">09234c77477a42106a3eedf1d16d43fb</flow>
-        <generation_source/>
-        <order>3</order>
-        <parent_ui_id>d59d6666-939c-467f-a2ef-9fdbf0f3cb10</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-14 01:52:01</sys_created_on>
-        <sys_id>767ff38893269610a23593cbe9373c80</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-22 02:07:46</sys_updated_on>
-        <ui_id>a25fc57b-c70d-4a2b-8921-824476d6bbb2</ui_id>
-        <values>H4sIAAAAAAAA/91UTW/bMAz9K4XOiSHFjlPnNmAI0ENbbN166RpBluhEgCx7spwmC/LfR9lO23UL0H0dNiMXUU98j48M7/ZESK8re2EbL6yEm11zocicZBMZJ8lshj+RTBhNRQygCqZYqpI4T8mI6IBLGdBpxlIZszieUDo5T1iexjmbqFgAJIizogREepEb4N1hRDbCtCG45QmdTdOUryvPvROc8lJ4uUaI0k1txO52QF4OYbnWRjmwZH53PyK1cJjQgyPz/Ysrv6uBG5GDwdcfAvnZVU/+WuHfPD5RSGB5GaucCoLoiMDWg1WAfIUwDYxIKawSvnI7MveuxYADoa6t2T0i1tp6TEgCdtvoL5j9nAZcAViahP5Orist4boOresjnYLhsjJtaa96tcFJKERr/NFJjLQNcAV10BbYBuriZl09vD8SLbTtyhguTSWFeTwJ753OWw9NMB4MlJgIW1fX2q547aqN7h6jljJaGTxEhakekLTRKxv1MxehFSJaYPxtF74VTocqLjENPj50VfPPbeDt6xgU875oBDTS6dq/wXQbGMQdRr890wpodnI0WP40Ct0YN8/m2QkJjrNPLaWx2u/VNFMpfuMszuQ4SWfFWEygGGeFygtaxDJnNNIeysNh6arWqv4hXXrtDfSHd/t9Z91mcCeSwknE+sPhJwiiLiPS+Kp1Qb31R5Efa+wDKM4i2TpsPSZeonGrgT/4rwuNDfnuP/mfV/uLqwZK9MjDWe/S62fqmGChwajmB0N23DUDAd8MBMO+YX9q37CUdt9f3jq9oH9s6Txb9CfWz/1XYElDm1QHAAA=</values>
+        <sys_updated_on>2025-01-29 15:21:42</sys_updated_on>
+        <ui_id>66d255de-6802-4547-bc10-b93d594f5769</ui_id>
+        <values>H4sIAAAAAAAA/+1VXU/bMBT9K8jPIbKbEmjfJhBPG2gw8cKo5dg3xJLjZI5T6KL899mxWyoGGkx7QVofKt2vc889vr29HZAUaIlyAvhoQXKekSybYTw7mZMizwoyExkDmKMEaVaDy7SsUEAnI0FrpnrvfKRzfHyU57RqLLWGUUwN4z5DyK5VbHMTE6+Cl1dSCQMaLW/vEtQy4+AsGLQcnoXeSk6xApRL/ebZvULWbtoXfZ/3aw8uQqAxwvPBCYJHC1qAI1Iy1UGCaqYFs43ZoKU1vXMYYOJSq80uo5LaOkDkcx87+dO1PcE+rwQ3GYcQ25k0ihTc5Rmz7Nohc9ubmMqrRnLogiYCStYre7rvCwmXrZWNDiXTmLG6UX2tL4IkaAewfRPn6TtHAlo/p2cexyivq+bhasvyXOpJkhhUDWdqZzFrjSx66/kMCBTUDojWrG2lvqetadZyKnZc6vReOSMtVfPgmnbyXqeMe+Kpk5Wl585/NrlvmJF+ii8OxhWPCeo23aliXfc0ixOR/ug9kzBZnIEGGXwJN7K1n1yDNUS6Y7LdegF48epikeJpkaZF7/Y23veUpQTzvcc4E34RVoZQxTQED1n5X4ChJJjDQBbHRVGW5WE+w9nh3H+dzDAc5qLApCwyXC54aoC7zUtj6ThOIFtAK62KxtdhmPRbR4lSzgxvem3H8Yq8r9eE6jp1ltmIfs0rEL0CsTIOU7h3tLz6iznG8fcL8F+4twr3ziP5513eHslzCUp0Lyz39kJC7V7MAg3L/uxKxuDBTQzGS0n+1aUkOZ4+H+hehuE+/Lnc+2d85XDe/QLO5IoKMAgAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
@@ -457,20 +438,64 @@
         <flow display_value="Create Qualifier Matches">09234c77477a42106a3eedf1d16d43fb</flow>
         <generation_source/>
         <order>4</order>
-        <parent_ui_id>d59d6666-939c-467f-a2ef-9fdbf0f3cb10</parent_ui_id>
+        <parent_ui_id>ef26760b-b35a-4588-a303-c7678bc02d58</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-14 01:52:01</sys_created_on>
-        <sys_id>7a7ff38893269610a23593cbe9373c81</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_created_on>2025-01-28 21:04:21</sys_created_on>
+        <sys_id>6dc6373a47131e50d6acf855516d4339</sys_id>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-22 02:07:46</sys_updated_on>
-        <ui_id>319f14c8-1099-449e-80af-e8341821e001</ui_id>
-        <values>H4sIAAAAAAAA/+1VQW7bMBD8SsCzLZCSLDu+FSgM5NAETYpc0phYkSubAEWpFOXENfT3kpKcpmkCpGl7KFCfrOVyZnY0Xt8cCAinKnNmGgdG4NW+OZNkSWaySBdpkqfzOaQxoxkkiLJgkmUyTRYpmRAV+jKGdHbKMpGwJIkpjRcpy7MkZ7FMADH0GSjRdzrINfL+YUJ2oNtQvOcpnc+yjG8rx50FTrkFETqkamoN++ux8XKoiq3S0qIhy5vbCanBejiHliwPT47cvkauIUftL38K1CfnA/VrZf9w+YUxAsvTWmVlEEQnBO8dGomerwDd4ISUYCS4yu7J0tnWFyyCvDB6/9CxVcZ5QBJ67xv11aMvaOgr0I8mcDgT20oJvKjDixsqvYLxsNJtac4HtcFILKDV7mikr7QNcol10BbYRurialvdXR6JVsr0Y4yHuhKgH57AOavy1mETjEeNpQfiJdS1Mhte22qn+steSxlttH+ICl3dedJGbUw0JC7yVkC08vX3ffkarApTfPAw/nLXT82/tIF3mGNUzIehfUMjrKrdOw+3w1FcN/ntREukpy9Gg+Xfo9CHuHmU5iBWFQrt55bSRIZ3vLbMx9DgUGHrkO6H71VrpLfNie1QOhwgnhViNs+nYk7lNIU4ny5OYzZdxGk6z2SW53kcWRQ+ZF23dsrpEe3j4dBbvBtdjARY4fFd112yk18CjnpYDx+0Ws7eoC0ar3bdz7/k/yY9Z9IbFxuW3lqHJ4O5r0/wEWClUMvmmUgfN9tIwHcjwbjd2J/abiyj/ecv77hB0D+24h79rbyw7G6/AfBm/XvABwAA</values>
+        <sys_updated_on>2025-01-29 15:21:42</sys_updated_on>
+        <ui_id>197bbfff-6203-4203-820e-6db01fb30f9c</ui_id>
+        <values>H4sIAAAAAAAA/+1VTW+cMBD9K5HPCzKwsOzeqkQ5NYnatLmkWTTYw2LJfNQ2SbYr/nttYDerNFEbKZdI5eY3b8ZvHsNwuyOCkxVJAqTxMkhYFERRSGmYzoM8ifIg5BEgzsmM1FChZRrIJWbDYUbuQXYOfMzmdBEnSVY2JjMKMppVYFhpKVzoVsL2ZmJeTDArheQKa7K6vZuRFpQtaFCR1e5Z6F/lSchRWuo3p+8VuWbbvoh9Ps49uRwDjeJOD50RfDRYc7RCCpAaZ6SCmoNp1JasjOosoBD4VS23B0YpamMLEsd91OKXvTaljleg7YzhGDscs8mlES7OwMC1rcxMpyYqKxvBUI+ecCygk+b0GBsJV60RTT2mDG1O2Y3sqvpytIQcCuxfikU6bUVg6/p0yqc2iuuyefi6V3ku6sGSKSgbBvJwAmOUyDvj9OwISqxsITsFbSvqTdaq5l4MyVZL5W+kPfiFbB7spVpsah+YE+5bW8E/t/jZAN+AEq6LC1vGJvczorf6VILWT71YE7OfnVMydjb1kI02uBSmRGs+2QvucZLbz/Zzz5EuXx2sIH8apGHU9dHMm6ZTLlabHx2lEd/tvrdWPvIs8FmnrGOm79cKGKos2FOwCJNFQnMvj2Lw5nGaehDRyGOLZJHmjIY8Tn1hsPJf+KQeSkSpXdGmq/lYkq61gQ2OB2eDKASqtRFGTuCX3a7grkKti0ZVK1hAGid56EVxuPTmITJvGbDcg0XIMCmSIFgWff8uUv1BRt//uQb+m/cW8964LP8+0/tleS5Qcv3CkO83JVb2rRnMxqF/ti2n4MnNFJw2ZvBeGzNI6PB8oL05Nvfh1+bRH/KVBXr3G5fHmJ06CAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Qualifier Matches">09234c77477a42106a3eedf1d16d43fb</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>ef26760b-b35a-4588-a303-c7678bc02d58</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 21:04:21</sys_created_on>
+        <sys_id>6dc6373a47131e50d6acf855516d433a</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-29 15:21:42</sys_updated_on>
+        <ui_id>f8e74da2-c843-4431-8aca-8c20d14447dd</ui_id>
+        <values>H4sIAAAAAAAA/+1VXU/bMBT9K8jPIXKSEmjfJlCfNtBg4oVRy7FvGkvOx2yn0EX577Njt1QMNJj2grQ+VLpf5557fHt7NyDB0QLlCeCTeZKzLMmyFOP0bJYUeVYkKc8owAxFqKE12ExDCwlkMiK0obJ3zkcyw6cneU6q1hCjKMFEUeYyuNCdpNvbkHjtvawSkito0OLuPkIdVRbOgEKL4VnoreQkLUDa1G+O3StkzbZ70ff5sPbo0gdaxR0fHCF4NNBwsERKKjVEqKYNp6ZVW7QwqrcOBZRfNXK7z6hEYywgcrmPWvy0bc+wyyvBTsbAx/YmCSJ5d3lBDb2xyMz0KqSyqhUMtNeEQ0l7ac4PfT7hqjOibXzJNGaobmVfN5deErQH2L2J9fTakoDOzemYhzHKm6p9uN6xXIpmkiQEZcuo3FvUGCWK3jg+AwIJtQUiNe060axJp9qNmIotlzpeS2vEpWwfbFMt1k1MmSMeW1lpvLT+i8l9S5VwU3yxMLZ4jJDe6nNJtX6axYpIfvSOiZ8szEC8DK6EKdGZT7bBBgLdMdptPQc8f3WxkuJpkaZF1wcb73qKUoD63mOccbcIK5UQSRvwnnTlfgGKJN4chmR+WhRlWR7nKc6OZ+7rLMVwnPMCJ2WR4XLOYgXMbl4cSsdxAtkBGmFkML4Ow6TfJkgUM6pY2zdmHK/T9/WaUG0nbagJ6DesAt5L4CtlMbl9R8Oqv5hjHH+/AP+Fe6tw7zySf97l3ZFcCpBcv7DcuwsJtX0xA8Qv+7MrGYJHtyEYLmXyry5lkuPp84HupR/uw5/Lg3/GVw7n/S+fqwDNMAgAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Qualifier Matches">09234c77477a42106a3eedf1d16d43fb</flow>
+        <generation_source>flowRecommendation</generation_source>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 21:04:21</sys_created_on>
+        <sys_id>e1c6373a47131e50d6acf855516d4334</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-29 15:21:42</sys_updated_on>
+        <ui_id>6dc9fc51-cd98-4641-a8cc-426f2d8bea3a</ui_id>
+        <values>H4sIAAAAAAAA/+VXW2vbMBT+K0HPJti5tcvbaCkMeoG26x62ImRLTkQV25PkXBry33dkyRcSN0tYCi171LlI3/nO+WT55xpxisboPB74PgmG52e+3+/7/mjUj0gQhv1RFPrhIEQeSsiMQaQmoWCwnBORm/USD/yz4WiEp6nGWhLs48WUMaEwT7BOc2nyEg0ZlKtMkNWTS5z1Zvix8iv8o8iCuGjKBZUsQeOfzx7KiIQAzSQar7dchyIXJGQCQh8d9K1K9CqrlrjwWdt1M61zax2ppAaK7yG21CyhDDDERCjmoRlJKNGpXFUWyQi9S0RtmHJgYoyQCV4q/grnnvsmLmZQVcSsr1piR5k1x5dEkwct80jn0oVG05RHTFk+KItJLvRF02YD7jLN08Sm2LJtdiryWXJr6UDVBmWHwJIrAMEyU6hB7sqIH6bp4r5EecWTghPnFGlERLUiWkse5trgWSMmmGk2npEs48kEZzKd8yIZsMy6EwGLbizSBRyq+CTpksgA7wKvpHsF9svC/EQkN1XcwDaQDIC4gAnBtoUKhqqgco4jkavCIUmi7F5o4yG1UheCKFVXDpTj37nBbXlwFWNLmkmJJM/0V9hizlxxG+8g8Qz9euSiNKHcoFD7FVTr5lcOe9L1+nsGHDCKg26US6Bdd6EIzOlms6usf9/wlBIs6i8leNEkoI0UJ8Yd23XbBk6MwcnECHV8JjnC4R9Pjcfry1LwF5FFZ3uHbFjPk0qlxpbLhspyDHfAy65YKvtxM38AnHLm78yUdsLVWwjdyMecCdr2/bkyjq3vT+///P58yIEHQBTb7vFE8KR4TADQ91KCv/+6/bI1Z8V41ToobERFu0ogHZ12Xo9WwgFwSiU8wNmdR4unBWJ59xcjs33vl0YngP7JBNDvnUYA66rMisgWzsv3o+lmGf9q4sl2PIxgIyHYtAnsqDODY8/sbXYF3D9Kwc1hs57LN2buxA/NNxTpvecVMIVUdx62+sULTidM16eXUTTVCyJe2vxu4nDZqKK8d3i0DvbKdhTUEgWlYMkUNK/5ag3gqbR7hwSeNR93hRyApaTjhiw79xWYVoTuGgGls0nRm+Y98q2yuiEfnPDx+GG/pGWzWjVY9uxT/OudTgjPfwAGekeP/BAAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=09234c77477a42106a3eedf1d16d43fb"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=09234c77477a42106a3eedf1d16d43fb^sys_idNOT IN7e7ff38893269610a23593cbe9373c82,b27ff38893269610a23593cbe9373c7b,f67ff38893269610a23593cbe9373c7f"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=09234c77477a42106a3eedf1d16d43fb^sys_idNOT IN7e7ff38893269610a23593cbe9373c82,b27ff38893269610a23593cbe9373c7b,e9c6373a47131e50d6acf855516d4338"/>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">3a7ff38893269610a23593cbe9373c82</block>
@@ -482,19 +507,19 @@
         <flow_variables_assigned>carcount</flow_variables_assigned>
         <generation_source/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
-        <order>6</order>
+        <order>7</order>
         <outputs_assigned/>
-        <parent_ui_id>d59d6666-939c-467f-a2ef-9fdbf0f3cb10</parent_ui_id>
+        <parent_ui_id>ef26760b-b35a-4588-a303-c7678bc02d58</parent_ui_id>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-14 01:52:01</sys_created_on>
         <sys_id>7e7ff38893269610a23593cbe9373c82</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-22 02:07:46</sys_updated_on>
+        <sys_updated_on>2025-01-28 21:28:36</sys_updated_on>
         <ui_id>f361a04e-66f8-42ee-950e-def23f58be04</ui_id>
-        <values>H4sIAAAAAAAA/+1UXW/aMBT9L34mKIGEBN6qVZWQtlXaWF+mKrrY12DNsVPHhjLEf981CbRq9wuqvtnH9j0fOcqR2eDb4LuVvek6tTFs8ftxxJSJGK2PzECDbME4OG6D8WzEdqBDhI5HKWrvwHTSumZRrbO0kikmsiyKJC+gSiDPIRFizteSlrNqfjrRe6G6VsPhYRhDCN8qLRwO5C044vTo2OL45sgfWqw1rFHTw6XxuKFbJFfQthCTacXLMi9LyCdZOoMpopCZyGYin6ac7l1ekpkvg5n39iIHIeo63ToRtaQjhs8ejUBik6A7HLEGjABv3eGKOARxb/QLsKVBvcsGnjv1l2bnabwnkWzxawJWcbxvvbKmRzys9eXQ6tCY773SGCBKCNq/CjB0WAtso7jINlDLn1u7/3EhulPm7GM41JaDvu7Ae6fWwWMXQw9q9TaEHvr6LnrU2BBn3UDbKrOpW2d36sxDspvxRtNmLLXdk77YrzHw6HFMscH4jvDbM/wATkXD32jMwPfLqKeAy/hp5QQzAEwTmRWzJM8mMqnmeZlglk5SmBfTORTsdA61fgrRVh/TEEjdZ0oXOu5U629Iwg4H76fH2OievW/8uU3/rcZn8z+b/7GaL5CrjlStooTl5a8fDw7UD8VfQ3vr/kQ/L9jpH9HIkQE/BgAA</values>
+        <values>H4sIAAAAAAAA/+1V3W7aMBR+F18TlEBCAnfVqkpI2yptrDdTFR3sY7Dm2KntQBni3XdMAq3avUF7l/PZPt+Pj5Ujs11ou+BX9sZ7tTFs8ftxxJSJGH0fmYEG2YJxcNx2JrAR24HuInQ8SlEHB8ZL65pFtc7SSqaYyLIokryAKoE8h0SIOV9L+pxV89OJzgvlWw2Hh6ENIXyrtHA4kLfgiDOgY4vjm6VwaLHWsEZNB5cm4IZ2kVxBZSEm04qXZV6WkE+ydAZTRCEzkc1EPk057bucJDNfBjPv7UUOQtS1u3UiaklHDJ8DGoHEJkF7HLEGjIBg3eGKOARxb/QLsKVGvcsGnr36S73zNO6TSLb4kMC1rId0LsFYxfG+DcqaHgmw1pfUrO4a8703EHNFCZ0Or3LtPPXDNmqOIgZF8ufW7n9cCO+UOdsbFrXloK8VhODUugvo4110avU2mx76+u5GUGNDnHUDbavMpm6d3akzD8luxhtNxVhquyd9cezGwKPHMaUJ4zvCb8/wAzgVDX+jNgPfL6OeOlzGG5cTzAAwTWRWzJI8m8ikmudlglk6SWFeTOdQsNM53Pqpi7b6mIZA6j5T2uC5U224IQk7HLyfHuOg9+z9QzgP2X8n5vNBfD6ID/EgBHLlSdUqSlhe/hFx4UBjo/hraG/dn+jnBTv9A5CC4YVtBgAA</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
@@ -508,48 +533,82 @@
         <flow_variables_assigned>carcount</flow_variables_assigned>
         <generation_source/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
-        <order>1</order>
-        <outputs_assigned/>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-14 01:52:01</sys_created_on>
-        <sys_id>b27ff38893269610a23593cbe9373c7b</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-22 02:07:46</sys_updated_on>
-        <ui_id>04c9c606-b318-4af3-a6fd-f0c2790d8f68</ui_id>
-        <values>H4sIAAAAAAAA/+1Uy27bMBD8F55tQZJlK/YtaBHAQNsArZtLEQhrcmUTpUiGIu24hv+9Sz2cIOkH9JAbObvcmR0NdGYmeBt8uzG3bSt3mq1+PU6Y1BGj85lpaJCtGAfHTdCeTdgBVIhQRmchW6vg9PAK4nuphMNhkgVHAzw6tjq/KfmTxUrBFhW9XGuPO+oibkHXuchnN7wsi7KEIs/SBcwQRZ2JbCGKWcqpb3xJyj4Nyt5rjRyEyOt040TUkk4YPnvUAomtBtXihDWgBXjjTlfEIYh7rV6APQ2icSw2P7fyD80u0thXI63Fsa/xvZEc762XRveIh60ai0aFRn/rlUYHsYag/OggIaHFSqCN4iLbQF3/2Jvj95HoTupuj6GoDAd1vYH3Tm6DxzaaHuTmrQk99OWd9aiwIc6qAWul3lXWmYPseEh2k+wUXZJamSPpi2FJgMcdE7INkjvCP3fwAzgZF/5KYwa+n1o+BVzHT1vnmAFgOq2z+WJaZHk9vVkW5RSzNE9hOZ8tYc4unanVU4hr9TYNhlS9p9TQcietvyUJBxx2vzzGePbsfXy7NP0zGh8x/ojxfxxjgVy2pGoTJazH/3EsnCgfkr+Gjsb9jvu8YJe/OeQnuNkFAAA=</values>
-        <workflow_reference/>
-    </sys_hub_flow_logic_instance_v2>
-    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">b27ff38893269610a23593cbe9373c7f</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <display_text/>
-        <flow display_value="Create Qualifier Matches">09234c77477a42106a3eedf1d16d43fb</flow>
-        <flow_variables_assigned/>
-        <generation_source/>
-        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
         <order>2</order>
         <outputs_assigned/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-14 01:52:01</sys_created_on>
-        <sys_id>f67ff38893269610a23593cbe9373c7f</sys_id>
+        <sys_id>b27ff38893269610a23593cbe9373c7b</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 21:28:36</sys_updated_on>
+        <ui_id>04c9c606-b318-4af3-a6fd-f0c2790d8f68</ui_id>
+        <values>H4sIAAAAAAAA/+1UQW7bMBD8C8+2IMmyFfsWtAhgoG2A1s2lCIQ1ubKJUiRDkXZcw3/vUpKVIOkHCuQmzi53Z4YDnZkJ3gbfbsxt28qdZqtfjxMmdcTo+8w0NMhWjIPjJmjPJuwAKkQoo28hW6vg9PAK4nuphMNhkgVHAzw6tjq/KfmTxUrBFhXdXGuPO+qi3YKOc5HPbnhZFmUJRZ6lC5ghijoT2UIUs5RT3/UmMfs0MHvPNe4gRI7TjRORSzph+OxRC6RtNagWJ6wBLcAbdxoRhyDutXoB9jSIxrHY/NzKPzS7SGNfjSSLY18bj9VgTw/zvZEc762XRveIh60a7nCjQqO/9QKisVhDUP5qLCGhpXloI+dIYmBU/9ib4/frwjupO3lDURkOajyB905ug8c2vkWQm7fe9NCXdy+CChvaWTVgrdS7yjpzkN0eot0kO0WHpFbmSPxihhLgUWNCbkJyR/jnDn4AJ6PgrzRm2PdTy6eA6/jidY4ZAKbTOpsvpkWW19ObZVFOMUvzFJbz2RLm7NKZWz2FKKu3aTCk6j2lhpY7af0tUTjgqL0HSffl8hgT3DPpE94F7p/p+Uj6R9L/76QL5LIlhptIZ339q8fCiSIk+WvoaNzvqO0Fu/wFd8rKCx8GAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">61c6373a47131e50d6acf855516d4338</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create Qualifier Matches">09234c77477a42106a3eedf1d16d43fb</flow>
+        <flow_variables_assigned/>
+        <generation_source>flowRecommendation</generation_source>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 21:04:21</sys_created_on>
+        <sys_id>e9c6373a47131e50d6acf855516d4338</sys_id>
         <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-22 02:07:46</sys_updated_on>
-        <ui_id>d59d6666-939c-467f-a2ef-9fdbf0f3cb10</ui_id>
-        <values>H4sIAAAAAAAA/5VSS2/bMAz+LzoHhu0MwZJbgaFAD1uBrutlKAxZohNisqTpkdQz/N9HxnZW9LZTzI/k92A0CpeTzyk+u7sY8WjF4efrRqBljL5HYWUP4iAwQR/FRpylyVyP4w+vZQLdVIXKIYBNhXK9h4TJhThNNKsxeiOHl/9YUSc0mjqzDS8DqScI4jB+aKXBQ2NkC4aYn0C5oNkeaiqrve72VblX23q3rcuy/vypanfbtqr1VoLe0dy6+bDE+pCS2akMN176YRd1uRHwlsBqIKFOmggb0UtLsVwYxCGFTEAAqR+tGW4TJ7SJ6ATPvkX8Q9xVWfJgB5RIwdxUJ4cKHn1CZ2ckydasTWdyb7/NPvm40Mls0npcQnKERoNncyy3aHffT+7ytArdo70GWZrGKWlulUwpYJsTRL43GOiJqOml92iPjQ/ujNdl8tIXR0NF0Rl3IVF+OYVUbLygW8jinvAvV/hFBuQUX4mGlqdr6uZ3Zt05x+K4mUPTQFQBfbojujMs5qZXfnozU5xfgAaFkQSfGXtYHyw3Bvo3Ub2HLi78Yqv/sOkvtANdqvoCAAA=</values>
+        <sys_updated_on>2025-01-28 21:28:36</sys_updated_on>
+        <ui_id>ef26760b-b35a-4588-a303-c7678bc02d58</ui_id>
+        <values>H4sIAAAAAAAA/51Sy27jMAz8F50Tw4+sEedWoCjQw7ZAW/SyKAxaohNhZUkryUldw/++VOykRY892RySwxmRIzN9sH3wL+bGe7nXbPfnbcWkjhj9j0xDh2zHZMDOsxU7gupjPI6l4FXLf2VrLqrtelNusjVsOV9v8rLNxbZBKCB5Qm6c8NNErUJ6q2B4/TkDP0glHC4iLTjSFtCx3fgtFQaLtYIGFQ1aGKhfCgqzSrRVlla8yMsiT9N8u8masmiyXBSAoqS6S+f9YvrbG0R2Ct2Vlz5RRZ6uGL4H1AJpUAvK44p1oAUE4wa2C64nwCGIR62Ga8VB6kB0LNa+e/lB3FmaxsIWyRHHOXkN6+UhZ5gfjOT4aIM0ekYCNGrp4Ub1nX6Y5ccVYAu9CpcVENJ74kMbNUcVi6T2+WBOT5eBd1Kf/S1JZTioawQhONn0AX1cAyrsiKjuwFqp97V15ijPzaSlS/aKgqRV5kRD47klwKPwhJ4IkjvCb8/wKzgZXfwmGmqezu7rf32cO/tYFNezaSrw3EkbbojuiIu46S3e68zk58MQyKWngS8Ru79ceUwMtGTJv0In4/5GqZ/Y9B8Ag1HcLwMAAA==</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=09234c77477a42106a3eedf1d16d43fb^sys_idNOT IN61238c77477a42106a3eedf1d16d4384,65238c77477a42106a3eedf1d16d4384,69238c77477a42106a3eedf1d16d4383,69238c77477a42106a3eedf1d16d4384,6d238c77477a42106a3eedf1d16d4383,767ff38893269610a23593cbe9373c8f,7e7ff38893269610a23593cbe9373c8e,e1238c77477a42106a3eedf1d16d4384,e5238c77477a42106a3eedf1d16d4384,e9238c77477a42106a3eedf1d16d4376,e9238c77477a42106a3eedf1d16d4383,ed238c77477a42106a3eedf1d16d4383"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=09234c77477a42106a3eedf1d16d43fb^sys_idNOT IN144d6bfa47dfda50d6acf855516d43c6,2dc6373a47131e50d6acf855516d434f,61238c77477a42106a3eedf1d16d4384,65238c77477a42106a3eedf1d16d4384,69238c77477a42106a3eedf1d16d4383,69238c77477a42106a3eedf1d16d4384,6d238c77477a42106a3eedf1d16d4383,767ff38893269610a23593cbe9373c8f,7e7ff38893269610a23593cbe9373c8e,d84d6bfa47dfda50d6acf855516d43c6,e1238c77477a42106a3eedf1d16d4384,e1c6373a47131e50d6acf855516d4350,e5238c77477a42106a3eedf1d16d4384,e9238c77477a42106a3eedf1d16d4376,e9238c77477a42106a3eedf1d16d4383,ed238c77477a42106a3eedf1d16d4383"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>09234c77477a42106a3eedf1d16d43fb</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.carcount}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 20:22:46</sys_created_on>
+        <sys_id>144d6bfa47dfda50d6acf855516d43c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 20:22:46</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>8c7fb9ba-ff6d-44e1-be22-156367fcfc6b</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>09234c77477a42106a3eedf1d16d43fb</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.carcount}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 21:04:22</sys_created_on>
+        <sys_id>2dc6373a47131e50d6acf855516d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 21:04:22</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>a7a856b2-3529-42ec-91cb-a72ce6f6119f</ui_id>
+    </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>09234c77477a42106a3eedf1d16d43fb</attached_to>
         <extra_info/>
@@ -674,6 +733,23 @@
         <extra_info/>
         <order>1</order>
         <prescription/>
+        <source_ui_id>8c7fb9ba-ff6d-44e1-be22-156367fcfc6b</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 20:22:46</sys_created_on>
+        <sys_id>d84d6bfa47dfda50d6acf855516d43c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 20:22:46</sys_updated_on>
+        <transform_compositions>[{"id":"c98659e0c7c720105312134c95c26001","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"regex","label":"Regex","order":0,"attributes":{},"value":"/^(\\d)$/","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]},{"id":null,"name":"replace_string","label":"Replace String","order":1,"attributes":{},"value":"0$1","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="replace_string">6f2599a0c7c720105312134c95c260fe</transform_definition_id>
+        <ui_id>b1801a8e-875f-407e-b6be-e280f9061707</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>09234c77477a42106a3eedf1d16d43fb</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
         <source_ui_id>8aad4664-6971-45d5-b7f3-33795014d7e8</source_ui_id>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 13:11:19</sys_created_on>
@@ -685,6 +761,23 @@
         <transform_compositions>[{"id":"06190ffa23a220103a3339e1d7bf65f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"2","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
         <transform_definition_id display_value="add">50980bfa23a220103a3339e1d7bf6510</transform_definition_id>
         <ui_id>48bbcc13-1c84-4059-8994-6150aeceac29</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>09234c77477a42106a3eedf1d16d43fb</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>a7a856b2-3529-42ec-91cb-a72ce6f6119f</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 21:04:22</sys_created_on>
+        <sys_id>e1c6373a47131e50d6acf855516d4350</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 21:20:27</sys_updated_on>
+        <transform_compositions>[{"id":"c98659e0c7c720105312134c95c26001","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"regex","label":"Regex","order":0,"attributes":{},"value":"^(\\d)$","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]},{"id":null,"name":"replace_string","label":"Replace String","order":1,"attributes":{},"value":"0$1","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="replace_string">6f2599a0c7c720105312134c95c260fe</transform_definition_id>
+        <ui_id>9e426cb4-1a52-40e3-b781-b5938f90c683</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>09234c77477a42106a3eedf1d16d43fb</attached_to>
@@ -1419,7 +1512,6 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_variable>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_09234c77477a42106a3eedf1d16d43fb^sys_idNOT IN15238c77477a42106a3eedf1d16d432f,95238c77477a42106a3eedf1d16d4332,dd238c77477a42106a3eedf1d16d4335"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>table_name</element>
         <help/>
@@ -1490,7 +1582,6 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_09234c77477a42106a3eedf1d16d43fb"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_09234c77477a42106a3eedf1d16d43fb"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_09234c77477a42106a3eedf1d16d43fb"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1506,7 +1597,7 @@
         <description/>
         <flow_priority/>
         <internal_name>create_qualifier_matches_1</internal_name>
-        <label_cache>[{"name":"a25fc57b-c70d-4a2b-8921-824476d6bbb2.record.racer_1","label":"3 - Create Record➛Match Record➛Racer 1","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","parent_table_name":"x_407566_hot_tra_0_match","column_name":"racer_1","usedInstances":{"319f14c8-1099-449e-80af-e8341821e001":["racer_1"],"0093a420-badb-4ef8-a42a-1170fc8a0cd9":["racer_1"]}},{"name":"flow_variable.carcount","label":"Flow Variables➛carCount","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"ae4e8a70-61b5-470b-a1dd-2ba722665cb4":["log_message"],"f00b9bfb-5653-4bcd-bf6b-8c8ae3d091cd":["log_message"],"57d54868-06a2-4875-af4e-5054bd48ed17":["log_message"],"4228a67a-f366-471a-a24b-38aaab2bce7a":["carcount-1"],"a25fc57b-c70d-4a2b-8921-824476d6bbb2":["title"],"319f14c8-1099-449e-80af-e8341821e001":["title"],"0093a420-badb-4ef8-a42a-1170fc8a0cd9":["title"],"f361a04e-66f8-42ee-950e-def23f58be04":["carcount-0"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"f2e1aae0-f156-412f-8947-e1020a9539a5"}},{"name":"flow_variable.round","label":"Flow Variables➛Round","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"c6f7e792-57a0-426f-92bf-6479512caad4":["round"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"e9337b7e-04c4-4f0f-a1f5-e069ed5ac480"}},{"name":"flow_variable.matches","label":"Flow Variables➛Matches","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"0fe99a12-843e-426c-bf47-afbf50b1ba14":["condition"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"1b6c2367-6ddf-4a5c-afe2-08d6c9a4999d","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"flow_variable.matchcount","label":"Flow Variables➛matchCount","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"0fe99a12-843e-426c-bf47-afbf50b1ba14":["condition"],"49d63f8d-da4f-4162-8e9d-a8c2e64f281f":["log_message"],"ecd7cdbc-f194-4bcb-b9ac-d99984bc07b5":["matchcount-0"],"4228a67a-f366-471a-a24b-38aaab2bce7a":["matchcount-0"],"ae4e8a70-61b5-470b-a1dd-2ba722665cb4":["log_message"],"f00b9bfb-5653-4bcd-bf6b-8c8ae3d091cd":["log_message"],"57d54868-06a2-4875-af4e-5054bd48ed17":["log_message"],"05b97e59-9a70-403e-a637-5484cee418ba":["title"],"f49b19ae-ac48-41dc-99ee-a8cb64781dd9":["title"],"66d03f18-a279-4513-ac8d-05b84e47f9d0":["title"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"3c64ed82-9418-4b10-bbf2-d70805b59477"}},{"name":"flow_variable.cars","label":"Flow Variables➛Cars","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"24b8684b-ece8-414f-a05c-9a68184b7fe9":["matches-2"],"4228a67a-f366-471a-a24b-38aaab2bce7a":["carcount-1"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"d98bb56d-703a-4918-b79e-2306c81cd975"}},{"name":"Updated_1.current.wins_to_advance","label":"Trigger - Record Updated➛Tournament Record➛Wins to Advance","reference":"","reference_display":"Wins to Advance","type":"integer","base_type":"integer","parent_table_name":"x_407566_hot_tra_0_tournament","column_name":"wins_to_advance","usedInstances":{"6c699561-beb0-4553-ac3b-626706308c2f":["wins_to_advance"],"c6f7e792-57a0-426f-92bf-6479512caad4":["wins_to_advance"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Tournament Record","reference":"x_407566_hot_tra_0_tournament","reference_display":"Tournament","type":"reference","base_type":"reference","usedInstances":{"6c699561-beb0-4553-ac3b-626706308c2f":["tournament"],"c6f7e792-57a0-426f-92bf-6479512caad4":["racer_1","tournament"],"a25fc57b-c70d-4a2b-8921-824476d6bbb2":["tournament"]},"attributes":{}},{"name":"13e13b16-c9a8-4966-8009-794b50441029.item","label":"4 - For Each➛Item","reference":"","reference_display":"Item","type":"document_id","base_type":"document_id","usedInstances":{"8ee9d6d2-e145-4a0a-88e6-9e86d39eb491":["log_message"],"6c699561-beb0-4553-ac3b-626706308c2f":["racer_1"]}},{"name":"Updated_1.current.competitors","label":"Trigger - Record Updated➛Tournament Record➛Competitors","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"glide_list","base_type":"glide_list","parent_table_name":"x_407566_hot_tra_0_tournament","column_name":"competitors","usedInstances":{"5ad5db7d-44b8-4aeb-ae1a-557d45b0e8d9":["competitors"],"24b8684b-ece8-414f-a05c-9a68184b7fe9":["competitors-0","competitors-1"],"d59d6666-939c-467f-a2ef-9fdbf0f3cb10":["items"]}},{"name":"flow_variable.competitors","label":"Flow Variables➛Competitors","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"7cd07643-b729-451c-8bcf-ad3fbe453158":["null"],"367c0770-229b-4b2f-82c9-722b9fc9366e":["competitors"],"3e8af9ee-e2d4-4333-8169-c110d571998c":["log_message"],"15c73736-73a7-4082-9214-26217ac31e0e":["competitors"],"f8873d84-044a-4dd3-8701-0163ef59a3d4":["competitors"],"4f520088-6763-4ab3-bda3-b4ea1dc8f79e":["competitors"],"5232582c-82a8-45cd-a2ab-2af2998081c2":["competitors"],"b4a70cf5-36ab-403c-ba38-bfce5c5f570a":["competitors"],"d1abaa05-67ea-42ac-89b7-f8c46fa6aff1":["competitors"],"94bd2e2e-515e-483c-9917-7068cc91bf32":["competitors"],"726d220e-d7f9-4f58-a0bb-69859b0244f3":["competitors"],"76b122cb-9383-4ce0-bde7-3de1e543af41":["competitors"],"10a23aa2-339f-42e3-9663-ed595e0c722c":["competitors"],"c6f7e792-57a0-426f-92bf-6479512caad4":["racer_1"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a0a65a38-3048-48cf-b64f-af302bbfb5e4"}},{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛Tournament Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","usedInstances":{"4f520088-6763-4ab3-bda3-b4ea1dc8f79e":["torunament_id"]}},{"name":"c6f7e792-57a0-426f-92bf-6479512caad4.record","label":"7 - Create or Update Record➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"05b97e59-9a70-403e-a637-5484cee418ba":["title"],"66d03f18-a279-4513-ac8d-05b84e47f9d0":["record"]},"attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c6f7e792-57a0-426f-92bf-6479512caad4.record.round","label":"7 - Create or Update Record➛Match Record➛Round","reference":"","reference_display":"Round","type":"integer","base_type":"integer","parent_table_name":"x_407566_hot_tra_0_match","column_name":"round","usedInstances":{"05b97e59-9a70-403e-a637-5484cee418ba":["title"],"f49b19ae-ac48-41dc-99ee-a8cb64781dd9":["title"],"66d03f18-a279-4513-ac8d-05b84e47f9d0":["title"]}},{"name":"c6f7e792-57a0-426f-92bf-6479512caad4.record.racer_1.model","label":"7 - Create or Update Record➛Match Record➛Racer 1➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","parent_table_name":"x_407566_hot_tra_0_wheels","column_name":"model","usedInstances":{"f49b19ae-ac48-41dc-99ee-a8cb64781dd9":["title"],"66d03f18-a279-4513-ac8d-05b84e47f9d0":["title"]}},{"name":"c6f7e792-57a0-426f-92bf-6479512caad4.record.racer_2.model","label":"7 - Create or Update Record➛Match Record➛Racer 2➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","parent_table_name":"x_407566_hot_tra_0_wheels","column_name":"model","usedInstances":{"f49b19ae-ac48-41dc-99ee-a8cb64781dd9":["title"],"66d03f18-a279-4513-ac8d-05b84e47f9d0":["title"]}},{"name":"d59d6666-939c-467f-a2ef-9fdbf0f3cb10.item","label":"2 - For Each➛Wheels Record","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","usedInstances":{"a25fc57b-c70d-4a2b-8921-824476d6bbb2":["racer_1"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"d59d6666-939c-467f-a2ef-9fdbf0f3cb10.item.title","label":"2 - For Each➛Wheels Record➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_407566_hot_tra_0_wheels","column_name":"title","usedInstances":{"a25fc57b-c70d-4a2b-8921-824476d6bbb2":["title"]}},{"name":"a25fc57b-c70d-4a2b-8921-824476d6bbb2.record","label":"3 - Create Record➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"319f14c8-1099-449e-80af-e8341821e001":["round_match"],"0093a420-badb-4ef8-a42a-1170fc8a0cd9":["values"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a25fc57b-c70d-4a2b-8921-824476d6bbb2.record.title","label":"3 - Create Record➛Match Record➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_407566_hot_tra_0_match","column_name":"title","usedInstances":{"319f14c8-1099-449e-80af-e8341821e001":["title"],"0093a420-badb-4ef8-a42a-1170fc8a0cd9":["values"]}}]</label_cache>
+        <label_cache>[{"name":"a25fc57b-c70d-4a2b-8921-824476d6bbb2.record.racer_1","label":"9 - Create Record➛Match Record➛Racer 1","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","parent_table_name":"x_407566_hot_tra_0_match","column_name":"racer_1","usedInstances":{"319f14c8-1099-449e-80af-e8341821e001":["racer_1"],"0093a420-badb-4ef8-a42a-1170fc8a0cd9":["racer_1"]}},{"name":"flow_variable.carcount","label":"Flow Variables➛carCount","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"ae4e8a70-61b5-470b-a1dd-2ba722665cb4":["log_message"],"f00b9bfb-5653-4bcd-bf6b-8c8ae3d091cd":["log_message"],"57d54868-06a2-4875-af4e-5054bd48ed17":["log_message"],"4228a67a-f366-471a-a24b-38aaab2bce7a":["carcount-1"],"a25fc57b-c70d-4a2b-8921-824476d6bbb2":["title"],"319f14c8-1099-449e-80af-e8341821e001":["title"],"0093a420-badb-4ef8-a42a-1170fc8a0cd9":["title"],"f361a04e-66f8-42ee-950e-def23f58be04":["carcount-0"],"197bbfff-6203-4203-820e-6db01fb30f9c":["title"],"66d255de-6802-4547-bc10-b93d594f5769":["title"],"f8e74da2-c843-4431-8aca-8c20d14447dd":["values"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"f2e1aae0-f156-412f-8947-e1020a9539a5"}},{"name":"flow_variable.round","label":"Flow Variables➛Round","reference":"","reference_display":"","type":"integer","base_type":"integer","usedInstances":{"c6f7e792-57a0-426f-92bf-6479512caad4":["round"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"e9337b7e-04c4-4f0f-a1f5-e069ed5ac480"}},{"name":"flow_variable.matches","label":"Flow Variables➛Matches","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"0fe99a12-843e-426c-bf47-afbf50b1ba14":["condition"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"1b6c2367-6ddf-4a5c-afe2-08d6c9a4999d","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"flow_variable.matchcount","label":"Flow Variables➛matchCount","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"0fe99a12-843e-426c-bf47-afbf50b1ba14":["condition"],"49d63f8d-da4f-4162-8e9d-a8c2e64f281f":["log_message"],"ecd7cdbc-f194-4bcb-b9ac-d99984bc07b5":["matchcount-0"],"4228a67a-f366-471a-a24b-38aaab2bce7a":["matchcount-0"],"ae4e8a70-61b5-470b-a1dd-2ba722665cb4":["log_message"],"f00b9bfb-5653-4bcd-bf6b-8c8ae3d091cd":["log_message"],"57d54868-06a2-4875-af4e-5054bd48ed17":["log_message"],"05b97e59-9a70-403e-a637-5484cee418ba":["title"],"f49b19ae-ac48-41dc-99ee-a8cb64781dd9":["title"],"66d03f18-a279-4513-ac8d-05b84e47f9d0":["title"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"3c64ed82-9418-4b10-bbf2-d70805b59477"}},{"name":"flow_variable.cars","label":"Flow Variables➛Cars","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","usedInstances":{"24b8684b-ece8-414f-a05c-9a68184b7fe9":["matches-2"],"4228a67a-f366-471a-a24b-38aaab2bce7a":["carcount-1"]},"attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"d98bb56d-703a-4918-b79e-2306c81cd975"}},{"name":"Updated_1.current.wins_to_advance","label":"Trigger - Record Updated➛Tournament Record➛Wins to Advance","reference":"","reference_display":"Wins to Advance","type":"integer","base_type":"integer","parent_table_name":"x_407566_hot_tra_0_tournament","column_name":"wins_to_advance","usedInstances":{"6c699561-beb0-4553-ac3b-626706308c2f":["wins_to_advance"],"c6f7e792-57a0-426f-92bf-6479512caad4":["wins_to_advance"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Tournament Record","reference":"x_407566_hot_tra_0_tournament","reference_display":"Tournament","type":"reference","base_type":"reference","usedInstances":{"6c699561-beb0-4553-ac3b-626706308c2f":["tournament"],"c6f7e792-57a0-426f-92bf-6479512caad4":["racer_1","tournament"],"a25fc57b-c70d-4a2b-8921-824476d6bbb2":["tournament"],"197bbfff-6203-4203-820e-6db01fb30f9c":["tournament"]},"attributes":{}},{"name":"13e13b16-c9a8-4966-8009-794b50441029.item","label":"4 - For Each➛Item","reference":"","reference_display":"Item","type":"document_id","base_type":"document_id","usedInstances":{"8ee9d6d2-e145-4a0a-88e6-9e86d39eb491":["log_message"],"6c699561-beb0-4553-ac3b-626706308c2f":["racer_1"]}},{"name":"Updated_1.current.competitors","label":"Trigger - Record Updated➛Tournament Record➛Competitors","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"glide_list","base_type":"glide_list","parent_table_name":"x_407566_hot_tra_0_tournament","column_name":"competitors","usedInstances":{"5ad5db7d-44b8-4aeb-ae1a-557d45b0e8d9":["competitors"],"24b8684b-ece8-414f-a05c-9a68184b7fe9":["competitors-0","competitors-1"],"d59d6666-939c-467f-a2ef-9fdbf0f3cb10":["items"]}},{"name":"flow_variable.competitors","label":"Flow Variables➛Competitors","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"7cd07643-b729-451c-8bcf-ad3fbe453158":["null"],"367c0770-229b-4b2f-82c9-722b9fc9366e":["competitors"],"3e8af9ee-e2d4-4333-8169-c110d571998c":["log_message"],"15c73736-73a7-4082-9214-26217ac31e0e":["competitors"],"f8873d84-044a-4dd3-8701-0163ef59a3d4":["competitors"],"4f520088-6763-4ab3-bda3-b4ea1dc8f79e":["competitors"],"5232582c-82a8-45cd-a2ab-2af2998081c2":["competitors"],"b4a70cf5-36ab-403c-ba38-bfce5c5f570a":["competitors"],"d1abaa05-67ea-42ac-89b7-f8c46fa6aff1":["competitors"],"94bd2e2e-515e-483c-9917-7068cc91bf32":["competitors"],"726d220e-d7f9-4f58-a0bb-69859b0244f3":["competitors"],"76b122cb-9383-4ce0-bde7-3de1e543af41":["competitors"],"10a23aa2-339f-42e3-9663-ed595e0c722c":["competitors"],"c6f7e792-57a0-426f-92bf-6479512caad4":["racer_1"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a0a65a38-3048-48cf-b64f-af302bbfb5e4"}},{"name":"Updated_1.current.sys_id","label":"Trigger - Record Updated➛Tournament Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_407566_hot_tra_0_tournament","column_name":"sys_id","usedInstances":{"4f520088-6763-4ab3-bda3-b4ea1dc8f79e":["torunament_id"],"6dc9fc51-cd98-4641-a8cc-426f2d8bea3a":["conditions"]}},{"name":"c6f7e792-57a0-426f-92bf-6479512caad4.record","label":"7 - Create or Update Record➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"05b97e59-9a70-403e-a637-5484cee418ba":["title"],"66d03f18-a279-4513-ac8d-05b84e47f9d0":["record"]},"attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c6f7e792-57a0-426f-92bf-6479512caad4.record.round","label":"7 - Create or Update Record➛Match Record➛Round","reference":"","reference_display":"Round","type":"integer","base_type":"integer","parent_table_name":"x_407566_hot_tra_0_match","column_name":"round","usedInstances":{"05b97e59-9a70-403e-a637-5484cee418ba":["title"],"f49b19ae-ac48-41dc-99ee-a8cb64781dd9":["title"],"66d03f18-a279-4513-ac8d-05b84e47f9d0":["title"]}},{"name":"c6f7e792-57a0-426f-92bf-6479512caad4.record.racer_1.model","label":"7 - Create or Update Record➛Match Record➛Racer 1➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","parent_table_name":"x_407566_hot_tra_0_wheels","column_name":"model","usedInstances":{"f49b19ae-ac48-41dc-99ee-a8cb64781dd9":["title"],"66d03f18-a279-4513-ac8d-05b84e47f9d0":["title"]}},{"name":"c6f7e792-57a0-426f-92bf-6479512caad4.record.racer_2.model","label":"7 - Create or Update Record➛Match Record➛Racer 2➛Model","reference":"","reference_display":"Model","type":"string","base_type":"string","parent_table_name":"x_407566_hot_tra_0_wheels","column_name":"model","usedInstances":{"f49b19ae-ac48-41dc-99ee-a8cb64781dd9":["title"],"66d03f18-a279-4513-ac8d-05b84e47f9d0":["title"]}},{"name":"a25fc57b-c70d-4a2b-8921-824476d6bbb2.record","label":"9 - Create Record➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"319f14c8-1099-449e-80af-e8341821e001":["round_match"],"0093a420-badb-4ef8-a42a-1170fc8a0cd9":["values"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a25fc57b-c70d-4a2b-8921-824476d6bbb2.record.title","label":"9 - Create Record➛Match Record➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_407566_hot_tra_0_match","column_name":"title","usedInstances":{"319f14c8-1099-449e-80af-e8341821e001":["title"],"0093a420-badb-4ef8-a42a-1170fc8a0cd9":["values"]}},{"name":"6dc9fc51-cd98-4641-a8cc-426f2d8bea3a.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","usedInstances":{"04c9c606-b318-4af3-a6fd-f0c2790d8f68":["carcount-0"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6dc9fc51-cd98-4641-a8cc-426f2d8bea3a.Records","label":"1 - Look Up Records➛m2m_Tournaments_Wheels Records","reference":"x_407566_hot_tra_0_wheels_in_tournament","reference_display":"m2m_Tournaments_Wheels","type":"records","base_type":"records","usedInstances":{"ef26760b-b35a-4588-a303-c7678bc02d58":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ef26760b-b35a-4588-a303-c7678bc02d58.item.x_407566_hot_tra_0_wheels","label":"3 - For Each➛m2m_Tournaments_Wheels Record➛Wheels","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","parent_table_name":"x_407566_hot_tra_0_wheels_in_tournament","column_name":"x_407566_hot_tra_0_wheels","usedInstances":{"197bbfff-6203-4203-820e-6db01fb30f9c":["racer_1"]}},{"name":"ef26760b-b35a-4588-a303-c7678bc02d58.item.x_407566_hot_tra_0_wheels.title","label":"3 - For Each➛m2m_Tournaments_Wheels Record➛Wheels➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_407566_hot_tra_0_wheels","column_name":"title","usedInstances":{"197bbfff-6203-4203-820e-6db01fb30f9c":["title"]}},{"name":"197bbfff-6203-4203-820e-6db01fb30f9c.record.racer_1","label":"4 - Create Record➛Match Record➛Racer 1","reference":"x_407566_hot_tra_0_wheels","reference_display":"Wheels","type":"reference","base_type":"reference","parent_table_name":"x_407566_hot_tra_0_match","column_name":"racer_1","usedInstances":{"66d255de-6802-4547-bc10-b93d594f5769":["racer_1"],"f8e74da2-c843-4431-8aca-8c20d14447dd":["values"]}},{"name":"197bbfff-6203-4203-820e-6db01fb30f9c.record.title","label":"4 - Create Record➛Match Record➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_407566_hot_tra_0_match","column_name":"title","usedInstances":{"66d255de-6802-4547-bc10-b93d594f5769":["title"],"f8e74da2-c843-4431-8aca-8c20d14447dd":["values"]}},{"name":"197bbfff-6203-4203-820e-6db01fb30f9c.record","label":"4 - Create Record➛Match Record","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","usedInstances":{"66d255de-6802-4547-bc10-b93d594f5769":["round_match"],"f8e74da2-c843-4431-8aca-8c20d14447dd":["round_match"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master>true</master>
         <name>Create Qualifier Matches</name>
         <natlang/>
@@ -1523,7 +1614,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bb8600fb477a42106a3eedf1d16d4359</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1531,7 +1622,7 @@
         <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-22 02:07:49</sys_updated_on>
+        <sys_updated_on>2025-01-28 21:28:39</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -1615,14 +1706,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 13:26:13</sys_created_on>
         <sys_id>738600fb477a42106a3eedf1d16d435c</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-22 02:07:48</sys_updated_on>
+        <sys_updated_on>2025-01-28 21:28:39</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1699,14 +1790,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 13:26:14</sys_created_on>
         <sys_id>bb8600fb477a42106a3eedf1d16d437e</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-22 02:07:48</sys_updated_on>
+        <sys_updated_on>2025-01-28 21:28:38</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1835,6 +1926,7 @@
         <display_text/>
         <flow display_value="Create Qualifier Matches">bb8600fb477a42106a3eedf1d16d4359</flow>
         <name>Updated</name>
+        <published_version/>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-14 01:52:04</sys_created_on>
@@ -1848,50 +1940,28 @@
         <trigger_outputs/>
         <trigger_type>record_update</trigger_type>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=bb8600fb477a42106a3eedf1d16d4359^sys_idNOT IN337f378893269610a23593cbe9373c73,337f378893269610a23593cbe9373c74,3b7f378893269610a23593cbe9373c73"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=bb8600fb477a42106a3eedf1d16d4359^sys_idNOT IN44d6773a47131e50d6acf855516d43d5,80d6773a47131e50d6acf855516d43d6,80d6773a47131e50d6acf855516d43d7,88d6773a47131e50d6acf855516d43d6"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
-        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <attributes/>
         <comment/>
-        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
         <display_text/>
         <flow display_value="Create Qualifier Matches">bb8600fb477a42106a3eedf1d16d4359</flow>
-        <generation_source/>
-        <order>3</order>
-        <parent_ui_id>d59d6666-939c-467f-a2ef-9fdbf0f3cb10</parent_ui_id>
+        <generation_source>flowRecommendation</generation_source>
+        <order>1</order>
+        <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-14 01:52:05</sys_created_on>
-        <sys_id>337f378893269610a23593cbe9373c73</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-14 01:52:05</sys_updated_on>
-        <ui_id>a25fc57b-c70d-4a2b-8921-824476d6bbb2</ui_id>
-        <values>H4sIAAAAAAAA/91VUU/bMBD+K8jPaeQ0ISV9m0BISAO0sfHCaOTYl9aS42SOU+ii/ved47RUDLSh7YVFffHdd3fffT5f73rCuJW1vtCtZZrDzaa9EGROsimPk2Q2wx9LphFNWQwgykhEqUjiIiUBkQ6XRkCPsyjlcRTHU0qnJ0lUpHERTUXMABLEaVYBIi0rFOTDISBrpjpnfMwTOjtO03xV29waltO8YpavECJk2yi2uR2Rl6OZr6QSBjSZ390HpGEGE1owZN4/c/0pPcUKUAj94vi9QtdumhdtHw9jj668ozbC8aEBgUcLWgASKZlqISAV04LZ2mzI3JoODQaYuNZqs0espLaYkDjsYyt/YNkT6nAlYGccvG9/HAqfeaW8qzxjlt1gdm47M8L5qpYcWq+LgJJ1yp4e2jzgunGT4EOGVsfoWnWVvvKykH2C3cWgpWshF9C4Xh37sZXyZlU/fN4xPZd6kGV0qpoztT8xa40sOuv49AQUVJgIJ6FppF7mjanXcghGLlW4VHgIS1U/YNFWLnXoRzhEaVl4jvazwXzLjHRdXGIaDN4GpN20p4q17VMvKGT+vXNMfGdjD7mXwYVwIxv7AQusYaS7Df760Qig2atTGRVPUzi8k/bgwRjGweTRt47SWPS9OM5Eit8kizM+SdJZOWFTKCdZKYqSljEvIhpKC9V2uzB1p4UPpAsrrQJ/+NT3g5jrUa+QM8MRa7fbNxQIh4xYxtadcey13ZH82uDNgMijkHcGhwETL1C45Vjf6S9LiVf0y6P/z7t94y77/dTsdtm5BCXaF8Zot8igQpkt5H6sni2z0Xl0OzrHhRb9q4UWpXT43tla8w2++6128Cf2yn67/wmMvhZZFggAAA==</values>
-    </sys_hub_action_instance_v2>
-    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
-        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
-        <attributes/>
-        <comment/>
-        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
-        <display_text/>
-        <flow display_value="Create Qualifier Matches">bb8600fb477a42106a3eedf1d16d4359</flow>
-        <generation_source/>
-        <order>5</order>
-        <parent_ui_id>d59d6666-939c-467f-a2ef-9fdbf0f3cb10</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-14 01:52:05</sys_created_on>
-        <sys_id>337f378893269610a23593cbe9373c74</sys_id>
+        <sys_created_on>2025-01-28 21:04:32</sys_created_on>
+        <sys_id>44d6773a47131e50d6acf855516d43d5</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-22 02:07:49</sys_updated_on>
-        <ui_id>0093a420-badb-4ef8-a42a-1170fc8a0cd9</ui_id>
-        <values>H4sIAAAAAAAA/+1VyW7bMBD9lYBnW9BmebkVCQIEaBM0LnLJIozIUUyAplSKcuIa/vcORdkx0gRN2l4C1Cdzlsc3jzOj6w0DbmWlz3RjQXOcr5szwWZsGk9GPB0X6XgMaRyFGSSIooxElIk0mcZswKSLyyIMR9Mo40mUJHEYxpM0KrKkiGKRAGJKcRqWSJEWCoV5dxiwFajWGR/zNByPsixfVDa3BvIwN8BdhJBNrWB91QdeeitfSCUMaja7vh2wGgzBWTRstnnmeis5BQUqCv3m2L1C1q7rF22fD3OPzr2jMsLxCQcMHy1qgUSkBNXggC1BC7CVWbOZNS0ZDIK40Gq9j1hIbQmQudjHRv6gayehiyuRKuPofftjd/GJF8q7yhOwMCd0blvTh/NFJTk2XheBJbTKHh/afMBF7frAp3Sl9tmVapf63MvC9gC7dyFL22AusHa1OvZ9KeV8UT1c7pieSt3J0jtVxUHtT2CtkUVrHZ8NQ4VLAsqXUNdS3+e1qVaySyYuy+Be0SEoVfVAlzbyXge+gQOSFoJTsp905isw0lXxhWAoeTtgzbo5VtA0T7WQkPn31jHxlfU15F4Gl8KNrO0numCFPd3t4K9HRmA4fbUro+KpC7spaQ7GxZGVpURz04ZhIlwX3ZkoV6DRW+I7Nz77/1WrBQlp+cKbNhuIRyUfjYshH4dimEJcDCfTOBpO4jQdZyIriiIODHJq4+32zkqrerSvm00n+qrXNeBgOOHb7fYyPnoXcNDBErzjavLoD7gFfSqB0CPYnuOcL1C0ikbul/3xX7k3K/fOHfv7bt7t2FOJSjQvtPduweKSnsxi7tv92ZLtnUdXvbNftNG/WrRRFna/D7ZufYEfftsefFxf2bu3PwGcPIlZrAgAAA==</values>
+        <sys_updated_on>2025-01-28 21:08:58</sys_updated_on>
+        <ui_id>6dc9fc51-cd98-4641-a8cc-426f2d8bea3a</ui_id>
+        <values>H4sIAAAAAAAA/+VXW2vbMBT+K0HPJti5tcvbaCkMeoG26x62ImRLTkQV25PkXBry33dkyRcSN0tYCi171LlI3/nO+WT55xpxisboPB74PgmG52e+3+/7/mjUj0gQhv1RFPrhIEQeSsiMQaQmoWCwnBORm/USD/yz4WiEp6nGWhLs48WUMaEwT7BOc2nyEg0ZlKtMkNWTS5z1Zvix8iv8o8iCuGjKBZUsQeOfzx7KiIQAzSQar7dchyIXJGQCQh8d9K1K9CqrlrjwWdt1M61zax2ppAaK7yG21CyhDDDERCjmoRlJKNGpXFUWyQi9S0RtmHJgYoyQCV4q/grnnvsmLmZQVcSsr1piR5k1x5dEkwct80jn0oVG05RHTFk+KItJLvRF02YD7jLN08Sm2LJtdiryWXJr6UDVBmWHwJIrAMEyU6hB7sqIH6bp4r5EecWTghPnFGlERLUiWkse5trgWSMmmGk2npEs48kEZzKd8yIZsMy6EwGLbizSBRyq+CTpksgA7wKvpHsF9svC/EQkN1XcwDaQDIC4gAnBtoUKhqqgco4jkavCIUmi7F5o4yG1UheCKFVXDpTj37nBbXlwFWNLmkmJJM/0V9hizlxxG+8g8Qz9euSiNKHcoFD7FVTr5lcOe9L1+nsGHDCKg26US6Bdd6EIzOlms6usf9/wlBIs6i8leNEkoI0UJ8Yd23XbBk6MwcnECHV8JjnC4R9Pjcfry1LwF5FFZ3uHbFjPk0qlxpbLhspyDHfAy65YKvtxM38AnHLm78yUdsLVWwjdyMecCdr2/bkyjq3vT+///P58yIEHQBTb7vFE8KR4TADQ91KCv/+6/bI1Z8V41ToobERFu0ogHZ12Xo9WwgFwSiU8wNmdR4unBWJ59xcjs33vl0YngP7JBNDvnUYA66rMisgWzsv3o+lmGf9q4sl2PIxgIyHYtAnsqDODY8/sbXYF3D9Kwc1hs57LN2buxA/NNxTpvecVMIVUdx62+sULTidM16eXUTTVCyJe2vxu4nDZqKK8d3i0DvbKdhTUEgWlYMkUNK/5ag3gqbR7hwSeNR93hRyApaTjhiw79xWYVoTuGgGls0nRm+Y98q2yuiEfnPDx+GG/pGWzWjVY9uxT/OudTgjPfwAGekeP/BAAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
@@ -1903,20 +1973,90 @@
         <flow display_value="Create Qualifier Matches">bb8600fb477a42106a3eedf1d16d4359</flow>
         <generation_source/>
         <order>4</order>
-        <parent_ui_id>d59d6666-939c-467f-a2ef-9fdbf0f3cb10</parent_ui_id>
+        <parent_ui_id>ef26760b-b35a-4588-a303-c7678bc02d58</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-14 01:52:05</sys_created_on>
-        <sys_id>3b7f378893269610a23593cbe9373c73</sys_id>
+        <sys_created_on>2025-01-28 21:04:32</sys_created_on>
+        <sys_id>80d6773a47131e50d6acf855516d43d6</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-14 01:52:05</sys_updated_on>
-        <ui_id>319f14c8-1099-449e-80af-e8341821e001</ui_id>
-        <values>H4sIAAAAAAAA/+1VUU/bMBD+K8jPaRQnaVr6NoGQkDbQYOKF0ehiX6glx8kcp9BV+e+z47RUDLSx7QVpfarvvvv83dfz9XZLgBlRq3PVGlAMrzftOScLMuVlOk+TIp3NII1plEGCyEvKacbTZJ6SgAiHyyhG02OasYQmSRxF8TylRZYUNOYJIDqcggot0kAhMR8OAVmD7FzwMU+j2TTL8lVtcqMhj3INzCG4aBsJm5sReOWjbCUk16jI4vYuIA1oS2dQk8X2Wep3xUkoUFroF6fuFbFm07wY+3hYe3ThE7XmTk8UEHw0qDhaISXIFgNSgeJgar0hC6M7G9AI/FLJzR6xEspYQuKwj634bq+dRw5Xou2Moc/tj8PFp94onypPwcC1ZWem0yOcrWrBsPW+cCyhk+bkMOYBl42bA18ytDpW17Kr1IW3hewJdr+LjXQt5hwb16tTP7ZSXq/qh6ud0jOhBlvGpKwZyP0JjNGi6IzTsyUosbJEeQVNI9R93uh6LYZiq6UK76U9hKWsH+ylrbhXoR/g0FoL4ZmNnw7hG9DCdfHJ0tjiPiDtpj2R0LZPvVgj82+dU+I7G3vIvQ2uhGnRmA/2gjWOcvvgr58Mx+j41amkxdMUDq+kPXguTqwoBeqvXRQl3E3RUtNcgkIfoUv3fPbf605xa6RhKx/abiGelmw6KyZsFvFJCnExmR/HdDKP03SW8awoijjUyOwY9/3SCCNHts/b7WD6evQ1ZKCZ5Td9f0WP3kQcDrSW3mnVOf0DbeFY2vc/r4r/Jr1k0hs3569ndLc5zwRK3r4wtLu1iZX9dQzmfoifrc4xeXQzJsf1Sf/V+qRZNHze2RL1Db77HXrwl/nKNr37ATbaUp6CCAAA</values>
+        <sys_updated_on>2025-01-28 21:04:32</sys_updated_on>
+        <ui_id>197bbfff-6203-4203-820e-6db01fb30f9c</ui_id>
+        <values>H4sIAAAAAAAA/+1VTW+cMBD9K5HPCzKwsOzeqkQ5NYnatLmkWTTYw2LJfNQ2SbYr/nttYDerNFEbKZdI5eY3b8ZvHsNwuyOCkxVJAqTxMkhYFERRSGmYzoM8ifIg5BEgzsmM1FChZRrIJWbDYUbuQXYOfMzmdBEnSVY2JjMKMppVYFhpKVzoVsL2ZmJeTDArheQKa7K6vZuRFpQtaFCR1e5Z6F/lSchRWuo3p+8VuWbbvoh9Ps49uRwDjeJOD50RfDRYc7RCCpAaZ6SCmoNp1JasjOosoBD4VS23B0YpamMLEsd91OKXvTaljleg7YzhGDscs8mlES7OwMC1rcxMpyYqKxvBUI+ecCygk+b0GBsJV60RTT2mDG1O2Y3sqvpytIQcCuxfikU6bUVg6/p0yqc2iuuyefi6V3ku6sGSKSgbBvJwAmOUyDvj9OwISqxsITsFbSvqTdaq5l4MyVZL5W+kPfiFbB7spVpsah+YE+5bW8E/t/jZAN+AEq6LC1vGJvczorf6VILWT71YE7OfnVMydjb1kI02uBSmRGs+2QvucZLbz/Zzz5EuXx2sIH8apGHU9dHMm6ZTLlabHx2lEd/tvrdWPvIs8FmnrGOm79cKGKos2FOwCJNFQnMvj2Lw5nGaehDRyGOLZJHmjIY8Tn1hsPJf+KQeSkSpXdGmq/lYkq61gQ2OB2eDKASqtRFGTuCX3a7grkKti0ZVK1hAGid56EVxuPTmITJvGbDcg0XIMCmSIFgWff8uUv1BRt//uQb+m/cW8964LP8+0/tleS5Qcv3CkO83JVb2rRnMxqF/ti2n4MnNFJw2ZvBeGzNI6PB8oL05Nvfh1+bRH/KVBXr3G5fHmJ06CAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Qualifier Matches">bb8600fb477a42106a3eedf1d16d4359</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>ef26760b-b35a-4588-a303-c7678bc02d58</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 21:04:32</sys_created_on>
+        <sys_id>80d6773a47131e50d6acf855516d43d7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 21:08:58</sys_updated_on>
+        <ui_id>f8e74da2-c843-4431-8aca-8c20d14447dd</ui_id>
+        <values>H4sIAAAAAAAA/+1VXU/bMBT9K8jPIXKSEmjfJlCfNtBg4oVRy7FvGkvOx2yn0EX577Njt1QMNJj2grQ+VLpf5557fHt7NyDB0QLlCeCTeZKzLMmyFOP0bJYUeVYkKc8owAxFqKE12ExDCwlkMiK0obJ3zkcyw6cneU6q1hCjKMFEUeYyuNCdpNvbkHjtvawSkito0OLuPkIdVRbOgEKL4VnoreQkLUDa1G+O3StkzbZ70ff5sPbo0gdaxR0fHCF4NNBwsERKKjVEqKYNp6ZVW7QwqrcOBZRfNXK7z6hEYywgcrmPWvy0bc+wyyvBTsbAx/YmCSJ5d3lBDb2xyMz0KqSyqhUMtNeEQ0l7ac4PfT7hqjOibXzJNGaobmVfN5deErQH2L2J9fTakoDOzemYhzHKm6p9uN6xXIpmkiQEZcuo3FvUGCWK3jg+AwIJtQUiNe060axJp9qNmIotlzpeS2vEpWwfbFMt1k1MmSMeW1lpvLT+i8l9S5VwU3yxMLZ4jJDe6nNJtX6axYpIfvSOiZ8szEC8DK6EKdGZT7bBBgLdMdptPQc8f3WxkuJpkaZF1wcb73qKUoD63mOccbcIK5UQSRvwnnTlfgGKJN4chmR+WhRlWR7nKc6OZ+7rLMVwnPMCJ2WR4XLOYgXMbl4cSsdxAtkBGmFkML4Ow6TfJkgUM6pY2zdmHK/T9/WaUG0nbagJ6DesAt5L4CtlMbl9R8Oqv5hjHH+/AP+Fe6tw7zySf97l3ZFcCpBcv7DcuwsJtX0xA8Qv+7MrGYJHtyEYLmXyry5lkuPp84HupR/uw5/Lg3/GVw7n/S+fqwDNMAgAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Qualifier Matches">bb8600fb477a42106a3eedf1d16d4359</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>ef26760b-b35a-4588-a303-c7678bc02d58</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 21:04:32</sys_created_on>
+        <sys_id>88d6773a47131e50d6acf855516d43d6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 21:08:58</sys_updated_on>
+        <ui_id>66d255de-6802-4547-bc10-b93d594f5769</ui_id>
+        <values>H4sIAAAAAAAA/+1VXU/bMBT9K8jPIbKbEmjfJhBPG2gw8cKo5dg3xJLjZI5T6KL899mxWyoGGkx7QVofKt2vc889vr29HZAUaIlyAvhoQXKekSybYTw7mZMizwoyExkDmKMEaVaDy7SsUEAnI0FrpnrvfKRzfHyU57RqLLWGUUwN4z5DyK5VbHMTE6+Cl1dSCQMaLW/vEtQy4+AsGLQcnoXeSk6xApRL/ebZvULWbtoXfZ/3aw8uQqAxwvPBCYJHC1qAI1Iy1UGCaqYFs43ZoKU1vXMYYOJSq80uo5LaOkDkcx87+dO1PcE+rwQ3GYcQ25k0ihTc5Rmz7Nohc9ubmMqrRnLogiYCStYre7rvCwmXrZWNDiXTmLG6UX2tL4IkaAewfRPn6TtHAlo/p2cexyivq+bhasvyXOpJkhhUDWdqZzFrjSx66/kMCBTUDojWrG2lvqetadZyKnZc6vReOSMtVfPgmnbyXqeMe+Kpk5Wl585/NrlvmJF+ii8OxhWPCeo23aliXfc0ixOR/ug9kzBZnIEGGXwJN7K1n1yDNUS6Y7LdegF48epikeJpkaZF7/Y23veUpQTzvcc4E34RVoZQxTQED1n5X4ChJJjDQBbHRVGW5WE+w9nh3H+dzDAc5qLApCwyXC54aoC7zUtj6ThOIFtAK62KxtdhmPRbR4lSzgxvem3H8Yq8r9eE6jp1ltmIfs0rEL0CsTIOU7h3tLz6iznG8fcL8F+4twr3ziP5513eHslzCUp0Lyz39kJC7V7MAg3L/uxKxuDBTQzGS0n+1aUkOZ4+H+hehuE+/Lnc+2d85XDe/QLO5IoKMAgAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=bb8600fb477a42106a3eedf1d16d4359"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=bb8600fb477a42106a3eedf1d16d4359^sys_idNOT IN3b7f378893269610a23593cbe9373c77,777f378893269610a23593cbe9373c72,b37f378893269610a23593cbe9373c6f"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=bb8600fb477a42106a3eedf1d16d4359^sys_idNOT IN08d6773a47131e50d6acf855516d43d9,3b7f378893269610a23593cbe9373c77,b37f378893269610a23593cbe9373c6f"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">61c6373a47131e50d6acf855516d4338</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Create Qualifier Matches">bb8600fb477a42106a3eedf1d16d4359</flow>
+        <flow_variables_assigned/>
+        <generation_source>flowRecommendation</generation_source>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 21:04:32</sys_created_on>
+        <sys_id>08d6773a47131e50d6acf855516d43d9</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 21:28:39</sys_updated_on>
+        <ui_id>ef26760b-b35a-4588-a303-c7678bc02d58</ui_id>
+        <values>H4sIAAAAAAAA/51TXW+jMBD8L34miI8cCnmrWlWq1F6ltOrLqYoWe0msMzZnm6Qc4r/fOhBa9fGeYMe7szODGZjpfNt592punJMHzba/3iMmdcDofWAaGmRbJj02jkXsBKoL9TAUgpc1/5GuuCg3q3WxTlew4Xy1zoo6E5sKIYd4h9xY4caRRoV0rYL+7f8Z+FEqYXEW2YIlbR4t2w7fjqSgBWkp6jJNSp5nRZ4lSbZZp1WRV2kmckBREKGCChW1Pszuvpn1fRtKO0mYgcd5Zreg9AgisiRi+OFRC6T1NSiHEWtAC/DG9mzrbUeARRDPWvVLx1FqT3Qs9H44+Zc2pkkSGmskQxynw6XczzlOcH0HHl6ImvvOzq38aCRHN0UhsIZO+duv2NTw3Hpp9DTioVLXaaO6Rv+ckmALwfWzEdI5EoFtMBqkzz7ql6M5764q76W+hDIfKsNBLRV4b2XV+aBnYKiwIaJ9A20r9WHfWnOSl2HS0sQHRUVcK3OmpeGKxsCD8Jhyhfie8LsL/AZWBhdPREPDY8Rc724VOPfphULc/+mCksnZ7GE/xRBGuJWtv6EFJ5zlju/h1k/cS6ZcOpLwGrCH678SDnq6QZJ/hc7G/g7iP7HxHzQnsXt1AwAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">3a7ff38893269610a23593cbe9373c82</block>
@@ -1928,45 +2068,19 @@
         <flow_variables_assigned>carcount</flow_variables_assigned>
         <generation_source/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
-        <order>6</order>
+        <order>7</order>
         <outputs_assigned/>
-        <parent_ui_id>d59d6666-939c-467f-a2ef-9fdbf0f3cb10</parent_ui_id>
+        <parent_ui_id>ef26760b-b35a-4588-a303-c7678bc02d58</parent_ui_id>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-14 01:52:05</sys_created_on>
         <sys_id>3b7f378893269610a23593cbe9373c77</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-22 02:07:49</sys_updated_on>
+        <sys_updated_on>2025-01-28 21:28:39</sys_updated_on>
         <ui_id>f361a04e-66f8-42ee-950e-def23f58be04</ui_id>
-        <values>H4sIAAAAAAAA/+1VTW/iMBD9Lz4TlEDC160CVULa3UpbtpdVFQ32GKx17NQfUBbx39fGKaD2ukdu9pvMzHtvPMqRaO9a7+xKP1grNorMfr/2iFARC+cjEYzMCOkRBQ2GEwVDtVcuIDuQPkLHI2e1M6As16aZTdZFPuE5ZnxcVVlZwSSDsoSMsSld83AcTaanU8hnwrYSDi9dmYDQrZDMYEeiBRN6OjRkdvwUOpOq2GA4oeNxOR5DOSjyEQwRGS9YMWLlMKehoIQ1ysR63rH+qsMd2ogI5XATmiXgW5e5vKDasEgl7xF8d6gYBg4cpMUeaUAxcNocLohBYE9KXoFtKJ9ENvBuxd/QsczjdxyDKtoZcLmuYC1xkQxKIb4AB8/OeOq8ufilBUWbPGHIwUs3v8XSB0+tE1qlFBcLd9la+kb9SH6QS4GbeXiLNcM2io3sOyn8eav3Pz+YPgp19qULSk1BXm7gnBFr7yKfI/Fi9dnqBH01GyU2oWfdQNsKtalbo3fi3CfQbvobGS59LvU+8IvPtg80auyHMUD/MeCLM/wCRkTB30OZrt8vJd48LuMD4gMsADDPeFGNsrIY8GwyLccZFvkgh2k1nEJFTj1iD3YuwdqrVWFO9ZuPQpNxnUV1cjmmUCNa9xBI7bBz4/QaVybxua/WfbXuq/VfV4shFTbwPI93+fH/ioFDeJeC3kJ7bf5EhVfs9A/V8x5+CQcAAA==</values>
-        <workflow_reference/>
-    </sys_hub_flow_logic_instance_v2>
-    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
-        <attributes/>
-        <block display_value="">b27ff38893269610a23593cbe9373c7f</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <display_text/>
-        <flow display_value="Create Qualifier Matches">bb8600fb477a42106a3eedf1d16d4359</flow>
-        <flow_variables_assigned/>
-        <generation_source/>
-        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
-        <order>2</order>
-        <outputs_assigned/>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-12-14 01:52:05</sys_created_on>
-        <sys_id>777f378893269610a23593cbe9373c72</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-22 02:07:49</sys_updated_on>
-        <ui_id>d59d6666-939c-467f-a2ef-9fdbf0f3cb10</ui_id>
-        <values>H4sIAAAAAAAA/5VTwW7bMAz9F50Nw3aGYMmtaFCgwLYCbdfLUBiyRCfCZEmTqKSekX8fFTlu0dtOFh/Jx/coeWI2oosYnu1NCGpv2PbXa8GUSRidJ2b4AGzLFMIQWMGOXMcUT9NPJzmCbOtSRO/BYCns4AAVWh/OZ6qVKjjNx5f/aBEHpSVlsgzHPU1H8Gw7fUopSYz1RvabutqIVbNeNVXVfP1Sd+tVVzdyxUGuiVDzDjSV3s/6P9nB0aXQg7BeXoFvc8/jgtIniWiqgsEbgpFA43uuAxRs4IZcWT+yLfpIgAcuH4wel4qDMkh0LNW+BfWXJtZVlQp7IEMCcnIJn3mnYZeXl1P9jiN/InqB0c/l4mCVgJDXIaHnUePtRywXPDhU1uQWTMRzt9VxMD/yNthCcL0rQmKAVoJLZpP82Uv/dLCnx6vSO2Uui5mT2gqul4gjetVFTHomBhoGImoH7pwy+9Z5e1SXZtIylHtNQdlre6Kh6SGWXCThJe2Wl3eE7y7wC/cqufhONNR8LlgYw63mIbx7oUW2f2JSkp3NHtq8htQivHJ4QwOOMMs9v6a3nbmXnQoVSMLlOu6vf0RKjPSKlPgInaz/ncS/Y+d/CBkV5VsDAAA=</values>
+        <values>H4sIAAAAAAAA/+2VTU/jMBCG/4vPTZW0SdP2hkBISLuLtLBcViia2uNirWMHfwDdqv99x00aKrjukZv9ODPzzmuPsmc2hi4Gf28vvFdbw9a/HydMmcRovWdKsDVjE2agRVpxcNxGE4i8gI4J7fdSNMGB8dK6dr3cFPlS5pjJuqqysoJlBmUJmRArvpG0XCxXhwPFC+U7DbuHIQ0R/qS0cDiI6MBRzYCOrfcfjo6iKjGbL3ldl3UN5azIFzBHFLIQxUKU85xTQg0b1L3qy0H15z7CrktEmYBbKtaDb0PkzUitE0lKPmH4FtAIJA0StMcJa8EICNbtRuIQxK3R7+CJ0vdNtvDm1V+qWObpO4nUFR8MGLfNYE6P5RUEuAsu8hDd6JVVHH3vh0AJUYfLc9Z/cNsFZU0fEmCjT9FWx9b86L1gY4Kzu4ieRGCXGk3Khzbk3ZN9/XlSea3M0ZPhUFsOetxBCE5tYkh69iyq+4829+iz0aixpZpNC12nzLbpnH1Rxzoku51uNW2mUttX0pee7BR46nFKVwDTa+JXR/wATqWGv1Oaod4vo54j3qTHI2dYAGCeyaJaZGUxk9lyVdYZFvksh1U1X0HFDhPmd/5Sg/fvVtEdNc8xNdobN1jU9C6nEO5UFy5I1AsObhwe07j0er7G6musvsbqv42VQK486bxPom5O/610sKM3qfg5erXuT+rwnR3+AQE/GscBBwAA</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
@@ -1980,22 +2094,39 @@
         <flow_variables_assigned>carcount</flow_variables_assigned>
         <generation_source/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
-        <order>1</order>
+        <order>2</order>
         <outputs_assigned/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-14 01:52:05</sys_created_on>
         <sys_id>b37f378893269610a23593cbe9373c6f</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-22 02:07:49</sys_updated_on>
+        <sys_updated_on>2025-01-28 21:28:39</sys_updated_on>
         <ui_id>04c9c606-b318-4af3-a6fd-f0c2790d8f68</ui_id>
-        <values>H4sIAAAAAAAA/+1V224iMQz9lzwDmoEBCm8VqBLS7lbasn1ZVSOTeCDaTDLNBcoi/n0dMlzUav+At+Q4to+PbeXATPBN8G5pHp2Ta82mv986TOqI0fnApGBTxjpMQ4104mC5CdoTsgUVIpTTWUjXKNi/3kB8I5Ww2EZswFIAj5ZND59MpwxD0R888PG4GI+h6OfZCAaIospFPhLFIOMUUMEKVaIwayl8JeX3TUSk9rimZAn41nouLqixIlLJOgw/PGqBxKEC5bDDatACvLH7C2IRxLNWV2BD4ZMqNXw4+ZcyFll8VyFVxTHZLtclrBTOk0LJVM3Bw4u3gftg2+d8YyRHlzQRWEFQfnaLpQfPjZdGJxcfA7feRoVa/0h6sEuAc0MICQ5LgU0sNrJvS6leNmb388z0SeqTLq1RGQ7qcgPvrVwFH/kcWJDLz1In6KvYqLCmnGUNTSP1umys2cpTHqJd99aKLr1KmR3xizPYAx5r7FEboPdE+PwEv4KVseDvFKbN90vL94CLOEBVH3MAzLpVPhx1i7xfdR8mxbiLedbPYDIcTGDIjh3m9m6mwLmrVNSn8j3EQpNwrURlUjm6cCsb/0ikttiqcXyL85/43Pfkvif3Pfn/ngjk0hHPU3sX558lGvY0l5LfQjtj/8QKr9jxH9oF1KWjBgAA</values>
+        <values>H4sIAAAAAAAA/+2Vz24aMRDG38VnQLuwQOAWEUVCShqpoblUERrsWbDqtTf+A6GId+8YLwtKDn0BbvbP9sw3nz3ygZng6+Ddwtw7J9eaTX+/d5jUkdH4wKRgU8Y6TEOFNOJguQnaE9mCChHlNBbS1Qr2b1eIb6QSFpuINVgK4NGy6eHL0inDUPQHd3w8LsZjKPp5NoIBoihzkY9EMcg4BVSwQpUkzBoJ30X5fR2J1B7XlCyBp+bkvKXGiigl6zD89KgFkoYSlMMOq0AL8MbuW2IRxItWF7Ch8MmVCj6d/EsZiyzuK5Gq4pjW2umycSfh8gE8vHobuA+22co3RnJ0yQ+BJQTlZ9csbXipvTQ6HfGwUufTRoVK/0hesDbA+TKIBEcisI6FRuVNGeXrxux+nlU+Sn3ypFlUhoNqZ+C9lavgo54DC3Lx1eaEvhuNCivKuaygrqVeL2trtvKUh2RXvbWiSa9UZkf64vvrAY819ugKoPdI/OGE38DKWPAzhWny/dLyI+A8Pp6yjzkAZt0yH466Rd4vu3eTYtzFPOtnMBkOJjBkxw5zezdT4NzFKrqj5UeIhSbjGouWyeV4hFtZ+3sStcXWjQTJiePxPfZB0nbrl1u/3Prl//0ikEtHmhdR4Pz808SFPb1Pya/Rztg/sdoLO/4DJOkjtrMGAAA=</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=bb8600fb477a42106a3eedf1d16d4359^sys_idNOT IN109600fb477a42106a3eedf1d16d43d8,109600fb477a42106a3eedf1d16d43d9,149600fb477a42106a3eedf1d16d43d8,189600fb477a42106a3eedf1d16d43d8,1c9600fb477a42106a3eedf1d16d43d8,737f378893269610a23593cbe9373c81,909600fb477a42106a3eedf1d16d43d8,949600fb477a42106a3eedf1d16d43d8,989600fb477a42106a3eedf1d16d43d7,989600fb477a42106a3eedf1d16d43d8,9c9600fb477a42106a3eedf1d16d43d8,bf7f378893269610a23593cbe9373c80"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=bb8600fb477a42106a3eedf1d16d4359^sys_idNOT IN054dabfa47dfda50d6acf855516d435f,109600fb477a42106a3eedf1d16d43d8,109600fb477a42106a3eedf1d16d43d9,10d6b73a47131e50d6acf855516d430f,149600fb477a42106a3eedf1d16d43d8,189600fb477a42106a3eedf1d16d43d8,1c9600fb477a42106a3eedf1d16d43d8,737f378893269610a23593cbe9373c81,894dabfa47dfda50d6acf855516d435e,909600fb477a42106a3eedf1d16d43d8,949600fb477a42106a3eedf1d16d43d8,989600fb477a42106a3eedf1d16d43d7,989600fb477a42106a3eedf1d16d43d8,9c9600fb477a42106a3eedf1d16d43d8,bf7f378893269610a23593cbe9373c80,d0d6b73a47131e50d6acf855516d430e"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>bb8600fb477a42106a3eedf1d16d4359</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.carcount}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 20:22:49</sys_created_on>
+        <sys_id>054dabfa47dfda50d6acf855516d435f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 20:22:49</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>8c7fb9ba-ff6d-44e1-be22-156367fcfc6b</ui_id>
+    </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>bb8600fb477a42106a3eedf1d16d4359</attached_to>
         <extra_info/>
@@ -2029,6 +2160,23 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>256d422f-f195-42ad-b492-7d4129964afa</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>bb8600fb477a42106a3eedf1d16d4359</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>a7a856b2-3529-42ec-91cb-a72ce6f6119f</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 21:04:33</sys_created_on>
+        <sys_id>10d6b73a47131e50d6acf855516d430f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 21:20:31</sys_updated_on>
+        <transform_compositions>[{"id":"c98659e0c7c720105312134c95c26001","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"regex","label":"Regex","order":0,"attributes":{},"value":"^(\\d)$","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]},{"id":null,"name":"replace_string","label":"Replace String","order":1,"attributes":{},"value":"0$1","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="replace_string">6f2599a0c7c720105312134c95c260fe</transform_definition_id>
+        <ui_id>9e426cb4-1a52-40e3-b781-b5938f90c683</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>bb8600fb477a42106a3eedf1d16d4359</attached_to>
@@ -2097,6 +2245,23 @@
         <transform_compositions>[{"id":"06190ffa23a220103a3339e1d7bf65f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"1","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
         <transform_definition_id display_value="add">50980bfa23a220103a3339e1d7bf6510</transform_definition_id>
         <ui_id>e927c3fb-7e82-49b8-811c-47811d65ccf4</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>bb8600fb477a42106a3eedf1d16d4359</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>8c7fb9ba-ff6d-44e1-be22-156367fcfc6b</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 20:22:49</sys_created_on>
+        <sys_id>894dabfa47dfda50d6acf855516d435e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 20:22:49</sys_updated_on>
+        <transform_compositions>[{"id":"c98659e0c7c720105312134c95c26001","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"regex","label":"Regex","order":0,"attributes":{},"value":"/^(\\d)$/","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]},{"id":null,"name":"replace_string","label":"Replace String","order":1,"attributes":{},"value":"0$1","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="replace_string">6f2599a0c7c720105312134c95c260fe</transform_definition_id>
+        <ui_id>b1801a8e-875f-407e-b6be-e280f9061707</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>bb8600fb477a42106a3eedf1d16d4359</attached_to>
@@ -2199,6 +2364,23 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>8b108f0e-f755-45a8-a44a-dd9cbfa44689</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>bb8600fb477a42106a3eedf1d16d4359</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.carcount}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 21:04:33</sys_created_on>
+        <sys_id>d0d6b73a47131e50d6acf855516d430e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 21:04:33</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>a7a856b2-3529-42ec-91cb-a72ce6f6119f</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_flow_variable action="delete_multiple" query="model=bb8600fb477a42106a3eedf1d16d4359^sys_idNOT IN809600fb477a42106a3eedf1d16d43a1,849600fb477a42106a3eedf1d16d4397,849600fb477a42106a3eedf1d16d43a4,889600fb477a42106a3eedf1d16d439a,889600fb477a42106a3eedf1d16d43a7,8c9600fb477a42106a3eedf1d16d439d,8c9600fb477a42106a3eedf1d16d43aa,c09600fb477a42106a3eedf1d16d4393"/>
     <sys_hub_flow_variable action="INSERT_OR_UPDATE">
@@ -2865,7 +3047,6 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_variable>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_bb8600fb477a42106a3eedf1d16d4359^sys_idNOT IN338600fb477a42106a3eedf1d16d437b,738600fb477a42106a3eedf1d16d4383,7f8600fb477a42106a3eedf1d16d4372"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>changed_fields</element>
         <help/>
@@ -2936,29 +3117,28 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_bb8600fb477a42106a3eedf1d16d4359"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_bb8600fb477a42106a3eedf1d16d4359"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_bb8600fb477a42106a3eedf1d16d4359"/>
     <sys_hub_flow action="UPDATE">
         <sys_id>09234c77477a42106a3eedf1d16d43fb</sys_id>
         <latest_snapshot>bb8600fb477a42106a3eedf1d16d4359</latest_snapshot>
-        <compiler_build>glide-xanadu-07-02-2024__patch3-10-23-2024_11-01-2024_2230.zip</compiler_build>
+        <compiler_build>glide-xanadu-07-02-2024__patch4-11-22-2024_12-02-2024_1408.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=09234c77477a42106a3eedf1d16d43fb^sys_idNOT IN149600fb477a42106a3eedf1d16d43ee"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"149600fb477a42106a3eedf1d16d43ee","name":"plan","plan_signature":null}}</plan>
         <plan_id>09234c77477a42106a3eedf1d16d43fb</plan_id>
-        <snapshot>bb8600fb477a42106a3eedf1d16d4359</snapshot>
+        <snapshot>ffe1ffcb93d31a50a23593cbe9373ce6</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-21 13:26:16</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>149600fb477a42106a3eedf1d16d43ee</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-22 02:07:49</sys_updated_on>
+        <sys_updated_on>2025-01-28 21:28:39</sys_updated_on>
         <trigger display_value="">eb86ffcd47e65e10d6acf855516d43bc</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=09234c77477a42106a3eedf1d16d43fb"/>

@@ -2,13 +2,12 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>false</active>
+        <active>true</active>
         <annotation/>
-        <attributes>labelCacheCleanUpExecuted=true</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=7170578000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>26000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -16,21 +15,20 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>get_next_race</internal_name>
-        <label_cache>null</label_cache>
-        <latest_snapshot/>
-        <master_snapshot/>
+        <label_cache>[{"name":"Updated_1.current.round_match.tournament","label":"Trigger - Record Updated➛Race Record➛Round Match➛Tournament","reference":"x_407566_hot_tra_0_tournament","reference_display":"Tournament","type":"reference","base_type":"reference","parent_table_name":"x_407566_hot_tra_0_match","column_name":"tournament","usedInstances":{"7063158a-731d-4659-b86a-929547e856d7":["conditions"]}},{"name":"Updated_1.current.round_match","label":"Trigger - Record Updated➛Race Record➛Round Match","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","parent_table_name":"x_407566_hot_tra_0_race","column_name":"round_match","usedInstances":{}},{"name":"7063158a-731d-4659-b86a-929547e856d7.Record","label":"1 - Look Up Record➛Race Record","reference":"x_407566_hot_tra_0_race","reference_display":"Race","type":"reference","base_type":"reference","usedInstances":{"6dce81f3-8eb4-4ae1-813a-bd284274d478":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>99c0e30047c92a10d6acf855516d4320</master_snapshot>
         <master_snapshot_digest/>
         <name>Get Next Race</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id/>
+        <remote_trigger_id>7dc0e30047c92a10d6acf855516d438b</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>draft</status>
+        <status>published</status>
         <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -38,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a4793395475f1650d6acf855516d43d4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Get Next Race</sys_name>
         <sys_overrides/>
         <sys_package display_value="Hot Tracks Tournament Tracker" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
@@ -46,12 +44,54 @@
         <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name>sys_hub_flow_a4793395475f1650d6acf855516d43d4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-24 05:25:09</sys_updated_on>
+        <sys_updated_on>2025-04-17 06:14:50</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=a4793395475f1650d6acf855516d43d4"/>
     <sys_variable_value action="delete_multiple" query="document_key=a4793395475f1650d6acf855516d43d4"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_407566_hot_tra_0_race">state=Complete<item display_value="Complete" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="Complete"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 06:14:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7dc0e30047c92a10d6acf855516d438b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 06:14:50</sys_updated_on>
+        <table>x_407566_hot_tra_0_race</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>a4793395475f1650d6acf855516d43d4</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 06:14:50</sys_created_on>
+        <sys_id>79c0e30047c92a10d6acf855516d438c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 06:14:50</sys_updated_on>
+        <trigger display_value="">7dc0e30047c92a10d6acf855516d438b</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=a4793395475f1650d6acf855516d43d4^sys_idNOT IN79c0e30047c92a10d6acf855516d438c"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=a4793395475f1650d6acf855516d43d4"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=a4793395475f1650d6acf855516d43d4^sys_idNOT IN68793395475f1650d6acf855516d43d5"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -66,19 +106,900 @@
         <sys_updated_on>2025-01-24 05:25:09</sys_updated_on>
     </sys_flow_cat_variable_model>
     <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=68793395475f1650d6acf855516d43d5"/>
-    <sys_hub_flow_input action="delete_multiple" query="model=a4793395475f1650d6acf855516d43d4"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=a4793395475f1650d6acf855516d43d4^sys_idNOT IN03ca886d479f1650d6acf855516d432b,3aca046d479f1650d6acf855516d432d,4bca886d479f1650d6acf855516d432e"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>global</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">961fcb9fd1e302104f34ba60d8b7c162</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Get Next Race">a4793395475f1650d6acf855516d43d4</model>
+        <model_id>a4793395475f1650d6acf855516d43d4</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_a4793395475f1650d6acf855516d43d4</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-24 06:40:57</sys_created_on>
+        <sys_id>03ca886d479f1650d6acf855516d432b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-24 06:40:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=03ca886d479f1650d6acf855516d432b"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Get Next Race">a4793395475f1650d6acf855516d43d4</model>
+        <model_id>a4793395475f1650d6acf855516d43d4</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_a4793395475f1650d6acf855516d43d4</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-24 06:40:57</sys_created_on>
+        <sys_id>3aca046d479f1650d6acf855516d432d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-24 06:40:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3aca046d479f1650d6acf855516d432d"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Get Next Race">a4793395475f1650d6acf855516d43d4</model>
+        <model_id>a4793395475f1650d6acf855516d43d4</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_a4793395475f1650d6acf855516d43d4</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-24 06:40:57</sys_created_on>
+        <sys_id>4bca886d479f1650d6acf855516d432e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-24 06:40:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4bca886d479f1650d6acf855516d432e"/>
     <sys_hub_flow_output action="delete_multiple" query="model=a4793395475f1650d6acf855516d43d4"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=a4793395475f1650d6acf855516d43d4"/>
-    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=a4793395475f1650d6acf855516d43d4"/>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=a4793395475f1650d6acf855516d43d4"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=a4793395475f1650d6acf855516d43d4^sys_idNOT IN0fca886d479f1650d6acf855516d4338"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Get Next Race">a4793395475f1650d6acf855516d43d4</flow>
+        <name>Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-24 06:40:57</sys_created_on>
+        <sys_id>0fca886d479f1650d6acf855516d4338</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 06:14:46</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=a4793395475f1650d6acf855516d43d4^sys_idNOT INc7ca886d479f1650d6acf855516d433a,c9c0a30047c92a10d6acf855516d43fd"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Get Next Race">a4793395475f1650d6acf855516d43d4</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-24 06:40:57</sys_created_on>
+        <sys_id>c7ca886d479f1650d6acf855516d433a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 06:14:47</sys_updated_on>
+        <ui_id>7063158a-731d-4659-b86a-929547e856d7</ui_id>
+        <values>H4sIAAAAAAAA/9VY227bOBD9FUHPjlfyTXbeFgkMFOg2QJP2Jc0SFEnFRGlSpajcDP97h6JoO458ieOg6SPJuZyZOTOkdD0LOQ1PQzqKRtlo1B8mUdTtRtFg0CU4TtPugKRRinthK5R4ykDS4FQwWN5hUdr1A+pFSX8wQBNlkNEYRUhjYiUoL3KBH7/Xgl/dLplwQTWT4en1TSvMsQazhunwdLZ2ZB5zhgROmQDlK+s1+GIhtPZG/Ez5ZQTWgV8i6UwrTS2WqBWyB8MkZeAqw6JgrXCKJcVG6cfFjmaYXkix3JhwacBiaIUfCv4E5oeRlcsYhEWYO1ssUZ0ht00mihN2kRuupNtxQN2hEuVUfnEB2NyyDJfC+NzCTlmAPZZbzBZEjSi7nKj7r97hmMsqvPpQKILFYoWN0TwtDStsLZhgUzCEpjjPubxFuVZ3vFIGLNP2rYBFOxPqHpwW/Fa2MbHA25Ai3B7D/nm1/R1rbqP4D8yAMgDiAqqNXNILVeoqK3eIiLKoDjSWhbMVzqtcoV+lRemiruNDLkUgUBDNc/MvKNyxOpR5y5O6v5UioyUliJKUW5/FCrO1KiWFBBgyaRtAamWl+VGCMTqbfcshVEZR3CalhuyadrP8fP5/YUDS6V2SCaOlAFq96I/3dndY452tZmbfrDYqN6W6bsFne3ULxkdrwV4U/aEmNLr8eD24q6tcwDtaK6ZbSUCX9S6UNshlbqW3DDei4Y7w24dxdcyZoM8uiT1geuULS7sgfdyEvKZqZn2s3Radv/62+JBEBUAUuXxzKbisCAJAj8Pg/lZqpPEaD6ryL/lb7eGCvKQwDowKng6ft1VdPX/3AOkVLwFRcOVQNgD3k9abr6nbPRp1u53XUReIcz1boF9krSHB/k1mS+fln6w8XpcHdq0oxPObBfXPDvMZv9Znx/pc683uq5pzlVnu5HwDwY784tvQbK337O4JqNb+kGtWdM/pLTNL716KKnOPxc+m85pdix6qwnvz6zHe+oGRrrweeYamUCeew5NWMwJUKBDWDGXVC61+zC5pY+uWcV2YWrjhU4kZeM8FClouMBMWVNLBQvoYk2WP6Lzipyzw4dUYigDCC6rwgkV4r0vGhnnUO+Kr7y3zaIy5qFIPHyX5Su2Y1kpvmEk7qral/HsOrD1BxUcF9faJ1sT3xsm2A+tf8YX71qlDGE57HTxIunEcRXFEk2iYJPFwkGYDnPSyZaMhVEgCYxEsZ0AMMI88EXxVo5ejxc3Gg3/DwMz9Z1yb2BevVz5X0n6VdhITWMBQ58AD3h1SPS9SpQTDcknP/h8bGB/lT03Jr9Zz47Y+NxXtvS7zkn+T/FfJPllSDFnUGcaUnAyTODnpZXRwMqK4f4JHaT/pUkZ62eH3881vYqN6GrQUAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Get Next Race">a4793395475f1650d6acf855516d43d4</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 06:14:47</sys_created_on>
+        <sys_id>c9c0a30047c92a10d6acf855516d43fd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 06:14:47</sys_updated_on>
+        <ui_id>6dce81f3-8eb4-4ae1-813a-bd284274d478</ui_id>
+        <values>H4sIAAAAAAAA/+1UTWvbQBD9K0ZnWaysD3/cCsbQQx1wSy5pWFbasb2wWqmrlRPX+L93Vlo5TpqkJhhKobrNaObNezOPvTt4gnszLwZOwmmY5lEYRSNCRpM4zNIoC0c8YgCh53uKFYCVGvJSc4x3TDY2cTiMSRqFyYQNx1HIh3GaTIfZJGXD6WiaxGOYJCkfB6u273jETi7qSrL9rQPATL4VkmtQ3uzu3vcqpnGWAe3NDi9+mX0FVLIMJDbOy7wpQJnB5zliXKqj7171Ql4KszMw5g6dCpvEX5ZPSHwPHg0oDjhuzWQNvlcwxZkp9d6bGd1gQgPjN0ruTxVboUyntGCPtfiJ+DGxdWtAabnbwimkbkP9ckqRw01lRKm6jGGZ7DdXyqZQy06C3S2sWSPN2W6bGvGgspQtiY7h+uu2fFj18xZCteocW1nmTJ4iZowWWWOgtucACe1SClZVQm1opcudaJuRShFsJAbBWpYPOLMWGxWw3PIOcEEsWGB+3qZvmRZWxBeEweZjK57+aOzcToYjTFvNrWDaHgpL61yLynxC4B04mkffGTlL3jNAPn269xnmk5kfaUzGSZrSbWmo0YwSqlkOv5t21WU/ZtxvdvRg2Y2+lPaz5jdkOOs+yznnJldz7uQvOdcx+ses+yfDktG7L9bZpVuP1mdmrQ0z8L0hJOJLPO1g9apT36j6oHOhQGwDgw7dv1hDD7AQIHn9iqjeum4A3bkBp4f3av4NU9J+/9/fK76/978AeQY3M0oIAAA=</values>
+    </sys_hub_action_instance_v2>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=a4793395475f1650d6acf855516d43d4"/>
     <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=a4793395475f1650d6acf855516d43d4"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=a4793395475f1650d6acf855516d43d4"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=a4793395475f1650d6acf855516d43d4"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_a4793395475f1650d6acf855516d43d4"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a4793395475f1650d6acf855516d43d4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-24 06:40:57</sys_created_on>
+        <sys_id>4bca886d479f1650d6acf855516d432d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks Tournament Tracker" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-24 06:40:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a4793395475f1650d6acf855516d43d4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-24 06:40:57</sys_created_on>
+        <sys_id>4fca886d479f1650d6acf855516d4330</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks Tournament Tracker" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-24 06:40:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a4793395475f1650d6acf855516d43d4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-24 06:40:57</sys_created_on>
+        <sys_id>c3ca046d479f1650d6acf855516d4330</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks Tournament Tracker" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-24 06:40:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_a4793395475f1650d6acf855516d43d4"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_a4793395475f1650d6acf855516d43d4"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_a4793395475f1650d6acf855516d43d4"/>
-    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=a4793395475f1650d6acf855516d43d4"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>get_next_race</internal_name>
+        <label_cache>[{"name":"Updated_1.current.round_match.tournament","label":"Trigger - Record Updated➛Race Record➛Round Match➛Tournament","reference":"x_407566_hot_tra_0_tournament","reference_display":"Tournament","type":"reference","base_type":"reference","parent_table_name":"x_407566_hot_tra_0_match","column_name":"tournament","usedInstances":{"7063158a-731d-4659-b86a-929547e856d7":["conditions"]}},{"name":"Updated_1.current.round_match","label":"Trigger - Record Updated➛Race Record➛Round Match","reference":"x_407566_hot_tra_0_match","reference_display":"Match","type":"reference","base_type":"reference","parent_table_name":"x_407566_hot_tra_0_race","column_name":"round_match","usedInstances":{}},{"name":"7063158a-731d-4659-b86a-929547e856d7.Record","label":"1 - Look Up Record➛Race Record","reference":"x_407566_hot_tra_0_race","reference_display":"Race","type":"reference","base_type":"reference","usedInstances":{"6dce81f3-8eb4-4ae1-813a-bd284274d478":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Get Next Race</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Get Next Race">a4793395475f1650d6acf855516d43d4</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 06:14:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>99c0e30047c92a10d6acf855516d4320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 06:14:48</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=99c0e30047c92a10d6acf855516d4320"/>
+    <sys_variable_value action="delete_multiple" query="document_key=99c0e30047c92a10d6acf855516d4320"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=99c0e30047c92a10d6acf855516d4320"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=99c0e30047c92a10d6acf855516d4320^sys_idNOT IN11c0e30047c92a10d6acf855516d4321"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>99c0e30047c92a10d6acf855516d4320</id>
+        <name>Get Next Race</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 06:14:48</sys_created_on>
+        <sys_id>11c0e30047c92a10d6acf855516d4321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 06:14:48</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=11c0e30047c92a10d6acf855516d4321"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=99c0e30047c92a10d6acf855516d4320^sys_idNOT IN5dc0e30047c92a10d6acf855516d432d,d9c0e30047c92a10d6acf855516d4322,e1c0e30047c92a10d6acf855516d434d"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Get Next Race">99c0e30047c92a10d6acf855516d4320</model>
+        <model_id>99c0e30047c92a10d6acf855516d4320</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_99c0e30047c92a10d6acf855516d4320</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 06:14:48</sys_created_on>
+        <sys_id>5dc0e30047c92a10d6acf855516d432d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 06:14:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5dc0e30047c92a10d6acf855516d432d"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Get Next Race">99c0e30047c92a10d6acf855516d4320</model>
+        <model_id>99c0e30047c92a10d6acf855516d4320</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_99c0e30047c92a10d6acf855516d4320</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 06:14:48</sys_created_on>
+        <sys_id>d9c0e30047c92a10d6acf855516d4322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 06:14:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d9c0e30047c92a10d6acf855516d4322"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Get Next Race">99c0e30047c92a10d6acf855516d4320</model>
+        <model_id>99c0e30047c92a10d6acf855516d4320</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_99c0e30047c92a10d6acf855516d4320</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 06:14:49</sys_created_on>
+        <sys_id>e1c0e30047c92a10d6acf855516d434d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 06:14:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e1c0e30047c92a10d6acf855516d434d"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=99c0e30047c92a10d6acf855516d4320"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=99c0e30047c92a10d6acf855516d4320"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=99c0e30047c92a10d6acf855516d4320^sys_idNOT INa9c0e30047c92a10d6acf855516d4372"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Get Next Race">99c0e30047c92a10d6acf855516d4320</flow>
+        <name>Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 06:14:49</sys_created_on>
+        <sys_id>a9c0e30047c92a10d6acf855516d4372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 06:14:49</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=99c0e30047c92a10d6acf855516d4320^sys_idNOT IN25c0e30047c92a10d6acf855516d4372,65c0e30047c92a10d6acf855516d4371"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Get Next Race">99c0e30047c92a10d6acf855516d4320</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 06:14:49</sys_created_on>
+        <sys_id>25c0e30047c92a10d6acf855516d4372</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 06:14:49</sys_updated_on>
+        <ui_id>6dce81f3-8eb4-4ae1-813a-bd284274d478</ui_id>
+        <values>H4sIAAAAAAAA/+VVy27aQBT9FTRrQDbG5rGLgpAqpUQiVTZpZF17LjDS+NGZMYEi/r3X9hgQoSmRskH17r5mzjk+137ZMcHZmPWRO+7IDWLP9bye4/SGfTcKvMjtcQ8QXdZmKSRInQrjTHGK1yCLMrHbDZzAc/0hdAaeyzv9wB91omEAnVFv5PcHOPQDPujOq7n9nia50LmE7bM9gDLxSkiuMGXjl9c2y0HRXQYVG+/OSteClRChpNZ5g/YcvdnmZcyzuEgwNaFokg92cmIrrW8TqtBQCcd12gw3BlOOBGQBUmObJZByMJnasrFRBSUUAn9M5fbQsRKpqYkmsNHiN93cd8q+BRKz2IpwCEMrUJ1eTMDAE50cm0Id9MpEjLrWhOMCCmnuT3N1w2NuRJbWIwYi2UxnskjSWa0IOxxw8j4KTSAwL3mWyGtai6dV9jZvQE5FWkliKcosBnmIwBglosKUcHYMJVYaJ5DnIl2GucrWohomKEl3KSnoLmT2RndqsUy7EJe4u6QqdKeUn1TpZ1CiJPGdjqHhfZvprb6XoPWRCmkY/ipKJDUxSyGsVKgkCCsnlMOxErm5o6vWaIHv23YdIv8jh8Wjo6FOzjyuxCbsOwM/CMJVZkKjIHRCBTG+t/68zn7O/leAa+z/o3rpl8HaDXiXezidbc3qgvW//2X+H96S/y2Nm1+Af9ne6X34YT1xUuV0fWJ5bcDgz8JxPD4jh7TmF/3+l67P+f8KlI3/pwIl1xdgN+bHhOAZDGsaZwtgi61nWzz8BL5sC9zAqZ4b2oX/5l/w+gfFBLADHAkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Get Next Race">99c0e30047c92a10d6acf855516d4320</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 06:14:49</sys_created_on>
+        <sys_id>65c0e30047c92a10d6acf855516d4371</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 06:14:49</sys_updated_on>
+        <ui_id>7063158a-731d-4659-b86a-929547e856d7</ui_id>
+        <values>H4sIAAAAAAAA/+VY32/iOBD+V6I8Uy7hV6Bvp1ZIK+1tpW13X/b2LMd2inXGztpOW4r433ccJ4AgBaIDqdU9ejy2v5n5vrGTH8uQ0/A6pJNokk0mw3ESRf1+FI1GfYLjNO2PSBqleBB2QonnDDwtTgWD4RMWhRu/oEGUDEcjNFMWWY1RhDQmzoNykwu8+F45fvVWMuOCaibD6x8/O2GONWxrmQ6vlztTp+ISOGUCXB8qYDs47SJfD1E5522ft5cFX/yE0tRBiTohe7FMUgYYMiwM64RzLCm2Si/WFs0wvZNiY5hxaWHH0Dm/GP4K544j55cxiIowP7ceoipB3pzdYovvrS6ILXTlSmaKE2Z8PijLcCHszbbNO9zllivpl/iw/Wolirn84tMRrjeo6wGWwgAIlrtAHfIqjOx+pp6/1iinXJY5qSaFIlisR9hazdPCOjzLkAk2h43QHOc5l48o1+qJl4sBy7z7KGDQzYR6hkMNf5RdTBzwLuQVd6dgvy3N37HmLoq/YBtYDIC4AIYgX0KjCl2m8gkRUZhyQmNp/F7hqhOahbkR2JhN5JBy9KtwuH0eqoiRT5pbQjTP7Z+wxROrglt1amkMD1JwsqEcUZJyh8Js6UOrQlJIiSWzrgXszlfavwvYjC6X33IInlEUd0mhId+22+y/Wv1jLHj6dfdkxmghgJ17Krv0cS3lezx3tXxvtpPXlNBKyHu2z00bVEKOzybkQRR9JCnD4e9Pye216VNwRKAxPUgyuuGTUdoin8sthVpuRcN9VZvbMf4EMDXj7xxHg3TxFr6K8BlngjbdXFM3sXNz9f6fN9e7pDsAoshXj0vBZUkqAHopHQwPUi+Nd3hW0mujgtKGDdkXAg6sCl5bK+EEOLUS7uHs4MHjaYBYd/6SMrtdvzZWAuifTQD93nkEsFyHuU5kQ87rl6erZu3/6vzxrj9QcGtBvGoSWKsz47Zn9lb7Au63UvA22fzM7RucO/MT9Q1Fdi7ZAmawtDoPef2iZ04fmd2cXntRZZ+x+LdpvmIcqgtVhneB52588Isr3Xru8gzNoXI8h1e5ZgTIYRDWDGXlk7J6j2+I5CqZcW1s5dzwhchAPzJQIMzAzlhQegdr75YX8fE46lR+yoI6kOo0E0AgQRlIsA6kXdhtmtbgjM/UczetKeairAZ8auVb5WRaK/1G4zpSyAOMOLGrnQgqPiuo/972miTQ2P6OYP0Q3+3nb02E4XTQw6OkH8dRFEc0icZJEo9HaTbCySDbaBQhIwl0U9g5A6rA9qimRl3naL//+JbattGcgKqm4K2S7ou6l9jAwYL6BjWs48CrhpIqJRiWOx3lAe6JP6YV/oqvw3fXVT7EX6yCP+xm2psac32pd0PBv0n+q2CfHMXGLOqNY0quxkmcXA0yOrqaUDy8wpN0mPQpI4PsnE+Bn78Bm6CwLhYWAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=99c0e30047c92a10d6acf855516d4320"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=99c0e30047c92a10d6acf855516d4320"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=99c0e30047c92a10d6acf855516d4320"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=99c0e30047c92a10d6acf855516d4320"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_99c0e30047c92a10d6acf855516d4320</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 06:14:48</sys_created_on>
+        <sys_id>19c0e30047c92a10d6acf855516d432b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks Tournament Tracker" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 06:14:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_99c0e30047c92a10d6acf855516d4320</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 06:14:49</sys_created_on>
+        <sys_id>25c0e30047c92a10d6acf855516d4351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks Tournament Tracker" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 06:14:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_99c0e30047c92a10d6acf855516d4320</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 06:14:49</sys_created_on>
+        <sys_id>adc0e30047c92a10d6acf855516d434a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hot Tracks Tournament Tracker" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 06:14:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_99c0e30047c92a10d6acf855516d4320"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_99c0e30047c92a10d6acf855516d4320"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>a4793395475f1650d6acf855516d43d4</sys_id>
+        <latest_snapshot>99c0e30047c92a10d6acf855516d4320</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=a4793395475f1650d6acf855516d43d4^sys_idNOT IN3dc0e30047c92a10d6acf855516d438d"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan/>
+        <plan_id>a4793395475f1650d6acf855516d43d4</plan_id>
+        <snapshot>99c0e30047c92a10d6acf855516d4320</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 06:14:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3dc0e30047c92a10d6acf855516d438d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 06:14:50</sys_updated_on>
+        <trigger display_value="">7dc0e30047c92a10d6acf855516d438b</trigger>
+    </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=a4793395475f1650d6acf855516d43d4"/>
 </record_update>
