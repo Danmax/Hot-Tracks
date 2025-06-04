@@ -34,9 +34,9 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Create Rank List Object</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_package display_value="Hot Tracks Tournament Tracker" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_91a901f747fe42106a3eedf1d16d4302</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-01 22:23:53</sys_updated_on>
@@ -203,7 +203,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-21 18:37:28</sys_updated_on>
@@ -287,7 +287,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-21 18:37:28</sys_updated_on>
@@ -374,7 +374,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-21 18:37:28</sys_updated_on>
@@ -461,7 +461,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-21 18:37:28</sys_updated_on>
@@ -548,7 +548,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-21 18:37:53</sys_updated_on>
@@ -635,7 +635,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-21 18:37:28</sys_updated_on>
@@ -722,7 +722,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-21 18:37:28</sys_updated_on>
@@ -752,7 +752,6 @@
         <sys_updated_on>2024-06-21 18:37:28</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=0fcdc5ff47fe42106a3eedf1d16d432a"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_91a901f747fe42106a3eedf1d16d4302^sys_idNOT IN0bcd85ff47fe42106a3eedf1d16d43eb,0fcd85ff47fe42106a3eedf1d16d43ef"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>martch_record</element>
         <help/>
@@ -767,9 +766,9 @@
         <sys_id>0bcd85ff47fe42106a3eedf1d16d43eb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Martch Record</sys_name>
-        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_package display_value="Hot Tracks Tournament Tracker" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_input_91a901f747fe42106a3eedf1d16d4302_martch_record_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-21 18:37:28</sys_updated_on>
@@ -790,9 +789,9 @@
         <sys_id>0fcd85ff47fe42106a3eedf1d16d43ef</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Rank</sys_name>
-        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_package display_value="Hot Tracks Tournament Tracker" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_input_91a901f747fe42106a3eedf1d16d4302_rank_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-21 18:37:28</sys_updated_on>
@@ -800,7 +799,6 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_91a901f747fe42106a3eedf1d16d4302"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_91a901f747fe42106a3eedf1d16d4302^sys_idNOT IN03cdc5ff47fe42106a3eedf1d16d4313,0fcdc5ff47fe42106a3eedf1d16d4307,47cdc5ff47fe42106a3eedf1d16d4317,c7cdc5ff47fe42106a3eedf1d16d4303,cbcdc5ff47fe42106a3eedf1d16d430e"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>model</element>
         <help/>
@@ -815,9 +813,9 @@
         <sys_id>03cdc5ff47fe42106a3eedf1d16d4313</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Model</sys_name>
-        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_package display_value="Hot Tracks Tournament Tracker" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_91a901f747fe42106a3eedf1d16d4302_model_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-21 18:37:28</sys_updated_on>
@@ -838,9 +836,9 @@
         <sys_id>0fcdc5ff47fe42106a3eedf1d16d4307</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Name</sys_name>
-        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_package display_value="Hot Tracks Tournament Tracker" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_91a901f747fe42106a3eedf1d16d4302_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-21 18:37:28</sys_updated_on>
@@ -861,9 +859,9 @@
         <sys_id>47cdc5ff47fe42106a3eedf1d16d4317</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Rank</sys_name>
-        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_package display_value="Hot Tracks Tournament Tracker" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_91a901f747fe42106a3eedf1d16d4302_rank_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-21 18:37:28</sys_updated_on>
@@ -884,9 +882,9 @@
         <sys_id>c7cdc5ff47fe42106a3eedf1d16d4303</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Action Status</sys_name>
-        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_package display_value="Hot Tracks Tournament Tracker" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_91a901f747fe42106a3eedf1d16d4302___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-21 18:37:28</sys_updated_on>
@@ -907,9 +905,9 @@
         <sys_id>cbcdc5ff47fe42106a3eedf1d16d430e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Don't Treat as Error</sys_name>
-        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_package display_value="Hot Tracks Tournament Tracker" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_91a901f747fe42106a3eedf1d16d4302___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-21 18:37:28</sys_updated_on>
@@ -966,7 +964,7 @@
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-21 18:37:53</sys_updated_on>
@@ -1133,7 +1131,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-21 18:37:53</sys_updated_on>
@@ -1217,7 +1215,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-21 18:37:53</sys_updated_on>
@@ -1304,7 +1302,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-21 18:37:54</sys_updated_on>
@@ -1391,7 +1389,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-21 18:37:54</sys_updated_on>
@@ -1478,7 +1476,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-21 18:37:54</sys_updated_on>
@@ -1565,7 +1563,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-21 18:37:54</sys_updated_on>
@@ -1652,7 +1650,7 @@
         <sys_name/>
         <sys_package/>
         <sys_policy/>
-        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-21 18:37:54</sys_updated_on>
@@ -1682,7 +1680,6 @@
         <sys_updated_on>2024-06-21 18:37:54</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=dded49ff47fe42106a3eedf1d16d43c9"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_51ed49ff47fe42106a3eedf1d16d4377^sys_idNOT IN15ed49ff47fe42106a3eedf1d16d438c,d5ed49ff47fe42106a3eedf1d16d4390"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>martch_record</element>
         <help/>
@@ -1697,9 +1694,9 @@
         <sys_id>15ed49ff47fe42106a3eedf1d16d438c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Martch Record</sys_name>
-        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_package display_value="Hot Tracks Tournament Tracker" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_input_51ed49ff47fe42106a3eedf1d16d4377_martch_record_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-21 18:37:53</sys_updated_on>
@@ -1720,9 +1717,9 @@
         <sys_id>d5ed49ff47fe42106a3eedf1d16d4390</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Rank</sys_name>
-        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_package display_value="Hot Tracks Tournament Tracker" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_input_51ed49ff47fe42106a3eedf1d16d4377_rank_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-21 18:37:54</sys_updated_on>
@@ -1730,7 +1727,6 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_51ed49ff47fe42106a3eedf1d16d4377"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_51ed49ff47fe42106a3eedf1d16d4377^sys_idNOT IN11ed49ff47fe42106a3eedf1d16d43b0,11ed49ff47fe42106a3eedf1d16d43c3,19ed49ff47fe42106a3eedf1d16d43ba,1ded49ff47fe42106a3eedf1d16d43be,d1ed49ff47fe42106a3eedf1d16d43b4"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__action_status__</element>
         <help/>
@@ -1745,9 +1741,9 @@
         <sys_id>11ed49ff47fe42106a3eedf1d16d43b0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Action Status</sys_name>
-        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_package display_value="Hot Tracks Tournament Tracker" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_51ed49ff47fe42106a3eedf1d16d4377___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-21 18:37:54</sys_updated_on>
@@ -1768,9 +1764,9 @@
         <sys_id>11ed49ff47fe42106a3eedf1d16d43c3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Rank</sys_name>
-        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_package display_value="Hot Tracks Tournament Tracker" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_51ed49ff47fe42106a3eedf1d16d4377_rank_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-21 18:37:54</sys_updated_on>
@@ -1791,9 +1787,9 @@
         <sys_id>19ed49ff47fe42106a3eedf1d16d43ba</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Don't Treat as Error</sys_name>
-        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_package display_value="Hot Tracks Tournament Tracker" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_51ed49ff47fe42106a3eedf1d16d4377___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-21 18:37:54</sys_updated_on>
@@ -1814,9 +1810,9 @@
         <sys_id>1ded49ff47fe42106a3eedf1d16d43be</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Model</sys_name>
-        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_package display_value="Hot Tracks Tournament Tracker" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_51ed49ff47fe42106a3eedf1d16d4377_model_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-21 18:37:54</sys_updated_on>
@@ -1837,9 +1833,9 @@
         <sys_id>d1ed49ff47fe42106a3eedf1d16d43b4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Name</sys_name>
-        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_package display_value="Hot Tracks Tournament Tracker" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name>sys_documentation_var__m_sys_hub_action_output_51ed49ff47fe42106a3eedf1d16d4377_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-06-21 18:37:54</sys_updated_on>

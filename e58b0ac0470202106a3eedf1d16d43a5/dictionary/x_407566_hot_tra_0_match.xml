@@ -2,10 +2,10 @@
     <element db_object_id="1cdd8e84470202106a3eedf1d16d438e" label="Match" max_length="40" name="x_407566_hot_tra_0_match" text_index="true" type="collection">
         <element choice="3" label="Stage" max_length="40" name="stage" type="choice">
             <choice>
+                <element inactive_on_update="false" label="Qualifier" sequence="0" value="qualifier"/>
+                <element inactive_on_update="false" label="Matched" sequence="2" value="matched"/>
                 <element inactive_on_update="false" label="Awaiting Match" sequence="1" value="awaiting_match"/>
                 <element inactive_on_update="false" label="Completed" sequence="3" value="completed"/>
-                <element inactive_on_update="false" label="Matched" sequence="2" value="matched"/>
-                <element inactive_on_update="false" label="Qualifier" sequence="0" value="qualifier"/>
             </choice>
         </element>
         <element label="Racer 1" max_length="32" name="racer_1" reference="x_407566_hot_tra_0_wheels" type="reference"/>

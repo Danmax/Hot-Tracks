@@ -11,6 +11,7 @@
         <options/>
         <roles/>
         <route_parameters/>
+        <sn_created>false</sn_created>
         <sp_page/>
         <sp_portal/>
         <status>published</status>

@@ -6,6 +6,7 @@
         <enable_exact_match>true</enable_exact_match>
         <enable_semantic_search>false</enable_semantic_search>
         <evam_definition/>
+        <filter_genius_results_by_search_source>false</filter_genius_results_by_search_source>
         <genius_results_limit/>
         <hit_highlighting>false</hit_highlighting>
         <log_signals_server_side>false</log_signals_server_side>
@@ -25,9 +26,9 @@
         <sys_id>c0541adc71e64210257acf30e1a45ffe</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Hot Tracks - Workspace Search</sys_name>
-        <sys_package display_value="Hot Tracks" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
+        <sys_package display_value="Hot Tracks Tournament Tracker" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Hot Tracks">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
+        <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name>sys_search_context_config_c0541adc71e64210257acf30e1a45ffe</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-05-29 16:31:08</sys_updated_on>
