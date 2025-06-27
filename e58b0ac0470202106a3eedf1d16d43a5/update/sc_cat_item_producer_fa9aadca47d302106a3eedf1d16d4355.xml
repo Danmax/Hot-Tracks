@@ -89,14 +89,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-11 06:45:21</sys_created_on>
         <sys_id>fa9aadca47d302106a3eedf1d16d4355</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>Create New Team</sys_name>
         <sys_package display_value="Hot Tracks Tournament Tracker" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
         <sys_update_name>sc_cat_item_producer_fa9aadca47d302106a3eedf1d16d4355</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-04-08 15:34:05</sys_updated_on>
+        <sys_updated_on>2025-06-27 16:59:53</sys_updated_on>
         <table_name>x_407566_hot_tra_0_team</table_name>
         <taxonomy_topic/>
         <template/>
@@ -105,7 +105,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>19</version>
+        <version>28</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>

@@ -2,12 +2,12 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Create New Team">fa9aadca47d302106a3eedf1d16d4355</cat_item>
+        <cat_item display_value="Request Agile Developer Role">563ab6b3477b0a1078457e45516d4309</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
         <choice_table/>
-        <conversational_label>What is your Team Type</conversational_label>
+        <conversational_label/>
         <create_roles/>
         <default_html_value/>
         <default_value/>
@@ -22,7 +22,7 @@
         <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>type</field>
+        <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -39,24 +39,24 @@
         <macro/>
         <macroponent/>
         <mandatory>false</mandatory>
-        <map_to_field>true</map_to_field>
+        <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>TeamType</name>
+        <name>requesting_access_for</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>200</order>
+        <order>300</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Type</question_text>
+        <question_text>Requesting Access For</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
-        <record_producer_table>x_407566_hot_tra_0_team</record_producer_table>
+        <record_producer_table/>
         <reference/>
         <reference_qual>undefined</reference_qual>
         <reference_qual_condition>undefined</reference_qual_condition>
@@ -77,20 +77,20 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-11 06:47:54</sys_created_on>
-        <sys_id>f3fa290e47d302106a3eedf1d16d4345</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Type</sys_name>
+        <sys_created_on>2025-06-27 16:52:09</sys_created_on>
+        <sys_id>564bd3c72bd226107cb7f246f291bf81</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Requesting Access For</sys_name>
         <sys_package display_value="Hot Tracks Tournament Tracker" source="x_407566_hot_tra_0">e58b0ac0470202106a3eedf1d16d43a5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hot Tracks Tournament Tracker">e58b0ac0470202106a3eedf1d16d43a5</sys_scope>
-        <sys_update_name>item_option_new_f3fa290e47d302106a3eedf1d16d4345</sys_update_name>
+        <sys_update_name>item_option_new_564bd3c72bd226107cb7f246f291bf81</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-27 16:59:52</sys_updated_on>
+        <sys_updated_on>2025-06-27 16:52:13</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
-        <type>5</type>
+        <type>6</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -106,22 +106,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=f3fa290e47d302106a3eedf1d16d4345"/>
-    <fx_price action="delete_multiple" query="id=f3fa290e47d302106a3eedf1d16d4345"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=564bd3c72bd226107cb7f246f291bf81"/>
+    <fx_price action="delete_multiple" query="id=564bd3c72bd226107cb7f246f291bf81"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>f3fa290e47d302106a3eedf1d16d4345</id>
+        <id>564bd3c72bd226107cb7f246f291bf81</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-11 06:47:54</sys_created_on>
-        <sys_id>003b2d0e47d302106a3eedf1d16d430e</sys_id>
+        <sys_created_on>2025-06-27 16:52:09</sys_created_on>
+        <sys_id>e58b1bc72bd226107cb7f246f291bfba</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-11 06:47:54</sys_updated_on>
+        <sys_updated_on>2025-06-27 16:52:09</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -129,16 +129,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>f3fa290e47d302106a3eedf1d16d4345</id>
+        <id>564bd3c72bd226107cb7f246f291bf81</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-11 06:47:54</sys_created_on>
-        <sys_id>c03b2d0e47d302106a3eedf1d16d430d</sys_id>
+        <sys_created_on>2025-06-27 16:52:09</sys_created_on>
+        <sys_id>218b1bc72bd226107cb7f246f291bfac</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-11 06:47:54</sys_updated_on>
+        <sys_updated_on>2025-06-27 16:52:09</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
